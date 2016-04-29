@@ -1,0 +1,358 @@
+\documentclass[12pt, reqno]{amsart}
+% \pdfoutput=1
+
+
+
+% Packages to open
+\usepackage{amsthm, amssymb, amsmath, enumerate}
+% \usepackage{fullpage}
+\usepackage{verbatim}
+\usepackage{graphicx, graphics}
+\usepackage{algorithm}
+\usepackage{longtable}
+
+
+% Setup TikZ
+
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\tikzstyle{block}=[draw opacity=0.7,line width=1.4cm]
+
+% Hopefully dot packages
+\usepackage[all,arc,curve,frame,color]{xy}
+\usepackage{subfigure}
+\usepackage{url, hyperref}
+
+
+% \usepackage{setspace}  % Use command \doublespacing or \onehalfspacing
+
+% Standard Theorem Styles
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem*{cor*}{Corollary}
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{obs}[thm]{Observation}
+\newtheorem{claim}[thm]{Claim}
+\newtheorem*{conjecture*}{Conjecture}
+\newtheorem{conjecture}[thm]{Conjecture}
+\newtheorem*{thm*}{Theorem}
+
+\theoremstyle{remark}
+\newtheorem*{question*}{Question}
+\newtheorem{question}[thm]{Question}
+\newtheorem{answer}[thm]{Answer}
+\newtheorem{remark*}[thm]{Remark}
+\newtheorem{example}[thm]{Example}
+
+\theoremstyle{definition}
+\newtheorem{define}[thm]{Definition}
+\newtheorem*{define*}{Definition}
+\newtheorem{idea}{Idea}
+\newtheorem{problem}{Problem}
+\newtheorem{exercise}[thm]{Exercise}
+
+\numberwithin{equation}{section}  % number equations by section
+
+% Standard shortcuts
+\newcommand{\LL}{\mathcal{L}}     % Fancy script L
+\newcommand{\MM}{\mathcal{M}}  % Fancy script M
+\newcommand{\OO}{\mathcal{O}}    % Fancy script O
+\newcommand{\FF}{\mathbb{F}}      % Finite field
+\newcommand{\ZZ}{\mathbb{Z}}     % Integers
+\newcommand{\RR}{\mathbb{R}}     % Reals
+\newcommand{\PP}{\mathbb{P}}      % Projective space
+\newcommand{\Aff}{\mathbb{A}}      % Affine space
+\newcommand{\XX}{\mathcal{X}}      % Model of a variety - script X
+\newcommand{\QQ}{\mathbb{Q}}      %Rationals
+\newcommand{\CC}{\mathbb{C}}      % Complex Numbers
+\newcommand{\mm}{\mathfrak{m}}   % maximal ideal
+\newcommand{\pp}{\mathfrak{p}}   % prime ideal
+\newcommand{\qq}{\mathfrak{q}}  % another prime ideal
+\newcommand{\Gm}{\mathbb{G}_m}  % blackboard bold G for the multiplicative group
+\newcommand{\hh}{\mathfrak{h}}  % Upper half plane
+\newcommand{\tab}{\hspace{.4cm}} % Tab 
+
+
+
+ % Color comments!
+\usepackage{xcolor}
+% Color comments
+
+
+
+%Notes to ourselves
+\newcommand{\diane}[1]{{\color{magenta} \sf $\clubsuit\clubsuit\clubsuit$ Diane: [#1]}}
+\newcommand{\michelle}[1]{{\color{orange} \sf $\clubsuit\clubsuit\clubsuit$ Michelle: [#1]}}
+
+
+% Some regularly used operator shortcuts
+\newcommand{\Hom}{\operatorname{Hom}}
+\newcommand{\im}{\operatorname{im}} % Image
+\newcommand{\coker}{\operatorname{coker}}  % Cokernel
+\newcommand{\Sym}{\operatorname{Sym}}      % Symmetric product
+\newcommand{\Spec}{\operatorname{Spec}}
+\newcommand{\ord}{\operatorname{ord}}
+\newcommand{\Div}{\operatorname{div}}    % Divisor of a rational function
+\newcommand{\Gal}{\operatorname{Gal}}  % Galois group
+\newcommand{\Gauss}{\operatorname{Gauss}}  % Used for the Gauss point
+\newcommand{\supp}{\operatorname{supp}}   % Support
+\newcommand{\Pic}{\operatorname{Pic}}        % Picard Groups
+\newcommand{\Jac}{\operatorname{Jac}}       % Jacobian Variety
+\newcommand{\mult}{\operatorname{mult}}  % multiplicity
+\newcommand{\pr}{\operatorname{pr}}     % projection
+\newcommand{\sep}[1]{{#1}^{\operatorname{s}}}    % separable closure
+\newcommand{\Spf}{\operatorname{Spf}}    % formal spectrum
+\newcommand{\Frac}{\operatorname{Frac}}    % Fraction field
+\newcommand{\chern}[1]{c_1\left(#1\right)}   % First Chern class
+\newcommand{\codim}{\operatorname{codim}}  % codimension
+\newcommand{\dist}{\operatorname{dist}}   % distance
+\newcommand{\an}[1]{\operatorname{an}}  % analytic space notation
+\newcommand{\Aut}{\operatorname{Aut}}   % Automorphism group
+\newcommand{\Rat}{\operatorname{Rat}}    % space of rational maps
+\newcommand{\PGL}{\operatorname{PGL}}
+\newcommand{\PSL}{\operatorname{PSL}}
+\newcommand{\alg}[1]{{\overline{#1}}}
+\newcommand{\GG}{\mathbb{G}}
+
+
+% Miscellaneous notational shortcuts
+\newcommand{\leftexp}[2]{{\vphantom{#2}}^{#1}{#2}}   % Superscript on the left
+\newcommand{\simarrow}{\stackrel{\sim}{\rightarrow}}    % Isomorphic mapping
+\newcommand{\ip}[2]{\left\langle #1,#2 \right\rangle} %inner product
+\newcommand{\into}{\hookrightarrow}     % Inclusion arrow
+\newcommand{\dint}{\int \!\!\! \int}   % double integral
+\newcommand{\tth}{^{\operatorname{th}}}
+\newcommand{\Berk}{\mathbf{P}}  % Berkovich Projective Space
+
+\newcommand{\Manoa}{M\=anoa}
+\newcommand{\Hawaii}{Hawai\kern.05em`\kern.05em\relax i}
+
+
+% Document Specific Declarations
+\newcommand{\id}{\mathrm{id}}
+\newcommand{\oo}{\mathfrak{o}}
+\DeclareMathOperator{\Per}{Per}
+\DeclareMathOperator{\PrePer}{PrePer}
+\DeclareMathOperator{\Twist}{Twist}
+\DeclareMathOperator{\Ker}{Ker}
+
+
+%%%%%%%%%%%%%%
+
+\title{Math 111 / 112 :  For the Instructor}
+
+
+
+
+
+%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+\maketitle
+
+Many (but certainly not all!) of the students you will meet in Math 111 and 112 have not been traditionally successful in mathematics.  These courses offer an opportunity to give them a transformative mathematical experience.  These students can begin to see themselves as people who can both understand and even create mathematics.  This transformation can have a profound effect on these students, on their careers as elementary school teachers, and most importantly on their future students.  
+
+The purpose of these notes is to communicate some of the goals and rationale for the courses, as well as some  methodologies we have found to be useful in past courses.  They do not provide a recipe or script, but instead some suggestions, ideas, and resources.
+
+For more details on classroom activities, assessments, and chapter-by-chapter commentary, see the accompanying  file Math111\_Instructor.pdf.
+
+
+\section{Goal} 
+The primary goal of this course is to help future elementary teachers begin to develop what is called ``profound understanding of fundamental mathematics.''
+
+The content focus comes from the elementary curriculum, specifically the content outlined for grades K--5 in the Common Core State Standards.  \url{http://www.corestandards.org/Math/}.
+
+It is important to note that we are not trying to teach these college students elementary mathematics.  We expect that they know the procedures with at least some level of computational fluency.  In the accompanying notes, we provide ideas for increasing computational skills and more importantly number sense, while keeping a focus on the bigger picture.  
+
+We want students to:
+\begin{itemize}
+\item
+make sense of mathematics,
+\item
+understand and explain mathematical ideas in multiple ways,
+\item
+communicate mathematical ideas clearly (both orally and in writing),
+\item
+find and explore connections between mathematical ideas, and
+\item
+develop the habit of asking (and answering) questions like: Why is this true? How can I be sure I'm right?  Is there another way to think about this?  What does this connect to?  How can I justify my answer?
+\end{itemize}
+
+
+These goals are based on many years of research into the mathematical content knowledge needed to be a successful elementary teacher.  We refer the interested reader to the research of Liping Ma~\cite{Ma} and Deborah Ball~\cite{ball1, ball2, ball3} as a good starting point to learn more.
+
+We also want to challenge and ultimately change students' negative (and incorrect!) ideas about what it means to learn and do mathematics.  Examples of these negative attitudes include\footnote{You can find a longer list of these negative attitudes along with some ideas for counteracting them in your teaching at  \url{http://theiblblog.blogspot.com/2013/03/dealing-with-student-attitudes-through.html}.}:
+\begin{enumerate}
+\item
+Some people are good at math and some are not.  (With the corollary that for those who are not, it's really not worth trying very hard to succeed because they don't have the ``math gene.'')
+\item
+Memorizing facts and formulas and practicing procedures are sufficient to learn mathematics.
+\item
+Mathematics textbook problems can only be solved using the methods described in the textbook.
+\item
+Teachers and textbooks are the mathematical authorities.
+\item
+School mathematics is driven by rules and memorization, and is driven by procedures rather than concepts.
+\item
+If a problem takes longer than 5--10 minutes, then there is something wrong with the student or the problem.
+\item
+The goal of mathematics is to obtain one correct answer and do it quickly.
+\item
+The teacher (or the textbook) is the only source for determining whether an answer is correct or incorrect.
+\end{enumerate}
+
+\section{Fixed and Growth Mindsets}
+Item (1) in the list above is really key, especially for future teachers.  We very much need to move these students from a \emph{fixed mindset} (everyone has some fixed amount of intelligence, and it can't be changed) to a \emph{growth mindset} (experiences, struggling, making mistakes and learning from them --- all of these things cause you to learn and grow your intelligence).
+
+Fixed mindsets are destructive to students who perceive themselves as smart --- they avoid challenges because if they struggle, maybe they aren't really so smart or maybe they have ``maxed out'' their abilities --- as well as those who perceive themselves as not smart.  
+
+Research shows that students who are taught with a growth mindset approach achieve at much higher levels, and that in fact all students (with the possible exception of very few students with extreme learning disabilities) can succeed in mathematics.  It's essential for instructors of Math 111 and 112 to believe that their students can succeed, and to clearly communicate that belief (and expectation) to their students.  
+
+There is really too much to say on this subject to be included in the notes here.  If you want to learn more about the research behind these ideas and ways to teach with a growth mindset, please look at the (very approachable and readable) work of Jo Boaler~\cite{boaler} and Carol Dweck~\cite{dweck}.  
+
+
+A short summary of what you can do as an instructor:
+
+\begin{itemize}
+\item 
+Whenever possible, give feedback rather than grades, especially if this feedback is tied to a message that you expect improvement.  (The following simple sentence, assigned randomly to students, showed amazing impacts even a year later: ``I am giving you this feedback because I believe in you.'')
+
+\item 
+Be mindful of the praise you give to students.  Rather than praising students for being smart or clever or for getting right answers, praise them for improvement, hard work, mistakes that they recognize and fix, and so on.
+
+\item
+Short interventions have been shown to be quite powerful, for example asking students at the start of the school year to write about their personal values and why they are important.  (For more short interventions, see Dwek's work~\cite{dweck}.)
+\end{itemize}
+
+As faculty, we must realize (and really believe) that students who have not been successful in mathematics to date are not less capable, but they have not had the experiences and challenges that would allow them to develop their mathematical ability.  Our job is to disrupt this trajectory, providing them with the experiences, challenges, and messages that will help them to grow.
+
+
+\section{Mathematical Practices and Habits of Mind}\label{sec:MPs}
+So what should Math 111 / 112 students understand about mathematics?  As a professional mathematician, you can communicate some of the joy you find in doing mathematics, the excitement of solving problems, the struggle of working on something you truly don't know how to solve, and the ``aha!'' moments that make it all worthwhile.  Better yet, you can find ways to give your students a small taste of these experiences themselves.
+
+As part of your teaching, you can (and should!) articulate for students what you think it means to learn and do mathematics.  As a framework, you might talk about ``Mathematical Habits of Mind''\footnote{\url{http://www2.edc.org/cme/showcase/HabitsOfMind.pdf}} or the Mathematical Practices of the Common Core State Standards\footnote{Find more detailed descriptions of each at  \url{http://www.corestandards.org/Math/Practice}.}:
+\begin{enumerate}
+\item
+Make sense of problems and persevere in solving them.
+\item
+Reason abstractly and quantitatively.
+\item
+Construct viable arguments and critique the reasoning of others.
+\item
+Model with mathematics.
+\item
+Use appropriate tools strategically.
+\item
+Attend to precision.
+\item
+Look for and make use of structure.
+\item
+Look for and express regularity in repeated reasoning.
+\end{enumerate}
+
+
+Try to  communicate your excitement about mathematics, and the fact that at its heart mathematics is about solving problems and clearly communicating those solutions to others.
+
+
+\section{Teaching Style} 
+The math department does not dictate how instructors should teach the course.  These  notes are designed to provide suggestions based on the experiences of those who have taught the class before, and to communicate some of what our colleagues in the College of Education would like to see from us.  
+
+
+We have found this course to be most successful when it is taught through an Inquiry Based Learning (IBL) or modified-IBL style.  This means that most of the class time is spent with students engaged in mathematical activity.  That activity can be working on problems alone or in small groups, presenting solutions to the class, or critiquing the solutions of other students.  Minimal time is spent on lecturing. We quote from \url{http://www.inquirybasedlearning.org/}, where you can read a lot more about IBL and modified-IBL teaching:
+
+\begin{quote}
+Boiled down to its essence IBL is a teaching method that engages students in sense-making activities.  Students are given tasks requiring them to solve problems, conjecture, experiment, explore, create, and communicate\dots all those wonderful skills and habits of mind that mathematicians engage in regularly.  Rather than showing facts or a clear, smooth path to a solution, the instructor guides and mentors students via well-crafted problems through an adventure in mathematical discovery.
+\end{quote}
+
+The same site provides a sample class structure for an IBL class.  (Note, we do not say ``typical'' since there really is no ``typical class;'' all of us organize our classes differently.)
+
+\begin{itemize}
+\item
+Class starts.
+\item
+The instructor passes out a signup sheet for students willing to present upcoming problems. The bulk of the time is spent on student presentations of solutions/proofs to problems.
+\item
+Students, who have been selected previously or at the beginning of class, write proofs/solutions on the board.
+\item
+One by one, students present their solutions/proofs to their class.
+\item
+The class as a group (perhaps in pairs) reviews and validates the proofs.  Questions are asked and are either dealt with there or the presenter can opt to return with a fix at the next class period.
+\item
+If the solution is approved as correct by the class, then the next student presents his/her solution.  This cycle continues until all students have presented.
+\item
+If the class cannot arrive at a consensus on a particular problem or issue, then the instructor and the class devise a plan to settle the issue.  Perhaps new problems or subproblems are written on the board, and the class is asked to solve these.  Teaching choices include pair work immediately or asking students to work on the new tasks outside of class, with the intention of restarting the discussion the next time.
+\item
+If a new unit of material is started, then a mini lecture and/or some hands-on activities to explore new ideas and definitions could be employed.
+\item
+If no one has anything to present OR if everyone is stuck on a problem, pair work or group work can be used to help students break down a problem and generate strategies or ways into solving a particularly hard problem.
+\end{itemize}
+
+Some students may resist the idea that they have to present in front of the class.  Make sure they understand that this is not just expected but absolutely required.  These students want to become teachers, so they need to get used to explaining mathematical (and other) ideas to a class.  It is essential to create a safe environment where students do not fear presenting wrong answers or partial solutions, but where all contributions that get us closer to a solution or that foster discussion are valued.
+
+{\bf Important:} Teaching in an IBL style does not come naturally to most people, and most of us haven't had experience either teaching or learning in a class like this.  We really encourage you to resist the desire to correct or lecture, but rather to let the process unfold. For someone accustomed to a lecture environment, that feels \emph{really} awkward at first.
+  But this method is the best hope of giving our math-phobic students that transformative experience that can be so powerful.  The mantra is simply to lecture less and engage students in activities more, whenever possible.  
+
+
+
+
+
+\section{Coverage}
+Ideally, Math 111 and 112 would cover the whole of the K--5 elementary curriculum from an advanced viewpoint, really solidifying these future teachers' understanding of the mathematics they will teach.
+
+Of course, it's not possible to do that in a one-year course, and it's even less possible if we teach in an IBL style.  Our goal, rather than maximizing coverage of content, is maximizing the students' experiences of mathematics.  We hope to give them the tools to continue to learn and improve their mathematical content knowledge.  Our goal is not that students will have developed Ma's ``profound understanding of fundamental mathematics'' by the time they leave our classroom; that goal is unattainable.  Instead, we hope we've given them the tools to develop that understanding over the first ten or so years of their career as elementary teachers.
+
+Quoting from ``The IBL Blog''\footnote{http://theiblblog.blogspot.com/2012/03/another-look-at-coverage-issue.html}:
+\begin{quote}
+The coverage issue becomes problematic when we sacrifice understanding for the sake of getting through the long list of topics \dots  To IBL instructors this poses a Teaching Minimax problem --- Minimize as much as possible unnecessary content and maximize the amount of time available for students to explore why.
+\end{quote}
+
+We have modular materials, and instructors should choose what to cover and at what pace.  We have heard from our colleagues at the College of Education that fraction concepts are particularly weak in their preservice teachers.  We would do them a great service by ensuring that all students in Math 111 work on their understanding of fractions, operations on fractions, and different models for fractions.  Other topics are left to the discretion of the instructor.
+
+
+\section{Assessment and Grading}
+If you're teaching differently --- with a focus on incremental progress and on the slow process of developing deeper understanding of elementary ideas --- how do you, finally, assign grades to your students?  
+
+Each of us tackles this in our own way.  We have already mentioned that providing feedback rather than grades, whenever possible, allows for students to focus on growth and improvement.  Another powerful technique is to allow some measure of \emph{revision} in student work, whether this means every homework assignment, just quizzes, or just assignments where they did not achieve a passing score.  Not all students will take advantage of the opportunity, and it does mean more grading for you.  But those of us who have incorporated revision of work into our grading in Math 111 and 112 can attest to the positive message it sends to students about learning from mistakes and mastering material over time.  It also allows you to ask more challenging questions and set more challenging tasks.
+
+Finally, you may want to read about what others have said about assessment and grading in IBL and modified-IBL classes: \url{http://theiblblog.blogspot.com/search/label/Assessment}.
+
+
+
+\begin{thebibliography}{10}
+
+
+\bibitem{ball2}
+Ball, D. L., Hill, H.C, and  Bass, H. (2005). ``Knowing mathematics for teaching: Who knows mathematics well enough to teach third grade, and how can we decide?'' \emph{American Educator}, 29(1), p. 14-17, 20--22, 43--46.
+
+
+\bibitem{boaler}
+Boaler, J. (2009).  \newblock{\em What's Math Got to Do with It?: How Parents and Teachers Can Help Children Learn to Love Their Least Favorite Subject}, 
+\newblock (Penguin Books), 2009.
+
+
+\bibitem{dweck}
+Dweck, C. (2006).  \newblock{\em Mindset: The New Psychology of Success}, 
+\newblock (Ballantine Books), 2006.
+
+\bibitem{ball1}
+Hill, H.C., Rowan, B., and  Ball, D. (2005).  ``Effects of teachers' mathematical knowledge for teaching on student achievement.''  \emph{American Educational Research Journal}, 42 (2), 371-- 406.
+
+\bibitem{Ma}
+Ma, L.,
+\newblock{\em Knowing and Teaching Elementary Mathematics: Teachers' Understanding of Fundamental Mathematics in China and the United States},
+\newblock (Lawrence Erlbaum Associates, Inc., Mahway, New Jersey), 2001.
+
+
+\bibitem{ball3}
+Thames, M. H. and Ball, D. L. (2010). ``What mathematical knowledge does teaching require? Knowing mathematics in and for teaching.'' \emph{Teaching Children Mathematics}, 17(4), 220--225.
+
+
+\end{thebibliography}
+
+
+\end{document}
+  
