@@ -1,0 +1,34 @@
+\contentsline {chapter}{\numberline {1}Problem Solving}{5}
+\contentsline {section}{\numberline {1.1}Problem or Exercise?}{7}
+\contentsline {section}{\numberline {1.2}Problem Solving Strategies}{9}
+\contentsline {subsection}{\numberline {1.2.1}George Polya}{9}
+\contentsline {subsection}{\numberline {1.2.2}Polya's ``How to Solve it''}{9}
+\contentsline {subsection}{\numberline {1.2.3}Two More Strategies}{10}
+\contentsline {subsection}{\numberline {1.2.4}Four More Strategies}{12}
+\contentsline {subsection}{\numberline {1.2.5}Two More Strategies}{14}
+\contentsline {section}{\numberline {1.3}Beware of Patterns!}{15}
+\contentsline {section}{\numberline {1.4}Problem Bank}{20}
+\contentsline {section}{\numberline {1.5}Careful use of Language in Mathematics}{23}
+\contentsline {subsection}{\numberline {1.5.1}Mathematical Statements}{24}
+\contentsline {subsection}{\numberline {1.5.2}Precision}{25}
+\contentsline {subsection}{\numberline {1.5.3}And / or}{26}
+\contentsline {subsection}{\numberline {1.5.4}Quantifiers}{27}
+\contentsline {subsection}{\numberline {1.5.5}Conditional statements}{30}
+\contentsline {section}{\numberline {1.6}Explaining Your Work}{34}
+\contentsline {section}{\numberline {1.7}The Last Step}{38}
+\contentsline {chapter}{\numberline {2}Place Value}{41}
+\contentsline {section}{\numberline {2.1}Dots and Boxes}{41}
+\contentsline {section}{\numberline {2.2}Other Rules}{45}
+\contentsline {section}{\numberline {2.3}Binary Numbers}{47}
+\contentsline {subsection}{\numberline {2.3.1}Binary Numbers and Computers}{49}
+\contentsline {section}{\numberline {2.4}Other Bases}{49}
+\contentsline {subsection}{\numberline {2.4.1}Base $b$ to Base Ten}{52}
+\contentsline {subsection}{\numberline {2.4.2}Base Ten to Base $b$}{53}
+\contentsline {section}{\numberline {2.5}Number Systems}{57}
+\contentsline {subsection}{\numberline {2.5.1}History}{57}
+\contentsline {subsection}{\numberline {2.5.2}Fibonacci}{57}
+\contentsline {section}{\numberline {2.6}Even Numbers}{58}
+\contentsline {section}{\numberline {2.7}Orders of Magnitude}{60}
+\contentsline {subsection}{\numberline {2.7.1}Fermi Problems}{61}
+\contentsline {section}{\numberline {2.8}Problem Bank}{64}
+\contentsline {section}{\numberline {2.9}Exploration}{68}
