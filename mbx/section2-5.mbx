@@ -1,0 +1,58 @@
+
+<section>
+<title>Number Systems</title>
+<subsection>
+<title>History</title>
+<p>
+\fellow{Can you write a <em>short</em> history / description of some different systems like the Egyptian, Mayan, and Roman numerals. What's in the book is totally overkill and too much. No need to have students do any problems. Just a few paragraphs describing additive system versus positional system and giving a couple of examples.}
+</p>
+ </subsection> 
+<subsection>
+<title>Fibonacci</title>
+<p>
+\fellow{Include a picture and <em>short</em> bio of Fibonacci? What he really <em>should</em> be famous for is giving us the arabic numerals and showing the ease of computation with a positional system, not the sequence of numbers that came from one little problem in his book... Get across where the base 10 system was created, and that Fibonacci brought it to the Western world from which it spread?}
+</p>
+  
+<problem xml:id="prob_timesnine"><statement>
+<p>
+What is the difference between <m>5_\text{nine} </m> and <m>50_\text{nine} </m>?
+</p>
+ </statement>
+</problem>
+  
+<problem xml:id="prob_timesfive"><statement>
+<p>
+Convert each base-<m>5</m> number to a base-<m>10</m> number. Look for a shortcut!
+</p>
+  
+<me>
+
+4_{\text{five} }
+\qquad
+40_{\text{five} }
+\qquad
+400_{\text{five} }
+\qquad
+4000_{\text{five} }
+
+</me>
+  
+<me>
+
+\textbf{ Challenges: }\quad
+0.4_{\text{five} }
+\quad
+0.04_{\text{five} }
+
+</me>
+ </statement>
+</problem>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+Discuss your answers to <xref ref="prob_timesnine">problems</xref> and <xref ref="prob_timesfive"></xref>. Discuss:
+</p>
+  <ul><li>When you add zeros to the right of a number in base ten, what does that do to the number?  (Think about 2, 20, 200, 2000, etc.).</li>
+<li>When you add zeros to the right of a number in base nine, what does that do to the number?</li>
+<li>When you add zeros to the right of a number in base five, what does that do to the number?</li>
+<li>When you add zeros to the right of a number in base <m>b</m>, what does that do to the number?</li>
+ </ul>  </paragraphs> </subsection> </section>

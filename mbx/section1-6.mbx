@@ -1,0 +1,254 @@
+
+<section>
+<title>Explaining Your Work</title>
+<p>
+At its heart, mathematics is a social endeavor. Even if you work on problems all by yourself, you haven't really <em>solved</em> the problem until you've explained your work to someone else, and they sign off on it. Professional mathematicians write journal articles, books, and grant proposals. Teachers explain mathematical ideas to their students both in writing and orally.
+Explaining your work is really an essential part of the problem-solving process, and probably should have been Polya's step (5).
+</p>
+  
+<p>
+Writing in mathematics is different from writing poetry or an English paper. The goal of mathematical writing is not florid description, but clarity. If your reader doesn't understand, you haven't done a good job. Here are some tips for good mathematical writing.
+</p>
+  <ul><li class="custom-list-style-type" label="Don't Turn in Scratch Work" >When you are solving <em>problems</em> and not <em>exercises</em>, you're going to have lots of false starts.  You're going to try lots of things that don't work.  You're going to make lots of mistakes.  You're going to use scratch paper.  At some point (hopefully!) you will scribble down an idea that actually solves the problem.  Hooray!  That paper is <em>not</em> what you want to turn in or share with the world.  Take that idea, and write it up carefully, neatly, and clearly.  (The rest of these tips apply to that write-up.)</li>
+<li class="custom-list-style-type" label="(Re)state the Problem" >Don't assume your reader (even if it's the teacher who assigned the problem!) knows what problem you're solving.  If the problem has a very long description, you can summarize it.  You don't have  rewrite it word-for-word or  give all of the details.  But make sure the question  is clear.</li>
+<li class="custom-list-style-type" label="Clearly Give the Answer" >It's not a bad idea to state the answer right up front, then show the work to justify your answer.  That way, the reader knows what you're trying to justify as they read.  It makes their job much easier, and making the reader's job easier should be one of your primary goals!  In any case, the answer should be <em>clearly</em> stated somewhere in the writeup, and it should be easy to find.</li>
+<li class="custom-list-style-type" label="Be Correct" >Of course, everyone makes mistakes as they're working on a problem.  But we're talking about after you've solved the problem, when you are writing up your solution to share with someone else.
+The best writing in the world can't save a wrong approach and a wrong answer.  Check your work carefully.  Ask someone else to read your solution with a critical eye.</li>
+<li class="custom-list-style-type" label="Justify Your Answer" >You cannot simply give an answer and expect your reader to "take your word for it." You have to explain how you know your answer is correct.  This means "showing your work," explaining your reasoning, and justifying what you say.   You need to answer the question, "How do you <em>know</em> your answer is right?"</li>
+<li class="custom-list-style-type" label="Be Concise" >There is no bonus prize for writing a lot in math class.  Think clearly and write clearly.  If you find yourself going on and on, stop, think about what you really want to say, and start over.</li>
+<li class="custom-list-style-type" label="Use Variables and Equations" >Often an equation is much easier to read and understand (and is more concise!) than a long paragraph of text describing a calculation.  Mathematical writing often has way fewer words (and way more equations) than other kinds of writing.</li>
+<li class="custom-list-style-type" label="Define your Variables" >If you use variables or equations in the solution of your problem, always say what the variable stands for <em>before</em> you use it.  If you use an equation, say where it comes from and why it applies to this situation.  Don't make your reader guess!</li>
+<li class="custom-list-style-type" label="Use Pictures" >If pictures helped you solve the problem, include those pictures in your final solution.  Even if you didn't draw a picture to solve the problem, it still might help your reader understand the solution.  And that's your goal!</li>
+<li class="custom-list-style-type" label="Use Correct Spelling and Grammar" >Proofread your work.  A good test is to read your work aloud.  There should be complete, natural-sounding sentences.  This includes reading the equations and calculations aloud.  They should read naturally and make sense.   Be especially careful with pronouns.  Avoid using "it" and "they" for mathematical objects; use the names of the objects (or variables) instead.</li>
+<li class="custom-list-style-type" label="Format Clearly" >Don't write one long paragraph.  Separate your thoughts.   Put complicated equations on a single displayed line rather than in the middle of a paragraph.  Don't write too small.  Don't make your reader struggle to read and understand your work.</li>
+<li class="custom-list-style-type" label="Acknowledge Collaborators" >If you worked with someone else on solving the problem, give them credit!</li>
+ </ul>   
+<p>
+Here is a problem you've already seen:
+</p>
+  
+<problem><statement>
+<p>
+Find the largest eight-digit number made up of the digits 1, 1, 2, 2, 3, 3, 4, and 4 such that the 1s are separated by one digit, the 2s are separated by two digits, the 3s by three digits, and the 4s by four digits.
+</p>
+ </statement>
+</problem>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+Below you will find several solutions that were turned in by students. Using the criteria above, how would you score these solutions on a scale of 1 to 5? Give reasons for your answers.
+</p>
+ </paragraphs>  
+<solution><title>Solution 1</title>
+<statement>
+<p>
+41312432
+</p>
+  
+<p>
+This is the largest eight-digit b/c the \#s 1, 2, 3, 4 &amp; all separated by the given amount of spaces.
+</p>
+ </statement>
+</solution>
+  
+<solution><title>Solution 2</title>
+<statement>
+<p>
+41312432
+</p>
+  
+<p>
+You have to have the 4 in the highest place and work down from there. However unable to follow the rules the 2 and the 1 in the 10k and 100k place must switch.
+</p>
+ </statement>
+</solution>
+  
+<solution><title>Solution 3</title>
+<statement>
+<p>
+41312432
+</p>
+  
+<p>
+First, I had to start with the \#4 because that is the largest digit I could start with to get the largest \#.
+</p>
+  
+<p>
+Then I had to place the next 4 five spaces away because I knew there had to be four digits separating the two 4s.
+</p>
+  
+<p>
+Next, I place 1 in the second digit spot because 2 or 3 would interfere with the rule of how many digits could separate them, which allowed me to also place where the next 1 should be.
+</p>
+  
+<p>
+I then placed the 3 because opening spaces showed me that I could fit three digits in between the two 3s.
+</p>
+  
+<p>
+Lastly, I had to input the final 2s, which worked out because there were two digits separating them.
+</p>
+ </statement>
+</solution>
+  
+<solution><title>Solution 4</title>
+<statement> 
+<p>
+1x1<br />
+</p>
+  
+<p>
+2xx2<br />
+</p>
+  
+<p>
+3xxx3<br />
+</p>
+  
+<p>
+4xxxx4
+</p>
+  
+<p>
+Answer: 41312432
+</p>
+ </statement>
+</solution>
+  
+<solution><title>Solution 5</title>
+<statement>
+<me>
+
+\underline{4} \ \underline{3} \ \underline{\ } \ \underline{2}\  \underline{4}\ \underline{3} \ \underline{2} \ \underline{\ }
+
+</me>
+  
+<me>
+
+\underline{4} \ \underline{2} \ \underline{\ } \ \underline{\ }\  \underline{2}\ \underline{4} \ \underline{\ } \ \underline{\ }
+
+</me>
+  
+<me>
+
+\underline{4} \ \underline{\ } \ \underline{1} \ \underline{3}\  \underline{1}\ \underline{4} \ \underline{\ } \ \underline{3 }
+
+</me>
+  
+<me>
+
+\star \underline{4} \ \underline{1} \ \underline{ 3} \ \underline{1}\  \underline{2}\ \underline{4} \ \underline{3} \ \underline{2}
+
+</me>
+  
+<p>
+4 needs to be the first \# to make it the biggest. Then check going down from next largest to smallest. Ex:
+</p>
+  
+<me>
+
+\underline{4} \ \underline{3} \ \underline{\qquad \qquad \qquad  } \times
+
+</me>
+  
+<me>
+
+\underline{4} \ \underline{2} \ \underline{\qquad \qquad \qquad  } \times
+
+</me>
+  
+<me>
+
+\underline{4} \ \underline{1} \ \underline{\qquad \qquad \qquad  } \checkmark
+
+</me>
+ </statement>
+</solution>
+  
+<solution><title>Solution 6</title>
+<statement>
+<p>
+41312432
+</p>
+  
+<p>
+I put 4 at the 10,000,000 place because the largest \# should be placed at the highest value.
+</p>
+  
+<p>
+Numbers 2 &amp; 3 could not be placed in the 1,000,000 place because I wasn't able to separate the digits properly.
+</p>
+  
+<p>
+So I ended up placing the \#1 there. In the 100,000 place I put the \#3 because it was the second higehst number.
+</p>
+ </statement>
+</solution>
+  
+<solution><title>Solution 7</title>
+<statement>
+<p>
+41312432
+</p>
+  
+<p>
+Since the problem asks you for the largest 8 digit \#, I knew 4 had to be the first \# since it's the greatest \# of the set.
+</p>
+  
+<p>
+To solve the rest of the problem, I used the guess and test method. I tried many different combinations. First using the \#3 as the second digit in the sequence, but came to no answer. Then the \#<nbsp />2, but no combination I found correctly finished the sequence.
+</p>
+  
+<p>
+I then finished with the \#1 in the second digit in the sequence and was able to successfully fill out the entire \#.
+</p>
+ </statement>
+</solution>
+  
+<solution><title>Solution 8</title>
+<statement> 
+<p>
+<m>\underline{4} \ \underline{\ } \ \underline{\ } \ \underline{\ }\  \underline{\ }\  \underline{4} \ \underline{\ } \ \underline{\ }</m>
+</p>
+  
+<p>
+4 has to be the first digit, for the number to be the largest possible. That means the other 4 has to be the 6th digit in the number, because 4s have to be separated by four digits.
+</p>
+  
+<p>
+<m>\underline{4} \ \underline{\ } \ \underline{3} \ \underline{\ }\  \underline{\ } \ \underline{4}  \ \underline{3 } \ \underline{\ }</m>
+</p>
+  
+<p>
+3 must be the third digit, in order for the number to be largest possible. 3 cannot be the second digit because the other 3 would have to be the 6th digit in the number, but 4 is already there.
+</p>
+  
+<p>
+<m>\underline{4} \ \underline{1} \ \underline{3} \ \underline{1 }\  \underline{\ } \  \underline{4}\   \ \underline{3 } \ \underline{\ }</m>
+</p>
+  
+<p>
+1s must be separated by one digit, so the 1s can only be the 2nd and 4th digit in the number.
+</p>
+  
+<p>
+<m>\underline{4} \ \underline{1} \ \underline{3} \ \underline{1 }\  \underline{2} \  \underline{4}\   \ \underline{3 } \ \underline{2 }</m>
+</p>
+  
+<p>
+This leaves the 2s to be the 5th and 8th digits.
+</p>
+ </statement>
+</solution>
+  
+<solution><title>Solution 9</title>
+<statement>
+<p>
+With the active rules, I tried putting the highest numbers as far left as possible. Through trying different combinations, I figured out that no two consecutive numbers can be touching in the first two digits. So I instead tried starting with the 4 then 1 then 3, since I'm going for the highest \# possible.
+</p>
+  
+<p>
+My answer: 41312432
+</p>
+ </statement>
+</solution>
+ </section>

@@ -1,0 +1,172 @@
+
+<section xml:id="sec_ProblemBank">
+<title>Problem Bank</title>
+<p>
+You have several problem solving strategies to work with. Here are the ones we've described in this Section (and you probably came up with even more of your own strategies as you worked on problems).
+</p>
+  <ol><li>Wishful Thinking.</li>
+<li>Try Something!</li>
+<li>Draw a Picture.</li>
+<li>Make up Numbers.</li>
+<li>Try a Simpler Problem.</li>
+<li>Work Systematically.</li>
+<li>Use Manipulatives to Help You Investigate.</li>
+<li>Look for and Explain Patterns.</li>
+<li>Find the Math, Remove the Context.</li>
+<li>Check Your Assumptions.</li>
+<li>Use a Variable.</li>
+ </ol>   
+<p>
+Try your hand at some of these problems, keeping these strategies in mind. If you're stuck on a problem, come back to this list and ask yourself which of the strategies might help you make some progress.
+</p>
+  
+<p>
+\fellow{If you have any favorite problems that don't have a lot of mathematical prerequisites &#8202;&#x2014;&#8202; this is the first chapter! &#8202;&#x2014;&#8202; throw them in! The more the merrier!}
+</p>
+  
+<problem><statement>
+<p>
+You have eight coins and a balance scale. The coins look alike, but one of them is a counterfeit. The counterfeit coin is lighter than the others. You may only use the balance scale two times. How can you find the counterfeit coin?
+</p>
+  
+<p>
+\fellow{Balance scale picture?}
+</p>
+ </statement>
+</problem>
+  
+<problem><statement>
+<p>
+You have five coins, no two of which weigh the same. In seven weighings on a balance scale, can you put the coins in order from lightest to heaviest? That is, can you determine which coin is the lightest, next lightest, ..., heaviest.
+</p>
+ </statement>
+</problem>
+  
+<problem><statement>
+<p>
+You have ten bags of coins. Nine of the bags contain good coins weighing one ounce each. One bag contains counterfeit coins weighing 1.1 ounces each. You have a regular (digital) scale, not a balance scale. The scale is correct to one-tenth of an ounce. In one weighing, can you determine which bag contains the bad coins?
+</p>
+ </statement>
+</problem>
+  
+<problem><statement>
+<p>
+Suppose you have a balance scale. You have three different weights, and you are able to weigh every whole number from 1 gram to 13 grams using just those three weights. What are the three weights?
+</p>
+ </statement>
+</problem>
+  
+<problem><statement>
+<p>
+There are a bunch of coins on a table in front of you. Your friend tells you how many of the coins are heads-up. You are blindfolded and can't see a thing, but you can move the coins around, and you can flip them over. However, you can't tell just by feeling them if the coins are showing heads or tails. Your job: separate the coins into two piles so that the same number of heads are showing in each pile.
+</p>
+ </statement>
+</problem>
+  
+<problem><statement>
+<p>
+The digital root of a number is the number obtained by adding the digits of the number. If the answer is not a one-digit number, add those digits. Continue until a one-digit sum is reached. This one digit is the digital root of the number. For example, the digital root of 98 is 8, since
+</p>
+  
+<me>
+
+9+8 = 17 \quad \text{and}  \quad 1+7 = 8.
+
+</me>
+ 
+<p>
+Record the digital roots of the first <m>30</m> integers and find as many patterns as you can. Can you explain any of the patterns? Can you predict the digital root of a number without computing it?
+</p>
+ </statement>
+</problem>
+  
+<problem><statement>
+<p>
+If this lattice were continued, what number would be directly to the right of <m>98</m>?
+</p>
+  <table id="165f4f7a339c8924c50d4fd2d4bc9c54e76a9cba" ><tr><td class='c'>
+</td><td class='c'> 3 </td><td class='c'>  </td><td class='c'> 6 </td><td class='c'>  </td><td class='c'> 9 </td><td class='c'>  </td><td class='c'> 12 </td><td class='c'> </td><td class='c'>\ldots </td></tr>
+<tr><td class='c'>
+1 </td><td class='c'> 2</td><td class='c'> 4</td><td class='c'>  5 </td><td class='c'> 7 </td><td class='c'> 8 </td><td class='c'> 10 </td><td class='c'> 11 </td><td class='c'> 13 </td><td class='c'> \ldots  </td></tr>
+<tr><td class='c'></td></tr>
+</table> </statement>
+</problem>
+  
+<problem><statement>
+<p>
+Arrange the digits <m>0</m> through <m>9</m> so that the first digit is divisible by <m>1</m>, the first two digits are divisible by <m>2</m>, the first three digits are divisible by <m>3</m>, and continuing until you have the first <m>9</m> digits divisible by <m>9</m> and the whole <m>10</m>-digit number divisible by<nbsp /><m>10</m>.
+</p>
+ </statement>
+</problem>
+  
+<problem><statement>
+<p>
+There are 25 students and one teacher in class. After an exam, everyone high-fives everyone else to celebrate how well they did. How many high-fives were there?
+</p>
+ </statement>
+</problem>
+  
+<problem><statement>
+<p>
+In cleaning out your old desk, you find a whole bunch of <m>3</m>\textcent<nbsp />and <m>7</m>\textcent<nbsp />stamps. Can you make exactly <m>11</m>\textcent<nbsp />of postage? Can you make exactly <m>19</m>\textcent<nbsp />of postage? What is the largest amount of postage you cannot make?
+</p>
+ </statement>
+</problem>
+  
+<problem><statement>
+<p>
+Find the largest eight-digit number made up of the digits 1, 1, 2, 2, 3, 3, 4, and 4 such that the 1s are separated by one digit, the 2s are separated by two digits, the 3s by three digits, and the 4s by four digits.
+</p>
+ </statement>
+</problem>
+  
+<problem><statement>
+<p>
+Kami has ten pockets and 44 dollar bills. She wants to have a different amount of money in each pocket. Can she do it?
+</p>
+ </statement>
+</problem>
+  
+<problem><statement>
+<p>
+How many triangles are in this picture?
+</p>
+  <image source="images/" /> </statement>
+</problem>
+  
+<problem><statement>
+<p>
+Arrange the digits 1&#x2013;6 into a "difference triangle" where each number in the row below is the difference of the two numbers above it.<br />
+<b>Example:</b> This is a difference triangle, but it doesn't work because it uses 1 twice and doesn't have a 6:
+</p>
+  <table id="067611592542794d5d15e2779209d2567d30d9cd" ><tr><td class='c'>
+4 </td><td class='c'></td><td class='c'> 5 </td><td class='c'></td><td class='c'> 3 </td></tr>
+<tr><td class='c'>
+ </td><td class='c'> 1 </td><td class='c'></td><td class='c'> 2</td></tr>
+<tr><td class='c'>
+ </td><td class='c'></td><td class='c'>1 </td></tr>
+<tr><td class='c'></td></tr>
+</table> </statement>
+</problem>
+  
+<problem><statement>
+<p>
+Certain pipes are sold in lengths of 6 inch, 8 inch, and 10 inches. How many different lengths can you form by attaching three sections of pipe together?
+</p>
+ </statement>
+</problem>
+  
+<problem><statement>
+<p>
+Place the digits 1, 2, 3, 4, 5, 6 in the circles so that the sum on each side of the triangle is 12. Each circle gets one digit, and each digit is used exactly once.
+</p>
+  <image source="images/" /> </statement>
+</problem>
+  
+<problem><statement>
+<p>
+Find a way to cut a circular pizza into 11 pieces using just four straight cuts.
+</p>
+ </statement>
+</problem>
+ </section>

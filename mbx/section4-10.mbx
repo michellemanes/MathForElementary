@@ -1,0 +1,157 @@
+
+<section>
+<title>Egyptian Fractions</title>
+<p>
+Scholars of ancient Egypt (about 3000 B.C.) were very practical in their approaches to
+mathematics and always sought answers to problems that would be of most
+convenience to the people involved. This led them to a curious approach to thinking
+about fractions.
+</p>
+  
+<example><title>Egyptian fractions for $\frac 7{12}$</title>
+<statement>
+<p>
+Consider the problem: Share 7 pies among 12 boys.
+Of course, given our model for fractions, each boy is to receive the quantity "<m>\frac 7 {12}</m>"
+But this answer has little intuitive feel.
+</p>
+  
+<p>
+Suppose we took this task as a very practical problem. Here are the seven pies:
+</p>
+  <image source="images/" />  
+<p>
+Is it possible to give each of the boys a whole pie? No.
+</p>
+  
+<p>
+How about the next best
+thing &#8202;&#x2014;&#8202; can each boy get half a pie? Yes! There are certainly 12 half pies to dole out. There
+is also one pie left over yet to be shared among the 12 boys. Divide this into
+twelfths and hand each boy an extra piece.
+</p>
+  <image source="images/" />  
+<p>
+So each boy gets <m>\frac 1 2 + \frac 1{12}</m> of a pie, and it is indeed true that
+</p>
+  
+<me>
+
+\frac{7}{12} = \frac 1 2 + \frac 1 {12}.
+
+</me>
+ 
+<p>
+(Check that calculation... don't just believe it!)
+</p>
+ </statement>
+</example>
+  <paragraphs><title>Think/Pair/Share</title> <ol><li>How do you think the Egyptians might have shared five pies among six boys?
+<image source="images/" /> </li>
+<li>How would they have shared seven pies among 12 boys?</li>
+ </ol>  </paragraphs>  
+<p>
+The Egyptians (probably) weren't particularly concerned with splitting up pies. But in fact, they did have a very strange (to us) way of expressing fractions. We know this by examining the Rhind Papyrus. This ancient document indicates that fractions were in use as many as four thousand years ago in Egypt, but the Egyptians seem to have worked primarily with <em>unit fractions</em>. They insisted on writing all of their fractions as sums of fractions with
+numerators equal to 1, and they insisted that the denominators of the fractions were all different.
+</p>
+  
+<p>
+\fellow{Can you add a (SHORT) blurb about the Rhind Papyrus and a picture? Like the Polya blurb that Ryan added to the Problem Solving chapter.}
+</p>
+  
+<example><title>Egyptian fractions</title>
+<statement>
+<p>
+The Egyptians would not write <m>\frac 3{10}</m>, and they would not even write <m>\frac 1{10} + \frac 1{10} + \frac 1{10}</m>. Instead, they wrote
+</p>
+  
+<me>
+
+\frac 1 4 + \frac 1{20}.
+
+</me>
+  
+<p>
+The Egyptians would not write <m>\frac 5{7}</m>, and they would not even write <m>\frac 1{7} + \frac 1{7} + \frac 1{7} + \frac 1{7} + \frac 1{7}</m>. Instead, they wrote
+</p>
+  
+<me>
+
+\frac 1 2 + \frac 1 5 + \frac 1{70}.
+
+</me>
+  
+<p>
+(You should check that the sums above give the correct resulting fractions!)
+</p>
+ </statement>
+</example>
+  
+<problem><title>$\frac 2 n$</title>
+<statement>
+<p>
+Write the following as a sum of two <em>different</em> unit fractions. Be sure to check your answers.
+</p>
+  
+<me>
+
+\frac 2 3,
+\qquad\qquad\qquad
+\frac 2 9,
+\qquad\qquad\qquad
+\frac 2 {15},
+\qquad\qquad\qquad
+\frac 2{25}.
+
+</me>
+ 
+<p>
+Can you express this process as a general algorithm?
+</p>
+ </statement>
+</problem>
+  
+<problem><title>Fractions bigger than $\frac 1 2$</title>
+<statement>
+<p>
+Write the following as a sum of distinct unit fractions. ("Distinct" means the fractions must have different denominators.) Note that you may need to use more than two unit fractions in some of the sums. Be sure to check your answers.
+</p>
+  
+<me>
+
+\frac 3 4,
+\qquad\qquad\qquad
+\frac 5 6,
+\qquad\qquad\qquad
+\frac 3 5,
+\qquad\qquad\qquad
+\frac 5 9.
+
+</me>
+ 
+<p>
+Can you express this process as a general algorithm?
+</p>
+ </statement>
+</problem>
+  
+<problem><title>Challenges</title>
+<statement>
+<p>
+Write the following fractions as Egyptian fractions.
+</p>
+  
+<me>
+
+\frac{17}{20},
+\qquad\qquad\qquad
+\frac 3 7.
+
+</me>
+ 
+<p>
+Can you find a general algorithm that will turn <em>any fraction at all</em> into an Egyptian fraction?
+</p>
+ </statement>
+</problem>
+ </section>

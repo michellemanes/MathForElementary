@@ -1,0 +1,57 @@
+
+<section>
+<title>Painted Cubes</title>
+<p>
+You can build up squares from smaller squares:
+</p>
+  <image source="images/" /> <br />
+<m>1\times1</m> square
+  
+<m>2\times2</m> square
+    
+<m>3\times3</m> square
+     
+<p>
+In a similar way, you can build up cubes from smaller cubes:
+</p>
+  <image source="images/" /> <br />
+<m>1\times1\times1</m> cube
+  
+<m>2\times2\times2</m> cube
+    
+<m>3\times3\times3</m> cube
+    
+<p>
+\fellow{Can you make a better picture of cubes?}
+</p>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+We call a <m>1 \times 1 \times 1</m> cube a <em>unit cube</em>.
+</p>
+  <ul><li>How many  unit cubes are in a <m>2\times 2\times 2</m> cube?  <br /></li>
+<li>How many  unit cubes are in a <m>3\times 3\times 3</m> cube?  <br /></li>
+<li>How many  unit cubes are in an <m>n\times n\times n</m> cube?  <br /></li>
+ </ul>  
+<p>
+Explain your answers.
+</p>
+ </paragraphs>  
+<problem xml:id="prob_paintedcube"><statement>
+<p>
+Imagine you build a <m>3\times3\times3</m> cube from 27 small white unit cubes. Then you take your <m>3\times3\times 3</m> cube and dip it into a bucket of bright blue paint. After the cube dries, you take it apart, separating the small unit cubes.
+</p>
+  <ol type="a"><li>After you take the cube apart, some of the unit cubes are still all white (no blue paint).  How many?  How do you know you are right?<br /></li>
+<li>After you take the cube apart, some of the unit cubes have blue paint on just one face.  How many?  How do you know you are right?<br /></li>
+<li>After you take the cube apart, some of the unit cubes have blue paint on two faces.  How many?  How do you know you are right?<br /></li>
+<li>After you take the cube apart, some of the unit cubes have blue paint on three faces.  How many?  How do you know you are right?<br /></li>
+<li>After you take the cube apart, do any of the unit cubes have blue paint on more than three faces?  How many?  How do you know you are right?<br /></li>
+ </ol>  </statement>
+</problem>
+  
+<problem><statement>
+<p>
+Generalize your work on <xref ref="prob_paintedcube">Problem</xref>. What if you started with a <m>4\times4\times4</m> cube? Answer the same questions. What about a <m>2\times2\times2</m> cube? How about an <m>n\times n\times n</m> cube? Be sure to justify what you say.
+</p>
+ </statement>
+</problem>
+ </section>

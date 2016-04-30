@@ -1,0 +1,600 @@
+
+<section>
+<title>Multiplying Fractions</title><introduction>
+<p>
+One of our models for multiplying whole numbers was an area model. For
+example, the product <m>23\times 37</m> is the area (number of <m>1\times 1 </m> squares) of a 23-by-37 rectangle:
+</p>
+  <image source="images/" />  
+<p>
+So the product of two fractions, say, <m>\frac 4 7 \times \frac 2 3</m>
+should also correspond to an area
+problem.
+</p>
+  
+<example><title>$\frac 4 7 \times \frac 2 3$</title>
+<statement>
+<p>
+Let's start with a segment of some length that we call 1 unit:
+</p>
+  <image source="images/" /> 
+<p>
+Now, build a square that has one unit on each side:
+</p>
+  <image source="images/" /> 
+<p>
+The area of the square, of course, is <m>1 \times 1 = 1</m> square unit.
+</p>
+  
+<p>
+Now, let's divide the segment on top into three equal-sized pieces. (So each piece is <m>\frac 1 3</m>.) And we'll divide the segment on the side into seven equal-sized pieces. (So each piece is <m>\frac 1 7</m>.)
+</p>
+  <image source="images/" /> 
+<p>
+We can use those marks to divide the whole square into small, equal-sized rectangles. (Each rectangle has one side that measures <m>\frac 1 3</m> and another side that measures <m>\frac 1 7</m>.)
+</p>
+  <image source="images/" />  
+<p>
+We can now mark off four sevenths on one side and two thirds on the other side.
+</p>
+  <image source="images/" /> 
+<p>
+The result of the multiplication <m>\frac 4 7 \times \frac 2 3</m> should be the area of the rectangle with <m>\frac 47</m> on one side and <m>\frac 23 </m> on the other. What is that area?
+</p>
+  <image source="images/" /> 
+<p>
+Remember, the whole square was one-unit. That one-unit square is divided into 21 equal-sized pieces, and our rectangle (the one with sides <m>\frac 4 7</m> and <m>\frac 2 3</m>) contains eight of those rectangles.
+Since the shaded area is the answer to our multiplication problem we conclude that
+</p>
+  
+<me>
+
+\frac 47 \times \frac 23 = \frac 8{21}.
+
+</me>
+ </statement>
+</example>
+  <paragraphs><title>Think/Pair/Share</title> <ol><li>Use this "unit square method" to compute each of the following products. 
+Draw the picture to
+see the answer clearly.
+
+<me>
+
+\frac 3 4 \times \frac 5 6,
+\qquad\qquad\qquad
+\frac 3 8 \times \frac 5{10},
+\qquad\qquad\qquad
+\frac 5 8 \times \frac 3 7 .
+
+</me>
+ <br /></li>
+<li>The area problem <m>\frac 4 7 \times \frac 2 3</m>
+yielded a diagram with 21 small rectangles. 
+Explain <em>why</em> 21 appears as the total number of equal-sized rectangles.<br /></li>
+<li>The area problem <m>\frac 4 7 \times \frac 2 3</m>
+yielded a diagram with 8 small shaded rectangles. 
+Explain <em>why</em> 8 appears as the number of shaded rectangles<br /></li>
+ </ol>  </paragraphs>  
+<problem><title>Extend the Model</title>
+<statement>
+<p>
+How can you extend the area model for fractions greater than 1? Try to draw a picture for each of these:
+</p>
+  
+<me>
+
+\frac 3 4 \cdot \frac 3 2,
+\qquad \qquad\qquad
+\frac 2 5 \cdot \frac 4 3,
+\qquad \qquad\qquad
+\frac 3 {10} \cdot \frac 5 4,
+\qquad \qquad\qquad
+\frac 5 2 \cdot \frac 7 4.
+
+</me>
+ </statement>
+</problem>
+ </introduction> 
+<subsection>
+<title>On Your Own</title>
+<p>
+Work on the following exercises on your own or with a partner.
+</p>
+  <ol><li>Compute the following products, simplifying each of the answers as
+much as possible.  You do not need to draw pictures, but you may certainly choose to do so if it helps! 
+
+<me>
+
+\frac 5{11} \times \frac 7{12},
+\qquad\qquad
+\frac 4 7 \times \frac 4 8,
+\qquad\qquad
+\frac 1 2 \times \frac 1 3,
+\qquad\qquad
+\frac 2 1 \times \frac 3 1,
+\qquad\qquad
+\frac 15 \times \frac 51.
+
+</me>
+ <br /></li>
+<li>Compute the following products.  (Don't work too hard!)
+
+
+<me>
+
+\frac 3 4 \times \frac 1 3 \times \frac 2 5,
+\qquad\qquad
+\frac 5 5 \times \frac 7 8 ,
+\qquad\qquad
+\frac{88}{88} \times \frac{541}{788},
+\qquad\qquad
+\frac{77876}{311} \times \frac{311}{77876}.
+
+</me>
+ <br /></li>
+<li>Try this one.  Can you make use of the fraction rule <m>\frac{xa}{xb} = \frac a b</m> to help you calculate?  How?
+
+<me>
+
+\frac 1 2 \times \frac 23 \times \frac 34 \times \frac 45 \times \frac 56\times \frac 67 \times \frac 78 \times\frac 89 \times
+\frac9{10}
+
+</me>
+ <br /></li>
+ </ol>   
+<p>
+You probably simplified your work in the exercises above by using a multiplication rule like the following.
+</p>
+  
+<p>
+\fellow{put the rule a box, centered?}
+</p>
+  
+<p>
+<b>Multiplying Fractions:</b>
+</p>
+  
+<me>
+
+\frac a b \cdot \frac cd 
+\quad
+=
+\quad
+ \frac{a\cdot c}{b\cdot d}.
+
+</me>
+  
+<p>
+Of course, you may then choose to simplify the final answer, but the answer is always <em>equivalent</em> to this one. Why? The area model can help us explain what's going on.
+</p>
+  
+<p>
+First, let's clearly write out how the area model says to multiply <m>\frac ab \cdot \frac cd</m>. We want to build a rectangle where one side has length <m>\frac a b</m> and the other side has length <m>\frac c d</m>. We start with a square, one unit on each side.
+</p>
+  <ul><li>Divide the top segment into <m>b</m> equal-sized pieces.  Shade <m>a</m> of those pieces.  (This will be the side of the rectangle with length <m>\frac a b</m>.)<br /></li>
+<li>Divide the left segment into <m>d</m> equal-sized pieces.  Shade <m>c</m> of those pieces.  (This will be the side of the rectangle with length <m>\frac c d</m>.)<br /></li>
+<li>Divide the whole rectangle according to the tick marks on the sides, making equal-sized rectangles.<br /></li>
+<li>Shade the rectangle bounded by the shaded segments.<br /></li>
+ </ul>   
+<p>
+\fellow{add an animation of this process in a couple of examples?}
+</p>
+  
+<p>
+If the answer is <m>\frac{a\cdot c}{b\cdot d}</m>, that means there are <m>b\cdot d</m> total equal-sized pieces in the square, and <m>a\cdot c</m> of them are shaded. We can see from the model why this is the case:
+</p>
+  <ul><li>The top segment was divided into <m>b</m> equal-sized pieces.  So there are <m>b</m> columns in the rectangle.<br /></li>
+<li>The side segment was divided into <m>d</m> equal-sized pieces.  So there are <m>d</m> rows in the rectangle.<br /></li>
+<li>A rectangle with <m>b</m> columns and <m>d</m> rows has <m>b\cdot d</m> pieces.  (This is exactly our area model for whole-number multiplication!)<br /></li>
+ </ul>   <paragraphs><title>Think/Pair/Share</title>
+<p>
+Stick with the general multiplication rule
+</p>
+  
+<me>
+
+\frac a b \cdot \frac cd = \frac{a\cdot c}{b\cdot d}.
+
+</me>
+ 
+<p>
+With a partner, write a clear explanation for why <m>a\cdot c</m> of the small rectangles will be shaded.
+</p>
+ </paragraphs> </subsection> 
+<subsection>
+<title>Multiplying Fractions by Whole Numbers</title>
+<p>
+Often, elementary students are taught to multiply fractions by whole numbers using the fraction rule.
+</p>
+  
+<example><title>$2 \cdot \frac 3 7$, Multiply Fractions</title>
+<statement>
+<p>
+For example, to multiply <m>2 \cdot \frac 3 7</m>, we think of "2" as <m>\frac 2 1</m>, and compute this way:
+</p>
+  
+<me>
+
+2 \cdot \frac 37 
+\quad
+= 
+\quad
+\frac 21 \cdot \frac 37 
+\quad
+= 
+\quad
+\frac{2\cdot3}{1\cdot7}
+\quad
+ = 
+ \quad
+ \frac 67.
+
+</me>
+ </statement>
+</example>
+  
+<p>
+We can also think in terms of our original "Pies Per Boy Model" to answer questions like this.
+</p>
+  
+<example><title>$2 \cdot \frac 3 7$, Pies Per Boy</title>
+<statement>
+<p>
+We know that <m>\frac 3 7</m> means the amount of pie each boy gets when 7 boys evenly share 3 pies.
+</p>
+  
+<p>
+If we compute <m>2\cdot \frac 37</m>, that means we double the amount of pie each boy gets. We can do this by doubling the number of pies. So the answer is the same as <m>\frac 67</m>: the amount of pie each boy gets when 7 boys evenly share 6 pies.
+</p>
+ </statement>
+</example>
+  
+<p>
+Finally, we can think in terms of units and unitizing.
+</p>
+  
+<example><title>$2 \cdot \frac 3 7$, Units</title>
+<statement>
+<p>
+The fraction <m>\frac 3 7</m> means that I have 7 equal pieces (of <em>something</em>), and I take 3 of them.
+</p>
+  
+<p>
+So <m>2\cdot \frac 37</m> means do that twice. If I take 3 pieces and then 3 pieces again, I get a total of 6 pieces. There are still 7 total pieces, so the answer is <m>\frac 6 7</m>.
+</p>
+ </statement>
+</example>
+  <paragraphs><title>Think/Pair/Share</title> <ol><li>Use all three methods to explain how to find each product:
+
+<me>
+
+3 \cdot \frac 2 5 ,
+\qquad\qquad\qquad
+4 \cdot \frac 3 8 ,
+\qquad\qquad\qquad
+6 \cdot \frac 1 5.
+
+</me>
+</li>
+<li>Compare these different ways of thinking about fraction multiplication.  Are any of them more natural to you?  Does one make more sense than the others?  Do the particular numbers in the problem affect your answer?  Does your partner agree?</li>
+ </ol>  </paragraphs>  
+<p>
+Let's think so more about the expression
+</p>
+  
+<me>
+
+4 \cdot \frac 38.
+
+</me>
+ 
+<p>
+Using the first method (multiplying fractions), we compute:
+</p>
+  
+<me>
+
+4 \cdot \frac 38 
+\quad
+=
+\quad
+ \frac 41 \cdot \frac 38
+ \quad
+  = 
+  \quad
+  \frac{12}8.
+
+</me>
+ 
+<p>
+And we might notice that this simplifies:
+</p>
+  
+<me>
+
+\frac{12}8 
+\quad
+=
+\quad
+ \frac{3\cdot 4}{2\cdot 4} 
+ \quad
+ = 
+ \quad
+ \frac 32.
+
+</me>
+  
+<p>
+Here's another example:
+</p>
+  
+<me>
+
+10 \cdot \frac 2{15} 
+\quad
+=
+\quad
+ \frac{10} 1 \cdot \frac 2{15} 
+\quad
+= 
+\quad
+\frac{10\cdot 2}{15}.
+
+</me>
+ 
+<p>
+Rather than multiply out the numerator, let's break everything down as far as we can into factors:
+</p>
+  
+<me>
+
+ \frac{10\cdot 2}{15} 
+ \quad
+=
+\quad
+\frac{2\cdot 5 \cdot 2}{3\cdot 5}
+\quad
+=
+\quad
+ \frac{2\cdot2}{3} 
+ \quad
+=
+\quad
+\frac{4}{3}.
+
+</me>
+  
+<p>
+Here's one more example:
+</p>
+  
+<me>
+
+8 \cdot \frac{212}{16} 
+\quad
+= 
+\quad
+\frac{8 \cdot 212}{16}.
+
+</me>
+ 
+<p>
+We can avoid some work (mathematicians <em>love</em> to avoid work and make things easier on themselves!) if we notice that <m>16 = 8 \cdot 2</m>:
+</p>
+  
+<me>
+
+8 \cdot \frac{212}{16} 
+\quad
+=
+\quad
+ \frac{8 \cdot 212}{8\cdot 2} 
+ \quad
+ =
+ \quad
+  \frac{212}{2}
+  \quad
+   = 
+   \quad
+   106.
+
+</me>
+ </subsection> 
+<subsection>
+<title>On Your Own</title>
+<p>
+Try these exercises on your own or with a partner.
+</p>
+  <ol><li>Compute each of the following and write your answer in simplified form.  Avoid doing extra work if you can!
+
+<me>
+
+17 \cdot \frac 2 3,
+\qquad\qquad
+10 \cdot \frac 1 5 ,
+\qquad\qquad
+\frac 3 4 \cdot 4,
+\qquad\qquad
+11 \cdot \frac{36}{33},
+\qquad\qquad
+\frac{13}{12} \cdot 24.
+
+</me>
+</li>
+<li>Compute each of the following and write your answer in simplified form.  Look for shortcuts!
+
+<me>
+
+\frac 3 7 \cdot \frac 7 5,
+\qquad\qquad
+\frac{133}{112} \cdot 224,
+\qquad\qquad
+\frac{39}{35}\cdot\frac{14}{13},
+\qquad\qquad
+\frac 5{13} \cdot \frac 47 \cdot \frac{13}2  \cdot \frac 7{10}.
+
+</me>
+</li>
+ </ol>   <paragraphs><title>Think/Pair/Share</title> <ol><li>Compute the following:
+
+<me>
+
+6 \cdot \frac 5 6,
+\qquad\qquad\qquad
+\frac{7}{18} \cdot 18.
+
+</me>
+ <br /></li>
+<li>What can you say about these products?  Carefully justify your answer using (at least) one of the models for multiplication above.
+
+<me>
+
+b \cdot \frac a b,
+\qquad\qquad\qquad
+\frac cd \cdot d.
+
+</me>
+ <br /></li>
+<li>Keo was asked to compute
+
+<me>
+ 
+\frac{18}7 \cdot \frac{70}{36}.
+
+</me>
+ 
+Within three seconds, he shouted "The answer is 5!"  Is he right?  How was he able to compute it so quickly?<br /></li>
+ </ol>  </paragraphs>  
+<p>
+Roy says that the fraction rule
+</p>
+  
+<me>
+
+\frac{xa}{xb} = \frac ab
+
+</me>
+ 
+<p>
+is "obvious" if
+you think in terms of multiplying fractions. He reasons as follows:
+</p>
+  <em>
+We know multiplying anything by 1 doesn't change a number:
+
+<md><mrow>1 \cdot 4 \amp = 4</mrow>
+ <mrow>1 \cdot 2014 \amp = 2014</mrow>
+ <mrow>1 \cdot \frac 5 7 \amp = \frac 5 7.</mrow>
+ 
+</md>
+ 
+So in general
+
+<me>
+
+1 \cdot \frac a b = \frac a b.
+
+</me>
+ 
+Now, <m>\frac 2 2 = 1</m>, so that means that 
+
+<md><mrow>\frac 2 2 \cdot \frac a b \amp = \frac a b, \text{ which means}</mrow>
+ <mrow>\frac{2a}{2b} \amp = \frac a b.</mrow>
+ 
+</md>
+ 
+By the same reasoning, <m>\frac 3 3  = 1</m>, so that means that 
+
+<md><mrow>\frac 3 3 \cdot \frac a b \amp = \frac a b, \text{ which means}</mrow>
+ <mrow>\frac{3a}{3b} \amp = \frac a b.</mrow>
+ 
+</md>
+ 
+</em>  <paragraphs><title>Think/Pair/Share</title>
+<p>
+What do you think about Roy's reasoning? Does it make sense?
+How would Roy explain the general rule for positive whole numbers <m>x</m>:
+</p>
+  
+<me>
+
+\frac{xa}{xb} = \frac a b?
+
+</me>
+ </paragraphs> </subsection> 
+<subsection>
+<title>Fractions of fractions of fractions of fractions of<ellipsis /></title><paragraphs><title>Think/Pair/Share</title>
+<p>
+How are these two problems different? Draw a picture of each.
+</p>
+  <ol><li>Pam had <m>\frac 2 3</m> of a cake in her refrigerator, and she ate half of it.  How much total cake did she eat?</li>
+<li>On Monday, Pam ate <m>\frac 2 3</m> of a cake.  On Tuesday, Pam at <m>\frac 1 2</m> of a cake.  How much total cake did she eat?</li>
+ </ol>  </paragraphs>  
+<p>
+When a problem includes a phrase like "<m>\frac 2 3 </m> of ...," students are taught to treat "of" as multiplication, and to use that to solve the problem. As the above problems show, in some cases this makes sense, and in some cases it does not. It's important to read carefully and understand what a problem is asking, not memorize rules about "translating" word problems.
+</p>
+  
+<p>
+If I have 12 circles and I want "<m>\frac 2 3</m> of the circles," I can take two out of every three cirlces.
+\fellow{ add a picture: 12 circles, divided into three groups, with two shaded from each group}
+</p>
+  
+<p>
+I can also take <m>\frac 2 3</m> from each individual circle.
+\fellow{ add a picture of 12 circles, each divided into thirds with 2/3 shaded}
+</p>
+  
+<p>
+In both cases, I can compute the answer as
+<m>\frac 2 3 \times 12</m> circles, but the reasoning in each case is a little different.
+</p>
+  
+<p>
+In the first case, we are really thinking of "<m>\frac 2 3</m> of 12" as a sequence of operations:
+</p>
+  <ul><li>Divide my 12 circles groups of three circles each.</li>
+<li>Shade 2 circles in every group.</li>
+ </ul>  
+<p>
+So I have computed this way:
+</p>
+  
+<me>
+
+ (12 \div 3) \cdot 2 
+ \quad
+ =
+ \quad
+ \frac{12}3 \cdot 2 
+ \quad
+ =
+ \quad
+ \frac{12\cdot 2}{3}
+ \quad
+ =
+ \quad
+ 12 \cdot \frac 2 3.
+ 
+</me>
+  
+<p>
+In the second case, we are really think of <m>\frac 2 3</m> of a circle, repeated 12 times, which is also
+</p>
+  
+<me>
+
+ \frac 2 3 \cdot 12.
+ 
+</me>
+  
+<p>
+If we change the numbers, sometimes one of the interpretations is more natural than the other. For example, how can we understand "<m>\frac 3 5</m> of 12"? We can interpret this as "take 3 of every 5 circles," but this doesn't really make sense because we can't divide 12 circles into groups of 5 circles each. It's easier to take <m>\frac 3 5</m> of each circle.
+</p>
+  
+<p>
+\fellow{add picture?}
+</p>
+  <paragraphs><title>Think/Pair/Share</title> <ol><li>Draw <m>\frac 5 8</m> of 4 circles in two different ways.  What is <m>\frac 5 8</m> of 4?<br /></li>
+<li>Draw <m>\frac 3 4</m> of 2 candy bars in two different ways.  What is <m>\frac 3 4</m> of 2?<br /></li>
+<li>Draw a rectangle and shade <m>\frac 2 3</m> of <m>\frac 3 4</m> of the rectangle.  What is <m>\frac 23 \cdot \frac 3 4</m>?</li>
+ </ol>  </paragraphs> </subsection> </section>

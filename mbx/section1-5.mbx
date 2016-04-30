@@ -1,0 +1,364 @@
+
+<section>
+<title>Careful use of Language in Mathematics</title><introduction>
+<p>
+This section might seem like a bit of a sidetrack from the idea of problem solving, but in fact it's not. Mathematics is a social endeavor. We don't just solve problems and then put them aside. Problem solving has (at least) three components:
+</p>
+  <ol><li>Solving the problem.  This involves lots of scratch paper and careful thinking.</li>
+<li>Convincing <em>yourself</em> that your solution is complete and correct.  This involves a lot of self-check and asking yourself questions.</li>
+<li>Convincing <em>someone else</em> that your solution is complete and correct.  This usually involves writing the problem up carefully or explaining your work in a presentation.</li>
+ </ol>   
+<p>
+If you're not able to do that last step, then you haven't really solved the problem. We'll talk more about how to write up a solution in the next section. Before we do that, we have to think about how mathematicians use language (which is, it turns out, a bit different from how language is used in the rest of life).
+</p>
+ </introduction> 
+<subsection>
+<title>Mathematical Statements</title>
+<definition><statement>
+<p>
+A <term>mathematical statement</term> is a complete sentence that is either true or false.
+</p>
+ </statement>
+</definition>
+  
+<p>
+So a "statement" in mathematics cannot be a question, a command, or a matter of opinion. It is a complete, grammatically correct sentence (with a subject, verb, and usually an object). It's important that the statement is either true or false, though you may not know which! (Part of the work of a mathematician is figuring out which sentences are true and which are false.
+</p>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+For each English sentence below, decide if it is a mathematical statement or not. If it is, is the statement true or false (or are you unsure)? If it is not, in what way does it fail?
+</p>
+  <ol><li>I like the color blue.</li>
+<li><m>60</m> is an even number.</li>
+<li>Is your dog friendly?</li>
+<li>Honolulu is the capital of Hawaii.</li>
+<li>This sentence is false.</li>
+<li>Roses are red.</li>
+<li>UH Manoa is the best college in the world.</li>
+<li><m>1/2 = 2/4</m>.</li>
+<li>Go to bed.</li>
+<li>There are a total of 204 squares on an <m>8 \times 8</m> chess board.</li>
+ </ol>   
+<p>
+Now, work with a partner. Write three mathematical statements and three English sentences that fail to be mathematical statements.
+</p>
+ </paragraphs>  
+<p>
+Notice that "<m>1/2 = 2/4</m>" is a perfectly good mathematical statement. It doesn't look like an English sentence, but read it out loud. The subject is "<m>1/2</m>." The verb is "equals." And the object is "<m>2/4</m>." This is a very good test when you write mathematics: try to read it out loud. Even the equations should read naturally, like English sentences.
+</p>
+  
+<p>
+Statement (5) is different from the others. It is called a <em>paradox</em>: a statement that is self-contradictory. If it is true, then we conclude that it is false. (Why?) If it is false, then we conclude that it is true. (Why?) Paradoxes are no good as mathematical statements.
+</p>
+ </subsection> 
+<subsection>
+<title>Precision</title>
+<p>
+When we use words in an everyday situation, we often rely on context and shared understanding.
+The American Academy of Dermatology has this sentence on their web page:
+</p>
+  "One American dies of melanoma every hour."  
+<p>
+Taken literally (as a mathematician would), this statement makes an absurd claim: There is one person in America who keeps dying over and over. In fact, he dies <em>every single hour</em>.
+</p>
+  
+<p>
+A more precise statement would be this:
+"Every hour, someone in America dies of melanoma."
+</p>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+Compare the two sentences:
+</p>
+  <ul><li>"One American dies of melanoma every hour."</li>
+<li>"Every hour, someone in America dies of melanoma."</li>
+ </ul>  
+<p>
+What is the (subtle) difference? Why does that small difference change the meaning so dramatically?
+</p>
+ </paragraphs>  
+<p>
+If we're working on mathematical problem, we need to work with clear and correct statements. We cannot make assumptions about context or shared understanding. We have to say exactly what we mean.
+</p>
+ </subsection> 
+<subsection>
+<title>On Your Own</title>
+<p>
+Work on the exercises below to reinforce the idea of using precise language.
+</p>
+  <ol><li>Consider this ambiguous sentence:
+<em>"The man saw
+the woman with a telescope."</em> 
+Find two unambiguous (but natural sounding) sentences equivalent to the sentence above, one in which the
+ man has the telescope, and one in which  the woman
+has the telescope.</li>
+<li>Here are three ambiguous newspaper headlines.  For each one, rewrite it in a way that avoids the unintended second meaning.  But keep it short and pithy, like a newspaper headline should be.
+
+<ol><li>Sisters reunited after 10 years in checkout line of Longs Drugs.</li>
+<li>Large hole appears on H-1.  County authorities are looking into it.</li>
+<li>Governor Abercrombie says bus passengers should be belted.</li>
+ </ol> </li>
+<li>This hospital notice says exactly the opposite of what it means to say.
+ <em>"No head injury is too trivial to ignore."</em> 
+Rewrite the sentence so it would still fit on the sign, but would convey its intended meaning.</li>
+ </ol>  </subsection> 
+<subsection>
+<title>And / or</title>
+<p>
+Consider this sentence
+</p>
+  <em>"After work, I will go to the beach or I will do my grocery shopping."</em> 
+<p>
+In everyday English, that probably means that if I go to the beach, I will not go shopping. I will do one or the other, but not both activities. This is called an "exclusive or."
+</p>
+  
+<p>
+We can usually tell from context whether a speaker means "either one or the other or both," or whether he means "either one or the other but not both." (Some people use the awkward phrase "and/or" to describe the first option.)
+</p>
+  
+<p>
+Remember that in mathematical communication, though, we have to be very precise. We cannot rely on context or assumptions about what is implied or understood.
+</p>
+  
+<definition><statement>
+<p>
+In mathematics, the word "or" <term>always means</term> "either one or the other or both."
+</p>
+ </statement>
+</definition>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+For each sentence below:
+</p>
+  <ul><li>Decide if the choice <m>x = 3</m> makes the statement true or false.</li>
+<li>Choose a different value of <m>x</m> that makes the statement true (or say why that's not possible).</li>
+<li>Choose a different value of <m>x</m> that makes the statement false (or say why that's not possible).</li>
+ </ul>   <ol><li><m>x</m> is odd or <m>x</m> is even.</li>
+<li><m>x</m> is odd and <m>x</m> is even.</li>
+<li><m>x</m> is prime or <m>x</m> is negative.</li>
+<li><m>x >5</m> or <m>x \lt  5</m>.</li>
+<li><m>x >5</m> and <m>x \lt  5</m>.</li>
+<li><m>x + 1 = 7</m> or <m>x - 1 = 7</m>.</li>
+<li><m>x \cdot 1 = x</m> or <m>x \cdot 0 = x</m>.</li>
+<li><m>x \cdot 1 = x</m> and <m>x \cdot 0 = x</m>.</li>
+ </ol>  </paragraphs> </subsection> 
+<subsection>
+<title>Quantifiers</title>
+<problem><title>All About the Benjamins</title>
+<statement>
+<p>
+You are handed an envelope filled with money, and you are told "Every bill in this envelope is a \$100 bill."
+</p>
+  <ul><li>What would convince you <em>beyond any doubt</em> that the sentence is true?  How could you convince someone else that the sentence is true?</li>
+<li>What would convince you <em>beyond any doubt</em> that the sentence is false?  How could you convince someone else that the sentence is false?</li>
+ </ul>   
+<p>
+Suppose you were given a different sentence: "There is a \$100 bill in this envelope."
+</p>
+  <ul><li>What would convince you <em>beyond any doubt</em> that the sentence is true?  How could you convince someone else that the sentence is true?</li>
+<li>What would convince you <em>beyond any doubt</em> that the sentence is false?  How could you convince someone else that the sentence is false?</li>
+ </ul>  </statement>
+</problem>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+After you have thought about the problem on your own for a while, talk through your ideas with a partner. What is the difference between the two sentences? How does that difference affect your method to decide if the statement is true or false?
+</p>
+ </paragraphs>  
+<p>
+Some mathematical statements have this form:
+</p>
+  <ul><li>"Every time..."</li>
+<li>"For all numbers..."</li>
+<li>"For every choice..."</li>
+<li>"It's always true that..."</li>
+ </ul>  
+<p>
+These are <em>universal statements</em>. Such statements claim that something is always true, no matter what.
+</p>
+  <ul><li>To prove a <em>universal statement</em> is false, you must find an example where it fails.  This is called a <b>counterexample</b> to the statement.</li>
+<li>To prove a <em>universal statement</em> is true, you must either check every single case, or you must find a <b>logical reason</b> why it would be true.  (Sometimes the first option is impossible, because there might be infinitely many cases to check.  You would never finish!)</li>
+ </ul>   
+<p>
+Some mathematical statements have this form:
+</p>
+  <ul><li>"Sometimes..."</li>
+<li>"There is some number..."</li>
+<li>"For some choice..."</li>
+<li>"At least once..."</li>
+ </ul>  
+<p>
+These are <em>existential statements</em>. Such statements claim there is some example where the statement is true, but it may not always be true.
+</p>
+  <ul><li>To prove an <em>existential statement</em> is true, you may just find the example where it works.</li>
+<li>To prove an <em>existential statement</em> is false, you must either show it fails in every single case, or you must find a <b>logical reason</b> why it can't be true.  (Sometimes the first option is impossible!)</li>
+ </ul>   <paragraphs><title>Think/Pair/Share</title>
+<p>
+For each statement below, do the following:
+</p>
+  <ul><li>Decide if it is a <em>universal statement</em> or an <em>existential statement</em>.  (This can be tricky because in some statements the quantifier is "hidden" in the meaning of the words.)</li>
+<li>Decide if the statement is true or false, and do your best to justify your decision.</li>
+ </ul>   <ol><li>Every odd number is prime.</li>
+<li>Every prime number is odd.</li>
+<li>For all positive numbers <m>x</m>, <m>x^3 > x</m>.</li>
+<li>There is some number <m>x</m> such that <m>x^3 = x</m>.</li>
+<li>The points <m>(-1,1)</m>, <m>(2,1)</m>, and <m>(3,0)</m> all lie on the same line.</li>
+<li>Addition (of real numbers) is commutative.</li>
+<li>Division (of real numbers) is commutative.</li>
+ </ol>   
+<p>
+Look back over your work. you will probably find that some of your arguments are sound and convincing while others are less so. In some cases you may "know" the answer but be unable to justify it. That's okay for now! Divide your answers into four categories:
+</p>
+  <ol type="a"><li>I am confident that the justification I gave is good.</li>
+<li>I am not confident in the justification I gave.</li>
+<li>I am confident that the justification I gave is <em>not</em> good, or I could not give a justification.</li>
+<li>I could not decide if the statement was true or false.</li>
+ </ol>  </paragraphs> </subsection> 
+<subsection>
+<title>Conditional statements</title>
+<problem><title>Card Logic</title>
+<statement>
+<p>
+These cards are on a table.
+</p>
+  <image source="images/" /> 
+<p>
+Your friend claims: "If a card has a vowel on one side, then it has an even number on the other side." Which cards <em>must</em> you flip over to be certain that your friend is telling the truth?
+</p>
+ </statement>
+</problem>
+  
+<p>
+\fellow{Picture is stolen from a long-forgotten source. Can we re-create it so it's not any kind of copyright violation?}
+</p>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+After you have thought about the problem on your own for a while, discuss your ideas with a partner. Do you agree on which cards you must check? Try to come to agreement on an answer you both believe.
+</p>
+ </paragraphs>  
+<p>
+Here is another very similar problem, yet people seem to have an easier time solving this one:
+</p>
+  
+<problem><title>IDs at a Party</title>
+<statement>
+<p>
+You are in charge of a party where there are young people. Some are drinking alcohol, others soft
+drinks. Some are old enough to drink alcohol legally, others are under age. You are responsible for
+ensuring that the drinking laws are not broken, so you have asked each person to put his or her
+photo ID on the table. At one table, there are four young people:
+</p>
+  <ul><li>One person has a beer, another has a
+Coke, but their IDs happen to be face down so you cannot see their ages.</li>
+<li>You can, however, see the
+IDs of the other two people. One is under the drinking age, the other is above it. Unfortunately,
+you are not sure if they are drinking Seven-up or vodka and tonic.</li>
+ </ul>  
+<p>
+Which IDs and/or drinks do you
+need to check to make sure that no one is breaking the law?
+</p>
+ </statement>
+</problem>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+After you have thought about the problem on your own for a while, discuss your ideas with a partner. Do you agree on which cards you must check? Compare these two problems.
+Which question is easier and why?
+</p>
+ </paragraphs>  
+<definition><statement>
+<p>
+A <term>conditional statement</term> can be written in the form
+</p>
+  If <m>\underbrace{\quad some statement \quad}_{\text{hypothesis} }</m> then <m>\underbrace{\quad some statement  \quad}_{\text{conclusion} }</m>. </statement>
+</definition>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+These are each conditional statements, though they are not all stated in "if/then" form. Identify the hypothesis of each statement. (You may want to rewrite the sentence as an equivalent "if/then" statement.)
+
+</p>
+  <ol><li>If the tomatoes are red, then they are ready to eat.<br />
+The tomatoes are red. &nbsp;&nbsp;&nbsp; / &nbsp;&nbsp;&nbsp; The tomatoes are ready to eat.</li>
+<li>An integer <m>n</m> is even if it is a multiple of 2.<br />
+<m>n</m> is even. &nbsp;&nbsp;&nbsp; / &nbsp;&nbsp;&nbsp; <m>n</m> is a multiple of 2.</li>
+<li>If <m>2^n - 1</m> is prime, then <m>n</m> is prime.<br />
+<m>n</m> is prime. &nbsp;&nbsp;&nbsp; / &nbsp;&nbsp;&nbsp; <m>2^n-1</m> is prime.</li>
+<li>The team wins when JJ plays.<br />
+The team wins. &nbsp;&nbsp;&nbsp; / &nbsp;&nbsp;&nbsp; JJ plays.</li>
+ </ol>  </paragraphs>  
+<p>
+Remember that a mathematical statement must have a definite truth value. It's either true or false, with no gray area (even though we may not be sure which is the case). How can you tell if a conditional statement is true or false? Surely, it depends on whether the <em>hypothesis</em> and the <em>conclusion</em> are true or false. But how, exactly, can you decide?
+</p>
+  
+<p>
+The key is to think of a conditional statement like a promise, and ask yourself: under what condition(s) will I have broken my promise?
+</p>
+  
+<example><statement>
+<p>
+Here is a conditional statement:
+</p>
+  "If <m>\underbrace{\text{I win the lottery} }_{\text{hypothesis} }</m>, then <m>\underbrace{\text{I'll give  each of my students \dollar1,000} }_{\text{conclusion} }</m>."  
+<p>
+There are four things that can happen:
+</p>
+  <ul><li class="custom-list-style-type" label="True hypothesis, true conclusion" >I do win the lottery, and I do give everyone in class \$1,000.   I kept my promise, so the conditional statement is TRUE.</li>
+<li class="custom-list-style-type" label="True hypothesis, false conclusion" >I do win the lottery, but I decide <b>not to</b> give everyone in class \$1,000.   I broke my promise, so the conditional statement is FALSE.</li>
+<li class="custom-list-style-type" label="False hypothesis, true conclusion" >I don't win the lottery, but I'm exceedingly generous, so I go ahead and give everyone in class \$1,000.  I didn't break my promise!  (Do you see why?)  So the conditional statement is TRUE.</li>
+<li class="custom-list-style-type" label="False hypothesis, false conclusion" >I don't win the lottery,  so I don't give everyone in class \$1,000.  I didn't break my promise!  (Do you see why?)  So the conditional statement is TRUE.</li>
+ </ul>  </statement>
+</example>
+  
+<p>
+What can we conclude from this? <b>A conditional statement is false only when the hypothesis is true and the conclusion is false.</b> In every other instance, the promise (as it were) has not been broken. If the statement is not false, it must be true.
+</p>
+  
+<example><statement>
+<p>
+Here's another conditional statement:
+</p>
+  "If you live in Honolulu, then you live in Hawaii." 
+<p>
+Is this statement true or false? It seems like it should depend on who the pronoun "you" refers to, and whether that person lives in Honolulu or not. Let's think it through:
+</p>
+  <ul><li>Sookim lives in Honolulu, so the hypothesis is true.  Since Honolulu is in Hawaii, she does live in Hawaii.  The statement is true about Sookim, since both the hypothesis and conclusion are true.</li>
+<li>DeeDee lives in Los Angeles.  The statement is true about DeeDee since the hypothesis is false.</li>
+ </ul>   
+<p>
+So in fact it doesn't matter! The statement is true either way. The right way to understand such a statement is as a <em>universal statement</em>: "Everyone who lives in Honolulu lives in Hawaii."
+</p>
+  
+<p>
+This statement is true, and here's how you might justify it: "Pick a random person who lives in Honolulu. That person lives in Hawaii (since Honolulu is in Hawaii), so the statement is true for that person. I don't need to consider people who don't live in Honolulu. The statement is <em>automatically</em> true for those people, because the hypothesis is false!"
+</p>
+ </statement>
+</example>
+  
+<example><statement>
+<p>
+How do we show a (universal) conditional statement is false? You need to give a specific instance where the hypothesis is true and the conclusion is false. For example:
+</p>
+  "If you are a good swimmer, then you are a good surfer." 
+<p>
+Do you know someone for whom the hypothesis is true (that person is a good swimmer) but the conclusion is false (the person is not a good surfer)? Then the statement is false!
+</p>
+ </statement>
+</example>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+For each conditional statement, decide if it is true or false. Justify your answer.
+</p>
+  <ol><li>If <m>2 \times 2 = 4</m> then <m>1 + 1 = 3</m>.</li>
+<li>If <m>2 \times 2 = 5</m> then <m>1 + 1 = 3</m>.</li>
+<li>If <m>\pi > 3</m> then all odd numbers are prime.</li>
+<li>If <m>\pi \lt  3</m> then all odd numbers are prime.</li>
+<li>If the units digit of a number is 4, then the number is even.</li>
+<li>If a number is even, then the units digit of that number is 4.</li>
+<li>If the product of two numbers is 0, then one of the numbers is 0.</li>
+<li>If the sum of two numbers is 0, then one of the numbers is 0.</li>
+<li>If you are tall, then you have long hair.</li>
+ </ol>  </paragraphs>  <paragraphs><title>Think/Pair/Share</title>
+<p>
+[Two truths and a lie]
+On your own, come up with two conditional statements that are true and one that is false. Share your three statements with a partner, but don't say which are true and which is false. See if your partner can figure it out!
+</p>
+ </paragraphs> </subsection> </section>

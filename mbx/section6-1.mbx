@@ -1,0 +1,138 @@
+
+<section xml:id="sec__review">
+<title>Review of Dots <ampersand /> Boxes Model</title><introduction>
+<p>
+Let's start with a quick review of place value, different bases, and our "Dots &amp; Boxes" model for thinking about these ideas.
+</p>
+  <div class="quote"><b>The <m>1 \leftarrow 2</m> Rule (Base 2):<br />
+Whenever there are two dots in single box, they "explode," disappear, and become one dot in the box to the left.</b></div>  
+<example><title>Nine Dots in the $1 \leftarrow 2$ System</title>
+<statement>
+<p>
+We start by placing nine dots in the rightmost box.
+</p>
+  <image source="images/" /> 
+<p>
+Two dots in that box explode and become one dot in the box to the left.
+</p>
+  <image source="images/" /> 
+<p>
+Since there are more than two dots in the rightmost box, it can happen again.
+</p>
+  <image source="images/" /> 
+<p>
+And again!
+</p>
+  <image source="images/" /> 
+<p>
+Now we have more than two dots in the second box, so those can explode and move!
+</p>
+  <image source="images/" /> 
+<p>
+And the rightmost box still has more than two dots.
+</p>
+  <image source="images/" /> 
+<p>
+Keep going, until no box has two dots.
+</p>
+  <image source="images/" /> 
+
+<image source="images/" /> 
+<p>
+After all this, reading from left to right we are left with one dot, followed by zero
+dots, zero dots, and one final dot. This process lets us write the number of dots (nine) as a base-two or binary number:
+</p>
+  
+<me>
+
+9_\text{ten}  = 1001_\text{two} 
+
+</me>
+ </statement>
+</example>
+  <div class="quote"><b>The <m>1 \leftarrow 3</m> Rule (Base 3):<br />
+Whenever there are three dots in single box, they "explode," disappear, and become one dot in the box to the left.</b></div>  
+<example><title>Fifteen Dots in the $1 \leftarrow 3$ System</title>
+<statement>
+<p>
+Here's what happens with fifteen dots:
+</p>
+  <image source="images/" />  
+<p>
+Here's how we write fifteen in base 3:
+</p>
+  
+<me>
+
+15_\text{ten}  = 120_\text{three} .
+
+</me>
+ </statement>
+</example>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+Work through the two examples above carefully to be sure you remember and understand how the "Dots &amp; Boxes" model works. Then answer these questions:
+</p>
+  <ul><li>When we write 9 in base 2, why do we write <m>1001_\text{two} </m> instead of just <m>11_\text{two} </m>?<br /></li>
+<li>When we write 15 in base 3, why do we write <m>120_\text{three} </m> instead of just <m>12_\text{three} </m>?<br /></li>
+<li>How many different <em>digits</em> do you need in a base 7 system?  In a base 12 system?  In a base <m>b</m> system?  How do you know?</li>
+ </ul>  </paragraphs> </introduction> 
+<subsection>
+<title>On Your Own</title>
+<p>
+Work on the following exercises on your own or with a partner.
+</p>
+  <ol><li>In base 4, four dots in one box are worth one dot in the box one place
+to the left. 
+<ol type="a"><li>What is the value of each box?
+<image source="images/" /> <br /> </li>
+<li>How do you write <m>29_\text{ten} </m> in base 4?<br /></li>
+<li>How do you write <m>132_\text{four} </m> in base 10?<br /></li>
+ </ol> </li>
+<li>In our familiar base 10 system, ten dots in one box are worth one dot in the box one place
+to the left. 
+<ol type="a"><li>What is the value of each box?
+<image source="images/" /> <br /> </li>
+<li>When we write the number 7842, what quantity does the  "7" represent? The "4" is
+four groups of what value? The "8" is eight groups of what value? The "2" is two
+groups of what value?<br /></li>
+ </ol> </li>
+<li>Write the following numbers of dots in base 2, base 3, base 5, and base 8.  Draw the "Dots &amp; Boxes" model if it helps you remember how to do this!  (Note: these numbers are all written in base 10.  When we don't say otherwise, you should assume base 10.)
+
+<table id="95754863530240a0a1555962d1b9fc9f106e823b" ><tr><td class='l'>
+(a) 2
+  
+</td><td class='l'>(b) 17</td></tr>
+<tr><td class='l'>
+</td></tr>
+<tr><td class='l'>
+(c)
+27
+  
+</td><td class='l'>(d) 63</td></tr>
+</table> <br /> </li>
+<li>Convert these numbers to our more familiar base ten system.  Draw out dots and boxes and "unexplode" the dots if it helps you remember!
+
+<table id="4c6622624c069e4b08253a3ea68b6deae562cdfb" ><tr><td class='l'>
+(a) <m>1101_\text{two} </m>
+  
+</td><td class='l'>(b) <m>102_\text{three} </m></td></tr>
+<tr><td class='l'>
+</td></tr>
+<tr><td class='l'>
+(c)
+<m>24_\text{five} </m>
+  
+</td><td class='l'>(d) 
+<m>24_\text{nine} </m></td></tr>
+</table> <br /> </li>
+ </ol>   <paragraphs><title>Think/Pair/Share</title>
+<p>
+Quickly compute each of the following. Write your answer in the same base as the problem.
+</p>
+  <ul><li><m>131_\text{ten}  \text{ times ten} </m><br /></li>
+<li><m>263207_\text{eight}  \text{ times eight} </m><br /></li>
+<li><m>563872_\text{nine}  \text{ times nine} </m><br /></li>
+<li>Use the <m>1 \leftarrow 10</m> system to explain why multiplying a whole number in base 10 by 10 results in simply appending a zero to the right end of the number.<br /></li>
+<li>Suppose you have a whole number written in base <m>b</m>.  What is the effect of multiplying that number  by <m>b</m>?  Justify what you say.</li>
+ </ul>  </paragraphs> </subsection> </section>

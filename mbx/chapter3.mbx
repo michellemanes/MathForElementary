@@ -1,0 +1,48 @@
+
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" >
+<title>Numbers <ampersand /> Operations</title><introduction>
+<p>
+\fellow{Formatting: can we put things marked "Problem" in a box (maybe with some color?) to set it apart? Same with the Think/Pair/Share (different color?) and Solutions.}
+</p>
+  
+<p>
+When learning and teaching about arithmetic, it helps to have mental and physical <em>models</em> for what the operations mean. That way, when you are presented with an unfamiliar problem or a question about why something is true, you can often work it out using the model &#8202;&#x2014;&#8202; this might mean dawning pictures, using physical materials (manipulatives), or just thinking about the model to help you reason out the answer.
+</p>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+Write down your mental models for each of the four basic operations. What do they actually <em>mean</em>? How would you explain them to a second grader? What pictures could you draw for each operation? Think about each one separately, as well as how they relate to each other:
+</p>
+  <ul><li>addition</li>
+<li>subtraction</li>
+<li>multiplication, and</li>
+<li>division.</li>
+ </ul>   
+<p>
+After writing down your own ideas, share them with a partner. Do you and your partner have the same models for each of the operations or do you think about them differently?
+</p>
+ </paragraphs>  
+<p>
+Teachers should have lots of mental models &#8202;&#x2014;&#8202; lots of ways to explain the same concept. In this chapter, we'll look at some different ways to understand the four basic arithmetic operations.
+First, let's define some terms:
+</p>
+  
+<definition><statement>
+<p>
+<term>Counting numbers</term> are literally the numbers we use for counting: <m>1, 2, 3, 4, 5, \dots</m>. These are sometimes called the <term>natural numbers</term> by mathematicians, and they are represented by the symbol <m>\mathbb N</m>.
+</p>
+  
+<p>
+<term>Whole numbers</term> are the counting numbers together with <m>0</m>.
+</p>
+  
+<p>
+<term>Integers</term> include the positive and negative whole numbers, and mathematicians represent these with the symbol <m>\mathbb Z</m>. (This comes from German, where the word for "number" is "z&auml;hlen.")
+</p>
+ </statement>
+</definition>
+ </introduction> <xi:include  href="section3-1.mbx" />
+ <xi:include  href="section3-2.mbx" />
+ <xi:include  href="section3-3.mbx" />
+ <xi:include  href="section3-4.mbx" />
+ <xi:include  href="section3-5.mbx" />
+ </chapter>

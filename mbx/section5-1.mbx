@@ -1,0 +1,70 @@
+
+<section>
+<title>Borders on a Square</title>
+<p>
+Here's another problem.
+</p>
+  
+<problem xml:id="prob__border"><statement>
+<p>
+Here is a large square made up of <m>100</m> smaller unit squares. The unit squares along the border of the large square are colored red. Without counting one-by-one, can you figure out how many red squares there are in the picture?
+Clearly describe how you figured out the number of red squares, and how you know your answer is correct.
+</p>
+  <image source="images/" /> </statement>
+</problem>
+  
+<p>
+Justin calculated the number of squares as <m>(10 \times 4) - 4</m>. He justified his answer this way:
+</p>
+  <em>Since the dimensions of the big square are <m>10 \times 10</m>, there are <m>10</m> squares along each of the four sides.  So that gives me <m>10 \times 4</m> red squares.  But then each corner is part of two different sides.  I've counted each of the corners twice.  So I need to make up for that by subtracting <m>4</m> at the end.</em>  
+<p>
+Justin showed this picture to justify his work.
+</p>
+  <image source="images/" />  <paragraphs><title>Think/Pair/Share</title>
+<p>
+Discuss these questions with your partner:
+</p>
+  <ul><li>What do you think about Justin's solution?  Are you convinced?  Could he have explained it more clearly?<br /></li>
+<li>Was Justin's solution different from your solution or the same?  Discuss Justin's solution and your own solution with a partner.<br /></li>
+<li>Notice the color coding in Justin's picture.  What do the colors represent?  Why did he use the colors the way he did?<br /></li>
+ </ul>  </paragraphs>  
+<problem><statement>
+<p>
+There are lots of different ways to calculate the number of colored squares along the border of a <m>10\times 10</m> square. Below are the calculations several other students did. For each calculation, write a justification and draw a picture to show why it calculates the number of squares correctly. Think about using color in your picture to make your work more clear.
+</p>
+  <ol type="a"><li>Valerie calculated <m>10 + 10 + 8 + 8</m>.<br /></li>
+<li>Kayla calculated <m>4 \times 9</m>.<br /></li>
+<li>Linda calculated <m>(10\times 10 ) - ( 8 \times 8 )</m>.<br /></li>
+<li>Mark calculated <m>(4 \times 8) + 4</m>.<br /></li>
+<li>Allan calculated <m>10+9+9+8</m>.</li>
+ </ol>  </statement>
+</problem>
+  
+<problem><statement>
+<p>
+Now suppose that you have a large <m>6 \times 6</m> square with the unit squares along the border colored red. Adapt two of the techniques above to calculate the number of red unit squares.
+For each technique you used, write an explanation and include a picture. Think about how to use colors or other methods to make your picture and explanation more clear.
+</p>
+ </statement>
+</problem>
+  
+<problem><statement>
+<p>
+Now suppose that you have a large <m>25 \times 25</m> square with the unit squares along the border colored red. Adapt two of the techniques above to calculate the number of red unit squares.
+For each technique you used, write an explanation and include a picture. Think about how to use colors or other methods to make your picture and explanation more clear.
+</p>
+ </statement>
+</problem>
+  
+<problem><statement> <ol type="a"><li>Suppose that you have 64 red squares.  Can you use all of those squares to make the border of a larger square in a picture like the one above?  If yes, what are the dimensions of the larger square?  If no, why not?<br /></li>
+<li>What if you have 30 red squares?  Same questions.<br /></li>
+<li>What if you have 256 red squares?  Same questions.<br /></li>
+ </ol>  </statement>
+</problem>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+With a partner, see if you can describe some general rules:
+</p>
+  <ul><li>If you have a large <m>n \times n</m> square with the border squares colored red, how many red squares will there be?  Justify your answer with words and a picture.<br /></li>
+<li>If you have <m>k</m> red squares, is there a quick test you can do to decide if you can use all of those squares to make the border of a large square?  Can you tell how big the square will be?</li>
+ </ul>  </paragraphs> </section>

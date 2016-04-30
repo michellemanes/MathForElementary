@@ -1,0 +1,39 @@
+
+<section>
+<title>Exploration</title>
+<problem><statement>
+<p>
+Jay decides to play with a system that follows a <m>1 \leftarrow 1</m> rule. He
+puts one dot into the right-most box. What happens?
+</p>
+  <image source="images/" /> </statement>
+</problem>
+  
+<problem xml:id="prob_base1.5"><statement>
+<p>
+Poindexter decides to play with a system that follows
+the rule <m>2\leftarrow 3</m>.
+</p>
+  <ol type="a"><li>Describe what this rule does when there are three dots in the right-most box.</li>
+<li>Draw diagrams or use buttons or pennies to find the <m>2\leftarrow 3</m> codes for the
+following numbers:
+
+<me>
+
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 24, 27, 30, 33, 36, \text{ and } 
+39
+
+</me>
+ 
+Can you find (and <em>explain</em>) any patterns?</li>
+ </ol>  </statement>
+</problem>
+  
+<problem><statement>
+<p>
+Repeat <xref ref="prob_base1.5">problem</xref> for your own rule. Choose two numbers <m>a</m> and <m>b</m> and figure
+out what the code is for your <m>a\leftarrow b</m> system for each of the numbers above.
+</p>
+ </statement>
+</problem>
+ </section>

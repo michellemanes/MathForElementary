@@ -1,0 +1,91 @@
+
+<section>
+<title>Problem Bank</title>
+<p>
+<xref ref="prob_vet1">Problems</xref>&#x2013; <xref ref="prob_vet3"></xref> ask you to solve problems about a crazy veterinarian who created three mystifying machines.
+</p>
+  <ul><li class="custom-list-style-type" label="Cat Machine" >Place a cat in the input bin of this machine, press the button, and out jump two dogs and a mouse. <br /></li>
+<li class="custom-list-style-type" label="Dog Machine" >This machine  converts a dog into a cat and a mouse.<br /></li>
+<li class="custom-list-style-type" label="Mouse Machine" >This machine can convert a mouse into a cat and three dogs. <br /></li>
+ </ul>  
+<p>
+Each machine can also operate in reverse. For example, if you have two dogs and a mouse, you can use the first machine to convert them into a cat.
+</p>
+  
+<problem xml:id="prob_vet1"><statement>
+<p>
+The veterinarian hands you two cats, and asks you to convert them into exactly three dogs (no extra dogs and no other animals). Can you do it? If yes, say what process you would use. If no, say why not.
+</p>
+ </statement>
+</problem>
+  
+<problem xml:id="prob_vet2"><statement>
+<p>
+The veterinarian hands you one dog. He says he only wants cats, but he doesn't care how many. Can you help him? How?
+</p>
+ </statement>
+</problem>
+  
+<problem xml:id="prob_vet3"><statement>
+<p>
+The veterinarian hands you one cat. He says he only wants dogs, but he doesn't care how many. Can you help him? How?
+</p>
+ </statement>
+</problem>
+  
+<p>
+<xref ref="prob_toothpics1">Problems</xref>&#x2013; <xref ref="prob_toothpics4"></xref> present several growing patterns made with toothpicks. For each problem you work on, do the following:
+</p>
+  <ol type="a"><li>Describe in words and pictures how you see the pattern growing.<br /></li>
+<li>Calculate the number of toothpicks you would need to build the 10th figure in the pattern.  Justify your answer based on how the pattern grows.<br /></li>
+<li>Calculate the number of toothpicks you would need to build the 100th figure in the pattern.  <br /></li>
+<li>Describe how you can figure out the number of toothpicks in any figure in the pattern.  Be sure to justify your answer based on how the pattern grows.<br /></li>
+<li>Could you make one of the figures in the pattern using exactly 25 toothpicks?  If yes, which figure?  If no, why not?  Justify your answer.<br /></li>
+<li>Could you make one of the figures in the pattern using exactly 100 toothpicks?  If yes, which figure?  If no, why not?    Justify your answer.<br /></li>
+ </ol>   
+<problem xml:id="prob_toothpics1"><statement> <image source="images/" /> </statement>
+</problem>
+  
+<problem xml:id="prob_toothpics2"><statement> <image source="images/" /> </statement>
+</problem>
+  
+<problem xml:id="prob_toothpics3"><statement> <image source="images/" /> </statement>
+</problem>
+  
+<problem xml:id="prob_toothpics4"><statement> <image source="images/" /> </statement>
+</problem>
+  
+<p>
+In a <em>mobile</em>, the arms must be perfectly balanced for it to hang properly. The artist Alexander Calder was famous for his artistic mobiles.You can view some of his amazing work at \url{http://calder.org/work/by-category/hanging-mobile}. Click "Explore Works."
+</p>
+  
+<p>
+<xref ref="prob_mobile1">Problems</xref>&#x2013; <xref ref="prob_mobile2"></xref> present you with mobile puzzles. In these puzzles:
+</p>
+  <ul><li>Objects that are the same shape have the same weight.  (So all circles weigh the same, all squares weigh the same, etc.) <br /></li>
+<li>Assume the strings and rods that hold the objects together don't factor into the total weight.<br /></li>
+<li>Each arm of the mobile must have exactly the same weight.</li>
+ </ul>   
+<problem xml:id="prob_mobile1"><statement>
+<p>
+In this puzzle:
+</p>
+  <ul><li>The total weight is 36 grams.</li>
+<li>All shapes weigh less than 10 grams.</li>
+<li>All of the weights are whole numbers.</li>
+<li>One circle weighs more than one square.</li>
+ </ul>  
+<p>
+Find the weight of each piece. Is there more than one answer? How do you know you are right?
+</p>
+  <image source="images/" /> </statement>
+</problem>
+  
+<problem xml:id="prob_mobile2"><statement>
+<p>
+In this puzzle, the total weight is 54 grams.
+Find the weight of each piece. Is there more than one answer? How do you know you are right?
+</p>
+  <image source="images/" /> </statement>
+</problem>
+ </section>

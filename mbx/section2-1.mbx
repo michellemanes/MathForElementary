@@ -1,0 +1,81 @@
+
+<section>
+<title>Dots and Boxes</title><introduction>
+<p>
+Here are some dots; in fact there's nine of them.
+</p>
+  <image source="images/" />  
+<p>
+Here are some boxes:
+</p>
+  <image source="images/" />  
+<p>
+We're going to a play a game in which boxes explode dots and move them around. Here's our first rule:
+</p>
+  
+<p>
+\fellow{Have the rules set off in a box somehow?}
+</p>
+  <div class="quote"><b>The <m>1 \leftarrow 2</m> Rule:<br />
+Whenever there are two dots in single box, they "explode," disappear, and become one dot in the box to the left.</b></div>  
+<example><title>Nine dots in the $1 \leftarrow 2$ system</title>
+<statement>
+<p>
+We start by placing nine dots in the rightmost box.
+</p>
+  <image source="images/" /> 
+<p>
+Two dots in that box explode and become one dot in the box to the left.
+</p>
+  <image source="images/" /> 
+<p>
+Since there are more than two dots in the rightmost box, it can happen again.
+</p>
+  <image source="images/" /> 
+<p>
+And again!
+</p>
+  <image source="images/" /> 
+<p>
+Hey, now we have more than two dots in the second box, so those can explode and move!
+</p>
+  <image source="images/" /> 
+<p>
+And the rightmost box still has more than two dots.
+</p>
+  <image source="images/" /> 
+<p>
+Keep going, until no box has two dots.
+</p>
+  <image source="images/" /> 
+
+<image source="images/" /> 
+<p>
+After all this, reading from left to right we are left with one dot, followed by zero
+dots, zero dots, and one final dot.
+</p>
+  The <m>1 \leftarrow 2</m> code for nine dots is:   1001 </statement>
+</example>
+ </introduction> 
+<subsection>
+<title>On Your Own</title>
+<p>
+Here's a diagram showing what happens for seven dots in a <m>1 \leftarrow 2</m> box. Trace through the diagram, and circle the pairs of dots that "exploded" at each step.
+</p>
+  <image source="images/" />  The <m>1 \leftarrow 2</m> code for seven dots is:   111  
+<problem><statement>
+<p>
+Note: In solving this problem, you don't need to draw on paper; that can get tedious! Maybe you could use buttons or pennies for dots and do this by hand. What could you use for the boxes?
+</p>
+  <ol type="a"><li>Draw 10 dots in the right-most box and perform the explosions. What
+is the <m>1 \leftarrow 2</m> code for  ten dots?</li>
+<li>Find the <m>1 \leftarrow 2</m> code for thirteen dots.</li>
+<li>Find the <m>1 \leftarrow 2</m> code for six dots.</li>
+<li>What number of dots has <m>1 \leftarrow 2</m> code 101?</li>
+ </ol>  </statement>
+</problem>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+After you worked on the problem, compare your answer with a partner. Did you both get the same code? Did you have the same process?
+</p>
+ </paragraphs> </subsection> </section>

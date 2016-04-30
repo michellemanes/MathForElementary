@@ -1,0 +1,117 @@
+
+<section xml:id="sec_Binary">
+<title>Binary Numbers</title><introduction>
+<p>
+Let's go back to the <m>1 \leftarrow 2</m> rule for a moment:
+</p>
+  <div class="quote"><b>The <m>1 \leftarrow 2</m> Rule:<br />
+Whenever there are two dots in single box, they "explode," disappear, and become one dot in the box to the left.</b></div>  
+<p>
+Two dots in the right-most box is worth one dot in the next box to the left.
+</p>
+  <image source="images/" /> 
+<p>
+If each of the original dots is worth "one," then the single dot on the left must be worth two.
+</p>
+  <image source="images/" /> 
+<p>
+But we also have two dots in the box of value 2 is worth 1 dot in the box just to the left...
+</p>
+  <image source="images/" /> 
+<p>
+So that next box must be worth two 2s, which is four!
+</p>
+  <image source="images/" /> 
+<p>
+And two of these fours make eight.
+</p>
+  <image source="images/" />  
+<example><statement>
+<p>
+We said earlier that the <m>1 \leftarrow 2</m> code for nine dots was 1001. Let's check:
+</p>
+  <image source="images/" />  
+<me>
+
+8 + 1 = 9,  \text{ so this works!} 
+
+</me>
+ 
+<p>
+We also said that thirteen has <m>1 \leftarrow 2</m> code 1101. This is correct.
+</p>
+  <image source="images/" />  
+<me>
+
+\text{Yep!}  \quad 8+4+1 = 13.
+
+</me>
+ </statement>
+</example>
+  
+<problem xml:id="prob_BinaryStart"><statement> <ol type="a"><li>If there were a box to the left of the 8 box, what would the value of that box be?</li>
+<li>What would be the value of a box <em>two</em> spots to the left of the 8 box?  Three spots to the left?</li>
+<li>What number has <m>1 \leftarrow 2</m> code 100101?</li>
+<li>What is the <m>1 \leftarrow 2</m> code for the number two hundred?</li>
+ </ol>  </statement>
+</problem>
+  
+<definition><statement>
+<p>
+Numbers written in the <m>1 \leftarrow 2</m> code are called <term>binary numbers</term> or <term>base two</term> numbers. (The prefix "bi" means "two.") From now on, when we want to indicate that a number is written in base two, we will write a subscript "two" on the number. So <m>1001_{\text{two} }</m> means "the number of dots that has <m>1\leftarrow 2</m> code 1001," which we already saw was nine.
+</p>
+ </statement>
+</definition>
+  
+<p>
+Important! When we read <m>1001_{\text{two} }</m> we say "one zero zero one base two." We don't say "one thousand and one," because "thousand" is not a binary number.
+</p>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+Compare you work on <xref ref="prob_BinaryStart">problem</xref> with a partner.
+</p>
+  <ul><li>Your first goal: come up with a <em>general method</em> to find the number of dots represented by any binary number.  Clearly describe your method.  Test your method out on these numbers, and check your work by actually "unexploding" the dots.
+
+<me>
+
+1_{\text{two} }
+\qquad
+101_{\text{two} }
+\qquad
+1011_{\text{two} }
+\qquad
+1111_{\text{two} }
+\qquad
+1101101_{\text{two} }
+
+</me>
+</li>
+<li>Explain why binary numbers only contain the digits 0 and 1.</li>
+<li>Here is a new (harder) goal: come up with a <em>general method</em> to find the binary number related to any number of dots <em>without actually going through the "exploding dot" process</em>.  Clearly describe your method.  Test your method out on these numbers, and find a way to check your work.
+
+<me>
+
+ \text{two dots }  = ???_{\text{two} }
+\qquad\quad
+ \text{seventeen dots }  = ???_{\text{two} }
+\qquad\quad
+ \text{sixty-four dots }  = ???_{\text{two} }
+ 
+</me>
+ 
+ 
+<me>
+
+ \text{sixty-three dots }  = ???_{\text{two} }
+\qquad\qquad
+ \text{one thousand dots }  = ???_{\text{two} }
+
+</me>
+</li>
+ </ul>  </paragraphs> </introduction> 
+<subsection>
+<title>Binary Numbers and Computers</title>
+<p>
+\fellow{Can you write a <em>short</em> description of the use of binary numbers in computers? Just a paragraph or two getting across the main ideas.}
+</p>
+ </subsection> </section>

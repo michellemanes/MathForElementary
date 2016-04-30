@@ -1,0 +1,423 @@
+
+<section>
+<title>Fraction Sense</title><introduction><paragraphs><title>Think/Pair/Share</title>
+<p>
+For each of the following problems, suppose <m>a</m> and <m>b</m> are both fractions that are between <m>0</m> and <m>1</m>, and suppose <m>a</m> is bigger than <m>b</m>. Decide which symbol should go in the <m>\square</m> for each equation: <m>></m>, <m>\lt </m>, or <m>=</m>. Justify your answer, and keep in mind that more than one symbol may be possible!
+</p>
+  <ol><li>Addition:
+
+<me>
+
+a + b \quad  \square \quad a,
+\qquad\qquad
+a + b \quad  \square \quad b,
+\qquad\qquad
+a + b \quad  \square \quad 0
+\qquad\qquad
+a + b \quad  \square \quad 1.
+
+</me>
+ <br /></li>
+<li>Subtraction:
+
+<me>
+
+a - b \quad  \square \quad a,
+\qquad\qquad
+a - b \quad  \square \quad b,
+\qquad\qquad
+a - b \quad  \square \quad 0
+\qquad\qquad
+a - b \quad  \square \quad 1.
+
+</me>
+ <br /></li>
+<li>Multiplication:
+
+<me>
+
+a\cdot b \quad  \square \quad a,
+\qquad\qquad
+a \cdot b \quad  \square \quad b,
+\qquad\qquad
+a \cdot b \quad  \square \quad 0
+\qquad\qquad
+a \cdot b \quad  \square \quad 1.
+
+</me>
+ <br /></li>
+<li>Division:
+
+<me>
+
+a\div b \quad  \square \quad a,
+\qquad\qquad
+a \div b \quad  \square \quad b,
+\qquad\qquad
+a \div b \quad  \square \quad 0
+\qquad\qquad
+a \div b \quad  \square \quad 1.
+
+</me>
+ <br /></li>
+ </ol>  </paragraphs> </introduction> 
+<subsection>
+<title>Multiplying and Dividing</title>
+<p>
+Elementary school students are often taught mental shortcuts like "multiplication makes things bigger." But is that necessarily true? You have to be careful as a teacher to make ideas simple for students to understand, but not so simple that you say things that are wrong!
+</p>
+  
+<p>
+Let's try some examples.
+</p>
+  
+<example><title>Multiplying by $\frac 5 4$</title>
+<statement>
+<p>
+Let's try it with 100:
+</p>
+  
+<me>
+
+\frac 5 4 \cdot 100 
+\quad
+= 
+\quad
+\frac{500}4 
+\quad
+= 
+\quad
+125.
+
+</me>
+ 
+<p>
+Yep, that's bigger than 100.
+</p>
+ </statement>
+</example>
+  
+<p>
+But of course this is only one example. How can we be sure that multiplying <em>any</em> (positive) number by <m>\frac 5 4</m> gives a result that's bigger than that number? That is, how can we be sure that
+</p>
+  
+<me>
+
+\frac 5 4 \cdot X
+\quad
+ > 
+ \quad
+ X \qquad \text{ for every choice of }  X?
+
+</me>
+ 
+<p>
+This is a <em>universal</em> statement, so one example is not enough to be sure it's true. We need an explanation! And here it is.
+</p>
+  
+<p>
+We can rewrite <m>\frac 54</m> as <m>1 + \frac 14</m>. So then
+</p>
+  
+<me>
+
+\frac 5 4 \cdot X 
+\quad
+=
+\quad
+\left(1 + \frac 1 4\right)\cdot X
+\quad
+=
+\quad
+X + \frac 1 4 \cdot X 
+\quad 
+=
+\quad
+X + \text{ more } .
+
+</me>
+ 
+<p>
+So the answer is bigger than <m>X</m>.
+</p>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+Go through each step in the series of calculations above, and explain what is going on. Where is the distributive law used? Where do we need the fact that <m>X</m> is a positive number? Then:
+</p>
+  <ol><li>Write a careful argument that multiplying a (positive) number by <m>\frac 8 5</m> gives a result that is larger than the original number.<br /></li>
+<li>Write a careful argument that multiplying a (positive) number by <m>\frac {20} 9</m> gives a result that is larger than the original number.<br /></li>
+ </ol>  </paragraphs>  
+<p>
+Does this rule hold for other fractions as well? Does multiplication always result in a larger number than the one being multiplied? Let's try another example.
+</p>
+  
+<example><title>Multiplying by $\frac 4 5$</title>
+<statement>
+<p>
+Again, we'll use 100 as our first test case:
+</p>
+  
+<me>
+
+\frac 4 5 \cdot 100 = \frac{400} 5 = 80.
+
+</me>
+ 
+<p>
+So in this case, the result is <em>smaller</em> than 100!
+</p>
+ </statement>
+</example>
+  
+<p>
+This counterexample shows that the following universal statement is <b>definitely false</b>:
+<em>Multiplying a positive number <m>X</m> by <m>\frac 4 5</m> gives a result that is bigger than <m>X</m>.</em>
+</p>
+  
+<p>
+We might ask the following:
+</p>
+  <em>Is it always true that  <m>\frac 4 5 \cdot X \lt  X</m> for a positive number <m>X</m>?</em>  
+<p>
+Notice, this is not the same question! We know that the answer is not <em>always</em> bigger than <m>X</m>. But we don't know it it is <em>always</em> smaller. It could be <em>sometimes</em> bigger and <em>sometimes</em> smaller. How can we be sure?
+</p>
+  
+<p>
+You might have already guessed what to do. We thought about <m>\frac 5 4</m> as "one plus a little bit." In a very similar way, we can think about <m>\frac 4 5</m> as "a little bit less than one," and use that to explain why, indeed, the result must always be smaller. Here we go:
+</p>
+  
+<p>
+Notice that <m>\frac 4 5 = 1 - \frac 1 5</m>. So we can write
+</p>
+  
+<me>
+
+\frac 4 5 \cdot X 
+\quad
+=
+\quad
+\left( 1 - \frac 1 5\right) \cdot X
+\quad 
+=
+\quad
+X - \frac 1 5\cdot X
+\quad
+=
+\quad
+X - \text{some smallish amount} ,
+
+</me>
+ 
+<p>
+and the result will be smaller than <m>X</m>.
+</p>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+Go through each step in the series of calculations above, and explain what is going on. Where is the distributive law used? Where do we need the fact that <m>X</m> is a positive number? Then:
+</p>
+  <ol><li>Write a careful argument that multiplying a (positive) number by <m>\frac 7 8</m> gives a result that is smaller than the original number.<br /></li>
+<li>Write a careful argument that multiplying a (positive) number by <m>\frac 5 9</m> gives a result that is smaller than the original number.<br /></li>
+ </ol>  </paragraphs>  
+<p>
+It may seem silly to write such careful arguments for things you already know to be true. Of course multiplying by a number less than one makes your answer smaller!
+</p>
+  
+<p>
+Well, let's make two comments:
+</p>
+  <ul><li>The fact that this is obvious to you (if it is!) comes from your years of experience with numbers.  When students first learn about fractions, it is "obvious" to them that multiplying makes things bigger.  In their experience, it has always done so!  Our intuition is based on our experiences, and cannot always be trusted!  That's why explanation and justification play such a crucial role in mathematics.</li>
+<li>Though many people think the results are obvious when dealing with multiplication, they can get completely turned upside down (so to speak) in dealing with division.  And it always helps to work through the relatively simple case first, before tackling the more difficult one.</li>
+ </ul>   
+<p>
+<b>Claim:</b> If we divide a positive number by some fraction less than one, the result is <em>bigger</em> than the original number.
+</p>
+  
+<p>
+Before trying to justify a claim, we should always check a few examples to see if we even believe that it's true. Testing these ideas out on the number 100 has worked well so far. Let's see what happens when we compute <m>100 \div \frac 4 5.</m>
+</p>
+  
+<me>
+
+\frac{100}{\frac 4 5} 
+\quad
+=
+\quad
+\frac{(100)\cdot 5}{\left(\frac 4 5\right)\cdot 5 }
+\quad 
+=
+\quad
+\frac{500}4 = 125.
+
+</me>
+ 
+<p>
+Indeed, the answer is larger, just as claimed above.
+</p>
+  
+<p>
+So how can we write a general argument? Well, just replace the 100 by <m>X</m>:
+</p>
+  
+<me>
+
+\frac{X}{\frac 4 5} 
+\quad
+=
+\quad
+\frac{(X)\cdot 5}{\left(\frac 4 5\right)\cdot 5 }
+\quad 
+=
+\quad
+\frac{5\cdot X}{4}
+\quad 
+=
+\quad
+\frac{5}4 \cdot X.
+
+</me>
+ 
+<p>
+And we know from our earlier work that <m>\frac 5 4 \cdot X</m> is bigger than <m>X</m> whenever <m>X</m> is a positive number.
+</p>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+Go through each step in the series of calculations above, and explain what is going on. Then:
+</p>
+  <ol><li>Write a careful argument that dividing a (positive) number by <m>\frac 7 9</m> gives a result that is larger than the original number.<br /></li>
+<li>Write a careful argument that multiplying a (positive) number by <m>\frac 8 5</m> gives a result that is smaller than the original number.<br /></li>
+ </ol>  </paragraphs> </subsection> 
+<subsection>
+<title>Fractions involving zero</title><paragraphs><title>Think/Pair/Share</title>
+<p>
+Mr.<nbsp />Kinsella is reviewing equivalent fractions with his class. He asks students for examples of fractions that are equivalent to<nbsp /><m>1</m>. One student suggests <m>\frac{0}{0}</m>. What is <b>most</b> important for him to consider in deciding how to respond? (Choose <em>one</em> answer, and be prepared to explain why your choice is the best one.)
+</p>
+  <ol type="a"><li>Any number divided by itself equals 1.  Even though you normally cannot divide by 0, you can divide 0 by 0.  So <m>\frac 0 0 = 1</m>.<br /></li>
+<li><m>\frac 0 0 = 0 </m>.<br /></li>
+<li><m>\frac 0 0 </m> is undefined because there is no single number that when multiplied by 0 is 0.<br /></li>
+<li>If you multiply the numerator and denominator by the same number, <m>\frac 0 0 </m> remains the same.</li>
+ </ol>  </paragraphs>  <paragraphs><title>Think/Pair/Share</title>
+<p>
+Some students are talking about the fraction <m>\frac 0{11}</m>.
+</p>
+  <ol type="a"><li>Cyril says that <m>\frac 0{11} = 2</m>.  Carefully explain why he is incorrect.<br /></li>
+<li>Ethel says that <m>\frac 0{11} = 17</m>.  Carefully explain why she is incorrect.<br /></li>
+<li>Wonhi says that <m>\frac 0{11} = 887231243</m>.  Carefully explain why he is incorrect.<br /></li>
+<li>Duane says that there is no answer to <m>\frac 0{11}</m>.  Carefully explain why he is incorrect.<br /></li>
+<li>What <em>is</em> the correct value for <m>\frac 0{11}</m>?</li>
+ </ol>  </paragraphs>  
+<p>
+Sharing zero pies among eleven boys gives zero pie per boy:
+</p>
+  
+<me>
+
+\frac 0 {11} = 0.
+
+</me>
+ 
+<p>
+The same reasoning would lead us to say:
+</p>
+  
+<me>
+
+\frac 0 b = 0 \quad \text{ for any positive number }  b.
+
+</me>
+ 
+<p>
+The "Pies Per Boy Model" offers one explanation: If there are no pies for us to share, no one gets any pie. It doesn't matter how many boys there are. No pie is no pie is no pie.
+</p>
+  
+<p>
+We can also justify this claim by thinking about a missing factor multiplication problem:
+</p>
+  
+<me>
+
+\frac 0 b 
+\quad 
+\text{ is asking us to fill in the blank: } 
+\quad
+\underline{\qquad} \cdot b = 0.
+
+</me>
+ 
+<p>
+The only way to fill that in and make a true statement is with a 0, so <m>\frac 0 b = 0</m>.
+</p>
+  
+<p>
+What if things are flipped the other way round?
+Does <m>\frac{a}0</m> make sense?
+</p>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+The same students are talking about the fraction <m>\frac 5 0</m>.
+</p>
+  <ol type="a"><li>Cyril says that <m>\frac 5 0  = 2</m>.  Use a missing factor multiplication problem to explain why he is incorrect.<br /></li>
+<li>Ethel says that <m>\frac 5 0 = 17</m>.  Use a missing factor multiplication problem to explain why she is incorrect.<br /></li>
+<li>Wonhi says that <m>\frac 5 0  = 887231243</m>.  Use a missing factor multiplication problem to explain why he is incorrect.<br /></li>
+<li>Duane says that there is no answer to <m>\frac 5 0</m>.  Use a missing factor multiplication problem to explain why he is <em>correct</em>.</li>
+ </ol>  </paragraphs>  
+<p>
+Students often learn in school that "dividing by 0 is undefined." But they learn this as a <em>rule</em>, rather than thinking about why it makes sense or how it connects to other ideas in mathematics. In this case, the most natural connection is to a multiplication fact:
+</p>
+  
+<me>
+
+\text{any number}  \cdot 0 = 0.
+
+</me>
+ 
+<p>
+That says we can never find solutions to problems like
+</p>
+  
+<me>
+
+\underline{\quad} \cdot 0 = 5,
+\qquad\qquad
+\underline{\quad} \cdot 0 = 17,
+\qquad\qquad
+\underline{\quad} \cdot 0 = 1.
+
+</me>
+ 
+<p>
+Using the connection between fractions and division, and the connection between division and multiplication, that means there is no number <m>\frac 5 0</m>. There is no number <m>\frac {17}0</m>. And there is no number <m>\frac 1 0</m>. They are all "undefined" because they are not equal to any number at all.
+</p>
+  
+<p>
+Can we give meaning to <m>\frac 0 0</m> at least? After all, a zero does appear on both sides of that equation!
+</p>
+  <ul><li>Cyril says that <m>\frac 0 0  = 2</m> since <m>0 \cdot 2 = 0</m>.<br /></li>
+<li>Ethel says that <m>\frac 0 0 = 17</m> since <m>0 \cdot 17 = 0</m>.<br /></li>
+<li>Wonhi says that <m>\frac 5 0  = 887231243</m> since <m>0 \cdot 887231243 = 0</m>.<br /></li>
+ </ul>   
+<p>
+Who's right in this case? Can they all be correct?
+</p>
+  
+<p>
+Cyril says that <m>\frac 0 0 = 2</m>, and
+he believes he is correct because it
+passes the check: <m>2 \cdot 0 = 0</m>.
+But <m>\frac 0 0 = 17</m> also passes the check, and so does <m>\frac 0 0 = 887231243</m>. In fact, I can choose any number for <m>x</m>, and <m>\frac 0 0 = x</m> will pass the check!
+</p>
+  
+<p>
+The trouble with the expression <m>\frac 0 a</m>
+(with <m>a</m> not zero) is that there are no meaningful values to
+assign to it.
+The trouble with <m>\frac 0 0</m> is different:
+There are too many possible values to
+give it!
+</p>
+  
+<p>
+In general, most people would say that dividing by zero is simply too problematic to
+be done! They say it is best to avoid doing so and never will allow zero as the
+denominator of a fraction. (But all is fine with 0 as a numerator.)
+</p>
+ </subsection> </section>

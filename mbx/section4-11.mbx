@@ -1,0 +1,107 @@
+
+<section>
+<title>Algebra Connections</title><introduction>
+<p>
+In an advanced algebra course students are often asked to work with complicated
+expressions like:
+</p>
+  
+<me>
+
+\frac{\frac 1 x + 1}{\frac 3 x}.
+
+</me>
+ 
+<p>
+We can make it look friendlier by following exactly the same technique of the
+previous section. In this example, let's multiply the numerator and denominator each
+by <m>x</m>. (Do you see why this is a good choice?) We obtain:
+</p>
+  
+<me>
+
+\frac{\left(\frac 1 x + 1\right)\cdot x}{\left(\frac 3 x\right)\cdot x}
+\quad
+=
+\quad
+\frac{1+x}{3},
+
+</me>
+ 
+<p>
+and <m>\frac{1+x}{3}</m> is much less scary.
+</p>
+  
+<example><statement>
+<p>
+As another example, given:
+</p>
+  
+<me>
+
+\frac{\frac 1 a - \frac 1 b}{ab},
+
+</me>
+ 
+<p>
+one might find it helpful to multiply the numerator and the denominator each
+by <m>a</m> and then each by <m>b</m>:
+</p>
+  
+<me>
+
+\frac{\left(\frac 1 a - \frac 1 b\right)\cdot a \cdot b}{\left(ab\right)\cdot a \cdot b}
+\quad
+=
+\quad
+\frac{b-a}{a^2b^2}.
+
+</me>
+ </statement>
+</example>
+  
+<example><statement>
+<p>
+For
+</p>
+  
+<me>
+
+\frac{\frac 1 {(w+1)^2} - 2}{\frac 1 {(w+1)^2} +5},
+
+</me>
+ 
+<p>
+it might be good to multiply top and bottom each by <m>(w+1)^2</m>. (Why?)
+</p>
+  
+<me>
+
+\frac{\left(\frac 1 {(w+1)^2} - 2\right)\cdot (w+1)^2}{\left(\frac 1 {(w+1)^2} +5\right)\cdot (w+1)^2}
+\quad
+=
+\quad
+\frac{1 - 2(w+1)^2}{1+5(w+1)^2}.
+
+</me>
+ </statement>
+</example>
+ </introduction> 
+<subsection>
+<title>On Your Own</title>
+<p>
+Can you make each of these expressions look less scary?
+</p>
+  
+<me>
+
+\frac{2-\frac 1 x}{1 + \frac 1 x},
+\qquad\qquad
+\frac{\frac1{x+h} + 3}{\frac 1{x+h}},
+\qquad\qquad
+\frac{1}{\frac 1 a + \frac 1 b},
+\qquad\qquad
+\frac{\frac{1}{x+a} - \frac 1 x} a.
+
+</me>
+ </subsection> </section>

@@ -1,0 +1,292 @@
+
+<section>
+<title>Structural and Procedural Algebra</title><introduction>
+<p>
+When most people think about algebra from school, they think about "solving for <m>x</m>." They imagine lots of equations with varying levels of complexity, but the goal is always the same: find the unknown quantity. This is a <em>procedural</em> view of algebra.
+</p>
+  
+<p>
+Even elementary students can be exposed ideas in procedural algebra. This happens any time they think about unknown quantities and try to solve for them. For example, when first grade students learn to add and subtract numbers "within 10," they should frequently tackle problems like these:
+</p>
+  <ul><li><m>3 + \underline{\qquad} = 7</m>.<br /></li>
+<li>Find several pairs of numbers that add up to 10.<br /></li>
+ </ul>   
+<p>
+Although procedural algebra is important, it's not the most important skill, and it's certainly not the whole story.
+You also need to foster thinking about <em>structural algebra</em> in your students: using symbols to express meaning in a situation. If there is an <m>x</m> on your page, you should be able to answer, "what does the <m>x</m> mean? What does it represent?"
+</p>
+  
+<p>
+Most of what you've done so far in this chapter is <em>structural algebra</em>. You've used letters and symbols not to represent a single unknown quantity, but a <em>varying</em> quantity. For example, in <xref ref="sec__matching">Section</xref> you used letters to represent the "figure number" or "case number" in a growing pattern. The letters could take on different values, and the expressions gave you information: how many tiles or toothpicks or stars you needed to build that particular figure in that particular pattern.
+</p>
+  <paragraphs><title>Think/Pair/Share</title> <ul><li>Consider the expression <m>a + 3</m>.  Give a real world situation that could be represented by this expression.  Share your answer with your partner.  Together, can you come up with even more ideas?<br /></li>
+<li>Suppose the expression <m>3c+2</m> represents the number of tiles used at any stage of a growing pattern. 
+<ul><li>Evaluate the expression at <m>c = 1, 2, \text{ and }  3</m>.  What do the values tell you about the pattern?  <br /></li>
+<li>Can you describe in words how the pattern is growing?  <br /></li>
+<li>Can you design a pattern with tiles that grows according to this rule?<br /></li>
+<li>Where do you see the "3" from <m>3c+2</m> in your pattern?  Where do you see the "2"?  Where do you see the "<m>c</m>"?</li>
+ </ul> </li>
+ </ul>  </paragraphs>  
+<problem xml:id="prob__krystal"><statement>
+<p>
+Krystal was looking at this pattern, which may be familiar to you from the Problem Bank:
+</p>
+  <image source="images/" /> 
+<p>
+She wrote down the equation
+</p>
+  
+<me>
+
+y = 4x + 2.
+
+</me>
+ 
+<p>
+In Krystal's equation, what does <m>x</m> represent? What does <m>y</m> represent? How do you know?
+</p>
+ </statement>
+</problem>
+  
+<problem><statement>
+<p>
+Candice was thinking about this problem:
+</p>
+  <em>Today is Jennifer's birthday, and she's twice as old as her brother.  When will she be twice as old as him again?</em> 
+<p>
+She wrote down the equation <m>2 n = m</m>. In Candice's equation, what does <m>n</m> represent? What does <m>m</m> represent? How do you know?
+</p>
+ </statement>
+</problem>
+  
+<problem><statement>
+<p>
+Sarah and David collect old coins. Suppose the variable <m>k</m> stands for the number of coins Sarah has in her collection, and <m>\ell</m> stands for the number of coins David has in his collection. What would each of these equations say about their coin collections?
+</p>
+  
+<me>
+
+(a)\  k = \ell + 1 
+\qquad\qquad
+(b)\  k = \ell 
+\qquad\qquad
+(c) \ 3k = 2\ell
+\qquad\qquad
+(d)\  k = \ell - 11
+
+</me>
+ </statement>
+</problem>
+  
+<problem xml:id="prob__bagsblocks"><statement>
+<p>
+The pictures below show balance scales containing bags and blocks. The bags are marked with a "?" because they contain some unknown number of blocks. In each picture:
+</p>
+  <ul><li>Each bag contains the same number of blocks.</li>
+<li>The scale is balanced.</li>
+ </ul>  
+<p>
+For each picture, determine how many blocks are in each bag. Justify your answers.
+</p>
+  <image source="images/" /> <br />
+(a)
+
+
+
+<image source="images/" /> <br />
+(b)
+
+
+
+<image source="images/" /> <br />
+(c) </statement>
+</problem>
+  
+<problem><statement>
+<p>
+When he was working on <xref ref="prob__bagsblocks">Problem</xref>, Kyle wrote down these three equations.
+</p>
+  
+<me>
+
+(i)\ 2m = 6.
+\qquad
+(ii)\ 2x = x + 3.
+\qquad
+(iii)\ z + 5 = 2z + 3. 
+
+</me>
+ 
+<p>
+Match each equation to a picture, and justify your choices. Then solve the equations, and say (in a sentence) what the solution represents.
+</p>
+ </statement>
+</problem>
+  
+<problem><statement>
+<p>
+Draw a balance puzzle that represents the equation
+</p>
+  
+<me>
+
+2h + 3 = h + 8.
+
+</me>
+ 
+<p>
+Now solve the balance puzzle. Where is the "<m>h</m>" in your puzzle? What does it represent?
+</p>
+ </statement>
+</problem>
+  
+<problem xml:id="prob_no_sol"><statement>
+<p>
+Draw a balance puzzle that represents the equation
+</p>
+  
+<me>
+
+3b + 7 = 3b + 2.
+
+</me>
+ 
+<p>
+Now solve the equation. Explain what happens.
+</p>
+ </statement>
+</problem>
+  
+<problem><statement>
+<p>
+Which equation below is most like the one in <xref ref="prob_no_sol">Problem</xref> above? Justify your choice.
+</p>
+  
+<md><mrow>(a) \amp \ 5 + 3 = 8.
+\amp 
+(b) \amp \ \frac 23 + \frac 12 = \frac 35.
+\amp 
+(c) \amp  \ 5 + 3 = y.
+\amp  (d)\amp  \ 
+\frac a 5 = \frac 5 a.</mrow>
+  <mrow>(e) \amp  \ n + 3 = m.
+\amp 
+(f) \amp  \ 3x = 2x + x.
+\amp 
+(g)\amp  \ 
+5k = 5k + 1.</mrow>
+ 
+</md>
+ </statement>
+</problem>
+  
+<problem xml:id="prob_all_sol"><statement>
+<p>
+Draw a balance puzzle that represents the equation
+</p>
+  
+<me>
+
+4\ell +7  = 4\ell + 7.
+
+</me>
+ 
+<p>
+Now solve the equation. Explain what happens.
+</p>
+ </statement>
+</problem>
+  
+<problem><statement>
+<p>
+Which equation below is most like the one in <xref ref="prob_all_sol">Problem</xref> above? Justify your choice.
+</p>
+  
+<md><mrow>(a) \amp \ 5 + 3 = 8.
+\amp 
+(b) \amp \ \frac 23 + \frac 12 = \frac 35.
+\amp 
+(c) \amp  \ 5 + 3 = y.
+\amp  (d)\amp  \ 
+\frac a 5 = \frac 5 a.</mrow>
+  <mrow>(e) \amp  \ n + 3 = m.
+\amp 
+(f) \amp  \ 3x = 2x + x.
+\amp 
+(g)\amp  \ 
+5k = 5k + 1.</mrow>
+ 
+</md>
+ </statement>
+</problem>
+  
+<problem><statement>
+<p>
+Create a balance puzzle where the solution is not a whole number of blocks. Can you solve it? Explain your answer.
+</p>
+ </statement>
+</problem>
+  
+<problem xml:id="prob__rockpiles"><statement>
+<p>
+There are three piles of rocks: pile A, pile B, and pile C. Pile B has two more rocks than pile A. Pile C has four times as many rocks as pile A. The total number of rocks in all three piles is 14.
+</p>
+  <ol type="a"><li>Use <m>x</m> to represent the number of rocks in pile A, and write equations that describe the rules above.  Then find the number of rocks in each pile.<br /></li>
+<li>Use <m>x</m> to represent the number of rocks in pile B, and write equations that describe the rules above.  Then find the number of rocks in each pile.<br /></li>
+<li>Use <m>x</m> to represent the number of rocks in pile C, and write equations that describe the rules above.  Then find the number of rocks in each pile.<br /></li>
+ </ol>  </statement>
+</problem>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+Look back at <xref ref="prob__krystal">Problems</xref>&#x2013; <xref ref="prob__rockpiles"></xref>. Which of them felt like <em>structural algebraic thinking</em>? Which felt like <em>procedural algebraic thinking</em>? Did any of the problems feel like they involved both kinds of thinking?
+</p>
+ </paragraphs> </introduction> 
+<subsection>
+<title>Variables and Equations</title>
+<p>
+You have seen that in algebra, letters and symbols can have different meanings depending on the context.
+</p>
+  <ul><li>A symbol could stand for some <em>unknown quantity</em>.<br /></li>
+<li>A symbol could stand for some quantity that <em>varies</em>.  (Hence the term "variable" to describe these symbols.)<br /></li>
+ </ul>   
+<p>
+In much the same way, <em>equations</em> can represent different things.
+</p>
+  <ul><li>They can represent a problem to be solved.  This is the traditional procedural algebra type of question.<br /></li>
+<li>They can represent a relationship between two or more quantities.  For example, <m>A = s^2</m> represents the relationship between the area of a square and its side length.<br /></li>
+<li>They can represent <em>identities</em>: mathematical truths.  For example, 
+
+<me>
+
+x^2 - 1 = (x+1)(x-1)
+
+</me>
+ 
+ is always true, for every value of <m>x</m>.  There is nothing to solve for, and no relationship between varying quantities.  (If you do try to "solve for <m>x</m>," you will get the equation <m>0=0</m>, much like you saw in <xref ref="prob_all_sol">Problem</xref>.  Not very satisfying!)<br /></li>
+ </ul>   <paragraphs><title>Think/Pair/Share</title>
+<p>
+Give an example of each type of equation. Be sure to say what the symbols in the equations represent.
+</p>
+ </paragraphs>  
+<problem><statement>
+<p>
+Answer the following questions about the equation
+</p>
+  
+<men xml:id="eqn_identity" >
+ x^2 - 1 = (x+1)(x-1).
+</men>
+  <ol type="a"><li>Evaluate both sides of <xref ref="eqn_identity">equation</xref> for various values of <m>x</m>: 
+
+<me>
+
+x = 1, 2, 3, 4 \text{ and }  5.
+
+</me>
+ 
+What happens?<br /></li>
+<li>Use the <em>distributive property</em> of multiplication over addition to expand the right side of <xref ref="eqn_identity">equation</xref> and simplify it.  <br /></li>
+<li>Use <xref ref="eqn_identity">equation</xref> to compute <m>99^2</m> quickly, without using a calculator.  Explain how you did it.</li>
+ </ol>  </statement>
+</problem>
+ </subsection> </section>

@@ -1,0 +1,35 @@
+
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" >
+<title>Fractions</title><introduction>
+<p>
+\fellow{Formatting: can we put things marked "Problem" in a box (maybe with some color?) to set it apart? Same with the Think/Pair/Share (different color?) and Solutions.}
+</p>
+  
+<p>
+Fractions are one of the hardest topics to teach (and learn!) in elementary school. What is the reason for this? We'll try to provide some insight in this chapter, along with some better ways for understanding, teaching, and learning about fractions. But for now, talk with a partner about what makes this topic so hard.
+</p>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+You may have struggled learning about fractions in elementary school. Maybe you still find them confusing. Even if you were one of the lucky ones who didn't struggle when learning about fractions, you probably had friends who did struggle.
+</p>
+  
+<p>
+With a partner, talk about why this is. What is so difficult about understanding fractions? Why is the topic harder than other ones we tackle in elementary schools?
+</p>
+ </paragraphs>  
+<p>
+Remember that teachers should have lots of mental models &#8202;&#x2014;&#8202; lots of ways to explain the same concept. In this chapter, we'll look at some different ways to understand the idea of fractions as well as basic operations on them.
+</p>
+ </introduction> <xi:include  href="section4-1.mbx" />
+ <xi:include  href="section4-2.mbx" />
+ <xi:include  href="section4-3.mbx" />
+ <xi:include  href="section4-4.mbx" />
+ <xi:include  href="section4-5.mbx" />
+ <xi:include  href="section4-6.mbx" />
+ <xi:include  href="section4-7.mbx" />
+ <xi:include  href="section4-8.mbx" />
+ <xi:include  href="section4-9.mbx" />
+ <xi:include  href="section4-10.mbx" />
+ <xi:include  href="section4-11.mbx" />
+ <xi:include  href="section4-12.mbx" />
+ </chapter>

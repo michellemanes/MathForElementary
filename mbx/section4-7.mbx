@@ -1,0 +1,526 @@
+
+<section>
+<title>Dividing Fractions: Computations</title><introduction>
+<p>
+All of the following questions have the same answer! (Why?)
+</p>
+  <ul><li>How many groups of 3 are there in 6?</li>
+<li>How many groups of 3 tens are there in 6 tens?</li>
+<li>How many groups of 3 fives are there in 6 fives?</li>
+<li>How many groups of 3 tenths are there in 6 tenths?</li>
+<li>How many groups of 3 fourths are there in 6 fourths?</li>
+<li>How many groups of 3 @s are there in 6 @s?</li>
+<li>How many groups of 3 anythings are there in 6 anythings (as long as both "anythings" refer to the same unit)?</li>
+ </ul>   <paragraphs><title>Think/Pair/Share</title>
+<p>
+With a partner, draw some pictures to illustrate each of the questions above. Do you believe that they all have the same answer? Use a picture or reasoning to solve each of the following fraction division problems:
+</p>
+  
+<me>
+
+\frac 6 4 \div \frac 3 4,
+\qquad\qquad
+\frac 6{10} \div \frac 3{10},
+\qquad\qquad
+\frac 8 9 \div \frac 4 9,
+\qquad\qquad
+\frac{15}{33} \div \frac{1}{33},
+\qquad\qquad
+\frac{10}9 \div \frac{5}9.
+
+</me>
+ </paragraphs> </introduction> 
+<subsection>
+<title>Common denominator method</title>
+<p>
+This line of reasoning leads to our first fraction division method.
+If two fractions have the same denominator, then when you divide them, you can just divide the numerators. In symbols,
+</p>
+  
+<me>
+
+\frac a d \div \frac b d = \frac a b.
+
+</me>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+What if the fractions <em>don't</em> have a common denominator? Is the method useless, or can you find a way to make it work? Can you solve these problems?
+</p>
+  
+<me>
+
+\frac 3 5 \div \frac 3 4,
+\qquad\qquad\qquad
+\frac 3 4  \div \frac 8 7,
+\qquad\qquad\qquad
+\frac 2 3  \div \frac 1 2,
+\qquad\qquad\qquad
+\frac 5 8  \div \frac 1 4.
+
+</me>
+ </paragraphs> </subsection> 
+<subsection>
+<title>Missing factor approach</title>
+<p>
+We know that we can always turn a division problem into a "missing factor" multiplication problem. Can that help us compute fraction division? Sometimes!
+</p>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+For each division problem, rewrite it as a missing factor multiplication question. Then answer that question using what you know about multiplying fractions.
+</p>
+  
+<me>
+
+\frac{9}{10} \div \frac{3}{5},
+\qquad\qquad
+\frac 7 8  \div \frac 1 4,
+\qquad\qquad
+\frac 6 7  \div \frac 3 7,
+\qquad\qquad
+\frac{10}9 \div \frac 2 3,
+\qquad\qquad
+\frac{25}{12} \div \frac 5 6.
+
+</me>
+ </paragraphs> </subsection> 
+<subsection>
+<title>A nasty problem:</title><em><m>7\frac 2 3</m> 
+pies are  shared equally by <m>5\frac 34</m> boys.
+ How much pie does each boy get?
+</em>  
+<p>
+Technically, we could just write down the answer as
+</p>
+  
+<me>
+
+\frac{7\frac 2 3}{5\frac 34}
+
+</me>
+ 
+<p>
+and be done! (The answer to this problem is, of course, equivalent to this fraction, so why not?)
+</p>
+  
+<p>
+Is there a way to make this look
+friendlier?
+Recall the key fraction rule:
+</p>
+  
+<me>
+
+\frac{xa}{xb} = \frac a b.
+
+</me>
+  
+<p>
+What might happen if we multiply the numerator and denominator of our answer each by a convenient
+choice of number? Right now we have the expression:
+</p>
+  
+<me>
+
+\frac{7\frac 2 3}{5\frac 34}
+\quad
+=
+\quad
+\frac{\left(7+\frac 2 3\right)}{\left(5+ \frac 34\right)}.
+
+</me>
+  
+<p>
+Let's multiply by 3. (Why three?)
+</p>
+  
+<me>
+
+\frac{\left(7+\frac 2 3\right)\cdot 3}{\left(5+ \frac 34\right)\cdot 3}
+\quad
+=
+\quad
+\frac{\left(21+2\right)}{\left(15+ \frac 94\right)}.
+
+</me>
+ 
+<p>
+<b>Important Note:</b> We're using some key facts about arithmetic here! First, we used the distributive law for multiplication over addition:
+</p>
+  
+<me>
+
+(a+b)\cdot c 
+\quad
+= 
+\quad
+a\cdot c + b\cdot c. \qquad \text{(Where have we used this fact?) } 
+
+</me>
+ 
+<p>
+Second, we used what we know about multiplying fractions by whole numbers. In particular, we used the fact that
+</p>
+  
+<me>
+
+\frac a b \cdot b
+\quad
+ = 
+ \quad
+ a.\qquad  \text{(Where did we use that fact?)} 
+
+</me>
+  
+<p>
+Let's now multiply numerator and denominator each by 4. (Why four?)
+</p>
+  
+<me>
+
+\frac{\left(21+2\right)\cdot 4}{\left(15+ \frac 94\right)\cdot 4}
+\quad
+=
+\quad
+\frac{84+8}{60+9} 
+\quad
+= 
+\quad
+\frac{92}{69}.
+
+</me>
+  
+<p>
+We now see that the answer is <m>\frac{92}{69}</m>. That means that sharing <m>7\frac 2 3</m>
+pies among <m>5 \frac 3 4</m> boys
+is the same as
+sharing 92 pies among 69 boys. (That is, in both situations, the individual boys get exactly the same amount of pie.)
+</p>
+  
+<example><statement>
+<p>
+Let's forget the context now and just focus on the calculations so that we can see what's going on more clearly. Try this one:
+</p>
+  
+<me>
+
+\frac{3\frac 12}{1\frac 1 2}.
+
+</me>
+ 
+<p>
+Multiplying the numerator and denominator each by 2 should be enough to simplify
+the expression. (Why?) Let's try it:
+</p>
+  
+<me>
+
+\frac{3\frac 12}{1\frac 1 2}
+\quad
+=
+\quad
+\frac{3+\frac 12}{1+\frac 1 2}
+\quad
+=
+\quad
+\frac{\left(3+\frac 12\right)\cdot 2}{\left(1+\frac 1 2\right)\cdot 2}
+\quad
+=
+\quad
+\frac{6+1}{2+1} 
+\quad
+= 
+\quad
+\frac 73.
+
+</me>
+ </statement>
+</example>
+ </subsection> 
+<subsection>
+<title>On Your Own</title>
+<p>
+Each of the following is a perfectly nice fraction, but it could be written in a simpler form. So do that! Write each of them in a simpler form following the examples above.
+</p>
+  
+<me>
+
+\frac{4\frac 2 3}{5 \frac 1 3},
+\qquad\qquad\qquad
+\frac{2 \frac 15}{2 \frac 14},
+\qquad\qquad\qquad
+\frac{1\frac 47}{2\frac 3{10}},
+\qquad\qquad\qquad
+\frac{\frac37}{\frac45}.
+
+</me>
+  <paragraphs><title>Think/Pair/Share</title> <ol><li>Jessica calculated the second exercise above this way:
+
+<me>
+
+\frac{2 \frac 15}{2 \frac 14} 
+\quad
+=
+\quad
+\frac{\cancel{2} \frac 15}{\cancel{2} \frac 14}
+\quad
+=
+\quad
+\frac{\frac 15}{\frac 14}
+\quad
+ =
+ \quad
+\frac{\frac 15 \cdot 4}{\frac 14\cdot 4}
+\quad
+ = 
+ \quad
+\frac{\frac 45}{1}
+\quad
+ =
+ \quad
+  \frac 45.
+
+</me>
+ 
+Is her solution correct, or is she misunderstanding something?  Carefully explain what's going on with her solution, and what you would do as Jessica's teacher.<br /></li>
+<li>Isaac calculated the last exercise above this way:
+
+<me>
+
+\frac{\frac37}{\frac45}
+\quad
+=
+\quad
+\frac{\frac37\cdot 7}{\frac45 \cdot 5}
+\quad
+=
+\quad
+\frac 34.
+
+</me>
+ 
+Is his solution correct, or is he misunderstanding something?  Carefully explain what's going on with his solution, and what you would do as Isaac's teacher.</li>
+ </ol>  </paragraphs> </subsection> 
+<subsection>
+<title>Simplify an ugly fraction!</title>
+<p>
+Perhaps without realizing it, you have just found another method to divide fractions.
+</p>
+  
+<example><title>$\frac 35 \div \frac 47$</title>
+<statement>
+<p>
+Suppose we are asked about sharing <m>\frac 3 5</m>
+of a pie among <m>\frac 4 7</m>
+of a boy (whatever that would mean!). That is,
+we are asked to compute:
+</p>
+  
+<me>
+
+\frac{\frac 3 5}{\frac 4 7}.
+
+</me>
+ 
+<p>
+Let's multiply numerator and denominator each by 5:
+</p>
+  
+<me>
+
+\frac{\left(\frac 3 5\right)\cdot5}{\left(\frac 4 7\right)\cdot 5}
+\quad
+=
+\quad
+\frac{3}{\frac{20}7}.
+
+</me>
+ 
+<p>
+Let's now multiply top and bottom each by 7:
+</p>
+  
+<me>
+
+\frac{\left(3\right)\cdot 7}{\left(\frac{20}7\right)\cdot 7}
+\quad
+= 
+\quad
+\frac{21}{20}.
+
+</me>
+ 
+<p>
+Done! So <m>\frac 3 5 \div \frac 4 7 = \frac {21}{20}</m>.
+</p>
+ </statement>
+</example>
+  
+<example><title>$\frac 5 9 \div \frac 8{11}$</title>
+<statement>
+<p>
+Let's do another. Consider <m>\frac 5 9 \div \frac 8{11}</m>:
+</p>
+  
+<me>
+
+\frac{\frac 59}{\frac 8{11}}
+
+</me>
+ 
+<p>
+Let's multiply top and bottom each by 9 and by 11 at the same time. (Why not?)
+</p>
+  
+<me>
+
+\frac{\frac 59}{\frac 8{11}}
+\quad
+ =
+ \quad
+\frac{\left(\frac 59\right)\cdot9\cdot 11}{\left(\frac 8{11}\right) \cdot 9\cdot 11}
+\quad
+= 
+\quad
+\frac{5\cdot 11}{8\cdot 9}.
+
+</me>
+ 
+<p>
+(Do you see what happened here?)
+</p>
+  
+<p>
+So we have
+</p>
+  
+<me>
+
+\frac{\frac 59}{\frac 8{11}}
+\quad
+=
+\quad
+\frac{5\cdot 11}{8\cdot9}
+\quad
+ = 
+ \quad
+ \frac {55}{72}.
+
+</me>
+ </statement>
+</example>
+ </subsection> 
+<subsection>
+<title>On Your Own</title>
+<p>
+Compute each of the following, using the simplification technique.
+</p>
+  
+<me>
+
+\frac 12 \div \frac 1 3,
+\qquad\qquad
+\frac 4 5 \div \frac 3 7,
+\qquad\qquad
+\frac 2 3 \div \frac 1 5,
+\qquad\qquad
+\frac {45}{59} \div \frac {902}{902},
+\qquad\qquad
+\frac{10}{13} \div \frac{2}{13}.
+
+</me>
+ </subsection> 
+<subsection>
+<title>Invert and multiply</title>
+<p>
+Consider the problem
+<m>\frac 5 {12} \div \frac 7 {11}</m>.
+Janine wrote:
+</p>
+  
+<me>
+
+\frac{\frac 5 {12} }{ \frac 7 {11}} 
+\quad
+= 
+\quad
+\frac{\frac 5 {12} \cdot 12\cdot 11}{ \frac 7 {11} \cdot 12 \cdot 11} 
+\quad
+= 
+\quad
+\frac{ 5 \cdot 11 }{  7\cdot 12} 
+\quad
+=
+\quad
+\frac 5{12} \cdot \frac{11} 7.
+
+</me>
+ 
+<p>
+She stopped before completing her final step and exclaimed:
+"Dividing one fraction by another is the same as multiplying
+the first fraction with the second fraction upside down."
+</p>
+ </subsection> 
+<subsection>
+<title>On Your Own</title>
+<p>
+First check each step of Janine's work here and make sure that she is correct in what
+she did up to this point. Then answer these questions:
+</p>
+  <ol><li>Do you understand what Janine is saying?  Explain it very clearly.<br /></li>
+<li>Work out
+
+<me>
+
+\frac{\frac{3}{7}}{\frac4{13}}
+
+</me>
+ 
+using the simplification method.  Is the answer the same as
+<m>\frac 3 7 \cdot \frac{13}4</m>?<br /></li>
+<li>Work out
+
+<me>
+
+\frac{\frac{2}{5}}{\frac 3{10}}
+
+</me>
+ 
+using the simplification method.  Is the answer the same as
+<m>\frac 2 5 \cdot \frac{10}3</m>?<br /></li>
+<li>Work out
+
+<me>
+
+\frac{\frac{a}{b}}{\frac c{d}}.
+
+</me>
+ 
+using the simplification method.  Is the answer the same as
+<m>\frac a b \cdot \frac{d}c</m>?<br /></li>
+<li>Is Janine right? Is dividing two fractions always the same as multiplying the
+two fractions with the second one turned upside down? What do you think?  (Don't just think about  examples.  This is a question if something is <em>always</em> true.)<br /></li>
+ </ol>   
+<p>
+We now have several methods for solving problems that require dividing fractions:
+</p>
+  
+<p>
+\fellow{Put this in a box?}
+</p>
+  
+<p>
+<b>Dividing fractions:</b>
+</p>
+  <ol><li>Find a common denominator and divide the numerators.</li>
+<li>Rewrite the division as  a missing factor multiplication problem, and solve that problem.</li>
+<li>Simplify an ugly fraction.</li>
+<li>Invert the second fraction (the dividend) and then multiply.</li>
+ </ol>   <paragraphs><title>Think/Pair/Share</title>
+<p>
+Discuss your opinions about our four methods for solving fraction division problems with a partner:
+</p>
+  <ul><li>Which method for division of fractions is the easiest to <em>understand why it works</em>?</li>
+<li>Which method for division of fractions is the easiest to <em>use in computations</em>?</li>
+<li>What are the benefits and drawbacks of each method?  (Think both as a teacher and as someone solving math problems here.)</li>
+ </ul>  </paragraphs> </subsection> </section>

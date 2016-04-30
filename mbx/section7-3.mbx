@@ -1,0 +1,149 @@
+
+<section>
+<title>Polygons</title><introduction>
+<p>
+It can seem like the study of geometry in elementary school is nothing more than learning a bunch of definitions and then classifying objects. In this chapter, you'll explore some problem solving and reasoning activities that are based in geometry. But definitions are still important! So let's start with this one.
+</p>
+  
+<definition><statement>
+<p>
+A <term>polygon</term> is:
+</p>
+  <ol><li>a <em>plane</em> figure</li>
+<li>that is bounded by a finite number of <em>straight line segments</em></li>
+<li>in which each segment <em>meets exactly two others</em>, one at each of its endpoints.</li>
+ </ol>  </statement>
+</definition>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+Just as the first step in problem solving is to <em>understand the problem</em>, the first step in reading a mathematical definition is to <em>understand the definition</em>.
+</p>
+  <ul><li>Use the definition above to draw several examples of figures that are definitely polygons.  (You should be able to say why your example fits the definition.)<br /></li>
+<li>Draw several non-examples as well: shapes that are definitely not polygons.  (You should be able to say which part of the definition fails for your non-examples.)<br /></li>
+ </ul>  </paragraphs>  
+<p>
+A few comments about polygons:
+</p>
+  <ul><li>The line segments that make up a polygon are called its <em>edges</em> and the points where they meet are called its <em>vertices</em> (singular: vertex).<br /></li>
+<li>Because of properties (2) and (3) in the definition, the boundaries of polygons are not <em>self-intersecting</em>.<br />
+
+<image source="images/" />  <br />
+Not a polygon.<br /></li>
+<li>Polygons are named based on the number of sides they have.
+<table id="974842880c9f15be387305f61f8fcfaa01b2a667" ><tr><td class='cv'>
+<b>name</b> </td><td class='cv'> <b>\# of sides</b> </td><td class='c'> <b>examples</b></td></tr>
+<tr><td class='hlinethick' colspan='3'><hr /></td></tr>
+
+<tr><td  class='cv' >
+triangle </td><td class='cv'> 3 </td><td class='c'> 
+<image source="images/" />  </td></tr>
+<tr><td class='hline' colspan='3'><hr /></td></tr>
+<tr><td class='cv'>
+quadrilateral </td><td class='cv'> 4 </td><td class='c'> 
+<image source="images/" />  </td></tr>
+<tr><td class='hline' colspan='3'><hr /></td></tr>
+<tr><td class='cv'>
+pentagon </td><td class='cv'> 5 </td><td class='c'> 
+<image source="images/" />  </td></tr>
+<tr><td class='hline' colspan='3'><hr /></td></tr>
+<tr><td class='cv'>
+hexagon </td><td class='cv'> 6 </td><td class='c'>
+<image source="images/" />  </td></tr>
+<tr><td class='hline' colspan='3'><hr /></td></tr>
+<tr><td class='cv'>
+heptagon </td><td class='cv'> 7 </td><td class='c'></td></tr>
+<tr><td class='cv'>
+octagon </td><td class='cv'> 8 </td><td class='c'> </td></tr>
+<tr><td class='cv'>
+nonagon </td><td class='cv'> 9 </td><td class='c'> </td></tr>
+<tr><td class='cv'>
+decagon </td><td class='cv'> 10 </td><td class='c'></td></tr></table> </li>
+<li>In general, we call a polygon with <m>n</m> sides an  <m>n</m>-gon.</li>
+ </ul>   
+<problem><statement>
+<p>
+In the pictures below, there are polygons hidden in the design. In each design, find <em>all</em> of the triangles, quadrilaterals, pentagons, and hexagons. How can you be sure you've found them all and haven't counted any twice?
+</p>
+ </statement>
+</problem>
+  <image source="images/" />  <br />
+Design 1
+
+
+<image source="images/" />  <br />
+Design 2
+
+
+
+<image source="images/" />  <br />
+Design 3
+
+
+
+<image source="images/" />  <br />
+Design 4 </introduction> 
+<subsection>
+<title>Angle sum</title>
+<p>
+You know that the sum of the interior angles in any triangle is <m>180^\circ</m>. Can you say anything about the angles in other polygons?
+You probably know that rectangles have four <m>90^\circ</m> angles. So <b>if</b> if all quadrilaterals have the same interior angle sum, it must be <m>4 \cdot 90^\circ = 360^\circ</m>.
+</p>
+  
+<p>
+But notice: We don't necessarily have any reason to believe this constant sum would be true. Remember that SSS congruence is true for triangles, but not for any other polygons. Triangles are special, and we shouldn't <em>assume</em> that similar statements will hold for other shapes.
+</p>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+Any quadrilateral can be split into two triangles, where the vertices of the triangles all coincide with the vertices of the quadrilateral:
+</p>
+  <image source="images/" /> 
+<p>
+Use the pictures above to carefully explain why all quadrilaterals do, indeed, have an angle sum of <m>360^\circ</m>.
+</p>
+ </paragraphs> </subsection> 
+<subsection>
+<title>On Your Own</title>
+<p>
+Work on the following exercises on your own or with a partner.
+</p>
+  <ol><li>Draw several different <em>pentagons</em> on your paper.  Show that each of them can be split into exactly three triangles in such a way that the vertices of the triangles all coincide with the vertices of the pentagon.<br /></li>
+<li>Use the fact that every pentagon can be split into three triangles in this way to find the sum of the angles in any pentagon.<br /></li>
+<li>Draw several different <em>hexagons</em> on your paper.  Show that each of them can be split into exactly four triangles so that the vertices of the triangles all coincide with the vertices of the hexagon.<br /></li>
+<li>Use the fact that every hexagon can be split into four triangles in this way to find the sum of the angles in any hexagon.<br /></li>
+ </ol>   
+<problem><statement>
+<p>
+Use your work on the exercises above to complete this general statement:
+</p>
+  <b>Angle Sum in Polygons:</b><br />
+The sum of the interior angles in an <m>n</m>-gon (a polygon with <m>n</m> sides) is <br />
+
+<u>\hskip 4 in </u> 
+<p>
+Explain how you know this statement is true.
+</p>
+ </statement>
+</problem>
+  
+<definition><statement>
+<p>
+A <term>regular polygon</term> has all sides the same length and all angles the same measure.
+</p>
+ </statement>
+</definition>
+  
+<p>
+For example, squares are regular quadrilaterals &#8202;&#x2014;&#8202; all four sides are the same length, and all four angles measure <m>90^\circ</m>. But a non-square rectangle is <em>not regular</em>. Even though all of the angles are <m>90^\circ</m>, the sides are not all the same length. Similarly, a non-square rhombus is <em>not regular</em>. Even though the sides of a rhombus are all the same length, the angles can be different.
+</p>
+  <image source="images/" />  
+<problem><statement>
+<p>
+Since a square is a regular quadrilateral, you know that every angle in a regular quadrilateral measure <m>90^\circ</m>. What about angles in other regular polygons?
+</p>
+  <ol type="a"><li>What is the measure of each angle in a regular triangle?  Explain how you know you are right.<br /></li>
+<li>What is the measure of each angle in a regular pentagon?  Explain how you know you are right.<br /></li>
+<li>What is the measure of each angle in a regular hexagon?  Explain how you know you are right.<br /></li>
+<li>What is the measure of each angle in a regular <m>n</m>-gon?  Explain how you know you are right.<br /></li>
+ </ol>  </statement>
+</problem>
+ </subsection> </section>

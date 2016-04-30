@@ -1,0 +1,985 @@
+
+<section>
+<title>Model 1: Dots and Boxes</title><introduction>
+<p>
+We already have a natural model for thinking about counting numbers: a number is a quantity of dots. Depending on which number system you use, you might write down the number in different ways. But the quantity of dots is a counting number, however you write it down.
+</p>
+ </introduction> 
+<subsection>
+<title>Addition as combining</title>
+<p>
+For now, we'll focus on the base-10 system. Here's how we think about the number 273 in that system:
+</p>
+  <image source="images/" /> 
+<p>
+And here is the number 512:
+</p>
+  <image source="images/" />  
+<p>
+\fellow{Most of these addition / subtraction examples might be nicer as animations, if we can do that!}
+</p>
+  
+<example><title>$273+512$</title>
+<statement>
+<p>
+We can add these in the natural way: just combine the piles of dots. Since they're already in place-value columns, we can combine dots from the two numbers that are in the same place-value box.
+</p>
+      
+<image source="images/" /> 
+<p>
+We can count up the answer: there are 7 dots in the hundreds box, 8 dots in the tens box, and 5 dots in the ones box.
+</p>
+  <table id="f7b8a0198d54db63e595b02b9a46796ad837891a" ><tr><td class='r'>
+</td><td class='l'> 273</td></tr>
+<tr><td class='r'>
++ </td><td class='l'> 512</td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+<tr><td class='r'>
+</td><td class='l'> 785</td></tr>
+</table>  
+<p>
+And saying out the long way we have:
+</p>
+  <ul><li>Two hundreds plus five hundreds gives 7 hundreds.</li>
+<li>Seven tens plus one ten gives 8 tens.</li>
+<li>Three ones plus 2 ones gives 5 ones.</li>
+ </ul>  
+<p>
+This is the answer 785.
+</p>
+ </statement>
+</example>
+  
+<example><title>$163+489$</title>
+<statement>
+<p>
+Let's do another one. Consider <m>163+489</m>.
+</p>
+  <image source="images/" /> 
+
+<image source="images/" />  
+<p>
+And this is absolutely mathematically correct:
+</p>
+  <ul><li>One hundred plus four hundreds does give 5 hundreds.</li>
+<li>Six tens plus eight tens does give 14 tens.</li>
+<li>Three ones plus nine ones does give 12 ones.</li>
+ </ul>  
+<p>
+The answer is <m>5 \mid 14 \mid 12</m>, which we might try to pronounce as"five hundred and
+fourteeny-tenty twelvety!" (Oh my!)
+</p>
+  
+<p>
+The trouble with this answer is that most of the rest of the
+world wouldn't understand what we are talking about! Since this is a base 10 system,
+we can do some explosions.
+</p>
+  <image source="images/" /> 
+<p>
+The answer now looks like "six hundred forty twelvety"! Still not a familiar number, so let's do another
+explosion:
+</p>
+  <image source="images/" /> 
+<p>
+The answer is "six hundred fifty two." Okay, the world can understand this one!
+</p>
+  <image source="images/" /> </statement>
+</example>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+Solve the following exercises by thinking about the dots and boxes.
+(You can draw the pictures, or just imagine them.) Then translate the answer into
+something the rest of the world can understand.
+</p>
+  <table id="06ecd706f40bd8b308f3065779df75009ec912a6" ><tr><td class='r'>
+</td><td class='l'> 148</td></tr>
+<tr><td class='r'>
++ </td><td class='l'> 323</td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+
+<tr><td class='r'></td></tr>
+</table> 
+ 
+<table id="42c6ee6e409637dc48dace1885a760523c44c1b0" ><tr><td class='r'>
+</td><td class='l'> 567</td></tr>
+<tr><td class='r'>
++ </td><td class='l'> 271</td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+
+<tr><td class='r'></td></tr>
+</table> 
+ 
+<table id="e6a85b5239169df3afd38afa4adb3929493d4b17" ><tr><td class='r'>
+</td><td class='l'> 377</td></tr>
+<tr><td class='r'>
++ </td><td class='l'> 188</td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+
+<tr><td class='r'></td></tr>
+</table> 
+ 
+<table id="54ef4f65099a2c7507af603afae0f357c24bb48d" ><tr><td class='r'>
+</td><td class='l'> 582</td></tr>
+<tr><td class='r'>
++ </td><td class='l'> 714</td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+
+<tr><td class='r'></td></tr>
+</table> 
+
+<table id="fea2c71db08a5a0ed59ce9eb1b8eeb5d2f9eac9c" ><tr><td class='r'>
+</td><td class='l'> 310462872</td></tr>
+<tr><td class='r'>
++ </td><td class='l'> 389107123</td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+
+<tr><td class='r'></td></tr>
+</table> 
+ 
+<table id="6eca605ce8a1d8c74a8d4a50d97627449f1f3803" ><tr><td class='c'>
+</td><td class='c'> 872637163</td></tr>
+<tr><td class='c'>
++ </td><td class='c'> 187782748</td></tr>
+<tr><td class='hline' colspan='10'><hr /></td></tr>
+
+<tr><td class='c'></td></tr>
+</table> </paragraphs>  
+<problem><statement>
+<p>
+Use the dots and boxes technique to solve these problems. <em>Do not convert to base 10! Try to work directly in the base given.</em> It might help to actually draw the pictures.
+</p>
+  <table id="cd37772217f23e7dfb25807012ffad1201f7565a" ><tr><td class='r'>
+</td><td class='l'> <m>20413_\text{five} </m> </td></tr>
+<tr><td class='r'>
++ </td><td class='l'> <m>13244_\text{five} </m></td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+
+<tr><td class='r'></td></tr>
+</table> 
+ 
+<table id="0f4d7ae60194a56279baf50468b215b082c6189e" ><tr><td class='r'>
+</td><td class='l'> <m>4052_\text{nine} </m> </td></tr>
+<tr><td class='r'>
++ </td><td class='l'> <m>6288_\text{nine} </m> </td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+
+<tr><td class='r'></td></tr>
+</table> 
+ 
+<table id="0ab7f18a6fe23a22fb900ba97fe8fe08b1744231" ><tr><td class='r'>
+</td><td class='l'> <m>3323_\text{seven} </m> </td></tr>
+<tr><td class='r'>
++ </td><td class='l'> <m>3555_\text{seven} </m> </td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+
+<tr><td class='r'></td></tr>
+</table> </statement>
+</problem>
+ </subsection> 
+<subsection>
+<title>The Standard Algorithm for Addition</title>
+<p>
+Let's go back to the example <m>163 + 489</m>. Some teachers don't like writing:
+</p>
+  <image source="images/" />  
+<p>
+They prefer to teach their students to start with the 3 and 9 at the end and sum
+those to get 12. This is of course correct &#8202;&#x2014;&#8202; we got 12 as well.
+</p>
+  <image source="images/" /> 
+<p>
+But they don't want students to write or think "twelvety," so they have their students write something like this:
+</p>
+  <image source="images/" /> 
+<p>
+which can seem completely mysterious.
+What's really going on? They are exploding ten dots, of course!
+</p>
+  <image source="images/" />  
+<p>
+Now we carry on with the problem and add the tens. Students are taught to write:
+</p>
+  <image source="images/" /> 
+<p>
+But what this means is better shown in this picture:
+</p>
+  <image source="images/" />  
+<p>
+And now we finish the problem.
+</p>
+  <image source="images/" /> 
+
+
+<image source="images/" />  
+<p>
+In the standard algorithm, we work from right to left, doing the "explosions" as we go along. This means
+that we start adding at the ones place and work towards the left-most place value,
+"carrying" digits that come from the explosions. (This is really not carrying; a better for it is <em>regrouping</em>. Ten ones become one ten. Ten tens become one hundred. And so on.)
+</p>
+  
+<p>
+In the dots and boxes method, we add in any direction or order we like and then we do
+the explosions at the end.
+</p>
+  <ul><li><b>Why do we like the standard algorithm?</b>  Because it is efficient.</li>
+<li><b>Why do we like the dots and goes method?</b> Because it is easy to
+understand.</li>
+ </ul>   <paragraphs><title>Think/Pair/Share</title>
+<p>
+Redo the problems below using the standard algorithm. You will see that
+it is quicker.
+</p>
+  <table id="06ecd706f40bd8b308f3065779df75009ec912a6" ><tr><td class='r'>
+</td><td class='l'> 148</td></tr>
+<tr><td class='r'>
++ </td><td class='l'> 323</td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+
+<tr><td class='r'></td></tr>
+</table> 
+ 
+<table id="42c6ee6e409637dc48dace1885a760523c44c1b0" ><tr><td class='r'>
+</td><td class='l'> 567</td></tr>
+<tr><td class='r'>
++ </td><td class='l'> 271</td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+
+<tr><td class='r'></td></tr>
+</table> 
+ 
+<table id="e6a85b5239169df3afd38afa4adb3929493d4b17" ><tr><td class='r'>
+</td><td class='l'> 377</td></tr>
+<tr><td class='r'>
++ </td><td class='l'> 188</td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+
+<tr><td class='r'></td></tr>
+</table> 
+ 
+<table id="54ef4f65099a2c7507af603afae0f357c24bb48d" ><tr><td class='r'>
+</td><td class='l'> 582</td></tr>
+<tr><td class='r'>
++ </td><td class='l'> 714</td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+
+<tr><td class='r'></td></tr>
+</table> 
+
+<table id="fea2c71db08a5a0ed59ce9eb1b8eeb5d2f9eac9c" ><tr><td class='r'>
+</td><td class='l'> 310462872</td></tr>
+<tr><td class='r'>
++ </td><td class='l'> 389107123</td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+
+<tr><td class='r'></td></tr>
+</table> 
+ 
+<table id="6eca605ce8a1d8c74a8d4a50d97627449f1f3803" ><tr><td class='c'>
+</td><td class='c'> 872637163</td></tr>
+<tr><td class='c'>
++ </td><td class='c'> 187782748</td></tr>
+<tr><td class='hline' colspan='10'><hr /></td></tr>
+
+<tr><td class='c'></td></tr>
+</table> </paragraphs> </subsection> 
+<subsection>
+<title>Subtraction as take-away</title>
+<p>
+In addition, we started with two collections of dots (two numbers), and we <em>combined</em> them to form one bigger collection. That's pretty much the definition of addition: combining two collections of objects.
+In subtraction, we start with one collection of dots (one number), and we take some dots away.
+</p>
+  
+<example><title>$376-125$</title>
+<statement>
+<p>
+Suppose we want to find <m>376 - 125</m> in the dots and boxes model. We start with the representation of <m>376</m>:
+</p>
+  
+<p>
+\fellow{add picture of dots &amp; boxes for 376?}
+</p>
+  
+<p>
+Since we want to "take away" 125, that means we take away one dot from the hundreds box, leaving two dots. We take away two dots from the tens box, leaving five dots. And we take away five dots from the ones box, leaving one dot.
+</p>
+  
+<p>
+\fellow{add picture of dots &amp; boxes for 251? Would be cool if we can see shadows or erasure of the 125. If not, maybe an intermediate picture where the appropriate dots are circle with an arrow showing they're being removed? (Sort of like pic at the bottom of p. 95 in the textbook, but using dots &amp; boxes) }
+</p>
+  
+<p>
+So the answer is:
+</p>
+  <table id="2b1ede4ab3931bc19ba11333b4359cc009a7a201" ><tr><td class='r'>
+</td><td class='l'>376 </td></tr>
+<tr><td class='r'>
+<m>-</m> </td><td class='l'> 125 </td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+<tr><td class='r'>
+</td><td class='l'> 251</td></tr>
+</table>  
+<p>
+And saying out the long way we have:
+</p>
+  <ul><li>Three hundreds take away one hundred leaves 2 hundreds.</li>
+<li>Seven tens take away two tens gives 5 tens.</li>
+<li>Six ones take away five  ones gives 1 one.</li>
+ </ul>  </statement>
+</example>
+  
+<example><title>$921 - 551$</title>
+<statement>
+<p>
+Let's try a somewhat harder example: <m>921-551</m>. We start with the representation of <m>921</m>:
+</p>
+  
+<p>
+\fellow{add picture of dots &amp; boxes for 921?}
+</p>
+  
+<p>
+Since we want to "take away" 551, that means we take away one dot from the hundreds box, leaving four dots.
+</p>
+  
+<p>
+\fellow{add picture of this? }
+</p>
+  
+<p>
+Now we want to take away five dots from the tens box, but we can't do it! There are only two dots there. What can we do? Well, we still have some hundreds, so we can "unexplode" a hundreds dot, and put ten dots in the tens box instead. Then we'll be able to take five of them away, leaving seven.
+</p>
+  
+<p>
+\fellow{add picture of this? show one of the hundreds dots being removed and becoming 10 tens dots, with arrows in the diagram somehow?}
+</p>
+  
+<p>
+(Notice that we also have one less dot in the hundreds box; there's only three dots there now.)
+</p>
+  
+<p>
+Now we want to take one dot from the ones box, and that leaves no dots there.
+</p>
+  
+<p>
+\fellow{add picture of this?}
+</p>
+  
+<p>
+So the answer is:
+</p>
+  <table id="70ed1db9c9cc4c55d81a9dca0b3ca8147f887114" ><tr><td class='r'>
+</td><td class='l'>921 </td></tr>
+<tr><td class='r'>
+<m>-</m> </td><td class='l'> 551 </td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+<tr><td class='r'>
+</td><td class='l'> 370</td></tr>
+</table> </statement>
+</example>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+Solve the following exercises by thinking about the dots and boxes.
+(You can draw the pictures, or just imagine them.)
+</p>
+  <table id="19ca4814a8084913cb886f6b7b8d9ab3bc5ad9aa" ><tr><td class='r'>
+</td><td class='l'> 323</td></tr>
+<tr><td class='r'>
+<m>-</m> </td><td class='l'> 148</td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+
+<tr><td class='r'></td></tr>
+</table> 
+ 
+<table id="ed4c370f27b8736b66fc6c2560792d6b8ede828d" ><tr><td class='r'>
+</td><td class='l'> 567</td></tr>
+<tr><td class='r'>
+<m>-</m> </td><td class='l'> 271</td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+
+<tr><td class='r'></td></tr>
+</table> 
+ 
+<table id="8f0baeea2c5c3b018f8596067688a499693b4695" ><tr><td class='r'>
+</td><td class='l'> 377</td></tr>
+<tr><td class='r'>
+<m>-</m> </td><td class='l'> 188</td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+
+<tr><td class='r'></td></tr>
+</table> 
+ 
+<table id="7869cfe2f0143b42894a874f471f2343b93fdf0c" ><tr><td class='r'>
+</td><td class='l'> 714</td></tr>
+<tr><td class='r'>
+<m>-</m> </td><td class='l'> 582</td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+
+<tr><td class='r'></td></tr>
+</table> 
+
+<table id="c2ecd6dd151a3601eb10a3e7588cf8dc5c208734" ><tr><td class='r'>
+</td><td class='l'> 389107123 </td></tr>
+<tr><td class='r'>
+<m>-</m> </td><td class='l'>310462872 </td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+
+<tr><td class='r'></td></tr>
+</table> 
+ 
+<table id="03c9e72f77e498e9b04be71ad6f507591014d634" ><tr><td class='c'>
+</td><td class='c'> 872637163</td></tr>
+<tr><td class='c'>
+<m>-</m> </td><td class='c'> 187782748</td></tr>
+<tr><td class='hline' colspan='10'><hr /></td></tr>
+
+<tr><td class='c'></td></tr>
+</table> </paragraphs>  
+<problem><statement>
+<p>
+Use the dots and boxes technique to solve these problems. <em>Do not convert to base 10! Try to work directly in the base given.</em> It will probably help to actually draw the pictures.
+</p>
+  <table id="d4a7d263ff83c5d8daa10138e31d5b911e3b54f5" ><tr><td class='r'>
+</td><td class='l'> <m>20413_\text{five} </m> </td></tr>
+<tr><td class='r'>
+<m>-</m> </td><td class='l'> <m>13244_\text{five} </m></td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+
+<tr><td class='r'></td></tr>
+</table> 
+ 
+<table id="23ee70620cfe706f00a0330e00c588cee60cd120" ><tr><td class='r'>
+</td><td class='l'> <m>6288_\text{nine} </m> </td></tr>
+<tr><td class='r'>
+<m>-</m> </td><td class='l'> <m>4052_\text{nine} </m> </td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+
+<tr><td class='r'></td></tr>
+</table> 
+ 
+<table id="4fcf28ce5b711efac5558b372ee0ae5408988a34" ><tr><td class='r'>
+</td><td class='l'> <m>3555_\text{seven} </m> </td></tr>
+<tr><td class='r'>
+<m>-</m> </td><td class='l'> <m>3323_\text{seven} </m> </td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+
+<tr><td class='r'></td></tr>
+</table> </statement>
+</problem>
+ </subsection> 
+<subsection>
+<title>The Standard Algorithm for Subtraction</title>
+<p>
+Just like in addition, the standard algorithm for subtraction requires you to work from right to left, and "borrow" (this is really <em>regrouping</em>!) whenever necessary. Notice that in the dots and boxes approach, you don't need to go in any particular order when you do the subtraction. You just "unexplode" the dots as necessary when computing.
+</p>
+  
+<p>
+Here's how the standard algorithm looks with the dots and boxes model for <m>921 - 551</m>: Start with 921 dots.
+</p>
+  
+<p>
+\fellow{repeat the picture of 921 in dots &amp; boxes}
+</p>
+  
+<p>
+Then take away one dot from the ones box.
+</p>
+  
+<p>
+\fellow{show one dot going away}
+</p>
+  <table id="ecc86f7eac729abc1a6e45c1f6ae60b31acdbb12" ><tr><td class='r'>
+</td><td class='l'>921 </td></tr>
+<tr><td class='r'>
+<m>-</m> </td><td class='l'> 551 </td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+<tr><td class='r'>
+</td><td class='l'> 0</td></tr>
+</table>  
+<p>
+Now we want to take away five dots from the tens box. But there aren't five dots there. So we "unexploded" one of the hundreds dots to get more tens:
+</p>
+  
+<p>
+\fellow{picture of this?}
+</p>
+  
+<p>
+And here's how we're taught to write that regrouping:
+</p>
+  <table id="524130641336bf46d36130601132d08483842ae5" ><tr><td class='r'>
+</td><td class='l'>8 12</td></tr>
+<tr><td class='r'>
+</td><td class='l'>\cancel{9}<nbsp />\cancel{2}<nbsp />1 </td></tr>
+<tr><td class='r'>
+<m>-</m> </td><td class='l'> 5<nbsp />5<nbsp />1 </td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+<tr><td class='r'>
+</td><td class='l'> 0</td></tr>
+</table> 
+<p>
+Now we have enough tens; we can take away five of them.
+</p>
+  <table id="c722ea5a78a34929a4fb09fff4a242db02ab7f50" ><tr><td class='r'>
+</td><td class='l'>8 12</td></tr>
+<tr><td class='r'>
+</td><td class='l'>\cancel{9}<nbsp />\cancel{2}<nbsp />1 </td></tr>
+<tr><td class='r'>
+<m>-</m> </td><td class='l'> 5<nbsp />5<nbsp />1 </td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+<tr><td class='r'>
+</td><td class='l'> 7<nbsp />0</td></tr>
+</table>  
+<p>
+Finally, we want to take away five hundreds.
+</p>
+  
+<p>
+\fellow{picture of this?}
+</p>
+  <table id="5e85822e2807aea475769b9f3bba213cd76bf5bf" ><tr><td class='r'>
+</td><td class='l'>8 12</td></tr>
+<tr><td class='r'>
+</td><td class='l'>\cancel{9}<nbsp />\cancel{2}<nbsp />1 </td></tr>
+<tr><td class='r'>
+<m>-</m> </td><td class='l'> 5<nbsp />5<nbsp />1 </td></tr>
+<tr><td class='hline' colspan='2'><hr /></td></tr>
+<tr><td class='r'>
+</td><td class='l'> 3<nbsp />7<nbsp />0</td></tr>
+</table> </subsection> 
+<subsection>
+<title>Multiplication as Repeated Addition</title>
+<problem xml:id="prob_dotsmultiply"><statement>
+<p>
+Jenny was asked to compute <m>243192\times 4</m>. She wrote:
+</p>
+  <image source="images/" />  <ol type="a"><li>What was Jenny thinking about? Is her answer correct?</li>
+<li>Translate Jenny's answer into a number that the rest of the world can
+understand.</li>
+<li>Use Jenny's method to find the answers to these multiplication exercises.  Be sure to translate your answers into familiar base 10 numbers.
+
+
+<me>
+
+156 \times 3 = 
+\qquad\qquad
+2873 \times 2 = 
+\qquad\qquad
+71181\times 5 = 
+\qquad\qquad
+3726510392 \times 2 = 
+\quad
+
+</me>
+</li>
+ </ol>   
+<problem xml:id="prob_dotsmultiplybase8"><statement>
+<p>
+Can you adapt Jenny's method to solve these problems? Write your answers in base eight. Try to work directly in base eight rather than converting to base 10 and back again!
+</p>
+  
+<me>
+
+156_\text{eight}  \times 3_\text{eight}  = 
+\qquad\qquad
+2673_\text{eight}  \times 4_\text{eight}  = 
+\qquad\qquad
+36255772 \times 2_\text{eight}  = 
+\quad
+
+</me>
+ </statement>
+</problem>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+After you have worked on <xref ref="prob_dotsmultiply">problems</xref> and <xref ref="prob_dotsmultiplybase8"></xref>, share your ideas with a partner. Can you relate Jenny's method to the standard algorithm for multiplication?
+</p>
+ </paragraphs>  
+<p>
+Jenny might have been thinking about multiplication as repeated addition. If we have some number <m>N</m> and we multiply that number by 4, what we mean is:
+</p>
+  
+<me>
+
+4 \cdot N = N + N + N + N.
+
+</me>
+  
+<p>
+If we take the number <m>243192</m> and add it to itself four times using the "combining method," we get <m>2+2+2+2 = 8</m> ones, <m>9+9+9+9 = 36</m> tens, <m>1+1+1+1 = 4</m> hundreds, and so on.
+</p>
+  
+<p>
+<b>Notation:</b>
+Notice that we have used both <m>\times</m> and <m>\cdot</m> to represent multiplication. It's a bit awkward to use <m>\times</m> when you're also using variables. Is it the letter <m>x</m>? Or the multiplication symbol <m>\times</m>? It can be hard to tell! In this case, the symbol <m>\cdot</m> is more clear. We can even simplify the notation further, writing <m>4N</m> instead of <m>4 \cdot N</m>. But of course we <em>only</em> do that when we are multiplying variables by some quantity. (We wouldn't want <m>34</m> to mean <m>3 \cdot 4</m>, would we?)
+</p>
+  
+<problem><statement>
+<p>
+Here is a strange addition table. Use it to solve the following problems. <em>Important: Don't try to assign numbers to <m>A</m>, <m>B</m>, and <m>C</m>. Solve the problems just using what you know about the operations!</em>
+</p>
+  <table id="d0281e8c910091104496fe9fed8b6db90f5a4a9f" ><tr><td class='cv'>
+<nbsp /><nbsp /> <m>+</m> <nbsp /><nbsp />  </td><td class='c'> <nbsp /><nbsp /> <m>A</m> <nbsp /><nbsp /> </td><td class='c'><nbsp /><nbsp /> <m>B</m> <nbsp /><nbsp /></td><td class='c'><nbsp /><nbsp /> <m>C</m><nbsp /><nbsp /> </td></tr>
+<tr><td class='hline' colspan='4'><hr /></td></tr>
+<tr><td class='cv'>
+</td><td class='c'> </td></tr>
+<tr><td class='cv'>
+<m>A</m> </td><td class='c'> <m>C</m> </td><td class='c'><m>A</m> </td><td class='c'> <m>B</m> </td></tr>
+<tr><td class='cv'>
+</td><td class='c'> </td></tr>
+<tr><td class='cv'>
+<m>B</m> </td><td class='c'> <m>A</m> </td><td class='c'><m>B</m> </td><td class='c'> <m>C</m> </td></tr>
+<tr><td class='cv'>
+</td><td class='c'> </td></tr>
+<tr><td class='cv'>
+<m>C</m> </td><td class='c'> <m>B</m> </td><td class='c'><m>C</m> </td><td class='c'> <m>A</m> </td></tr>
+<tr><td class='cv'></td></tr>
+</table>  
+<me>
+
+A + B
+\qquad\qquad
+B+ C
+\qquad\qquad
+2 A
+\qquad\qquad
+5 C
+\qquad\qquad
+3 A + 4 B
+
+</me>
+ </statement>
+</problem>
+ </statement>
+</problem>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+Discuss your answers with a partner. How does an addition table help you solve multiplication problems like <m>5  C</m>?
+</p>
+ </paragraphs> </subsection> 
+<subsection>
+<title>Quotative Model of Division</title>
+<p>
+Suppose you are asked to compute <m>3906 \div 3</m>. One way to interpret this question (there are others) is:
+</p>
+  <div class="quote">"How many groups of 3 fit into 3906?"</div>  
+<definition><statement>
+<p>
+In the <term>quotative</term> model of division, you are given a <term>dividend</term> (here it is 3906), and you are asked to split it into equal-sized groups, where the size of the group is given by the <term>divisor</term> (here it is 3).
+</p>
+ </statement>
+</definition>
+  
+<p>
+In our dots and boxes model, the dividend 3906 looks like this:
+</p>
+  <image source="images/" /> 
+<p>
+and three dots looks like this:
+<image source="images/" /> .
+So we are really asking:
+</p>
+  <div class="quote">"How many groups of <image source="images/" />  fit into the picture of 3906?"</div>  
+<p>
+There is one group of 3 at the thousands level, and three at the hundreds level,
+none at the tens level, and two at the ones level.
+</p>
+  <image source="images/" />  
+<p>
+Notice what we have in the picture:
+</p>
+  <ul><li>One group of 3 in the thousands box.</li>
+<li>Three groups of 3 in the hundreds box.</li>
+<li>Zero groups of 3 in the tens box.</li>
+<li>Two groups of 3 in the ones box.</li>
+ </ul>  
+<p>
+This shows that 3 goes into 3906 one thousand, three hundreds and two ones times.
+That is,
+</p>
+  
+<me>
+
+3906 \div 3 = 1302.
+
+</me>
+  
+<p>
+<b>Fun fact:</b> The division sign <m>\div</m> has an unusual name. It is called an
+<em>obelus</em>. Not many people know this.
+</p>
+  
+<p>
+Let's try a harder one! Consider <m>402 \div 3</m>.
+Here's the picture:
+</p>
+  <image source="images/" />  
+<p>
+We are still looking for groups of three dots: <image source="images/" /> .
+</p>
+  
+<p>
+There is certainly one group at the 100s level.
+</p>
+  <image source="images/" /> 
+<p>
+and now it seems we are stuck Ð there are no more groups of three!
+</p>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+What can we do now? Are we really stuck? Can you finish the division problem?
+</p>
+ </paragraphs>  
+<example><title>$402\div 3$</title>
+<statement>
+<p>
+Here are the details worked out for <m>402 \div 3</m>. But don't read this until you've thought about it yourself!
+</p>
+  
+<p>
+Since each dot is worth ten dots in the box to the right we can write:
+</p>
+  <image source="images/" /> 
+<p>
+Now we can find more groups of three:
+</p>
+  <image source="images/" /> 
+<p>
+There is still a troublesome extra dot. Let's unexploded it too
+</p>
+  <image source="images/" /> 
+<p>
+This gives us more groups of three:
+</p>
+  <image source="images/" />  
+<p>
+In the picture we have:
+</p>
+  <ul><li>One group of 3 in the hundreds box.</li>
+<li>Three groups of 3 in the tens box.</li>
+<li>Four groups of 3 in the ones box.</li>
+ </ul>  
+<p>
+Finally we have the answer!
+</p>
+  
+<me>
+
+402 \div 3 = 134.
+
+</me>
+ </statement>
+</example>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+Solve each of these exercises using the dots and boxes method:
+</p>
+  
+<me>
+
+62124 \div 3 
+\qquad
+\qquad
+\qquad
+61230 \div 5
+
+</me>
+ </paragraphs>  
+<p>
+Let's turn up the difficulty a notch. Consider <m>156 \div 12</m>.
+Here we are looking for groups of 12 in this picture:
+</p>
+  <image source="images/" />  
+<p>
+What does 12 look like? It can be twelve dots in a single box:
+</p>
+  <image source="images/" /> 
+<p>
+But most often we would write 12 this way:
+</p>
+  <image source="images/" /> 
+<p>
+We certainly see some of these in the picture. There is certainly one at the tens
+level:
+</p>
+  <image source="images/" />  
+<p>
+(REMEMBER: With an unexplosion this would be twelve dots in the tens box.)
+</p>
+  
+<p>
+And three at the ones level:
+</p>
+  <image source="images/" />  
+<p>
+So in the picture we have:
+</p>
+  <ul><li>One group of 12 dots in the tens box.</li>
+<li>Three groups of 12 dots in the ones box.</li>
+ </ul>  
+<p>
+That means
+</p>
+  
+<me>
+
+156 \div 12 = 13.
+
+</me>
+  
+<problem xml:id="prob_practicediv"><statement>
+<p>
+Use the dots and boxes model to compute each of the following:
+</p>
+  
+<me>
+
+13453 \div 11
+\qquad\qquad
+4853 \div 23
+\qquad\qquad
+214506 \div 102
+
+</me>
+ </statement>
+</problem>
+  <paragraphs><title>Think/Pair/Share</title> <ul><li>Compare your solutions to <xref ref="prob_practicediv">problem</xref> with a partner.</li>
+<li>When you agree that you are doing the process correctly, use dots and boxes to compute these:
+
+
+<me>
+
+2130 \div 10
+\qquad\qquad
+41300 \div 100
+
+</me>
+</li>
+<li>Discuss: What pictures did you use for 10 and for 100? Can you describe in words what happens
+when dividing by 10 and by 100 and <em>why</em>?</li>
+ </ul>  </paragraphs> </subsection> 
+<subsection>
+<title>The Standard Algorithm for Division</title>
+<p>
+We used dots and boxes to show that <m>402 \div 3 = 134</m>.
+</p>
+  <image source="images/" />  
+<p>
+In elementary school, you might have learned to solve this division problem by using a diagram
+like the following:
+</p>
+  <image source="images/" /> 
+<p>
+At first glance this seems very mysterious, but it is really no different from the
+dots and boxes method. Here is what the table means.
+</p>
+  
+<p>
+To compute <m>402 \div 3</m>, we first make a big estimation as to how many groups of
+3 there are in 402. Let's guess that there are 100 groups of three.
+</p>
+  <image source="images/" /> 
+<p>
+How much is left over after taking away 100 groups of 3?
+</p>
+  <image source="images/" /> 
+<p>
+How many groups of 3 are in 102? Let's try 30:
+</p>
+  <image source="images/" /> 
+<p>
+How many are left? There are 12 left and there are four groups of 3 in 12.
+</p>
+  <image source="images/" /> 
+<p>
+The accounts for entire number 402. And where doe we find the final answer? Just
+add the total count of groups of three that we tallied:
+</p>
+  
+<me>
+
+402 \div 3 = 100 + 30 + 4 = 134.
+
+</me>
+  <paragraphs><title>Think/Pair/Share</title>
+<p>
+Compare these two diagrams. In what way are they the same? In what way are they different?
+</p>
+  <image source="images/" /> 
+      
+<image source="images/" />  
+<p>
+Look at the dots and boxes method. In what way is the same or different from the two tables?
+</p>
+  <image source="images/" /> </paragraphs>  <ul><li><b>Why do we like the standard algorithm?</b>   Because it is quick, not too much to
+write down, and it works.</li>
+<li><b>Why do we like the dots and boxes method?</b>   Because it easy to
+understand. (And drawing dots and boxes is kind of fun!)</li>
+ </ul>   
+<p>
+We saw that 402 is evenly divisible by 3: <m> 402 \div 3 = 134</m>. This means that 403, one more, shouldn't be divisible by three. It should be one dot
+too big. Do we see the extra dot if we try the dots and boxes method?
+</p>
+  <image source="images/" /> 
+<p>
+Yes we do! We have one dot left at the end that can't be divided. We say that we
+have a <em>remainder</em> of one and some people like to write:
+</p>
+  
+<me>
+
+403 \div 3 = 134\  R1.
+
+</me>
+  
+<p>
+Let's try another one: <m>263 \div 12</m>. Here's what we have:
+</p>
+  <image source="images/" /> 
+<p>
+And we are looking for groups like this:
+</p>
+  <image source="images/" /> 
+<p>
+Here goes!
+</p>
+  <image source="images/" /> 
+<p>
+Unexploding won't help any further and we are indeed left with one remaining dot in
+the tens position and a dot in the ones position. This means we
+have a remainder of eleven.
+</p>
+  
+<me>
+
+263 \div 12 = 21\ R 11.
+
+</me>
+  <paragraphs><title>Think/Pair/Share</title> <ul><li>Use the dots and boxes method to compute each quotient:
+
+<me>
+
+5210 \div 4
+\qquad\qquad
+4857 \div 23
+\qquad\qquad
+31533 \div101
+
+</me>
+</li>
+<li>Now use the standard algorithm (an example is  shown below) to compute each of the quotients above.
+  <image source="images/" /> <br />
+<m>403 \div 3 = 134\ R1</m>. </li>
+<li>Which method do you like better: dots and boxes or the standard algorithm method? Or does
+it depend on the problem you are doing?</li>
+ </ul>  </paragraphs>  <paragraphs><title>Think/Pair/Share</title>
+<p>
+Which is the <em>best</em> explanation for why this long division algorithm works? Think about your choice on your own. Then share your choice with a partner and see if you can agree on the best answer.
+</p>
+  
+<p>
+<image source="images/" />
+<image source="images/" />
+</p>
+ </paragraphs> </subsection> </section>

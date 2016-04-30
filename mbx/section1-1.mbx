@@ -1,0 +1,91 @@
+
+<section>
+<title>Problem or Exercise?</title><introduction>
+<p>
+The main activity of mathematics is <b>solving problems</b>. But what most people experience in most mathematics classrooms is <b>practice exercises</b>. An exercise is different from a problem.
+</p>
+  
+<p>
+In a <b>problem</b>, you probably don't know at first how to approach solving it. You
+don't know what mathematical ideas might be used in the solution. Part of solving a problem is understanding what is being asked, and knowing what a solution should even look like. Problems often involve false starts, making mistakes, and lots of scratch paper!
+</p>
+  
+<p>
+In an <b>exercise</b>, you are often practicing a skill. You may have seen a teacher demonstrate a technique, or you may have read a worked example in the book. You then <em>practice</em> on very similar problems, with the goal of mastering that skill.
+</p>
+  
+<p>
+Note: What is a <b>problem</b> for some people may be an <b>exercise</b> for other people who have more background knowledge! For a young student just learning addition, this might be a problem:
+</p>
+  <em>Fill in the blank to make a true statement: <m>\underline{\qquad} + 4 = 7</m>. </em> 
+<p>
+But for you, that is an exercise!
+</p>
+  
+<p>
+Both problems and exercises are important in mathematics learning. But we should never forget that the ultimate goal is to develop more and better skills (through exercises) so that we can solve harder and more interesting problems.
+</p>
+  
+<p>
+Learning math is a bit like learning to play a sport. You can practice lots of skills &#8202;&#x2014;&#8202; hitting hundreds of forehands in tennis so that you can place them in a particular spot in the court, breaking down strokes into the component pieces in swimming so that each part of the stroke is more efficient, keeping control of the ball while making quick turns in soccer, shooting free throws in basketball, catching high fly balls in baseball, and so on &#8202;&#x2014;&#8202; but the whole point of the sport is to <em>play the game</em>. You practice the skills so that you're better at playing the game!
+</p>
+  
+<p>
+The game of math, that's solving problems!
+</p>
+ </introduction> 
+<subsection>
+<title>On Your Own</title>
+<p>
+For each question below, decide if it is a <b>problem</b> or an <b>exercise</b>. (You do not need to solve the problems! Just decide which category it fits for you.) After you have labeled each one, compare your answers with a partner.
+</p>
+  
+<p>
+\fellow{Add a mix of exercises. Use the problems provided here. Throw in some straightforward computations like adding fractions with unlike denominators, multiplying two-digit numbers, and solving some linear equations. Make a couple of them "word problems" but exercise-y ones like: "What number is 3 more than 20?" You can just flip through the book. Choose about six or seven exercises to go with the problems shows, and intersperse them.}
+</p>
+  <ol><li>This clock has been broken into three pieces.  If you add the numbers in each piece, the sums are consecutive numbers.  Can you break another clock into a different number of pieces so that the sums are consecutive numbers?  
+<image source="images/" /> 
+Assume that each piece has at least two numbers and that no number is damaged (e.g. 12 isn't split into two digits 1 and 2.) 
+
+\fellow{The clock picture is scanned &amp; stolen from some long-forgotten source.  Any chance we can re-create a version of it?  Even take a picture of a real clock and draw some lines on it?}</li>
+<li>Arrange the digits 1&#x2013;6 into a "difference triangle" where each number in the row below is the difference of the two numbers above it.<br /></li>
+<li>Letters stand for digits 0&#x2013;9.  In a given problem: the same letter always represents the same digit, and different letters always represent different digits.  There is no relation between problems (so "A" in problem one and "A" in problem 3 might be different).
+
+<table id="53ccf35e8a0c72a75d4f91d3032797b0a6c5d0c0" ><tr><td class='c'>
+</td><td class='c'> A </td><td class='c'> B </td><td class='c'> C</td></tr>
+<tr><td class='c'>
+<m>+</m></td><td class='c'> A </td><td class='c'> C </td><td class='c'> B</td></tr>
+<tr><td class='hline' colspan='5'><hr /></td></tr>
+<tr><td class='c'>
+</td><td class='c'> C </td><td class='c'> B </td><td class='c'> A</td></tr>
+<tr><td class='c'></td></tr>
+</table> 
+&nbsp;&nbsp;&nbsp;
+<table id="fdfda4543c2c439770414c4954ff2a20b0cef26e" ><tr><td class='c'>
+</td><td class='c'> O </td><td class='c'> N </td><td class='c'> E</td></tr>
+<tr><td class='c'>
+<m>+</m></td><td class='c'> O </td><td class='c'> N </td><td class='c'> E</td></tr>
+<tr><td class='hline' colspan='5'><hr /></td></tr>
+<tr><td class='c'>
+</td><td class='c'> T </td><td class='c'> W </td><td class='c'> O</td></tr>
+<tr><td class='c'></td></tr>
+</table> 
+&nbsp;&nbsp;&nbsp;
+<table id="326d627f6251642fb30a7fcf3568d1ed1b9625c5" ><tr><td class='c'>
+</td><td class='c'></td><td class='c'> A </td></tr>
+<tr><td class='c'>
+</td><td class='c'></td><td class='c'> A </td></tr>
+<tr><td class='c'>
+<m>+</m></td><td class='c'></td><td class='c'> A </td></tr>
+<tr><td class='hline' colspan='3'><hr /></td></tr>
+<tr><td class='c'>
+</td><td class='c'>H</td><td class='c'> A </td></tr>
+<tr><td class='c'></td></tr>
+</table> <br />
+<b>Notes:</b> "O" represents the letter O and not the number zero.  Two and three digit numbers never start with 0.</li>
+<li>You have eight coins and a balance scale.  The coins look alike, but one of them is a counterfeit.  The counterfeit coin is lighter than the others.  You may only use the balance scale two times.  How can you find the counterfeit coin?
+
+\fellow{Can we get a picture of a balance scale?  Best if it's one that is in the public sphere or that we create ourselves.}</li>
+<li>How many squares are on a standard <m>8 \times 8</m> chess board?</li>
+<li>Find the largest eight-digit number made up of the digits 1, 1, 2, 2, 3, 3, 4, and 4 such that the 1s are separated by one digit, the 2s are separated by two digits, the 3s by three digits, and the 4s by four digits.</li>
+ </ol>  </subsection> </section>
