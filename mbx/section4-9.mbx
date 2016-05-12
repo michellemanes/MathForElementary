@@ -1,0 +1,357 @@
+<section>
+<title>Problem Bank</title>
+<problem>
+<title>Who gets more pie?</title>
+<statement>
+<p>
+Joe is with a group of five boys who share four pies. Jeff is with a group of seven boys who share four pies. Chris is in a group of seven boys who share six pies.
+</p>
+
+<ol type="a"><li>Who gets more pie, Joe or Jeff?  Justify your answer!</li>
+<li>Who best more pie, Joe or Chris?  Justify your answer!</li>
+<li>Who gets more pie, Jeff or Chris?  Justify your answer!</li>
+</ol>
+</statement>
+</problem>
+  
+<problem>
+<title>Leftover Cake</title>
+<statement>
+<p>
+Yesterday was Zo&#xeB;'s birthday, and she had a big rectangular cake. Today, <m>\frac 2 5</m> of the cake is left. It is shown here. Draw a picture of the whole cake and explain your work.
+</p>
+<image source="images/" />
+</statement>
+</problem>
+  
+<problem>
+<title>Ordering fractions</title>
+<statement>
+<p>
+Use benchmarks and intuitive methods to arrange the fractions below in ascending order. Explain how you decided. (The point of this problem is to think more and compute less!):
+</p>
+<me>
+  \frac 2 5 , \quad\quad \frac 1 3 , \quad\quad\frac 5 8 , \quad\quad \frac 1 4 , \quad \quad\frac 2 3 , \quad\quad  \frac 3 4, \quad\quad \frac 4 7.
+</me>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Which of these fractions has the larger value? <b>Justify</b> your choice.
+</p>
+<me>
+  \frac{10001}{10002}   \text{  or }     \frac{10000001}{10000002}
+</me>
+</statement>
+</problem>
+  
+<problem>
+<title>Quick!</title>
+<statement>
+<p>
+Solve each division problem. Look for a shortcut, and explain your work.
+</p>
+<me>
+  \frac{251 + 251 + 251 +251}{4}
+</me>
+<me>
+  \frac{377 + 377 + 377 + 377 + 377}{5}
+</me>
+<me>
+  \frac{123123 + 123123 + 123123 + 123123 + 123123 + 123123}{3}
+</me>
+</statement>
+</problem>
+  
+<problem>
+<title>Cancellation</title>
+<statement>
+<p>
+Yoko says
+</p>
+<me>
+  \frac{16}{64} = \frac 1 4
+</me>
+<p>
+because she cancels the sixes:
+</p>
+<me>
+  \frac{1\cancel{6}}{\cancel{6}4} = \frac 1 4.
+</me>
+<p>
+But note:
+</p>
+<me>
+  \frac{16}{64} = \frac{1 \cdot 16}{4\cdot 16} = \frac{1 \cdot \cancel{16}}{4\cdot \cancel{16}} = \frac 1 4.
+</me>
+<p>
+So is Yoko right? Does her cancelation rule always work?
+If it doesn't always work, can you find <em>any other</em> example where it works? Can you find <em>every</em> example where it works?
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Jimmy says that a fraction doesn't change in value if you add the same amount to the numerator and the denominator. Is he right? If you were Jimmy's teacher, how would you respond?
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Shelly says that if <m>ab \lt  cd</m> then <m>\frac a b\lt  \frac c d</m>. Is Shelly's claim always true, sometimes true, or never true? If you were Shelly's teacher, what would you say to her?
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Jill, her brother, and another partner own a pizza restaurant. If Jill owns <m>\frac 1 3</m> of the restaurant and her brother owns <m>\frac 1 4</m> of the restaurant, what fraction does the third partner own?
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+John spent a quarter of his life as a boy growing up, one-sixth of his life in college, and one-half of his life as a teacher. He spent his last six years in retirement. How old was he when he died?
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Nana was planning to make a red, white, and blue quilt.
+One-third was to be red and two-fifths was to be white. If
+the area of the quilt was to be 30 square feet, how many
+square feet would be blue?
+</p>
+</statement>
+</problem>
+<p>
+\fellow{add a picture of a Hawaiian quilt?}
+</p>
+<problem>
+<statement>
+<p>
+Rafael ate one-fourth of a pizza and Rocco ate one-third of it. What fraction of the pizza did they eat?
+</p>
+</statement>
+</problem>
+  
+<problem>
+<title>Tangrams</title>
+<statement>
+<p>
+Tangrams are a seven-piece puzzle, and the seven pieces can be assembled into a big square.
+</p>
+<image source="images/" />  <ol type="a"><li>If the large square shown above is one whole, assign a fraction value to each of the seven tangram pieces.  Justify your answers. <br /></li>
+<li>The tangram puzzle contains a small square.  If the small square (the single tangram piece)  is one whole, assign a fraction value to each of the seven tangram pieces.  Justify your answers. <br /></li>
+<li>The tangram set contains two large triangles.  If a large triangle (the single tangram piece)  is one whole, assign a fraction value to each of the seven tangram pieces.  Justify your answers. <br /></li>
+<li>The tangram set contains one medium triangle.  If the medium triangle (the single tangram piece)  is one whole, assign a fraction value to each of the seven tangram pieces.  Justify your answers. <br /></li>
+<li>The tangram set contains two small triangles.  If a small triangle (the single tangram piece)  is one whole, assign a fraction value to each of the seven tangram pieces.  Justify your answers. <br /></li>
+</ol>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Mikiko said her family made two square pizzas at home. One of the pizzas was 8 inches on each side, and the other was 12 inches on each side. Mikiko ate <m>\frac 1 4</m> of the small pizza and <m>\frac 1{12}</m> of the large pizza. So she said that she ate
+</p>
+<me>
+  \frac 1 4 + \frac 1 {12} 
+\quad 
+= 
+\quad 
+\frac 3{12} + \frac 1 {12} 
+\quad 
+= 
+\quad 
+\frac 4{12} 
+\quad 
+= 
+\quad 
+\frac 1 3
+</me>
+<p>
+of the pizza.
+Do you agree with Mikiko's calculation? Did she eat <m>\frac 1 3</m> of her family's pizza? Carefully justify your answer.
+</p>
+</statement>
+</problem>
+  
+<problem>
+<title>Harmonic triangle</title>
+<statement>
+<p>
+Look at the triangle of numbers. There are lots of patterns here! Find as many as you can. In particular, try to answer these questions:
+</p>
+
+<ol type="a"><li>What  pattern describes the first number in each row?</li>
+<li>How is each fraction related to the two fractions below it?</li>
+<li>Can you write down the next two rows of the triangle?</li>
+</ol>
+<table id="df2af87e845b40943f3adbff94d4996d8b87c73f" >
+<tr><td class='c'>
+</td><td class='c'></td><td class='c'></td><td class='c'></td><td class='c'> <m>\displaystyle\frac 1 1</m> </td><td class='c'> </td><td class='c'> </td><td class='c'> </td><td class='c'></td>
+    </tr>
+<tr><td class='c'>
+</td><td class='c'></td><td class='c'></td><td class='c'><m>\displaystyle\frac 1 2</m></td><td class='c'>  </td><td class='c'><m>\displaystyle\frac 1 2</m> </td><td class='c'> </td><td class='c'> </td><td class='c'></td>
+    </tr>
+<tr><td class='c'>
+</td><td class='c'></td><td class='c'><m>\displaystyle\frac 1 3</m></td><td class='c'></td><td class='c'><m>\displaystyle\frac 1 6</m>  </td><td class='c'> </td><td class='c'><m>\displaystyle\frac 1 3</m> </td><td class='c'> </td><td class='c'></td>
+    </tr>
+<tr><td class='c'>
+</td><td class='c'><m>\displaystyle\frac 1 4</m></td><td class='c'></td><td class='c'><m>\displaystyle\frac 1 {12}</m> </td><td class='c'> </td><td class='c'> <m>\displaystyle\frac 1 {12}</m></td><td class='c'> </td><td class='c'><m>\displaystyle\frac 1 4</m> </td><td class='c'></td>
+    </tr>
+<tr><td class='c'>
+<m>\displaystyle\frac 1 5</m></td><td class='c'></td><td class='c'><m>\displaystyle\frac 1 {20}</m></td><td class='c'></td><td class='c'><m>\displaystyle\frac 1 {30}</m>  </td><td class='c'> </td><td class='c'><m>\displaystyle\frac 1 {20}</m> </td><td class='c'> </td><td class='c'><m>\displaystyle\frac 1 5</m></td>
+    </tr>
+<tr><td class='c'></td>
+    </tr>
+</table>
+</statement>
+</problem>
+  
+<problem>
+<title>Let them eat cake!</title>
+<statement>
+<p>
+Marie made a sheet cake at home, but she saved some to bring to work and share with her co-workers the next day. Answer these questions about Marie's cake. (Draw a picture!)
+</p>
+
+<ol type="a"><li>Suppose Marie saved <m>\frac 1 2</m> of the cake for her coworkers and the co-workers ate <m>\frac 3 4</m>  of this. What fraction of the entire cake did they eat?<br /></li>
+<li>What if Marie saved <m>\frac 1 6</m> instead, and they ate <m>\frac 2 3</m> of this?<br /></li>
+<li>What if she saved <m>\frac 5 7</m> of the cake and they ate <m>\frac 1 2</m> of this?<br /></li>
+</ol>
+</statement>
+</problem>
+  
+<problem>
+<title>Door prize</title>
+<statement>
+<p>
+An elementary school held a <q>Family Math Night</q> event, and 405 students showed up. Two-thirds of the students who showed up won a door prize. How many students won prizes?
+</p>
+</statement>
+</problem>
+  
+<problem>
+<title>Working Backwards</title>
+<statement>
+<p>
+For each picture shown:
+</p>
+
+<ul>
+<li>What multiplication problem is represented?</li>
+<li>What is the product?</li>
+</ul>
+<image source="images/" /> 
+   
+<image source="images/" />
+</statement>
+</problem>
+  
+<problem>
+<title>Depreciation</title>
+<statement>
+<p>
+A piece of office equipment was purchased for <dollar />60,000. Each year, it depreciates in value. At the end of each year, the equipment is worth <m>\frac{9} {10}</m> what it was worth at the start of the year.
+How much is the equipment worth after 1 year? After 2 years? After 5 years?
+</p>
+</statement>
+</problem>
+  
+<problem>
+<title>How close can you get?</title>
+<statement>
+<p>
+Using only the digits 0, 1, 2,<ddots /> , 9 at most once each in place of the variables, find the value closest to 1. For each problem, justify your solution. How do you <em>know</em> it's closest to 1?
+</p>
+
+<ol type="a"><li><m>\displaystyle \frac a b</m><br /></li>
+<li><m>\displaystyle \frac a b \cdot \frac c d</m><br /></li>
+<li><m>\displaystyle \frac a b \cdot \frac c d \cdot \frac e f</m><br /></li>
+</ol>
+</statement>
+</problem>
+  
+<problem>
+<title>Community garden</title>
+<statement>
+<p>
+A town plans to build a community garden that will cover <m>\frac 2 3</m> of a square mile. They would like to situate it on a pasture of an old farm. One dimension of the garden area will be determined by a fence that is <m>\frac 3 4</m> of a mile long. If the garden is a rectangle, how long is the other side?
+</p>
+</statement>
+</problem>
+  
+<problem>
+<title>Planting wheat</title>
+<statement>
+<p>
+Nate used <m>90 \frac 1 2</m> pounds of seed to plant <m>1 \frac 1 4</m> acres of land in spring wheat. How many pounds of seed is he using per acre?
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+The family-sized box of laundry detergent contains 35 cups of detergent. Your family's machine requires <m>1 \frac 1 4</m> cup per load. How many loads of laundry can your family do with one box of detergent?
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+At the start of each semester, <m>\frac 5 6</m> of all Math 111 students work out at least three times each week. By the middle of the semester, <m>\frac 4 5</m> of those students are still working out regularly. By the time finals rolls around, <m>\frac 9{10}</m> of those students still hit the gym three times each week. If 36 students are working out regularly during finals, how many were enrolled in Math 111 at the start of the semester?
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Jessica bikes to campus every day. When she is one-third of the way between her home and where she parks her bike, she passes a grocery store. When she is halfway to school, she passes a Subway sandwich shop. This morning, Jessica passed the grocery store at 8:30am, and she passed Subway at 8:35am. What time did she get to campus?
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+If you place a full container of flour on a balance scale and place on the other side a <m>\frac 1 3</m> pound weight plus a container of flour (the same size) that is <m>\frac 3 4</m> full, then the scale balances. How much does the full container of flour weight?
+</p>
+
+<p>
+\fellow{add a picture? also if it makes sense for any of the other problems...}
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Geoff spent <m>\frac 1 4</m> of his allowance on a movie. He spent <m>\frac{11}{18}</m> of what was left on snacks at school. He also spent <dollar />3 on a magazine, and that left him with <m>\frac 1{24}</m> of his total allowance, which he put into his savings account. How much money did Geoff save that week?
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Lily was flying to San Francisco from Honolulu. Halfway there, she fell asleep. When she woke up, the distance remaining was half the distance traveled while she slept. For what fraction of the trip was Lily asleep?
+</p>
+</statement>
+</problem>
+</section>

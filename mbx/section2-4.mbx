@@ -1,0 +1,380 @@
+<section>
+<title>Other Bases</title>
+<introduction>
+<p>
+In the <m>1 \leftarrow 3</m> system, three dots in one box is worth one dot
+in the box one spot to the left. This gives a new picture:
+</p>
+<image source="images/" />
+<p>
+Each dot in the second box from the left is worth three ones. Each dot in the third box is worth three 3s, which is nine, and so on.
+</p>
+<example>
+<statement>
+<p>
+We said that the <m>1\leftarrow 3</m> code for fifteen is 120. We see that this is correct
+because
+</p>
+<image source="images/" />
+<me>
+  9 + 2\cdot 3 = 9+6 = 15.
+</me>
+</statement>
+</example>
+  
+<problem xml:id="prob_Base3Start">
+<statement>
+<p>
+Answer these questions about the <m>1 \leftarrow 3</m> system.
+</p>
+
+<ol type="a"><li>What label should go on the box to the left of the 27 box?</li>
+<li>What would be the value of a box <em>two</em> spots to the left of the 27 box?</li>
+<li>What number has <m>1 \leftarrow 3</m> code 21002?</li>
+<li>What is the <m>1 \leftarrow 3</m> code for the number two hundred?</li>
+</ol>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+In the <m>1 \leftarrow 4</m> system, four dots in one box are worth one dot in the box one place
+to the left.
+</p>
+
+<ol type="a"><li>What is the value of each box?
+<image source="images/" /> </li>
+<li>What is the <m>1 \leftarrow 4</m> code for twenty-nine?</li>
+<li>What number has <m>1 \leftarrow 4</m> code 132?</li>
+</ol>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+In the <m>1 \leftarrow 10</m> system, ten dots in one box are worth one dot in the box one place
+to the left.
+</p>
+
+<ol type="a"><li>What is the value of each box?
+<image source="images/" /> </li>
+<li>What is the <m>1 \leftarrow 10</m> code for eight thousand four hundred and twenty-two?</li>
+<li>What number has <m>1 \leftarrow 10</m> code 95753?</li>
+<li>When we write the number 7842 the <q>7</q> is represents what quantity? The <q>4</q> is
+four groups of what value? The <q>8</q> is eight groups of what value? The <q>2</q> is two
+groups of what value?</li>
+<li>Why do human beings like the <m>1\leftarrow 10</m> system for writing numbers?</li>
+</ol>
+</statement>
+</problem>
+  
+<definition>
+<statement>
+<p>
+Numbers written in the <m>1 \leftarrow 3</m> system are called <term>base three numbers</term>. Numbers written in the <m>1 \leftarrow 4</m> system are called <term>base four numbers</term>. Numbers written in the <m>1 \leftarrow 10</m> system are called <term>base ten numbers</term>. In general, numbers written in the <m>1 \leftarrow b</m> system are called <term>base <m>b</m> numbers.</term>
+</p>
+</statement>
+</definition>
+<p>
+In a base <m>b</m> number system, each place represents a <em>power of <m>b</m></em>, which means <m>b^k</m> for some positive number <m>k</m>. Remember this means <m>b</m> multiplied by itself <m>k</m> times:
+</p>
+<me>
+  b^k = \underbrace{b \cdot b \cdots b}_{k \text{ times} }.
+</me>
+<ul>
+<li>The right-most place is the <em>units</em> or <em>ones</em> place.  (Why is this a <em>power of <m>b</m>?</em>)</li>
+<li>The second spot is the <q><m>b</m></q> place.  (In base 10, it's the tens place.)</li>
+<li>The third spot is the <q><m>b^2</m></q> place.  (In base 10, that's the hundreds place, and <m>100 = 10^2</m>.)</li>
+<li>The fourth spot is the <q><m>b^3</m></q> place.  (In base 10, that's the thousands place, and <m>1000 = 10^3</m>.)</li>
+<li>And so on<ddots /> the <m>n^\text{th}</m> spot is the <m>b^{n-1}</m> place.</li>
+</ul>
+
+<p>
+<b>Notation:</b>
+Whenever we're dealing with numbers written in different bases, we use a subscript to indicate the base so that there can be no confusion. So <m>102_\text{three}</m> is a base three number, <m>222_\text{four}</m> is a base four number, and <m>54321_\text{ten}</m> is a base ten number. If the base is not written, we assume the number is written in base ten.
+</p>
+<paragraphs>
+<title>Think/Pair/Share</title>
+<ol type="a"><li>Find the number of dots represented by:
+<me>
+  102_\text{three} , 
+\quad 222_\text{four} , 
+\quad 
+54321_\text{ten} .
+</me>
+</li>
+<li>Represent nine dots in each base: 
+three, four, five, six, seven, eight, nine, and ten. </li>
+<li>Which digits are used in the base two system?  The base three system?  The base four system?  The base five system?  The base six system?  The base ten system?</li>
+<li>What does the <em>base</em> tell you about the number system?  (Think of as many answers as you can!)</li>
+</ol>
+</paragraphs> </introduction>
+
+
+<subsection>
+<title>Base <m>b</m> to Base Ten</title>
+<p>
+In <xref ref="sec_Binary">Section</xref>, you were asked to come up with <em>general methods</em> to translate numbers from base two (binary) to base ten (our standard system). We're now going to describe some general methods for converting from base <m>b</m> to base ten, where <m>b</m> can represent any whole number bigger than one.
+</p>
+
+<p>
+If the base is <m>b</m>, that means we're in a <m>1 \leftarrow b</m> system. A dot in the right-most box is worth 1. A dot in the second box is worth <m>b</m>. A dot in the third box is worth <m>b \times b = b^2</m>, and so on.
+</p>
+
+<p>
+\fellow{Can you make a picture of base <m>b</m> boxes with the appropriate labels, say up to <m>b^4</m>?}
+</p>
+
+<p>
+So, for example, the number <m>10123_b</m> represents
+</p>
+<me>
+  1\cdot b^4  + 0 \cdot b^3 +  1 \cdot b^2  + 2\cdot b + 3\cdot 1 \text{ dots,}
+</me>
+<p>
+because we imagine three dots in the right-most box (each worth one), two dots in the second box (each representing <m>b</m> dots), one dot in the third box (representing <m>b^2</m> dots), and so on. That means we can just do a short calculation to find the total number of dots, without going through all the trouble of drawing the picture and <q>unexploding</q> the dots.
+</p>
+<example>
+<statement>
+<p>
+Consider the number <m>123_\text{five}</m>. This represents
+</p>
+<me>
+  1 \cdot 5^2  + 2 \cdot 5 + 3 = 25 + 10 + 3 = 38 \text{ dots.}
+</me>
+<p>
+On the other hand, the number <m>123_\text{seven}</m> represents
+</p>
+<me>
+  1 \cdot 7^2  + 2 \cdot 7 + 3 = 49 + 14 + 3 = 66 \text{ dots.}
+</me>
+</statement>
+</example>
+  <paragraphs>
+<title>Think/Pair/Share</title>
+<ul>
+<li>Convert each number to base ten.  Compare your answers with a partner to be sure you agree.
+<me>
+  18_\text{nine} ,
+\qquad
+547_\text{eight} ,
+\qquad
+3033_\text{five} ,
+\qquad
+11011_\text{three} .
+</me>
+</li>
+<li>Which number represents a greater amount of total dots:
+<me>
+  23,455,443_\text{six}  \quad \text{ or }  \quad 23,455,443_\text{eight} ?
+</me>
+Justify your answer.</li>
+</ul>
+</paragraphs>
+</subsection>
+
+
+<subsection>
+<title>Base Ten  to Base <m>b</m></title>
+<p>
+In <xref ref="sec_Binary">Section</xref>, you were also asked to come up with <em>general methods</em> to translate numbers from base ten to base two. We're now going to describe some general methods for converting from base ten to base <m>b</m>, where <m>b</m> can represent any whole number bigger than one.
+</p>
+
+<p>
+We'll work out an example, and then describe the general method.
+</p>
+<example>
+<statement>
+<p>
+To convert <m>321</m> to a base five number (without actually going through the tedious process of exploding <m>321</m> dots in groups of five):
+</p>
+
+<p>
+Find the largest power of five that is smaller than 321. We'll just list powers of five:
+</p>
+<me>
+  5^1 = 5, \quad 5^2 = 25, \quad 5^3 = 125, \quad 5^4 = 625.
+</me>
+<p>
+So we know that the left-most box we'll use is the <m>5^3</m> box.
+\fellow{add a picture of the appropriately labeled boxes for base 5, up to <m>5^3</m>?}
+</p>
+
+<p>
+How many dots will be in that left-most box? That's the same as asking how many 125s are in 321. Since
+</p>
+<me>
+  2\cdot 125 = 250 \quad \text{ and }  \quad 3 \cdot 125 = 375,
+</me>
+<p>
+we have two dots in the <m>5^3</m> box, representing a total of <m>250</m> dots, but rather than drawing dots we'll start writing the digits to represent them.
+</p>
+
+<p>
+\fellow{picture of the base 5 boxes with a <q>2</q> in the <m>5^3</m> box?}
+</p>
+
+<p>
+How many dots are left unaccounted for? <m>321 - 250 = 71</m> dots are left.
+</p>
+
+<p>
+Now just repeat the process: We can put a <q>2</q> in the <m>5^2</m> box, and that takes care of <m>50</m> dots. So so far we have two in the <m>5^3</m> box and two in the <m>5^2</m> box, so that's a total of
+</p>
+<me>
+  2\cdot 125 + 2\cdot 25 = 300 \text{ dots} .
+</me>
+<p>
+\fellow{picture of the base 5 boxes with 2 in <m>5^3</m> box and 2 in the <m>5^2</m> box?}
+</p>
+
+<p>
+We have <m>21</m> dots left to account for. The biggest power of <m>5</m> that's less than 21 is just <m>5</m>. So we can put a <q>4</q> in the <m>5</m> box, and we have one left over in the one box.
+</p>
+
+<p>
+\fellow{picture of the base 5 boxes with 2 in <m>5^3</m> box and 2 in the <m>5^2</m> box 4 in the <m>5</m> box and 1 in the <m>1</m> box?}
+</p>
+<me>
+  2\cdot 125 + 2\cdot 25 + 4\cdot 5 + 1= 250 + 50 + 20 + 1 =  321 \text{ dots} .
+</me>
+<me>
+  \text{So }  321 = 2241_\text{five} .
+</me>
+</statement>
+</example>
+<p>
+The general algorithm to convert from base ten to base <m>b</m>:
+</p>
+
+<ol>
+<li>Start with your base ten number <m>n</m>.  Find the largest <em>power of <m>b</m></em> that's less than your number <m>n</m>, say that power is <m>b^k</m>.</li>
+<li>Figure out how many dots can go in the <m>b^k</m> box without going over the number <m>n</m>.  Say that number is <m>a</m>.  Put the digit <m>a</m> in the <m>b^k</m> box, and then subtract <m>n - a\cdot b^k</m> to figure out how many dots are left.</li>
+<li>If your number is now zero, you accounted for all the dots.  Put zeros in any boxes that remain, and you have the number.  Otherwise, start over at step (1) with the number of dots you have left.</li>
+</ol>
+
+<p>
+The method seems a little tricky to describe in complete generality. It's probably better to try a few examples on your own to get the hang of it.
+</p>
+<paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+Use the method above to convert <m>99_\text{ten}</m> to base three, to base four, and to base five.
+</p>
+</paragraphs>
+<p>
+The first method we described fills in the boxes from left to right. Here's another method to convert base ten numbers to another base, and this method fills in the digits from right to left. Again, we'll start with an example and then describe the general method:
+</p>
+<example>
+<statement>
+<p>
+To convert <m>712</m> to a base seven number:
+</p>
+
+<p>
+Divide <m>712</m> by seven and find the quotient and remainder:
+</p>
+<me>
+  712 \div 7 = 101 \text{ R} 5.
+</me>
+<p>
+Put the remainder in the ones place:
+</p>
+<me>
+  712 = \underline{???}5_\text{seven} .
+</me>
+<p>
+Now take the quotient and divide by seven to find the quotient and remainder:
+</p>
+<me>
+  101 \div 7 = 14 \text{ R} 3.
+</me>
+<p>
+Put the remainder in the sevens place:
+</p>
+<me>
+  712 = \underline{???}35_\text{seven} .
+</me>
+<p>
+Take the previous quotient and divide by seven again:
+</p>
+<me>
+  14 \div 7 = 2 \text{ R} 0.
+</me>
+<p>
+Put the remainder in the <m>7^2</m> place:
+</p>
+<me>
+  712 = \underline{???}035_\text{seven} .
+</me>
+<p>
+Since the quotient that's left is less than seven, it goes in the <m>7^3</m> place, and we're done.
+</p>
+<me>
+  712 = 2035_\text{seven} .
+</me>
+<p>
+Of course, we can (and should!) check our calculation by converting the answer back to base ten:
+</p>
+<me>
+  2035_\text{seven}  = 2\cdot 7^3 + 0 \cdot 7^2 + 3 \cdot 7 + 5 
+= 686 + 0 + 21 + 5 = 712_\text{ten} .
+</me>
+</statement>
+</example>
+<p>
+So here's a second general method for converting base ten numbers to an arbitrary base <m>b</m>:
+</p>
+
+<ol>
+<li>Divide the base ten number by <m>b</m> to get a quotient and a remainder.</li>
+<li>Put the remainder in the right-most space in the base <m>b</m> number.</li>
+<li>If the quotient is less than <m>b</m>, it goes in the space one spot to the left.  Otherwise, go back to step (1) and repeat it with the quotient, filling in the remainders from right to left in the base <m>b</m> number.</li>
+</ol>
+
+<p>
+We can use the dots and boxes system to explain why this method of quotients and remainders works. It's not just a <q>trick!</q> We'll stick with the example of converting <m>712</m> to base seven, so we have something specific to talk about.
+</p>
+
+<ul>
+<li>We imagine 712 dots in the right-most box, since that represents 712 dots total.  Since we're converting to base seven, we're in the <m>1 \leftarrow 7</m> system.
+\fellow{picture of the base seven boxes up to <m>7^3</m> with just the number 721 in the right-most box.}</li>
+<li>Groups of seven dots will explode, and each group of seven becomes one dot in the next box.  How many groups of seven dots are there?  Well, there are 101 groups of seven, with 5 dots left over out of a group.  That's what we figured out with the calculation
+<me>
+  712 \div 7 = 101 \text{ R} 5.
+</me>
+</li>
+<li>Imagine we explode all the groups of seven that we can make in the right-most box before we move on.  Then we would have
+ 5 dots left in that first  box, and 101 dots in the second box.  
+ 
+ \fellow{picture of the base seven boxes up to <m>7^3</m> with  the number 5 in the rightmost box and 101 in the  in the second box.}</li>
+<li>Again, groups of seven dots will explode, and each group becomes one dot in the third box.  How many groups of seven dots are there?  There are 14 groups with three left over.  That's what we computed like this:
+<me>
+  101 \div 7 = 14 \text{ R} 3.
+</me>
+\fellow{picture of the base seven boxes up to <m>7^3</m> with  the number 5 in the rightmost box and 3 in the  in the second box and 14 in the third box.}</li>
+<li>OK, now there are 5 dots in the right-most box, 3 dots in the second box, and 14 dots in the third box.  We do it all again!  Groups of seven explode, and each group forms  dot in the next box to the left.  Fourteen dots gives two equal groups of seven, none left over.</li>
+<li>So we end up with: 5 dots in the right-most box, 3 dots in the second box, zero dots in the third box, and 2 dots in the fourth box.  And there's nothing left to explode!
+
+ \fellow{picture of the base seven boxes up to <m>7^3</m> with  the number 5 in the rightmost box and 3 in the  in the second box and 0 in the third box and 2 in the last box.}</li>
+<li>Now we can read off the number left-to-right:
+<me>
+  712 = 2035_\text{seven} .
+</me>
+</li>
+</ul>
+
+<p>
+Again, the method probably makes more sense if you try it out a few times.
+</p>
+<paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+Use the method described above to convert <m>250_\text{ten}</m> to base three, four, five, and six. For each of the computations, write a careful dots-and-boxes explanation for why it works.
+</p>
+</paragraphs>
+</subsection>
+
+</section>

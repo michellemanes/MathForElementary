@@ -1,0 +1,220 @@
+<section xml:id="sec_artsci">
+<title>Geometry in Art and Science</title>
+<introduction>
+<p>
+How much have you thought about the geometry of the world around you? When you look at a picture that you find beautiful, is the beauty because of symmetry? Or from lack of symmetry that grabs your interest and surprises you?
+</p>
+
+<p>
+You can imagine that many scientists, engineers, and architects must think about geometric structure as a regular part of their job. So, of course, do visual artists.
+</p>
+</introduction>
+
+
+<subsection xml:id="pic_tessagain">
+<title>Tessellations</title>
+<p>
+A <em>tessellation</em> is a design using one ore more geometric shapes with no overlaps and no gaps. The idea is that the design could be continued infinitely far to cover the whole plane (though of course we can only draw a small portion of it).
+</p>
+<image source="images/" /> 
+ 
+<image source="images/" /> 
+ 
+<image source="images/" /> 
+
+
+
+<image source="images/" /> 
+  
+<image source="images/" />
+<p>
+Many tessellations have translational symmetry, but it's not strictly necessary. The <em>Penrose tiling</em> shown below does not have any translational symmetry.
+</p>
+<image source="images/" />
+<p>
+It's actually much harder to come up with these <q>aperiodic</q> tessellations than to come up with ones that have translational symmetry. So we'll focus on how to make symmetric tessellations.
+</p>
+
+<p>
+The first set of tessellations above were all made with a single geometric shape (called a <em>tile</em>) designed so that they can fit together without gaps or overlaps. Tessellations are often called <em>tilings</em>, and that's what you should think about: If I had tiles made in this shape, could I use them to tile my kitchen floor? Or would it be impossible?
+</p>
+</subsection>
+
+
+<subsection>
+<title>On Your Own</title>
+<p>
+Work on these exercises on your own or with a partner. You will need lots of copies (maybe 10&#x2013;15 each) of each shape below.
+In each problem, focus on just a <em>single tile</em> for making your tessellation.
+</p>
+<image source="images/" /> 
+
+<image source="images/" /> 
+
+<image source="images/" /> 
+
+<image source="images/" /> 
+
+<image source="images/" /> 
+
+<image source="images/" /> 
+
+
+<image source="images/" /> 
+
+<image source="images/" /> 
+
+
+
+<image source="images/" /> 
+<image source="images/" /> 
+
+<image source="images/" /> 
+
+
+<image source="images/" /> 
+
+
+<image source="images/" />
+<ol>
+<li>Start with the square tile.  Can you fit the squares together in a pattern that could be continued forever, with no gaps and no overlaps?  Can you do it in more than one way?<br /></li>
+<li>Now try one of the triangular tiles.  Can you use many copies of a single triangle to tessellate the plane?<br /></li>
+<li>Repeat this process with each of the other tiles.  Keep track of your findings.<br /></li>
+</ol>
+<paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+Share what you learned:
+</p>
+
+<ul>
+<li>Which shapes did tile the plane, and which did not?  <br /></li>
+<li>Do you have any conjectures based on this experience, about which shapes will tile the plane and which will not?</li>
+</ul>
+</paragraphs>
+</subsection>
+
+
+<subsection>
+<title>Escher Drawings</title>
+<p>
+The artist M.C.<nbsp />Escher created many works of art inspired by mathematics, including some very beautiful tessellations.
+</p>
+<image source="images/" /> 
+ 
+<image source="images/" /> 
+ 
+<image source="images/" />
+<p>
+You can make your own Escher-like drawings using some facts that you learned while studying tessellations.
+</p>
+<theorem>
+
+<statement>
+<p>
+Any triangle will tessellate. So will any quadrilateral.
+</p>
+</statement>
+
+</theorem>
+<p>
+The explanation for this comes down to what you know about the sums of angles. The sum of the angles in a triangle is <m>180^\circ</m>.
+</p>
+<image source="images/" /> <br />
+<m>A+B+C=180^\circ</m>
+<p>
+So if you make six copies of a single triangle and put them together at a point so that each angle appears twice, there will be a total of <m>360^\circ</m> around the point, meaning the triangles fit together perfectly with no gaps and no overlaps.
+</p>
+<image source="images/" /> <br />
+<m>A+B+C + A+B+C=360^\circ</m>
+<p>
+You can then repeat this at every vertex, using more and more copies of the same triangles.
+</p>
+<image source="images/" /> <br />  <paragraphs>
+<title>Think/Pair/Share</title>
+<ul>
+<li>Use the fact that the sum of the angles in any quadrilateral is <m>360^\circ</m> to explain why every quadrilateral will tessellate.  <br /></li>
+<li>Use angles to explain why regular hexagons will tessellate.<br /></li>
+<li>Explain why regular pentagons will not tessellate.<br /></li>
+</ul>
+</paragraphs>
+</subsection>
+
+
+<subsection>
+<title>On Your Own</title>
+<p>
+Work on these exercises on your own or with a partner.
+Here's how you can create your own Escher-like drawings.
+</p>
+
+<ol>
+<li>The first time you do this, it's easiest to start with a simple shape that you know will tessellate, like an equilateral triangle, a square, or a regular hexagon.<br /></li>
+<li>Draw a <q>squiggle</q> on one side of your shape.  
+
+<image source="images/" /> <br />
+A square with a <q>squiggle</q> drawn on one side. 
+Cut out the squiggle, and move it to another side of your shape.  You can either translate it straight across or rotate it.  
+
+<table id="6e666aad6b9e31f140b7c0642cd1184cbc330616" >
+<tr><td class='c'>
+<image source="images/" />  </td><td class='c'>   </td><td class='c'> <image source="images/" /> </td>
+    </tr>
+<tr><td class='c'>
+A translation.  </td><td class='c'></td><td class='c'> A rotation.</td>
+    </tr>
+<tr><td class='c'></td>
+    </tr>
+</table>
+The important thing is the cut-out lines up along the new edge in the same place that it appeared on its original edge.<br /></li>
+<li>Tape the squiggle into its new location.  This is your basic tile.  On a large piece of paper, trace around your  tile.  Then move it the same way you moved the squiggle (translate or rotate) so that the squiggle fits in exactly where you cut it out.
+
+<image source="images/" /> <br />
+A few rotations of the basic tile. 
+The shape will still tessellate, so go ahead and fill up your paper.<br /></li>
+<li>Now get creative.  Color in your basic shape to look like something &#8202;&#x2014;&#8202; an animal?  a flower?  a colorful blob?  Add color and design throughout the tessellation to transform it into your own Escher-like drawing.<br /></li>
+<li>If you want to try a more complicated version, cut two different squiggles out of two different sides, and move them both.</li>
+</ol>
+</subsection>
+
+
+<subsection>
+<title>Building towers</title>
+<p>
+For this activity, you will need some construction materials:
+</p>
+
+<ul>
+<li>You'll need lots of toothpicks.<br /></li>
+<li>You'll also need something to connect the toothpicks together.  The best material for this is mini marshmallows; you can stick the ends of the toothpicks into the marshmallows to connect them.  You can also use pieces of clay, bits of gummy candies, or other similar (sticky) material.<br /></li>
+</ul>
+<problem>
+<statement>
+<p>
+Try this as a warm-up activity. Grab exactly six toothpicks. Your job is to make four triangles using all six toothpicks. You cannot break any of the toothpicks or add any other materials besides the marshmallow connectors.
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Now comes the main challenge. You have ten minutes to build the <em>tallest free-standing structure</em> that you can make.
+Free-standing means that it will stand up on its own. You can't have it lean against a wall or hold it up. When the ten minutes are up, back away from your tower and measure its height.
+</p>
+</statement>
+</problem>
+  <paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+Look at your own tower and at other students' towers. Talk about these questions:
+</p>
+
+<ul>
+<li>What design choices led to taller free-stranding structures?  Why do you think that is?<br /></li>
+<li>If you had another ten minutes to try this activity again, what would you do differently and why?<br /></li>
+</ul>
+</paragraphs>
+</subsection>
+
+</section>

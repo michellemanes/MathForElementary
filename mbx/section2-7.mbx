@@ -1,0 +1,282 @@
+<section>
+<title>Orders of Magnitude</title>
+<introduction>
+<problem xml:id="prob_millionsecs">
+<statement>
+<p>
+How old were you when you were one million seconds old? (That's <m>1,000,000</m>.)
+</p>
+
+<ul>
+<li>Before you figure it out, write down a guess.  What's your gut instinct?  About a day?  A week?  A month?  A year?  Have you already reached that age?  Or maybe you won't live that long?</li>
+<li>Now figure it out!  When was / will be your million-second birthday?</li>
+</ul>
+</statement>
+</problem>
+  
+<problem xml:id="prob_billionsecs">
+<statement>
+<p>
+How old were you when you were one <em>billion</em> seconds old? (That's <m>1,000,000,000</m>.)
+</p>
+
+<ul>
+<li>Again, before you figure it out, write down a guess.</li>
+<li>Now figure it out!  When was / will be your billion-second birthday?</li>
+</ul>
+</statement>
+</problem>
+<p>
+Were you surprised by the answers? People (most people, anyway) tend to have a very good sense for small, everyday numbers, but have very bad instincts about big numbers. One problem is that we tend to think <em>additively</em>, as if one billion is about a million plus a million more (give or take). But we need to think <em>mulitplicatively</em> in situations like this. One billion is <m>1,000 \times</m> a million.
+</p>
+
+<p>
+So you could have just taken your answer to <xref ref="prob_millionsecs">problem</xref> and multiplied it by <m>1,000</m> to get your answer to <xref ref="prob_millionsecs">problem</xref>. Of course, you would probably still need to do some calculations to make sense of the answer.
+</p>
+<paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+When is your one trillion second birthday? What will you do to celebrate?
+</p>
+</paragraphs>  <paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+The US debt is total amount the government has borrowed. (This borrowing covers the <em>deficit</em> &#8202;&#x2014;&#8202; the difference between what the government spends and what it collects in taxes.) In summer of 2013, the US debt was <em>on the order of</em> 10 trillion dollars. (That means more than 10 trillion but less than 100 trillion. If you were to write out the dots-and-boxes picture, the dots would be as far left as the <m>10,000,000,000</m> place.)
+</p>
+
+<ul>
+<li>If the US pays back one penny every second, will the national debt be paid off in your lifetime?  Explain your answer.</li>
+<li>A headline from April 2013 said, <q>US to Pay Down <dollar />35 billion in Quarter 2.</q>  Suppose the US pays down <dollar />35 billion dollars <em>every</em> quarter (so four times per year).  About how many  years would it take to pay of the total national debt?</li>
+</ul>
+</paragraphs>
+<p>
+Here are some big-number problems to think about. Can you solve them?
+</p>
+<problem>
+<statement>
+<ol>
+<li>Suppose you have a million jelly beans, and you tile the floor with them.  How big of an area will they cover?  The classroom?  A football field?  Something bigger?  What if it was a billion jelly beans?</li>
+<li>Suppose you have a million jelly beans and you stack them up.  How tall would it be?  As tall as you?  As a tree?  As a skyscraper?  What if it was a billion jelly beans?  About how many jelly beans (what <em>order of magnitude</em>) would you need to stack up to reach the moon?  Explain your answers.</li>
+</ol>
+</statement>
+</problem>
+ </introduction>
+
+
+<subsection>
+<title>Fermi Problems</title>
+<p>
+James Boswell wrote,<q>Knowledge is of two kinds. We know a subject ourselves, or we know where we can find information upon it.</q>
+</p>
+
+<p>
+But math proves this wrong. There is actually a third kind of knowledge: Knowledge that you <em>figure out for yourself</em>.
+In fact, this is what scientists and mathematicians do for a living: they create new knowledge! Starting with what is already known, they ask <q>what if<ddots /></q> questions. And eventually, they figure out something new, something no one ever knew before!
+</p>
+
+<p>
+Ever for knowledge that you <em>could</em> look up (or ask someone), you can often figure out the answer (or a close approximation to the answer) on your own. You need to use a little knowledge, and a little ingenuity.
+</p>
+
+<p>
+Fermi problems, named for the physicist Enrico Fermi, involve using your knowledge, making educated guesses, and doing reasonable calculations to come up with an answer that might at first seem unanswerable.
+</p>
+<example>
+<statement>
+<p>
+Here's a classic Fermi problem: How many elementary school teachers are there in the state of Hawaii?
+</p>
+
+<p>
+You might think: How could I possibly answer that? Why not just google it? (But some Fermi problems we meet will have &#8202;&#x2014;&#8202; gasp! &#8202;&#x2014;&#8202; non-googleable answers.)
+</p>
+
+<p>
+First let's define our terms. We'll say that we care about classroom teachers (not administrators, supervisors, or other school personnel) who have a permanent position (not a sub, an aide, a resource room teacher, or a student teacher) in a grade K&#x2013;5 classroom.
+</p>
+
+<p>
+But let's stop and think. Do you know the population of Hawaii? It's about <m>1,000,000</m> people. (That's not exact, of course. But this is an exercise is estimation. We're trying to get at the <em>order of magnitude</em> of the answer.)
+</p>
+
+<p>
+How many of those people are elementary school students? Well, what do you know about the population of Hawaii? Or what do you <em>suspect</em> is true? A reasonable guess would be that the population is evenly distributed across all age groups. Something like this? We'll assume people don't live past 80. (Of course some people do! But we're all about making simplifying assumptions right now. That gives us 8 age categories, with about 125,000 people in each category.
+</p>
+<table id="660ad0cdb54ea44918c0136d4fb6a04da6ddbeac" >
+<tr><td class='lv'></td>
+    </tr>
+<tr><td class='lv'>
+age range </td><td class='l'> <hash /> people </td>
+    </tr>
+<tr><td class='hline' colspan='2'><hr /></td>
+    </tr>
+<tr><td class='lv'>
+ 0 &#x2013; 9 </td><td class='l'>125,000 </td>
+    </tr>
+<tr><td class='lv'>
+ 10 &#x2013; 19 </td><td class='l'>125,000 </td>
+    </tr>
+<tr><td class='lv'>
+ 20 &#x2013; 29 </td><td class='l'>125,000 </td>
+    </tr>
+<tr><td class='lv'>
+ 30 &#x2013; 39 </td><td class='l'>125,000 </td>
+    </tr>
+<tr><td class='lv'>
+ 40 &#x2013; 49 </td><td class='l'>125,000 </td>
+    </tr>
+<tr><td class='lv'>
+ 50 &#x2013; 59 </td><td class='l'>125,000 </td>
+    </tr>
+<tr><td class='lv'>
+ 60 &#x2013; 69 </td><td class='l'>125,000 </td>
+    </tr>
+<tr><td class='lv'>
+ 70 &#x2013; 79 </td><td class='l'> 125,000</td>
+    </tr>
+<tr><td class='lv'></td>
+    </tr>
+</table>
+<p>
+An even better guess (since we have a large university that draws lots of students) is that there's a <q>bump</q> around college age. And some people live past 80, but there are probably fewer people in the older age brackets. Maybe the breakdown is something like this? (If you have better guesses, use them!)
+</p>
+<table id="d04cc5dede5664fb39a19cdae07bc8e22f48720c" >
+<tr><td class='lv'></td>
+    </tr>
+<tr><td class='lv'>
+age range </td><td class='l'> <hash /> people </td>
+    </tr>
+<tr><td class='hline' colspan='2'><hr /></td>
+    </tr>
+<tr><td class='lv'>
+ 0 &#x2013; 9 </td><td class='l'>125,000 </td>
+    </tr>
+<tr><td class='lv'>
+ 10 &#x2013; 19 </td><td class='l'>130,000 </td>
+    </tr>
+<tr><td class='lv'>
+ 20 &#x2013; 29 </td><td class='l'> 140,000</td>
+    </tr>
+<tr><td class='lv'>
+ 30 &#x2013; 39 </td><td class='l'> 125,000</td>
+    </tr>
+<tr><td class='lv'>
+ 40 &#x2013; 49 </td><td class='l'>125,000 </td>
+    </tr>
+<tr><td class='lv'>
+ 50 &#x2013; 59 </td><td class='l'>125,000 </td>
+    </tr>
+<tr><td class='lv'>
+ 60 &#x2013; 69 </td><td class='l'> 120,000</td>
+    </tr>
+<tr><td class='lv'>
+ <m>> 70</m> </td><td class='l'> 105,000 </td>
+    </tr>
+<tr><td class='lv'></td>
+    </tr>
+</table>
+<p>
+So, how many K&#x2013;5 students are in Hawaii? That covers six years of the 0&#x2013;9 (maybe 10) range. If we are still going with about the same number of people at each age, there should be about 12,500 in each grade for a total of <m>12,500\times 6 = 75,000</m> K&#x2013;5 students.
+</p>
+
+<p>
+OK, but we really wanted to know about K&#x2013;5 <em>teachers</em>. One nice thing about elementary school: there tends to be just one teacher per class. So we need an estimate of how many classes, and that will tell us how many teachers.
+</p>
+
+<p>
+So, how many students in each class? It probably varies a bit, with smaller kindergarten classes (since they are more rambunctious and need more attention), and larger fifth grade classes. There are also smaller classes in private schools and charter schools, but larger classes in public schools. So a reasonable average might be <m>25</m> students per class across all grades K&#x2013;5 and all schools?
+</p>
+
+<p>
+So that makes <m>75,000 \div 25 = 3,000</m> K&#x2013;5 classrooms in Hawaii. And that should be the same as the number of K&#x2013;5 teachers.
+</p>
+</statement>
+</example>
+  
+<problem>
+<statement>
+<p>
+How good is this estimate? Can you think of a way to check and find out for sure?
+</p>
+</statement>
+</problem>
+<p>
+So now you see the process:
+</p>
+
+<ul>
+<li>Define your terms.</li>
+<li>Write down what you know.</li>
+<li>Make some reasonable guesses / estimates.</li>
+<li>Do some simple calculations.</li>
+</ul>
+
+<p>
+It's your turn to try your hand at some Fermi problems.
+</p>
+<problem>
+<statement>
+<p>
+How much money does UH Manoa earn in parking revenue each year?
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+How many tourists visit Waikiki in a year?
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+How much gas would be saved in Hawaii if one out of every ten people switched to a carpool?
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+How high can a climber go up a mountain on the energy in one chocolate bar?
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+How much pizza is consumed by UH Manoa students in a month?
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+How much would it cost to provide free day care to every 4th grader in the US?
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+How many books are in Hamilton library?
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Make up your own Fermi problem<ddots /> what would you be interested in calculating? Then try to solve it!
+</p>
+</statement>
+</problem>
+</subsection>
+
+</section>

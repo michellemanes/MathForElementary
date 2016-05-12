@@ -1,0 +1,1053 @@
+<section>
+<title>Operations</title>
+<introduction>
+<p>
+So far, you have seen a couple of different <em>models</em> for the operations: addition, subtraction, multiplication, and division. But we haven't talked much about the operations themselves &#8202;&#x2014;&#8202; how they relate to each other, what properties they have that make computing easier, and how some special numbers behave. There's lots to think about!
+</p>
+
+<p>
+The goal in this section is to use the models to understand why the operations behave according to the rules you learned back in elementary school. We're going to keep asking ourselves <q>Why does it work this way?</q>
+</p>
+<paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+Each of these models lends itself to thinking about the operation in a slightly different way. Before we really dig in to thinking about the operations, discuss with a partner:
+</p>
+
+<ul>
+<li>Of the models we discussed so far, do you prefer one of them?</li>
+<li>How well do the models we discussed match up with how you usually think about whole numbers and their operations?</li>
+<li>Which models are useful for computing?  Why?</li>
+<li>Which models do you think will be useful for <em>explaining</em> how the operations work?  Why?</li>
+</ul>
+</paragraphs> </introduction>
+
+
+<subsection>
+<title>Relationships Between the Operations</title>
+<p>
+We defined addition as combining two quantities and subtraction as <q>taking away.</q> But in fact, these two operations are intimately tied together. These two questions are exactly the same:
+</p>
+<me>
+  27 - 13 = \underline{\qquad}
+\qquad\qquad
+27 = 13 + \underline{\qquad}.
+</me>
+<p>
+More generally, for any three whole numbers <m>a</m>, <m>b</m>, and <m>c</m>, these two equations express the same fact. (So either both equations are true or both are false. Which is the case depends on the values you choose for <m>a</m>, <m>b</m>, and <m>c</m>!)
+</p>
+<me>
+  c - b = a
+\qquad\qquad
+c = a+ b.
+</me>
+<p>
+In other words, we can think of every subtraction problem as a <q>missing addend</q> addition problem. Try it out!
+</p>
+<problem>
+<statement>
+<p>
+Here is a strange addition table. Use it to solve the following problems. Justify your answers. <em>Important: Don't try to assign numbers to <m>A</m>, <m>B</m>, and <m>C</m>. Solve the problems just using what you know about the operations!</em>
+</p>
+<table id="d0281e8c910091104496fe9fed8b6db90f5a4a9f" >
+<tr><td class='cv'>
+<nbsp /><nbsp /> <m>+</m> <nbsp /><nbsp />  </td><td class='c'> <nbsp /><nbsp /> <m>A</m> <nbsp /><nbsp /> </td><td class='c'><nbsp /><nbsp /> <m>B</m> <nbsp /><nbsp /></td><td class='c'><nbsp /><nbsp /> <m>C</m><nbsp /><nbsp /> </td>
+    </tr>
+<tr><td class='hline' colspan='4'><hr /></td>
+    </tr>
+<tr><td class='cv'>
+</td><td class='c'> </td>
+    </tr>
+<tr><td class='cv'>
+<m>A</m> </td><td class='c'> <m>C</m> </td><td class='c'><m>A</m> </td><td class='c'> <m>B</m> </td>
+    </tr>
+<tr><td class='cv'>
+</td><td class='c'> </td>
+    </tr>
+<tr><td class='cv'>
+<m>B</m> </td><td class='c'> <m>A</m> </td><td class='c'><m>B</m> </td><td class='c'> <m>C</m> </td>
+    </tr>
+<tr><td class='cv'>
+</td><td class='c'> </td>
+    </tr>
+<tr><td class='cv'>
+<m>C</m> </td><td class='c'> <m>B</m> </td><td class='c'><m>C</m> </td><td class='c'> <m>A</m> </td>
+    </tr>
+<tr><td class='cv'></td>
+    </tr>
+</table>
+<me>
+  A+ C 
+\qquad\qquad
+B + C
+\qquad\qquad
+A - C
+\qquad\qquad
+C - A
+\qquad\qquad
+A - A
+\qquad\qquad
+B - C
+</me>
+</statement>
+</problem>
+  <paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+Discuss your answers with a partner. How does an addition table help you solve subtraction problems?
+</p>
+</paragraphs>
+<p>
+We defined multiplication as repeated addition and division as forming groups of equal size. But in fact, these two operations are also tied together. These two questions are exactly the same:
+</p>
+<me>
+  27 \div 3 = \underline{\qquad}
+\qquad\qquad
+27 =  \underline{\qquad} \times 3.
+</me>
+<p>
+More generally, for any three whole numbers <m>a</m>, <m>b</m>, and <m>c</m>, these two equations express the same fact. (So either both equations are true or both are false. Which is the case depends on the values you choose for <m>a</m>, <m>b</m>, and <m>c</m>!)
+</p>
+<me>
+  c \div b = a 
+\qquad\qquad
+c = a \cdot b.
+</me>
+<p>
+In other words, we can think of every division problem as a <q>missing factor</q> multiplication problem. Try it out!
+</p>
+<problem xml:id="prob_divby0">
+<statement>
+<p>
+Rewrite each of these division problems as a <q>missing factor</q> multiplication problem. Which ones can you solve and which can you not solve? Explain your answers.
+</p>
+<me>
+  9 \div 3 
+\qquad\qquad
+100 \div 25
+\qquad\qquad
+0 \div 3
+\qquad\qquad
+9 \div 0
+\qquad\qquad
+0 \div 0
+</me>
+</statement>
+</problem>
+  
+<problem xml:id="prob_divmulttable">
+<statement>
+<p>
+Here's a multiplication table.
+</p>
+{
+<table id="95c538fb5718ad3a55a3eb8880c638222d64dd7a" >
+<tr><td class='cvv'>
+ <nbsp /><nbsp /> <m>\times</m> <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp /> <m>a</m> <nbsp /><nbsp /> </td><td class='cv'>  <nbsp /><nbsp /> <m>b</m> <nbsp /><nbsp />  </td><td class='cv'>  <nbsp /><nbsp /> <m>c</m> <nbsp /><nbsp />  
+ </td><td class='cv'> <nbsp /><nbsp /> <m>d</m> <nbsp /><nbsp />  </td><td class='c'>  <nbsp /><nbsp /> <m>e</m> <nbsp /><nbsp />   </td>
+    </tr>
+<tr><td class='hlinethick' colspan='6'><hr /></td>
+    </tr>
+<tr><td  class='cvv' >
+ </td><td class='cv'> </td><td class='cv'> </td><td class='cv'> </td><td class='cv'> </td><td class='c'>  </td>
+    </tr>
+<tr><td class='cvv'>
+<m>a</m> </td><td class='cv'> <m>a</m> </td><td class='cv'> <m>a</m> </td><td class='cv'> <m>a</m> </td><td class='cv'> <m>a</m></td><td class='c'> <m>a</m> </td>
+    </tr>
+<tr><td class='hline' colspan='6'><hr /></td>
+    </tr>
+<tr><td class='cvv'>
+ </td><td class='cv'> </td><td class='cv'> </td><td class='cv'> </td><td class='cv'> </td><td class='c'>  </td>
+    </tr>
+<tr><td class='cvv'>
+<m>b</m> </td><td class='cv'> <m>a</m> </td><td class='cv'> <m>b</m> </td><td class='cv'> <m>c</m> </td><td class='cv'> <m>d</m> </td><td class='c'> <m>e</m></td>
+    </tr>
+<tr><td class='hline' colspan='6'><hr /></td>
+    </tr>
+<tr><td class='cvv'>
+ </td><td class='cv'> </td><td class='cv'> </td><td class='cv'> </td><td class='cv'> </td><td class='c'>  </td>
+    </tr>
+<tr><td class='cvv'>
+<m>c</m> </td><td class='cv'> <m>a</m> </td><td class='cv'> <m>c</m> </td><td class='cv'> <m>e</m> </td><td class='cv'> <m>b</m> </td><td class='c'> <m>d</m></td>
+    </tr>
+<tr><td class='hline' colspan='6'><hr /></td>
+    </tr>
+<tr><td class='cvv'>
+ </td><td class='cv'> </td><td class='cv'> </td><td class='cv'> </td><td class='cv'> </td><td class='c'>  </td>
+    </tr>
+<tr><td class='cvv'>
+<m>d</m> </td><td class='cv'> <m>a</m> </td><td class='cv'> <m>d</m> </td><td class='cv'> <m>b</m> </td><td class='cv'> <m>e</m> </td><td class='c'> <m>c</m></td>
+    </tr>
+<tr><td class='hline' colspan='6'><hr /></td>
+    </tr>
+<tr><td class='cvv'>
+ </td><td class='cv'> </td><td class='cv'> </td><td class='cv'> </td><td class='cv'> </td><td class='c'> </td>
+    </tr>
+<tr><td class='cvv'>
+<m>e</m></td><td class='cv'> <m>a</m> </td><td class='cv'> <m>e</m> </td><td class='cv'> <m>d</m> </td><td class='cv'> <m>c</m> </td><td class='c'> <m>b</m></td>
+    </tr>
+<tr><td class='cvv'></td>
+    </tr>
+</table>
+}
+<ul>
+<li>Use the table to solve the problems below.  Justify your answers.    <em>Important: Don't try to assign numbers to the letters.  Solve the problems just using what you know about the operations!</em>
+<me>
+  c\times d 
+\qquad\qquad
+c\times a 
+\qquad\qquad
+a\times a 
+ \qquad\qquad
+c \div d
+\qquad\qquad
+d \div c
+\qquad\qquad
+d \div e
+</me>
+</li>
+<li>Can you use the table to solve these problems?  Explain your answers.
+<me>
+  d^2
+\qquad\qquad
+c^3
+\qquad\qquad
+a \div c
+\qquad\qquad
+a \div d
+ \qquad\qquad
+c \div a
+\qquad\qquad
+d \div a
+\qquad\qquad
+a \div a
+</me>
+</li>
+</ul>
+</statement>
+</problem>
+  <paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+Discuss your answers to <xref ref="prob_divby0">problems</xref> and <xref ref="prob_divmulttable"></xref> with a partner. How does a multiplication table help you solve division (and exponentiation) problems?
+</p>
+</paragraphs>
+<p>
+Throughout this course, our focus is on explanation and justification. As teachers, you need to know what is true in mathematics, but you also need to know <em>why</em> it is true. And you will need lots of ways to explain <em>why</em>, since different explanations will make sense to different students.
+</p>
+
+<p>
+It's very important not to confuse the fact (or rule) with the reason it is true! Here are some examples:
+</p>
+<example>
+<title>Explaining the Connection Between Addition and Subtraction</title>
+<statement>
+<p>
+<b>Arithmetic Fact:</b> <m>a + b = c</m> and <m>c - b = a</m> are the same mathematical fact.
+</p>
+
+<p>
+<b>Why It's True, Explanation 1:</b> First we'll use the definition of the operations.
+</p>
+
+<p>
+Suppose we know <m>c-b = a</m> is true. Subtraction means <q>take away.</q> So
+</p>
+<me>
+  c - b = a
+</me>
+<p>
+means we start with quantity <m>c</m> and take away quantity <m>b</m>, and we end up with quantity <m>a</m>. Start with this equation, and imagine adding quantity <m>b</m> to both sides.
+</p>
+
+<p>
+On the left, that mans we started with quantity <m>c</m>, took away <m>b</m> things, and then put those <m>b</m> things right back! Since we took away some quantity and then added back the exact same quantity, there's no overall change. We're left with quantity <m>c</m>.
+</p>
+
+<p>
+On the right, we would be <em>combining</em> (adding) quantity <m>a</m> with quantity <m>b</m>. So we end up with
+</p>
+<me>
+  c = a+b.
+</me>
+<p>
+On the other hand, suppose we know the equation <m>a + b = c</m> is true. Imagine <em>taking away</em> (subtracting) quantity <m>b</m> from both sides of the equation
+</p>
+<me>
+  a+b = c.
+</me>
+<p>
+On the left, we started with <m>a</m> things and <em>combined</em> that with <m>b</m> things, but then we immediately take away those <m>b</m> things. So we're left with just our original quantity of <m>a</m>.
+</p>
+
+<p>
+On the right, we start with quantity <m>c</m> and <em>take away</em> <m>b</m> things. That's the very definition of <m>c-b</m>. So we have the equation
+</p>
+<me>
+  a = c- b.
+</me>
+<p>
+\fellow{Maybe this would be more clear as an animation!}
+</p>
+
+<p>
+<b>Why It's True, Explanation 2:</b> Let's use the measurement model to come up with another explanation.
+</p>
+
+<p>
+The equation <m>a + b = c</m> means Zed starts at 0, walks forward <m>a</m> steps, and then walks forward <m>b</m> steps, and he ends at <m>c</m>.
+</p>
+
+<p>
+If Zed wants to compute <m>c - b</m>, he starts at 0, walks forward <m>c</m> steps, and then walks backwards <m>b</m> steps.
+But we know that to walk forward <m>c</m> steps, he can first walk forward <m>a</m> steps and then walk forward <m>b</m> steps. So Zed can compute <m>c - b</m> this way:
+</p>
+
+<ul>
+<li>Start at 0.</li>
+<li>Walk forward <m>a</m> steps.</li>
+<li>Walk forward <m>b</m> steps.  (Now at <m>c</m>, since <m>a + b = c</m>.)</li>
+<li>Walk backwards <m>b</m> steps.</li>
+</ul>
+
+<p>
+\fellow{picture?}
+</p>
+
+<p>
+The last two steps cancel each other out, so Zed lands back at <m>a</m>. That means <m>c-b = a</m>.
+</p>
+
+<p>
+On the other hand, the equation <m>c - b = a</m> means that Zed starts at 0, walks forward <m>c</m> steps, then walks backwards <m>b</m> steps, and he ends up at <m>a</m>.
+</p>
+
+<p>
+If Zed wants to compute <m>a+ b</m>, he starts at 0, walks forward <m>a</m> steps, and then walks forwards <m>b</m> additional steps.
+But we know that to walk forward <m>a</m> steps, he can first walk forward <m>c</m> steps and then walk backwards <m>b</m> steps. So Zed can compute <m>a + b</m> this way:
+</p>
+
+<ul>
+<li>Start at 0.</li>
+<li>Walk forward <m>c</m> steps.</li>
+<li>Walk backwards <m>b</m> steps.  (Now at <m>a</m>, since <m>c-b = a</m>.)</li>
+<li>Walk forward <m>b</m> steps.</li>
+</ul>
+
+<p>
+\fellow{picture?}
+</p>
+
+<p>
+The last two steps cancel each other out, so Zed lands back at <m>c</m>. That means <m>a+b = c</m>.
+</p>
+</statement>
+</example>
+  <paragraphs>
+<title>Think/Pair/Share</title>
+<ul>
+<li>Read over the two explanations in the example above.  Do you think either one is more clear than the other?</li>
+<li>Why is this <em>not</em> a good explanation of the mathematical fact?
+<div class="quote"><q>I can check that this is true!  For example, <m>2+3 = 5</m> and <m>5-3 = 2</m>.  And <m>3+7 = 10</m> and <m>10 - 7 = 3</m>.  It works for whatever numbers you try.</q></div></li>
+<li>Use either the definition of the operations or the measurement model to explain the connection between multiplication and division:
+<me>
+  c \div b = a \quad \text{ is the same fact as }  \quad c = a \times b.
+</me>
+</li>
+</ul>
+</paragraphs>
+</subsection>
+
+
+<subsection>
+<title>Properties of Addition and Subtraction</title>
+<p>
+You probably know several properties of addition, but you may never have stopped to wonder: <em>Why is that true?!</em> Now's your chance! In this section, you'll use the definition of the operations of addition and subtraction and the models you've learned to explain <em>why</em> these properties are always true.
+</p>
+
+<p>
+Here are the three properties you'll think about:
+</p>
+
+<ul>
+<li>Addition of whole numbers is <em>commutative</em>.</li>
+<li class="custom-list-style-type" label="Property" >Addition of whole numbers is <em>associative</em>.</li>
+<li>The number 0 is an <em>identity</em> for addition of whole numbers.</li>
+</ul>
+
+<p>
+For each of the properties, we don't want to confuse these three ideas:
+</p>
+
+<ul>
+<li>what the property is called and what it means (the definition),</li>
+<li>some examples that <em>demonstrate</em> the property, and</li>
+<li>an explanation for <em>why</em> the property holds.</li>
+</ul>
+
+<p>
+Notice that <em>examples</em> and <em>explanations</em> are not the same! These properties are all <em>universal statements</em> &#8202;&#x2014;&#8202; statements of the form <q>for all,</q> <q>every time,</q> <q>always,</q> etc. That means that to show they are true, you either have to check every case or find a <em>reason why</em> it must be so.
+</p>
+
+<p>
+Since there are infinitely many whole numbers, it's impossible to check every case. You'd never finish! Our only hope is to look for <em>general explanations</em>.
+</p>
+<example>
+<title>Commutativity</title>
+<statement>
+<p>
+We'll work out the explanation for the first of these facts, and you will work on the others.
+</p>
+
+<ul>
+<li>Addition of whole numbers is <em>commutative</em>.</li>
+<li class="custom-list-style-type" label="What it Means (words)" >When I add two whole numbers, the order I add them doesn't affect the sum.</li>
+<li class="custom-list-style-type" label="What it Means (symbols)" >For any two whole numbers <m>a</m> and <m>b</m>,
+<me>
+  a+b = b+a.
+</me>
+</li>
+<li class="custom-list-style-type" label="Examples" ><m>3+5 = 8</m> and <m>5 + 3 = 8</m>.  <m>2+0 = 2</m> and <m>0 + 2 = 2</m>.</li>
+</ul>
+
+<p>
+\fellow{dots and boxes pictures of the examples? They can be more interesting examples...}
+</p>
+
+<p>
+Now we need a <em>justification</em>. Why is addition of whole numbers commutative?
+</p>
+
+<p>
+<b>Why It's True, Explanation 1:</b> Let's think about addition as combining two quantities of dots.
+</p>
+
+<ul>
+<li>To add <m>a+b</m>, we take <m>a</m> dots and <m>b</m> dots, and we combine them in a box.  To keep things straight, lets imagine the <m>a</m> dots are colored red and the <m>b</m> dots are colored blue.  So in the box we have <m>a</m> red dots, <m>b</m> blue dots and <m>a+b</m> total dots.</li>
+<li>To add <m>b+a</m>, let's take <m>b</m> blue dots and <m>a</m> red dots, and  put them all together in a box.  We have <m>b</m> blue dots, <m>a</m> red dots and <m>b+a</m> total dots.</li>
+<li>But the total number of dots are the same in the two boxes!  How do we know that?  Well, there are <m>a</m> red dots in each box, so we can match them up.  There are <m>b</m> blue dots in each box, so we can match them up.  That's it!  If we can match up the dots one-for-one, there must be the same number of them!</li>
+<li>That means <m>a+b = b+a</m>.</li>
+</ul>
+
+<p>
+<b>Why It's True, Explanation 2:</b> We can also use the measurement model to explain why <m>a+b = b+a</m> no matter what numbers we choose for <m>a</m> and <m>b</m>. Imagine taking a segment of length <m>a</m> and combining it linearly with a segment of length <m>b</m>. That's how we get a length of <m>a+b</m>.
+</p>
+<image source="images/" />
+<p>
+But if we just rotate that segment so it's upside down, we see that we have a segment of length <m>b</m> combined with a segment of length <m>a</m>, which makes a length of <m>b+a</m>.
+</p>
+<image source="images/" />
+<p>
+But of course it's the same segment! We just turned it upside down! So the lengths must be the same. That is, <m>a+b = b+a</m>.
+</p>
+</statement>
+</example>
+  
+<problem>
+<title>Addition is Associative</title>
+<statement>
+<p>
+Your turn! You'll answer the question, <q>Why is addition of whole numbers associative?</q>
+</p>
+
+<ul>
+<li class="custom-list-style-type" label="Property" >Addition of whole numbers is <em>associative</em>.</li>
+<li class="custom-list-style-type" label="What it Means (words)" >When I add three whole numbers in a given order, the way I group them (to add two at a time)  doesn't affect the sum.</li>
+<li class="custom-list-style-type" label="What it Means (symbols)" >For any three whole numbers <m>a</m>, <m>b</m>, and <m>c</m>,
+<me>
+  (a+b) + c = a+(b+c).
+</me>
+</li>
+</ul>
+
+<ol type="a"><li>Come up with at least three <em>examples</em> to demonstrate  associativity of addition.</li>
+<li>Use our models of addition to come up with an <em>explanation</em>.  Why does associativity hold in <em>every case</em>?</li>
+</ol>
+</statement>
+</problem>
+  
+<problem>
+<title>Identity for Addition</title>
+<statement>
+<p>
+Why is the number 0 an identity for addition?
+</p>
+
+<ul>
+<li class="custom-list-style-type" label="Property" >The number <m>0</m> is an <em>identity</em> for addition of whole numbers.</li>
+<li class="custom-list-style-type" label="What it Means (words)" >When I add any whole number to 0 (in either order), the sum is the very same whole number I added to 0.</li>
+<li class="custom-list-style-type" label="What it Means (symbols)" >For any  whole numbers <m>n</m>,
+<me>
+  n + 0 = n \quad \text{ and }  \quad 0 + n = n.
+</me>
+</li>
+</ul>
+
+<ol type="a"><li>Come up with at least three <em>examples</em> to demonstrate that 0 is an identity for addition.</li>
+<li>Use our models of addition to come up with an <em>explanation</em>.  Why does this property of 0 hold in <em>every possible case</em>?</li>
+</ol>
+</statement>
+</problem>
+<p>
+Since addition and subtraction are so closely linked, it's natural to wonder if subtraction has some of the same properties as addition, like commutativity and associativity.
+</p>
+<example>
+<statement>
+<p>
+Justin asked if the operation of subtraction is commutative. That would mean that the difference of two whole numbers doesn't depend on the order in which you subtract them. In symbols: <em>for every choice</em> of whole numbers <m>a</m> and <m>b</m> we would have <m>a - b = b - a</m>.
+</p>
+
+<p>
+Jared says that subtraction is <em>not</em> commutative since <m>4 - 3 = 1</m>, but <m>3 - 4 \neq 1</m>. (In fact, <m>3-4 = -1</m>.)
+</p>
+
+<p>
+Since the statement <q>subtraction is commutative</q> is a <em>universal statement</em>, one counterexample is enough to show it's not true. So Jared's example lets us say with confidence: subtraction is not commutative.
+</p>
+</statement>
+</example>
+  <paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+Can you find <em>any</em> examples of whole numbers <m>a</m> and <m>b</m> where <m>a-b = b-a</m> is true? Explain your answer.
+</p>
+</paragraphs>  
+<problem>
+<statement>
+<p>
+Lyle asked if the operation of subtraction is associative.
+</p>
+
+<ol type="a"><li>State what it would mean for subtraction to be associative.  You should use words and symbols.</li>
+<li>What would you say to Lyle?  Decide if subtraction is associative or not.  Carefully explain how you made your decision and <em>how you know you're right</em>.</li>
+</ol>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Jess asked if the number 0 is an identity for subtraction.
+</p>
+
+<ol type="a"><li>State what it would mean for 0 to  be an identity for subtraction.  You should use words and symbols.</li>
+<li>What would you say to Jess?  Decide if 0 is an identity for subtraction or not.  Carefully explain how you made your decision and <em>how you know you're right</em>.</li>
+</ol>
+</statement>
+</problem>
+</subsection>
+
+
+<subsection>
+<title>Properties of Multiplication and Division</title>
+<p>
+Now we're going to turn our attention to familiar properties of multiplication and division, with the focus still on explaining <em>why</em> these properties are <em>always true</em>.
+</p>
+
+<p>
+Here are the four properties you'll think about:
+</p>
+
+<ul>
+<li>Mulitplication of whole numbers is <em>commutative</em>.</li>
+<li>Multiplication of whole numbers is <em>associative</em>.</li>
+<li>Multiplication of whole numbers <em>distributes over addition</em></li>
+<li>The number 1 is an <em>identity</em> for multiplication of whole numbers.</li>
+</ul>
+
+<p>
+For each of the properties, remember to keep straight:
+</p>
+
+<ul>
+<li>what the property is called and what it means (the definition),</li>
+<li>some examples that <em>demonstrate</em> the property, and</li>
+<li>an explanation for <em>why</em> the property holds.</li>
+</ul>
+
+<p>
+Once again, it's important to distinguish between <em>examples</em> and <em>explanations</em>. They are not the same!
+Since there are infinitely many whole numbers, it's impossible to check every case, so examples will never be enough to explain why these properties hold. You have to figure our <em>reasons</em> for these properties to hold, based on what you know about the operations.
+</p>
+<example>
+<title>Identity</title>
+<statement>
+<p>
+We'll work out the explanation for the last of these facts, and you will work on the others.
+</p>
+
+<ul>
+<li>The number 1 is an <em>identity</em> for multiplication of whole numbers.</li>
+<li class="custom-list-style-type" label="What it Means (words)" >When I multiply a number by 1 (in either order), the product is the same as that number I multiplied by 1.</li>
+<li class="custom-list-style-type" label="What it Means (symbols)" >For any  whole numbers <m>m</m>,
+<me>
+  m \times 1 = m \quad \text{ and } \quad 1 \times m = m.
+</me>
+</li>
+<li class="custom-list-style-type" label="Examples" ><m>1 \times 5 = 5</m>,  <m>19 \times 1 = 19</m>, and  <m>1 \times 1 = 1</m>.</li>
+</ul>
+
+<p>
+<em>Why</em> does the number 1 act this way with multiplication?
+</p>
+
+<p>
+<b>Why It's True, Explanation 1:</b>
+Let's think first about the definition of multiplication as repeated addition:
+</p>
+
+<ul>
+<li><m>m \times 1</m> means to add the number one to itself <m>m</m> times:
+<me>
+  \underbrace{1 + 1 + \cdots + 1}_{m \text{ ones} }.
+</me>
+So we see that <m>m\times 1 = m</m> for any whole number <m>m</m>.</li>
+<li>On the other hand, <m>1 \times m</m> means to add the number <m>m</m> to itself just one  time.
+This might seem a little confusing, since there's no actual addition going on.  But
+if this makes any sense at all, the answer must be <m>m</m>.  So <m>1 \times m = m</m> also.</li>
+</ul>
+
+<p>
+<b>Why It's True, Explanation 2:</b>
+We can also use the number line model to create a justification.
+If Zed calculates
+<m>1 \times m</m>, he will start at 0 and face the positive direction. He will then take <m>m</m> steps forward, and he will do it just one time. So he lands at <m>m</m>, which means <m>1\times m =m</m>.
+</p>
+
+<p>
+If Zed calculates <m>m \times 1</m>, he starts at 0 and faces the positive direction. Then he takes one step forward, and he repeated that <m>m</m> times. So he lands at <m>m</m>. We see that <m>m \times 1 = m</m>.
+</p>
+
+<p>
+<b>Why It's True, Explanation 3:</b>
+And what about the area model? In that model, <m>m \times 1</m> represents <m>m</m> rows with one square in each row. That makes a total of <m>m</m> squares. So <m>m \times 1 = m</m>.
+</p>
+<image source="images/" />
+<p>
+Similarly, <m>1 \times m</m> represents one row of <m>m</m> squares. That's also a total of <m>m</m> squares . So <m>1 \times m = m</m>.
+</p>
+<image source="images/" />
+</statement>
+</example>
+  <paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+The example presented several different explanations. Do you think one is more convincing than the others? Or more clear and easier to understand?
+</p>
+</paragraphs>
+<p>
+Now it's your turn to come up with some explanations.
+</p>
+<problem>
+<title>Multiplication is Commutative</title>
+<statement>
+<p>
+Why is multiplication of whole numbers commutative?
+</p>
+
+<ul>
+<li class="custom-list-style-type" label="Property" >Multiplication whole numbers is <em>commutative</em>.</li>
+<li class="custom-list-style-type" label="What it Means (words)" >When I multiply two whole numbers, switching the order in which I multiply them does not affect  the product.</li>
+<li class="custom-list-style-type" label="What it Means (symbols)" >For any two whole numbers <m>a</m> and <m>b</m>,
+<me>
+  a\cdot b = b \cdot a.
+</me>
+</li>
+</ul>
+
+<ol type="a"><li>Come up with at least three <em>examples</em> to demonstrate the commutativity of multiplication.</li>
+<li>Use our models of multiplication to come up with an <em>explanation</em>.  Why does commutativity hold in <em>every case</em>?</li>
+</ol>
+</statement>
+</problem>
+  
+<problem>
+<title>Multiplication is Associative</title>
+<statement>
+<p>
+Why is multiplication of whole numbers associative?
+</p>
+
+<ul>
+<li>Multiplication of whole numbers is <em>associative</em>.</li>
+<li class="custom-list-style-type" label="What it Means (words)" >When I multiply three whole numbers in a given order, the way I group them (to multiply two at a time)  doesn't affect the product.</li>
+<li class="custom-list-style-type" label="What it Means (symbols)" >For any three whole numbers <m>a</m>, <m>b</m>, and <m>c</m>,
+<me>
+  (a\cdot b) \cdot c = a\cdot (b\cdot c).
+</me>
+</li>
+</ul>
+
+<ol type="a"><li>Come up with at least three <em>examples</em> to demonstrate the associativity of multiplication.</li>
+<li>Use our models of addition to come up with an <em>explanation</em>.  Why does associativity hold in <em>every case</em>?</li>
+</ol>
+</statement>
+</problem>
+<ul>
+<li class="custom-list-style-type" label="Property" >Multiplication <em>distributes over addition</em>.</li>
+<li class="custom-list-style-type" label="What it means" >The distributive law for multiplication over addition  is a little hard to state in words, so we'll jump straight to the symbols.  For any three whole numbers <m>x</m>, <m>y</m>, and <m>z</m>:
+<me>
+  x\cdot(y+z) = x\cdot y + x\cdot z.
+</me>
+</li>
+<li class="custom-list-style-type" label="Examples" >
+<md>
+  <mrow>  8 \cdot (23) \amp = 8 \cdot (20+3) = 8\cdot 20 + 8 \cdot 3 = 160 + 24 = 184
+      </mrow>
+  <mrow>  5 \cdot (108) \amp = 5 \cdot (100+11) = 5\cdot 100 + 5 \cdot 8 = 500 + 40 = 540
+      </mrow>
+</md>
+</li>
+</ul>
+<paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+We actually did calculations very much like the examples above, when we looked at the area model for multiplication.
+</p>
+
+<ul>
+<li>Draw a picture for each example above.</li>
+</ul>
+
+<p>
+This picture shows our method for multiplying <m>23 \times 37</m>.
+</p>
+<image source="images/" />
+<p>
+We can also write the calculation this way:
+</p>
+<me>
+  23 \cdot 37 = (20+3)(30+7) = 20\cdot 30 + 20 \cdot 7 + 3 \cdot 30 + 3 \cdot 7 = 600+140+90+21 = 851.
+</me>
+<ul>
+<li>Use the distributive rule (twice!) to explain why this calculation works.</li>
+</ul>
+</paragraphs>  
+<problem>
+<statement>
+<p>
+Which of the following pictures <em>best</em> represents the distributive law in the equation
+<m>3\cdot(2+4) = 3 \cdot 2 + 3 \cdot 4</m>? Explain your choice.
+</p>
+
+<p>
+<image source="images/" />
+</p>
+
+<p>
+\fellow{This picture is kind of crappy and stolen from a long-forgotten source. Possible to make a nicer version?}
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Use the distributive law to easily compute each of these in your head (no calculators!). Show your work.
+</p>
+<me>
+  45 \times 11
+\qquad\qquad
+63 \times 101
+\qquad\qquad
+172 \times 1001
+</me>
+</statement>
+</problem>
+  <paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+Use one of our models for multiplication and addition to explain why the distributive rule works <em>every time</em>.
+</p>
+</paragraphs>
+<p>
+It's natural to wonder which, if any, of these properties also hold for division (since you know that the operations of multiplication and division are connected).
+</p>
+<example>
+<statement>
+<p>
+If division were associative, then for any choice of three whole numbers <m>a</m>, <m>b</m>, and <m>c</m>, we would have
+</p>
+<me>
+  a \div (b \div c) = (a \div b) \div c.
+</me>
+<p>
+Remember, the parentheses tell you which two numbers to divide first.
+</p>
+
+<p>
+Let's try the example <m>a = 9</m>, <m>b= 3</m>, and <m>c=1</m>. Then
+</p>
+<md>
+  <mrow>  a \div (b \div c) \amp = 9 \div( 3 \div 1) = 9 \div 3 = 3 \amp \amp \text{and}
+      </mrow>
+  <mrow>  (a \div b) \div c \amp = (9 \div 3) \div 1 = 3 \div 1 = 3.
+      </mrow>
+</md>
+<p>
+So is it true? Is division associative?
+Well, we can't be sure. This is just one example. But <q>division is associative</q> is a <em>universal statement</em>. If it's true, it has to work for <em>every possible example</em>. Maybe we just stumbled on a good choice of numbers, but it won't always work.
+</p>
+
+<p>
+Let's keep looking. Try <m>a = 16</m>, <m>b = 4</m>, and <m>c = 2</m>.
+</p>
+<md>
+  <mrow>  a \div (b \div c) \amp = 16 \div( 4 \div 2) = 16 \div 2 = 8 \amp \amp \text{and}
+      </mrow>
+  <mrow>  (a \div b) \div c \amp = (16 \div 4) \div 2 = 4 \div 2 = 2.
+      </mrow>
+</md>
+<p>
+That's all we need! A single counterexample lets us conclude that division is <em>not</em> associative.
+</p>
+</statement>
+</example>
+  
+<problem>
+<statement>
+<p>
+What about the other properties? It's your turn to decide!
+</p>
+
+<ol type="a"><li>State what it would mean for division to be commutative.  You should use words and symbols.</li>
+<li>Decide if division is commutative or not.  Carefully explain how you made your decision and <em>how you know you're right</em>.</li>
+<li>State what it would mean for division to distribute over addition.  You definitely want to use symbols!</li>
+<li>Decide if division distributes over addition or not.  Carefully explain how you made your decision and <em>how you know you're right</em>.</li>
+<li>State what it would mean for the number 1 to be an identity for division.  You should use words and symbols.</li>
+<li>Decide if 1 is an identity for division or not.  Carefully explain how you made your decision and <em>how you know you're right</em>.</li>
+</ol>
+</statement>
+</problem>
+  
+<problem>
+<title>Zero property</title>
+<statement>
+<p>
+You probably know another property of multiplication that hasn't been mentioned yet: If I multiply any number times 0 (in either order), the product is 0. This is sometimes called the <em>zero property</em> of multiplication. Notice that the zero property is very different from the property of being an identity!
+</p>
+
+<ol type="a"><li>Write what  the zero property means in symbols: For every whole number <m>n</m> <ddots /></li>
+<li>Give at least three examples of the zero property for multiplication.</li>
+<li>Use one of our models of multiplication to explain why the zero property holds.</li>
+</ol>
+</statement>
+</problem>
+  <paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+[Division by 0]
+Which of the following <em>best</em> explains why division by 0 is undefined? First decide for yourself. Then share your thoughts with a partner and see if you agree.
+</p>
+
+<ol>
+<li>Division by 0 is undefined because you cannot do it.</li>
+<li>Division by 0 is undefined because you cannot make 0 groups of something.</li>
+<li>Division by 0 is undefined because there is no single number that, when multiplied by 0, gives the original number.</li>
+<li>Division by 0 is undefined because every number divided by 0 equals 0.</li>
+</ol>
+</paragraphs>  <paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+[More on division by 0]
+</p>
+
+<ul>
+<li>For each division problem below, turn it into a multiplication problem.  Solve those problems if you can.  If you can't, explain what is wrong.
+<me>
+  5 \div 0 
+\qquad\qquad
+0 \div 5
+\qquad\qquad
+7 \div 0
+\qquad\qquad
+0\div 7
+\qquad\qquad
+0\div 0
+</me>
+</li>
+<li>Use your work to explain why we say that <em>division by <m>0</m> is undefined</em>.</li>
+<li>Use one of our models of division to explain why <em>division by <m>0</m> is undefined</em>.</li>
+</ul>
+</paragraphs>
+</subsection>
+
+
+<subsection>
+<title>Four Fact Families</title>
+<p>
+In elementary school, students are often encouraged to memorize <q>four fact families,</q> for example:
+</p>
+<md>
+  <mrow>  2+3 \amp = 5 \amp  5 - 3 \amp  = 2
+      </mrow>
+  <mrow>  3+2 \amp = 5 \amp  5 - 2 \amp  = 3
+      </mrow>
+</md>
+<p>
+Here's a different kind of family:
+</p>
+<md>
+  <mrow>  2\cdot 3 \amp = 6 \amp  6 \div 3 \amp  = 2
+      </mrow>
+  <mrow>  3\cdot 2 \amp = 6 \amp  6 \div 2 \amp  = 3
+      </mrow>
+</md>
+  <paragraphs>
+<title>Think/Pair/Share</title>
+<ul>
+<li>In what sense are these groups of equations <q>families</q>?</li>
+<li>Write down at least two more addition / subtraction four fact families.</li>
+<li>Use properties of addition and subtraction to explain <em>why</em> these four fact families are each really one fact.</li>
+<li>Write down at least two more multiplication  / division four fact families.</li>
+<li>Use properties of multiplication and division to explain <em>why</em> these four fact families are each really one fact.</li>
+</ul>
+</paragraphs>  
+<problem>
+<statement>
+<ol type="a"><li>Here's a true fact in base six: <m>2_\text{six}  + 3_\text{six}  = 5_\text{six}</m>.  Write the rest of this four fact family.</li>
+<li>Here's a true fact in base six: <m>11_\text{six} - 5_\text{six}  = 2_\text{six}</m>.  Write the rest of this four fact family.</li>
+</ol>
+</statement>
+</problem>
+</subsection>
+
+
+<subsection>
+<title>Going Deeper with Division</title>
+<p>
+So far we've been thinking about division in what's called the <em>quotative model</em>. In the quotative model, we want to make groups of equal size. We know the <em>size of the group</em>, and we ask <em>how many groups</em>. For example, we think of <m>20 \div 4</m> as:
+</p>
+<div class="quote">How many groups of 4 are there in a group of 20?
+
+<image source="images/" /></div>
+<p>
+Thinking about four fact families, however, we realize we can turn the question around a bit. We could think about the <em>partitive model</em> of division. In the partitive model, we want to make an equal number of groups. We know <em>how many groups</em>, and we ask <em>the size of the group</em>. In the partitive model, we think of <m>20 \div 4</m> as:
+</p>
+<div class="quote">20 is 4 groups of what size?
+
+<image source="images/" /></div>
+<p>
+When we know the original amount and the number of parts, we use partitive division to find the size of each part. When we know the original amount and the size of each part, we use quotative division to find the number of parts.
+</p>
+
+<p>
+Here are some examples in word problems:
+</p>
+<table id="17faa5aa1ba07a3ee43a70521cbd4fb1eb102f5c" >
+<tr><td class='hline' colspan='2'><hr /></td>
+    </tr>
+<tr><td class='vcv'>
+<b>Partitive</b> </td><td class='cv'> <b>Quotative</b> </td>
+    </tr>
+<tr><td class='vcv'> 
+number of groups known </td><td class='cv'> number in each group known</td>
+    </tr>
+<tr><td class='vcv'>
+find the number in each group </td><td class='cv'> find the number of groups </td>
+    </tr>
+<tr><td class='hlinethick' colspan='2'><hr /></td>
+    </tr>
+<tr><td  class='vcv' >
+Sylvia makes <dollar />26,000 per year. </td><td class='cv'> Sylvia's makes <dollar />650 weekly.  </td>
+    </tr>
+<tr><td class='vcv'>
+How much does she make weekly? </td><td class='cv'> Last year she made <dollar />26,000.</td>
+    </tr>
+<tr><td class='vcv'>
+ </td><td class='cv'> How many weeks did she work?  </td>
+    </tr>
+<tr><td class='hline' colspan='2'><hr /></td>
+    </tr>
+<tr><td class='vcv'>
+ A movie theater made <dollar />6450 </td><td class='cv'>   A movie theater made <dollar />6450.</td>
+    </tr>
+<tr><td class='vcv'>
+ in one night of ticket sales. </td><td class='cv'>  in one night of ticket sales.</td>
+    </tr>
+<tr><td class='vcv'>
+ 430 people purchased a ticket.</td><td class='cv'>  Each ticket costs <dollar />12.50.</td>
+    </tr>
+<tr><td class='vcv'>
+How much does each ticket cost? </td><td class='cv'>  How many people purchased a ticket? </td>
+    </tr>
+<tr><td class='hline' colspan='2'><hr /></td>
+    </tr>
+</table>
+<paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+For each word problem below:
+</p>
+
+<ul>
+<li>Draw a picture to show what the problem is asking.</li>
+<li>Use your picture to help you decide if it is a <em>quotative</em> or a <em>partitive</em> division problem.</li>
+<li>Solve the problem using any method you like.</li>
+</ul>
+
+<ol>
+<li>David made 36 cookies for the bake sale.  He packaged the cookies in boxes of 9.  How many boxes did he use?</li>
+<li>David made 36 cookies to share with his friends at lunch.  There were 12 people at his lunch table (including David).  How many cookies did each person get?</li>
+<li>Liz spent one summer hiking the Appalachin trail.   She completed  1,380 miles of the trail and averaged 15 miles per day.  How many days was she out hiking that summer?</li>
+<li>On April 1, 2012, Chase Norton became the first documented person to hike the entire Ko`olau summit in a single trip.  (True story!)  It took him eight days to hike all 48 miles from start to finish.  If he kept a steady pace, how many miles did he hike each day?</li>
+</ol>
+</paragraphs>  <paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+Write your own word problems:
+Write one partitive division problem and one quotative division problem.
+Choose your numbers carefully so that the answer works out nicely.
+Be sure to solve your problems!
+</p>
+</paragraphs>
+<p>
+Why think about these two models for division? You won't be teaching the words <em>partitive</em> and <em>quotative</em> to your students. But recognizing the two kinds of division problems (and being able to come up with examples of each) will make you a better teacher. It's important that your students are exposed to both ways of thinking about division, and to problems of both types. Otherwise, they may think about division too narrowly and not really understand what's going on. If you understand the two kinds of problems, you can more easily diagnose and remedy students' difficulties.
+</p>
+
+<p>
+Most of the division problems we've looked at so far have come out evenly, with no remainder. But of course, that doesn't always happen!
+</p>
+<problem>
+<statement>
+<p>
+What is <m>43\div 4</m>?
+</p>
+
+<ol type="a"><li>Write a problem that uses the computation <m>43\div 4</m> and gives 10 as the correct answer.</li>
+<li>Write a problem that uses the computation <m>43\div 4</m> and gives 11 as the correct answer.</li>
+<li>Write a problem that uses the computation <m>43\div 4</m> and gives 10.75 as the correct answer.</li>
+</ol>
+</statement>
+</problem>
+<p>
+We can think about division with remainder in terms of some of our models for operations. For example, we can calculate that <m>23 \div 4 = 5\ R3</m>. We can picture it this way:
+</p>
+<image source="images/" />  <paragraphs>
+<title>Think/Pair/Share</title>
+<ul>
+<li>Explain how the picture above illustrates the equation <m>23 \div 4 = 5\ R3</m>.</li>
+<li>Explain the connection between the equations 
+
+<md>
+  <mrow>  23 \div 4 \amp = 5\ R3 \quad \text{ and}
+      </mrow>
+  <mrow>  23 \amp = 5 \cdot 4 + 3.
+      </mrow>
+</md>
+</li>
+<li>How could you use the number line model to see that <m>23 \div 4 = 5\ R3</m>?  What does a <q>remainder</q> look like in this model?</li>
+<li>Draw area models for each of these division problems.  Find the quotient and remainder.
+<me>
+  40 \div 12 
+\qquad\qquad
+59 \div 10
+\qquad\qquad
+91 \div 16
+</me>
+</li>
+</ul>
+</paragraphs>
+</subsection>
+
+</section>

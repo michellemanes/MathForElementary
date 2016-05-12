@@ -1,0 +1,139 @@
+<section>
+<title>Problem Bank</title>
+<problem>
+<title>Tangrams</title>
+<statement>
+<p>
+In <xref ref="prob_tangramsquare">Problem</xref>, you assembled all seven tangram pieces into a large square.
+</p>
+
+<ol type="a"><li>If the large square you made with all seven pieces is one whole, assign a (fractional) value to each of the seven tangram pieces.  Justify your answers. <br /></li>
+<li>The tangram puzzle contains a small square.  If the small square (the single tangram piece)  is one whole, assign a  value to each of the seven tangram pieces.  Justify your answers. <br /></li>
+<li>The tangram set contains two large triangles.  If a large triangle (the single tangram piece)  is one whole, assign a  value to each of the seven tangram pieces.  Justify your answers. <br /></li>
+<li>The tangram set contains one medium triangle.  If the medium triangle (the single tangram piece)  is one whole, assign a  value to each of the seven tangram pieces.  Justify your answers. <br /></li>
+<li>The tangram set contains two small triangles.  If a small triangle (the single tangram piece)  is one whole, assign a  value to each of the seven tangram pieces.  Justify your answers. <br /></li>
+</ol>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+If possible sketch an example of the following triangles. If it is not possible, explain why not.
+</p>
+
+<ol type="a"><li>A right triangle that is scalene.<br /></li>
+<li>A right triangle that is isosceles.<br /></li>
+<li>A right triangle that is equilateral.</li>
+</ol>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+If possible sketch an example of the following triangles. If it is not possible, explain why not.
+</p>
+
+<ol type="a"><li>An acute triangle that is scalene.<br /></li>
+<li>An acute triangle that is isosceles.<br /></li>
+<li>An acute triangle that is equilateral.</li>
+</ol>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+If possible sketch an example of the following triangles. If it is not possible, explain why not.
+</p>
+
+<ol type="a"><li>An obtuse triangle that is scalene.<br /></li>
+<li>An obtuse triangle that is isosceles.<br /></li>
+<li>An obtuse triangle that is equilateral.</li>
+</ol>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+If possible sketch an example of the following triangles. If it is not possible, explain why not.
+</p>
+
+<ol type="a"><li>An equiangular triangle that is scalene.<br /></li>
+<li>An equiangular triangle that is isosceles.<br /></li>
+<li>An equiangular triangle that is equilateral.</li>
+</ol>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Look at the picture below, which shows two lines intersecting. Angles <m>A</m> and <m>D</m> are called <q>vertical angles,</q> and so are angles <m>B</m> and <m>C</m>.
+</p>
+<image source="images/" />
+<p>
+Use this drawing to explain why vertical angles must have the same measure. (Hint: what is the sum of the measures of angle <m>A</m> angle <m>B</m>? How do you know?)
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Answer the following questions about the triangle below. Be sure to focus on what you <em>know for sure</em> and not what the picture <em>looks like</em>.
+</p>
+<image source="images/" />  <ol type="a"><li>Could it be true that <m>x = 4</m> cm?  Explain your answer.<br /></li>
+<li>Could it be true that <m>x=20</m> cm?  Explain your answer.<br /></li>
+<li>Give three possible values of <m>x</m>, based on the information in the picture.<br /></li>
+</ol>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Answer the following questions about the triangle below. Be sure to focus on what you <em>know for sure</em> and not what the picture <em>looks like</em>.
+</p>
+<image source="images/" />  <ol type="a"><li>If <m>x=3</m> cm, the triangle is isosceles.  Is this possible? Explain your answer. <br /></li>
+<li>If <m>x=8</m> cm, the triangle is isosceles.  Is this possible? Explain your answer. <br /></li>
+<li>Give three <em>impossible</em> values of <m>x</m>, based on the information in the picture.<br /></li>
+</ol>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Prof.<nbsp />Faber drew this picture on the board, saying it showed three triangles: <m>\triangle ABC</m>, <m>\triangle ABD</m>, and <m>\triangle CBD</m>. Side lengths and angle measurements are shown for each of the triangles.
+</p>
+<image source="images/" />
+<p>
+There are <b>lots of mistakes</b> in this picture. Use what you know about side lengths and angles in triangles to find all the mistakes you can. For each mistake, say what is wrong with the picture, and why it's a mistake. Explain your thinking as clearly as you can.
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Because of SSS congruence, triangles are exceptionally sturdy. This means they are used frequently in architecture and design to provide supports for buildings, bridges, and other man-made objects. Take your camera with you, and find several places in your neighborhood or near your campus that use triangular supports. Snap a picture, and describe what the structure is and where you see the triangles.
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+It is possible to create designs that have multiple symmetries. See if you can find images (or create your own!) that have both:
+</p>
+
+<ol type="a"><li>reflection symmetry and rotational symmetry,<br /></li>
+<li>reflection symmetry and translational symmetry, or<br /></li>
+<li>rotational symmetry and translational symmetry.</li>
+</ol>
+</statement>
+</problem>
+</section>

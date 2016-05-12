@@ -1,0 +1,182 @@
+<section>
+<title>Problem Bank</title>
+<problem>
+<statement>
+<p>
+Express the shaded portion of each figure as both a fraction and as a decimal. Justify your answers.
+</p>
+<table id="f2d97b761df515479049e9ee33b9909bca75d76e" >
+<tr><td class='c'>
+<image source="images/" /> 
+</td><td class='c'>   </td><td class='c'>
+<image source="images/" /> </td>
+    </tr>
+<tr><td class='c'>
+(a) </td><td class='c'></td><td class='c'> (b)</td>
+    </tr>
+</table>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Which number is bigger: <m>0.135</m> or <m>0.14</m>? Justify your answer in at least two different ways.
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Yu said that <m>0.21</m> is bigger than <m>0.7</m> since 21 is bigger than 7. Is Yu correct? Carefully explain your reasoning. If you were Yu's teacher, how would you respond to him?
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Arrange the digits 1, 2, 3, and 4 in the boxes to create the smallest possible sum. Use each digit exactly once. Justify that your answer is as small as possible.
+</p>
+<me>
+  \frac \square \square + \frac \square \square
+</me>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Arrange the digits 1, 2, 3, and 4 in the boxes to create the smallest possible (positive) difference. Use each digit exactly once. Justify that your answer is as small as possible.
+</p>
+<me>
+  \frac \square \square - \frac \square \square
+</me>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Use the <q>Dots <ampersand /> Boxes</q> model to show that <m>\frac 1 9 = 0.\bar 1</m>. Then use this fact to answer these questions and justify your answers.
+</p>
+
+<ol type="a"><li>What fraction is given by <m>0.\bar 2</m>?<br /></li>
+<li>What fraction is given by <m>0.\bar 5</m>?<br /></li>
+<li>What fraction is given by <m>0.\bar 6</m>?<br /></li>
+<li>What fraction is given by <m>0.\bar 8</m>?<br /></li>
+<li>What fraction is given by <m>0.\bar 9</m>?<br /></li>
+</ol>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+In this problem, you will focus on the calculation
+</p>
+<me>
+  170 \times \square.
+</me>
+<p>
+Your goal is to get a product that is close to 200.
+</p>
+
+<ol type="a"><li>Will you multiply 170 by a number greater or less than 1?  Greater or less than 2?  Justify your answers.<br /></li>
+<li>Suppose you can use only one decimal place.  Fill in the box with a number that gets as close to 200 as possible. <br /></li>
+<li>Suppose you can use only two decimal places.  Fill in the box with a number that gets as close to 200 as possible. <br /></li>
+<li>Suppose you can use only three decimal places.  Fill in the box with a number that gets as close to 200 as possible. <br /></li>
+</ol>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Do each computation below <em>without using a calculator</em>. Explain your thinking.
+</p>
+
+<ol type="a"><li><m>(23\times 0.1) + (0.001 \times 55)</m><br /></li>
+<li><m>18.45 \div 0.63 \div 0.7</m><br /></li>
+<li><m>22.65 - (0.03 \cdot 10)</m><br /></li>
+</ol>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+For each question below, choose the correct calculation and explain your choice. Then estimate the answer (don't calculate it exactly) and explain why your estimate is a good one.
+</p>
+
+<ol type="a"><li>A large pizza has eight slices and costs <dollar />15.95.  How much does each slice of pizza cost?  Should you calculate <m>15.95 \times 8</m> or <m>15.85 \div 8</m>?<br /></li>
+<li>There are 2.54 centimeters in an inch.  A standard sheet of notebook paper is <m>8\frac 12</m> inches wide and 11 inches long.  How many centimeters wide is the page?  Should you calculate <m>8.5 \times 2.54</m> or <m>11 \times 2.54</m> or <m>8.5 \div 2.54</m> or <m>11 \div 2.54</m>?<br /></li>
+<li>In a model train set, 1.38 inches represents one foot in real life.  The height of One World Trade Center in New York City is 1776 feet.  How tall would a scale model of the building be?  Should you calculate <m>1776 \times 1.38</m> or <m>1776 \div 1.38</m>?<br /></li>
+<li>Eight-tenths of a jumprope is 1.75 meters long.  How long is the whole rope?  Should you compute <m>0.8 \div 1.75</m> or <m>0.8 \times 1.75</m> or <m>1.75 \div 0.8</m>?</li>
+</ol>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Without actually calculating anything (just use your number sense!), order <m>x</m>, <m>y</m>, and <m>z</m> from smallest to largest. Explain your ordering.
+</p>
+<md>
+  <mrow>  x \amp  = 0.07 + 0.000001
+      </mrow>
+  <mrow>  y \amp  = 0.07 \times 0.000001
+      </mrow>
+  <mrow>  z\amp  = 0.07 \div 0.000001
+      </mrow>
+</md>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Kaimi had no money at all when he cashed his paycheck. As he left the bank, he bought a piece of candy for a nickel from a machine. Later, he realized that the money in his pocket was equal to twice his paycheck. After a quick calculation, he figured out what happened: the teller accidentally switched the dollars and cents. How much was Kaimi supposed to be paid, and what did the teller give him? Justify your answer.
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Here's the rules to a card game. Read the rules carefully and then answer the questions below.
+</p>
+
+<ul>
+<li>Each player starts with 10 points.  The goal is to score as close to 100 points as possible without going over.   <br /></li>
+<li>On your turn: draw two cards, which will each have a decimal number on them.  Using estimation (no computation), you can choose to multiply or divide your current score by one of the decimal numbers.<br /></li>
+<li>After you decide, compute your new score exactly using a calculator.  If your new score is over 100, you lose.  If not, the other player takes a turn.<br /></li>
+<li>At the end of your turn, you can decide to end the game.  If you do, the other player gets one more turn.  Then, the player with the score that is closest to 100 without going over wins the game.</li>
+</ul>
+
+<p>
+Here are the questions:
+</p>
+
+<ol type="a"><li>On your turn, your score is 50.  You draw the cards <m>0.2</m> and <m>1.75</m>.  Remember that your choices are:
+
+<table id="14640d4ec674c7d611dc53f593057dec392a4ef0" >
+<tr><td class='l'>
+divide by <m>0.2</m> </td><td class='c'>    </td><td class='l'> multiply by <m>0.2</m>
+</td>
+    </tr>
+<tr><td class='l'>
+</td>
+    </tr>
+<tr><td class='l'>
+divide by <m>1.75</m> </td><td class='c'>    </td><td class='l'> multiply by <m>1.75</m></td>
+    </tr>
+</table>
+What is your best move and why?<br /></li>
+<li>On your turn, your score is 88.  You draw <m>1.3</m> and <m>0.6</m>.  What is your best move and why?<br /></li>
+<li>Your partner has a score of 57, and your score is 89.  On her turn, your partner draws <m>0.8</m> and  <m>1.8</m>.  She says she wants to end the game.  On your final turn, you draw <m>0.7</m> and   <m>1.2</m>.  If you both make the best possible move, who will win the game?<br /></li>
+</ol>
+</statement>
+</problem>
+</section>

@@ -1,0 +1,390 @@
+<section>
+<title>What is a Fraction?</title>
+<introduction>
+<p>
+One of the things that makes fractions such a difficult concept to teach and to learn is that you have to think about them in lots of different ways, depending on the problem at hand.
+For now, we're going to think of a fraction as the answer to a division problem.
+</p>
+
+<p>
+\fellow{Throughout: anything you can do to make the pictures better would be awesome.}
+</p>
+<example>
+<title>Pies per boy</title>
+<statement>
+<p>
+Suppose 6 pies are to be shared equally among 3 boys. This yields 2
+pies per boy. We write:
+</p>
+<me>
+  \frac 6 3 = 2.
+</me>
+<image source="images/" />
+<p>
+The fraction <m>\frac 6 3</m> is equivalent to the answer to the division problem <m>6 \div 3 = 2</m>. It represents the number of pies one whole boy receives.
+</p>
+</statement>
+</example>
+<p>
+In the same way <ddots />
+</p>
+
+<ul>
+<li class="custom-list-style-type" label="" >sharing 10 pies among 2 boys yields <m>\frac{10}2 = 5</m> pies per boy,<br /></li>
+<li class="custom-list-style-type" label="" >sharing 8 pies among 2 boys yields <m>\frac{8}2 = 4</m> pies per boy,<br /></li>
+<li class="custom-list-style-type" label="" >sharing 5 pies among 5 boys yields <m>\frac{5}5 = 1</m> pies per boy, and<br /></li>
+<li class="custom-list-style-type" label="" >the answer to sharing 1 pies among 2 boys is <m>\frac{1}2</m>, which we call <q>one-half.</q></li>
+</ul>
+
+<p>
+This final example is actually saying something! It also represents how fractions are
+usually taught to students:
+</p>
+<em>
+If one pie is shared (equally) between two boys, then each boy receives a portion of
+a pie which we choose to call <q>half.</q></em>  <image source="images/" />
+<p>
+Thus students are taught to associate the number <q><m>\frac 1 2</m></q> to the picture
+<image source="images/" /> .
+</p>
+
+<p>
+In the same way, the picture <image source="images/" /> is said to represent <q>one third,</q> that is,
+<m>\frac 1 3</m>.
+(And this is indeed the amount of pie an individual boy would receive if one pie is
+shared among three.)
+</p>
+
+<p>
+The picture
+<image source="images/" />
+is called <q>one fifth</q> and is indeed
+<m>\frac 1 5</m>, the amount of pie an
+individual boy receives when one pie is shared among five.
+</p>
+
+<p>
+And the picture
+<image source="images/" />
+is called <q>three fifths</q> to represent
+<m>\frac 3 5</m>,
+the amount of pie
+an individual receives if three pies are shared among five boys.
+</p>
+<paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+Carefully explain <em>why</em> this is true: If five boys share three pies equally, each boy receives an amount that looks like this: <image source="images/" /> . Your explanation will probably require both words and pictures.
+</p>
+</paragraphs> </introduction>
+
+
+<subsection>
+<title>On Your Own</title>
+<p>
+Work on the following exercises on your own or with a partner.
+</p>
+
+<ol>
+<li>Draw a picture associated with the fraction <m>\frac 1 6</m>.<br /></li>
+<li>Draw a picture associated with the fraction <m>\frac 3 7</m>.
+Is your picture
+really the amount of pie an individual boy would receive if three pies are shared
+among seven boys? Be very clear on this!<br /></li>
+<li>Let's work backwards! Here is the answer to a division problem:
+<image source="images/" /> 
+This represents the amount of pie an individual boy receives if some number of pies
+is shared among some number of boys.  How many pies?  How many boys?  How can you justify your answers?<br /></li>
+<li>Here is another answer to a division problem:
+<image source="images/" /> 
+How many pies?  How many boys?  How can you justify your answers?<br /></li>
+<li>Here is another answer to a division problem:
+<image source="images/" /> 
+How many pies?  How many boys?  How can you justify your answers?<br /></li>
+<li>Leigh says that <q><m>\frac 3 5</m> is three times as big as <m>\frac 1 5</m>.</q>
+Is this right? Is
+three pies shared among five boys three times as much as one pie shared among
+five boys? Explain your answer.<br /></li>
+<li>Draw a picture for the answer to the division problem <m>\frac 4 8</m>.
+Describe
+what you notice about the answer.<br /></li>
+<li>Draw a picture for the answer to the division problem <m>\frac 2 {10}</m>.
+Describe
+what you notice about the answer.<br /></li>
+<li>What does the division problem <m>\frac 1 1</m>
+represent? How much pie does an
+individual boy receive?<br /></li>
+<li>What does the division problem <m>\frac 5 1</m>
+represent? How much pie does
+an individual boy receive?<br /></li>
+<li>What does the division problem <m>\frac 5 5</m>
+represent? How much pie does
+an individual boy receive?<br /></li>
+<li>Here is the answer to another division problem. This is the amount
+of pie an individual boy receives:
+<image source="images/" /> 
+How many pies were in the division problem?  How many boys were in the division problem?  Justify your answers.<br /></li>
+<li>Here is the answer to another division problem. This is the amount
+of pie an individual boy receives:
+<image source="images/" /> 
+How many pies were in the division problem?  How many boys were in the division problem?  Justify your answers.<br /></li>
+<li>Many teachers have young students divide differently shaped pies
+into fractions. For example, a hexagonal pie is good for illustrating the fractions
+<me>
+  \frac 1 6, \quad
+\frac 2 6, \quad
+\frac 3 6, \quad
+\frac 4 6, \quad
+\frac 5 6, \text{ and } \quad
+\frac 6 6.
+</me>
+<image source="images/" />
+<ol>
+<li>Why is this shape used?  What does <m>\frac 1 6</m> of a pie look like?</li>
+<li>What does <m>\frac 6 6</m> of a pie look like?</li>
+<li>What shape pie would be good for illustrating the fractions <m>\frac 1 8</m> up to <m>\frac 8 8</m>?</li>
+</ol>
+</li>
+</ol>
+<problem>
+<statement>
+<p>
+Some rectangular pies are distributed to some number of boys. This picture
+represents the amount of pie an individual boy receives.
+</p>
+<image source="images/" />
+<p>
+How many pies? How many boys? Carefully justify your answers!
+</p>
+</statement>
+</problem>
+</subsection>
+
+
+<subsection>
+<title>Pies Per Boy Model</title>
+<p>
+In our model, a fraction
+<m>\frac a b</m> represents the amount of pie an individual boy
+receives when <m>a</m> pies are shared equally by <m>b</m> boys.
+</p>
+<image source="images/" />  <paragraphs>
+<title>Think/Pair/Share</title>
+<ol>
+<li>What is <m>\frac 2 2</m>?  What is <m>\frac 7 7</m>?  What is <m>\frac{100}{100}</m>?  How can you use the <q>Pies Per Boy Model</q> to make sense of <m>\frac a a</m> for any positive whole number <m>a</m>?<br /></li>
+<li>What is <m>\frac 2 1</m>?  What is <m>\frac 7 1</m>?  What is <m>\frac{1876}{1}</m>?  How can you use the <q>Pies Per Boy Model</q> to make sense of <m>\frac b 1</m> for any positive whole number <m>b</m>?<br /></li>
+<li>Write the answer to this division problem: <q>I have no pies to share among thirteen boys.</q>  How can you generalize this division problem to make a general statement about fractions?</li>
+</ol>
+</paragraphs>  
+<definition>
+<statement>
+<p>
+For a fraction <m>\frac a b</m>,
+the top number <m>a</m> (which, for us, is the number of pies) is called
+the <term>numerator</term> of the fraction, and the bottom number <m>b</m> (the number of pies), is called the
+<term>denominator</term> of the fraction.
+</p>
+</statement>
+</definition>
+<p>
+Most people insist that the numerator and denominator each be whole
+numbers, but they really don't have to be.
+</p>
+<paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+To understand why the numerator and denominator need not be whole numbers, we must first be a little gruesome. Instead of dividing pies, let's divide boys! Here is one boy:
+</p>
+<image source="images/" />
+<ul>
+<li>What would half a boy look like?</li>
+<li>What would one-third of a boy look like?</li>
+<li>What would three-fifths of a boy look like?</li>
+</ul>
+</paragraphs>
+<p>
+So, what would
+</p>
+<me>
+  \frac 1 {\left( \frac 1 2\right) }
+</me>
+<p>
+represent?
+This means assigning one pie to each <q>group</q> of half a boy. So how much would a
+whole boy receive? Well, we would have a picture like this:
+</p>
+<image source="images/" />
+<p>
+The whole boy gets two pies,
+so we have
+</p>
+<me>
+  \frac 1 {\left( \frac 1 2\right) }
+= 2.
+</me>
+<paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+Draw pictures for these problems if it helps!
+</p>
+
+<ol>
+<li>What does
+<me>
+  \frac 1 {\left( \frac 1 3\right) }
+</me>
+represent?  Justify your answer using the <q>Pies Per Boy Model.</q><br /></li>
+<li>What is
+<me>
+  \frac 1 {\left( \frac 1 6\right) }?
+</me>
+Justify your answer.<br /></li>
+<li>Explain why  the fraction
+<me>
+  \frac 5 {\left( \frac 1 2\right) }
+</me>
+represents the number 10.  (How much pie is given to half a boy?  To a whole boy?)<br /></li>
+<li>What is
+<me>
+  \frac 4 {\left( \frac 1 3\right) }?
+</me>
+Justify your answer.<br /></li>
+<li>Challenge:
+Two-and-a-half pies are to be shared equally among four-and-a-half boys.  How much pie does an individual (whole) boy receive?  Justify your answer.
+  <image source="images/" /> </li>
+</ol>
+</paragraphs>
+</subsection>
+
+
+<subsection>
+<title>Jargon</title>
+<p>
+A fraction with a numerator smaller than its denominator is called (in school math jargon) a <em>proper
+fraction</em>. For example, <m>\frac {45}{58}</m> is <q>proper.</q>
+</p>
+
+<p>
+A fraction with numerator larger than its denominator is called (in school math jargon) an <em>improper
+fraction</em>.
+For example, <m>\frac 7 3</m>
+is <q>improper.</q> (In the 1800s, these fractions were
+called <em>vulgar fractions</em>. Despite nineteenth-century views they are useful
+nonetheless!)
+</p>
+
+<p>
+For some reason, improper fractions are considered,
+well, improper by some teachers. So students are often asked to write improper fractions
+as a combination of a whole number and a proper fraction.
+</p>
+
+<p>
+Consider, for example,
+<m>\frac 7 3</m>.
+If seven pies are shared among three boys, then each boy
+will certainly receive 2 whole pies, leaving one pie over to share among the three
+boys. Thus,
+<m>\frac 7 3</m>
+equals 2 plus <m>\frac 1 3</m>.
+</p>
+
+<p>
+People write:
+</p>
+<me>
+  \frac 7 3 = 2\frac 1 3
+</me>
+<p>
+and call the result <m>2 \frac 1 3</m>
+a <em>mixed number</em>. (One can also write
+</p>
+<me>
+  2 + \frac 1 3,
+</me>
+<p>
+which is what <m>2\frac 1 3</m>
+really means. But most people choose to suppress the plus sign.)
+</p>
+
+<p>
+As another example, consider <m>\frac{23}4</m>.
+If 4 boys share 23 pies, we can give them each five whole pies. That uses 20 pies, and there
+are then 3 pies left over. Those three pies are still be shared equally by the 4 boys. We have:
+</p>
+<me>
+  \frac{23}4 = 5\frac 3 4.
+</me>
+<p>
+Mathematically, there is nothing wrong with an improper fraction. (In fact, many
+mathematicians prefer improper fractions over mixed numbers. They are often easier to use in computations.)
+Consider, for instance, the mixed number <m>2\frac 1 5</m>. This is really <m>2 + \frac 1 5</m>.
+</p>
+
+<p>
+For fun, let's write the number 2 as a fraction with denominator five:
+</p>
+<me>
+  2 = \frac{10} 5.
+</me>
+<p>
+So:
+</p>
+<me>
+  2\frac 1 5 
+\quad=\quad 2 + \frac 1 5 
+\quad=\quad
+ \frac{10} 5 + \frac{1} 5 
+ \quad=\quad
+  \frac{11}5.
+</me>
+<p>
+We've written the mixed number <m>2\frac 1 5</m>
+as the improper fraction <m>\frac{11}5</m>.
+</p>
+<paragraphs>
+<title>Think/Pair/Share</title>
+<ul>
+<li>Write each of the following as a mixed number. Explain how you got your answer.
+<me>
+  \frac{17}3,
+\qquad\qquad
+\frac 8 5,
+\qquad\qquad
+\frac{100}{13},
+\qquad\qquad
+\frac{200}{199}.
+</me>
+</li>
+<li>Convert each of these mixed numbers  into <q>improper</q> fractions.  Explain how you got your answer.
+<me>
+  3\frac 1 4 ,
+\qquad\qquad
+5 \frac 1 6,
+\qquad\qquad
+1 \frac 3{11},
+\qquad\qquad
+200 \frac 1{200}.
+</me>
+</li>
+</ul>
+</paragraphs>
+<p>
+Students are often asked to memorize the names <q>proper fraction,</q>
+<q>improper fraction</q> and <q>mixed number</q> so that they can follow directions on tests
+and problem sets.
+</p>
+
+<p>
+But, to a mathematician, these names are not at all important!
+There is no <q>correct</q> way to express an answer (assuming, that the answer is
+mathematically the right number). We often wish to express our answer in a simpler form, but sometimes the context will tell you what form is <q>simple</q> and what form is more complicated.
+</p>
+
+<p>
+As you work on problems in this chapter, decide for yourself which type of fraction would
+be best to work with as you do your task.
+</p>
+</subsection>
+
+</section>

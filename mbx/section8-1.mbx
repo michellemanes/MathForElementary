@@ -1,0 +1,65 @@
+<section xml:id="hokuleapics">
+<title>H\=ok&#363;le\kern.05em`\kern.05em\relax a</title>
+<p>
+The Polynesian Voyaging Society (PVS) was founded in 1973 for scientific inquiry into the history and heritage of \Hawaii: How did the Polynesians discover and settle these islands?
+How did they navigate without instruments, guiding themselves across ocean distances of 2500 miles?
+</p>
+
+<p>
+In 1973&#x2013;1975, PVS built a replica of an ancient double-hulled voyaging canoe to conduct an experimental voyage from \Hawaii<nbsp />to Tahiti. The canoe was designed by founder Herb Kawainui K\=ane and named \Hokulea, Star of Gladness.
+</p>
+
+<p>
+On March 8th, 1975, \Hokulea<nbsp />was launched. Mau Piailug, a master navigator from the island of Satawal in Micronesia, navigated her to Tahiti using traditional navigation techniques (no modern instruments at all).
+</p>
+<paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+Brainstorm with a partner:
+</p>
+
+<ul>
+<li>What are some <em>mathematical</em> questions you can ask about voyaging on \Hokulea?<br /></li>
+<li>What kinds of problems (especially mathematics problems) did the crew have to solve before setting off on the voyage to Tahiti?<br /></li>
+<li>What are you curious about, with respect to voyaging on \Hokulea?<br /></li>
+</ul>
+</paragraphs>
+<p>
+When you teach elementary school, you will mostly likely be teaching all subjects to your students. One thing you should think about as a teacher: How can you connect the different subjects together? How can you see mathematics in other fields of study, and how can you draw out that mathematical content?
+</p>
+
+<p>
+In this chapter, you'll explore just a tiny bit of the mathematics involved in voyaging on a traditional canoe. You will apply your knowledge of geometry to create scale drawings and make a star compass. And you'll use you knowledge of operations and algebraic thinking to plan the supplies for the voyage. The focus here is on applying your mathematical knowledge to a new situation.
+</p>
+
+<p>
+One of the first things to know about \Hokulea<nbsp />is what she looks like. This picture and drawing of \Hokulea<nbsp />come from the PVS website: \url{http://hokulea.org}.
+</p>
+<image source="images/" /> 
+<image source="images/" />  
+<problem xml:id="scaledraw">
+<statement>
+<p>
+Here's some information about the dimensions of \Hokulea. Your job is to draw a good scale model of the canoe, like a floorplan. Imagine you are above the canoe looking down at it. Draw a scale model of what you would see. Do not include the sails or any details; you are aiming to convey the overall shape in a scale drawing. You will use this scale drawing several times in the rest of this unit, so be sure to do a good job and keep it somewhere that you can find it later.<br />
+</p>
+
+<ul>
+<li>\Hokulea<nbsp />is 62 feet 4 inches long.  (This is <q>LOA</q> or <q>length overall</q> in navigation terms.  It means the maximum length measured parallel to the waterline.)<br /></li>
+<li>\Hokulea<nbsp />is 17 feet 6 inches wide.  (This is <q>at beam</q> meaning at the widest point.)<br /></li>
+<li>You can see from the picture that \Hokulea<nbsp />has two hulls, connected by a rectangular deck.   The deck is about 40 feet long and 10 feet wide.<br /></li>
+</ul>
+
+<p>
+<b>Note:</b> You don't have all the information you need! So you either need to find out the missing information or make some reasonable estimates based on what you do know.<br />
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Crew for a voyage is usually 12&#x2013;16 people. During mealtimes, the whole crew is on the deck together. About how much space does each person get when they're all together on the deck?
+</p>
+</statement>
+</problem>
+</section>

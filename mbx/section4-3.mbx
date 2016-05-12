@@ -1,0 +1,317 @@
+<section>
+<title>Adding and Subtracting Fractions</title>
+
+
+<subsection>
+<title>Fractions with the Same Denominator</title>
+<p>
+Here are two very similar fractions:
+<m>\frac 2 7</m> and <m>\frac 3 7</m>.
+What might it mean to add them?
+It might be tempting to say:
+</p>
+<md>
+  <mrow>  \frac 2 7 \amp 
+\text{ represents 2 pies being shared among 7 boys}
+      </mrow>
+  <mrow>  \frac 3 7 \amp 
+\text{ represents 3 pies being shared among 7 boys}
+      </mrow>
+</md>
+<p>
+so
+<m>\frac 2 7 + \frac 3 7</m>
+probably represents sharing 5 pies among 14 boys, giving the answer
+<m>\frac 5{14}</m>.
+That is, it is very tempting to say that <q>adding fractions</q> means <q>adding pies and
+adding boys.</q>
+</p>
+
+<p>
+The trouble is that a fraction is not a pie, and a fraction is not a boy. So adding
+pies and adding boys is <b>not</b> actually adding fractions.
+A fraction is something
+different. It is related to pies and boys, but something more subtle. A fraction is
+an amount of <b>pie per boy</b>.
+</p>
+
+<p>
+One can't add pies, one can't add boys. One must add instead the amounts individual
+boys receive.
+</p>
+<example>
+<title>$\frac 27 + \frac 37$</title>
+<statement>
+<p>
+Let's take it slowly.
+Consider the fraction <m>\frac 2 7</m>.
+Here is a picture of the amount an individual boy receives when two pies are given to seven boys:
+</p>
+<image source="images/" />
+<p>
+Consider the fraction <m>\frac 3 7</m>.
+Here is a picture of the amount an individual boy receives
+when three pies are given to seven boys:
+</p>
+<image source="images/" />
+<p>
+The sum
+<m>\frac 2 7 + \frac 3 7</m>
+corresponds to the sum:
+</p>
+<image source="images/" />
+<p>
+The answer, from the picture, is <m>\frac 5 7</m>.
+</p>
+</statement>
+</example>
+  <paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+Remember that <m>\frac 5 7</m> means <q>the amount of pie that one boy gets when five pies are shared by seven boys.</q> Carefully explain <em>why</em> that is the same as the picture given by the sum above:
+</p>
+<image source="images/" />
+<p>
+Your explanation should use both words and pictures!
+</p>
+</paragraphs>
+<p>
+Most people read this as <q>Two sevenths plus three sevenths gives five sevenths</q>
+and think that the problem is just as easy as saying <q>two apples plus three apples
+gives five apples.</q> And, in the end, they are right!
+</p>
+<image source="images/" />
+<me>
+  \frac 2 7 + \frac 3 7 = \frac 5 7.
+</me>
+<p>
+This is how the addition of fractions is first taught to students: Adding fractions
+with the same denominator seems just as easy as adding apples:
+</p>
+<md>
+  <mrow>  4 \text{ tenths}  + 3 \text{ tenths}  + 8 \text{ tenths}  \amp  = 15 \text{ tenths}
+      </mrow>
+  <mrow>  \frac 4 {10} + \frac 3 {10} + \frac 8 {10} \amp = \frac{15}{10}.
+      </mrow>
+</md>
+<p>
+(And, if you like,
+<m>\frac{15}{10} = \frac{5\cdot 3}{5\cdot 2} = \frac 3 2</m>.)
+</p>
+<md>
+  <mrow>  82 \text{ sixty-fifths}  + 91 \text{ sixty-fifths}  \amp  = 173 \text{ sixty-fifths}
+      </mrow>
+  <mrow>  \frac {82} {65} + \frac {91} {65}  \amp = \frac{173}{65}.
+      </mrow>
+</md>
+<p>
+We are really adding <b>amounts per boy</b> not amounts, but the answers match the same way.
+</p>
+
+<p>
+We can use the <q>Pies Per Boy Model</q> to explain <em>why</em> adding fractions with like denominators works in this way.
+</p>
+
+<p>
+Think about the addition problem <m>\frac 2 7 + \frac 3 7</m>:
+</p>
+<md>
+  <mrow>  \amp \text{ amount of pie each boy gets when 7 boys share 2 pies}
+      </mrow>
+  <mrow>  + 
+\amp \text{\underline{ amount of pie each boy gets when 7 boys share 3 pies} }
+      </mrow>
+  <mrow>  \amp ???
+      </mrow>
+</md>
+<p>
+Since in both cases we have 7 boys sharing the pies, we can imagine that it's the same 7 boys in both cases. First they share 2 pies. Then they share 3 more pies. The total each boy gets by the time all the pie-sharing is done is the same as if the 7 boys had just shared 5 pies to begin with. That is:
+</p>
+<md>
+  <mrow>  \amp \text{ amount of pie each boy gets when 7 boys share 2 pies}
+      </mrow>
+  <mrow>  + 
+\amp \text{\underline{ amount of pie each boy gets when 7 boys share 3 pies} }
+      </mrow>
+  <mrow>  \amp \text{ amount of pie each boy gets when 7 boys share 5 pies}
+      </mrow>
+</md>
+<me>
+  \frac 2 7 + \frac 3 7 = \frac 5 7.
+</me>
+<p>
+Now let's think about the general case. Our claim is that
+</p>
+<me>
+  \frac a d + \frac b d = \frac{a+b}d.
+</me>
+<p>
+Translating into our model, we have <m>d</m> boys. First, they share <m>a</m> pies between them, and <m>\frac a d</m> represents the amount each boy gets. Then they share <m>b</m> more pies, so the additional amount of pie each boy gets is <m>\frac b d</m>. The total each boy gets is <m>\frac a d + \frac b d</m>.
+</p>
+
+<p>
+But it doesn't really matter that the boys first share <m>a</m> pies and then share <m>b</m> pies. The amount each boy gets is the same as if they had started with all of the pies &#8202;&#x2014;&#8202; all <m>a+b</m> of them &#8202;&#x2014;&#8202; and shared them equally. That amount of pie is represented by <m>\frac{a+b}d</m>.
+</p>
+<paragraphs>
+<title>Think/Pair/Share</title>
+<ol>
+<li>How can you <em>subtract</em> fractions with
+the same denominator? For example, what is
+<me>
+  \frac{400 }{903} -\frac{170}{903}?
+</me>
+</li>
+<li>Use the <q>Pies Per Boy</q> model to <em>carefully explain why</em>
+<me>
+  \frac a d - \frac b d = \frac{a-b}{d},
+</me>
+at least if <m>b \leq a</m> and everything in sight is a positive whole number.</li>
+<li>Explain why the fact that the denominators are the same is <em>essential</em> to this addition and subtraction method.  Where is that fact used in the explanations?</li>
+</ol>
+</paragraphs>
+</subsection>
+
+
+<subsection>
+<title>Fractions with Different Denominators</title>
+<p>
+This approach to adding fractions suddenly becomes tricky if the denominators
+involved are not the same common value. For example, what is
+<m>\frac 2 5 + \frac 1 3</m>?
+</p>
+<image source="images/" />
+<p>
+Let's phrase this question in terms of pies and boys:
+</p>
+<em>Suppose Poindexter is part of a team of a five boys that receives two pies.
+Then later he is part of a team of three boys that receives one pie. How much pie does
+Poindexter receive in total?</em>  <paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+Talk about these questions with a partner before reading on. It is actually a very difficult problem! What might a student say, if they don't already know about adding fractions? Write down any of your thoughts.
+</p>
+
+<ol>
+<li>Do you see that this is the same problem as computing <m>\frac 2 5 + \frac 1 3</m>?</li>
+<li>What might be the best approach to answering this problem?</li>
+</ol>
+</paragraphs>
+<p>
+One way to think about answering this addition question is to write
+<m>\frac 2 5</m>
+in a series of
+alternative forms using our fraction rule (that is, multiply the numerator and
+denominator each by 2, and then each by 3, and then each by 4, and so on) and to do
+the same for
+<m>\frac 1 3</m>:
+</p>
+<md>
+  <mrow>  \frac 2 5 \quad + \amp \quad  \frac 1 3
+      </mrow>
+  <mrow>  \frac 4{10}\quad \phantom {+} \amp  \quad \frac 2 6
+      </mrow>
+  <mrow>  {\color{red} \frac 6{15}}\quad \phantom {+} \amp  \quad \frac 3 9
+      </mrow>
+  <mrow>  \frac 8{20}\quad \phantom {+} \amp  \quad \frac 4 {12}
+      </mrow>
+  <mrow>  \frac {10}{25}\quad \phantom {+} \amp  \quad {\color{red} \frac 5 {15}}
+      </mrow>
+  <mrow>  \vdots \qquad \amp \quad \vdots
+      </mrow>
+</md>
+<p>
+We see that the
+problem <m>\frac 2 5 + \frac 1 3</m>
+is actually the same as <m>\frac 6{15} + \frac5{15}</m>. So we can find the answer using the same-denominator method:
+</p>
+<me>
+  \frac 2 5 + \frac 1 3 
+\quad = \quad
+\frac 6{15} + \frac 5{15}
+ \quad = \quad 
+ \frac{11}{15}.
+</me>
+<example>
+<title>$\frac 38 + \frac 3{10}$</title>
+<statement>
+<p>
+Here's another example of adding fractions with unlike denominators: <m>\frac 38 + \frac 3{10}</m>. In this case, Poindexter is first part of a group of 8 boys who share 3 pies. Later he is part of a group of 10 boys who share 3 different pies. How much total pie did Poindexter get?
+</p>
+<md>
+  <mrow>  \frac 38 \quad + \amp \quad  \frac 3{10}
+      </mrow>
+  <mrow>  \frac 6{16}\quad \phantom {+} \amp  \quad \frac 6 {20}
+      </mrow>
+  <mrow>  \frac 9{24}\quad \phantom {+} \amp  \quad \frac 9 {30}
+      </mrow>
+  <mrow>  \frac {12}{32}\quad \phantom {+} \amp  \quad {\color{red} \frac  {12}{40}}
+      </mrow>
+  <mrow>  {\color{red} \frac {15}{40}}\quad \phantom {+} \amp  \quad \frac  {15}{50}
+      </mrow>
+  <mrow>  \vdots \qquad \amp \quad \vdots
+      </mrow>
+</md>
+<me>
+  \frac 38  +   \frac 3{10} 
+\quad = \quad
+ \frac{15}{40} + \frac{12}{40} 
+ \quad = \quad
+  \frac{17}{40}.
+</me>
+</statement>
+</example>
+<p>
+Of course, you don't need to list <em>all</em> of the equivalent forms of each
+fraction in order to find a common denominator. If you can see a common
+denominator right away (or can think of a faster method that always works), go for it!
+</p>
+<paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+Cassie suggests the following method for the example above:
+</p>
+<em>When the denominators are the same, we just add the numerators.  So when the numerators are the same, shouldn't we just add the denominators?  Like this: <m>\frac 38 + \frac 3{10} = \frac 3{18}</m>.
+</em>
+<p>
+What do you think of Cassie's suggestion? Does it make sense? What would you say if you were Cassie's teacher?
+</p>
+</paragraphs>
+</subsection>
+
+
+<subsection>
+<title>On Your Own</title>
+<p>
+Try these exercises on your own. For each addition exercise, also write down a <q>Pies Per Boy</q> interpretation of the problem. You might also want to draw a picture.
+</p>
+
+<ol>
+<li>What is <m>\frac 1 2 + \frac 1 3</m>?<br /></li>
+<li>What is <m>\frac 2 5 + \frac {37}{10}</m>?<br /></li>
+<li>What is <m>\frac 1 2 + \frac 3{10}</m>?<br /></li>
+<li>What is <m>\frac 2 3 + \frac 5 7</m>?<br /></li>
+<li>What is <m>\frac 1 2 + \frac 1 4 + \frac 1 8</m>?<br /></li>
+<li>What is <m>\frac 3{10} + \frac 4{25} + \frac 7{20} + \frac 35 + \frac{49}{50}</m>?<br /></li>
+</ol>
+
+<p>
+Now try these subtraction exercises.
+</p>
+
+<ol>
+<li>What is <m>\frac 7{10} - \frac 3{10}</m>?<br /></li>
+<li>What is <m>\frac 7{10} - \frac {3}{20}</m>?<br /></li>
+<li>What is <m>\frac 1 3 - \frac 1{5}</m>?<br /></li>
+<li>What is <m>\frac 2 {35} - \frac 2 7 + \frac 2 5</m>?<br /></li>
+<li>What is <m>\frac 1 2 - \frac 1 4 - \frac 1 8 - \frac 1 {16}</m>?<br /></li>
+</ol>
+<paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+Which fraction is larger, <m>\frac 5 9</m> or <m>\frac 6{11}</m>? Justify your answer.
+(Oh, and what does this question have to do with the subject of this section: adding and subtracting fractions?)
+</p>
+</paragraphs>
+</subsection>
+
+</section>

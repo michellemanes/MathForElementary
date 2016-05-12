@@ -1,0 +1,207 @@
+<section>
+<title>The Key Fraction Rule</title>
+<introduction>
+<p>
+We know that <m>\frac a b</m>
+is the answer to a division problem:
+</p>
+<m>\displaystyle\frac a b</m>
+represents the amount of pie an individual boy receives when <m>a</m> pies are
+distributed among <m>b</m> boys.
+<p>
+What happens if we double the number of pies and double the number of boys?
+Nothing! The amount of pie per boy is still the same:
+</p>
+<me>
+  \frac{2a}{2b} = \frac a b.
+</me>
+<p>
+For example, as the picture shows,
+<m>\frac 6 3</m> and
+<m>\frac{12} 6</m>
+both give two pies for each boy.
+</p>
+<image source="images/" />
+<p>
+And tripling the number of pies and tripling the number of boys also does not
+change the final amount of pie per boy, nor does quadrupling each number, or onetrillion-
+billion-tupling the numbers!
+</p>
+<me>
+  \frac 6 3
+= 
+\frac{12} 6 = 
+\frac {18}9 =
+\cdots =
+\text{ two pies per boy} .
+</me>
+<image source="images/" />
+<p>
+This leads us to want to believe:
+</p>
+
+<p>
+\fellow{put this in a box and centered?}
+</p>
+
+<p>
+<b>Key Fraction Rule:</b> <m>\displaystyle \frac{xa}{xb} = \frac{a}{b}</m> (at least for positive whole numbers <m>x</m>).
+</p>
+<example>
+<title>Fractions equivalent to $\frac 35$</title>
+<statement>
+<p>
+For example,
+<m>\frac 3 5</m>
+(sharing three pies among five boys)
+yields the same result as
+</p>
+<me>
+  \frac{3 \cdot 2}{5 \cdot 2} = \frac{6}{10}
+\text{ (sharing six pies among ten boys),}
+</me>
+<p>
+and as
+</p>
+<me>
+  \frac{3 \cdot 100}{5 \cdot 100} = \frac{300}{500}
+\text{ (sharing 300 pies among 500 boys).}
+</me>
+</statement>
+</example>
+  <paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+Write down lots of equivalent fractions for <m>\frac 1 2</m>, for <m>\frac {10}3</m>, and for<nbsp /><m>1</m>.
+</p>
+</paragraphs>  
+<example>
+<title>Going backwards</title>
+<statement>
+<me>
+  \frac{20}{32}
+\text{ (sharing 20 pies among 32 boys)}
+</me>
+<p>
+is the same problem as:
+</p>
+<me>
+  \frac{5 \cdot 4 }{8\cdot 4} = \frac 5 8
+\text{ (sharing five pies among eight boys).}
+</me>
+</statement>
+</example>
+<p>
+Most people say we have <em>cancelled</em> or taken a common factor of 4 from
+the numerator and the denominator.
+</p>
+
+<p>
+Mathematicians call this process <em>reducing</em> the fraction to lowest terms. (We've
+made the numerator and denominator each smaller, in fact as small as we can make them!)
+</p>
+
+<p>
+Teachers tend to say that we
+are <em>simplifying</em> the fraction. (You have to admit that <m>\frac 5 8</m>
+does look simpler than
+<m>\frac{20}{32}</m>.)
+</p>
+<example>
+<title>How low can you go?</title>
+<statement>
+<p>
+As another example,
+<m>\frac{280}
+{350}</m>
+can certainly be simplified by noticing that there is a
+common factor of <m>10</m> in both the numerator and the denominator:
+</p>
+<me>
+  \frac{280}{350} = \frac{28\cdot 10}{35\cdot 10} = \frac{28}{35}.
+</me>
+<p>
+We can go further as 28 and 35 are both multiples of 7:
+</p>
+<me>
+  \frac{28}{35} = \frac{4 \cdot 7}{4 \cdot 7} = \frac 4 5.
+</me>
+<p>
+Thus, sharing 280 pies among 350 boys gives the same result as sharing just 4 pies
+among 5 boys!
+</p>
+<me>
+  \frac{280}{350} = \frac 4 5.
+</me>
+<p>
+Since 4 and 5 share no common factors, this is as far as we can go with this example
+(while staying with whole numbers!).
+</p>
+</statement>
+</example>
+  <paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+Jenny says that <m>\frac 4 5</m>
+does <q>reduce</q> further is you are willing to move
+away from whole numbers. She writes:
+</p>
+<me>
+  \frac{4}{5} = 
+ \frac{2\cdot 2}{\left(2\frac 1 2\right) \cdot 2}=
+ \frac{2}{\left(2\frac 1 2\right)}.
+</me>
+<p>
+Is she right? Does sharing 4 pies among 5 boys yield the same result as sharing 2
+pies among <m>2\frac 1 2</m> boys?
+What do you think?
+</p>
+</paragraphs> </introduction>
+
+
+<subsection>
+<title>On Your Own</title>
+<p>
+Mix and Match: On the top are some fractions that have not
+been simplified. On the bottom are the simplified answers, but in random order.
+Which simplified answer goes with which fraction? (Notice that there are fewer
+answers than questions!)
+</p>
+<me>
+  \textbf{1.} \frac{10}{20} 
+\qquad\qquad
+\textbf{2.} \frac{50}{75} 
+\qquad\qquad
+\textbf{3.} \frac{24000}{36000} 
+\qquad\qquad
+\textbf{4.} \frac{24}{14} 
+\qquad\qquad
+\textbf{5.} \frac{18}{32} 
+\qquad\qquad
+\textbf{6.} \frac{1}{40}
+</me>
+<me>
+  \textbf{a.} \frac{2}{3} 
+\qquad\qquad
+\textbf{b.} \frac{9}{16} 
+\qquad\qquad
+\textbf{c.} \frac{12}{7} 
+\qquad\qquad
+\textbf{d.} \frac{1}{40} 
+\qquad\qquad
+\textbf{e.} \frac{1}{2}
+</me>
+<paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+Use the <q>Pies Per Boy Model</q> to explain <em>why</em> the key fraction rule holds. That is, explain why each individual boy gets the same amount of pie in these two situations:
+</p>
+
+<ul>
+<li>if you have <m>a</m> pies and <m>b</m> boys, or</li>
+<li>if you have <m>xa</m> pies and <m>xb</m> boys.</li>
+</ul>
+</paragraphs>
+</subsection>
+
+</section>

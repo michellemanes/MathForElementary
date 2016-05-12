@@ -1,0 +1,102 @@
+<section>
+<title>Tangrams</title>
+<p>
+<em>Tangrams</em> are a seven-piece geometric puzzle that dates back at least to the Song Dynasty in China (about 1100 AD). Below you will find the seven puzzle pieces. Make a careful copy (a photocopy or printout is best), cut out the puzzle pieces, and then use them to solve the problems in this section. You can trace around your solutions to remember what you have done and to have a record of your work.
+</p>
+<image source="images/" /> 
+
+<image source="images/" /> 
+
+<image source="images/" /> 
+
+
+
+
+
+
+<image source="images/" /> 
+
+<image source="images/" /> 
+
+
+
+
+
+<image source="images/" /> 
+
+<image source="images/" />
+<p>
+Whenever you solve a tangram puzzle, your job is to use all seven pieces to form the shape. They should fit together like puzzle pieces, sitting flat on the table; no overlapping of the pieces is allowed.
+</p>
+<problem xml:id="prob_tangramsquare">
+<statement>
+<p>
+Use all seven pieces to form a square.
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Use all seven pieces to form a rectangle that is not a square.
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Use all seven pieces to form a right triangle.
+</p>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+Use your tangram pieces to build the following designs. Remember: You need to use all seven pieces, and they should fit together, not overlap.
+</p>
+<table id="9537f181c952090700ba24acde567ad1d23eaf73" >
+<tr><td class='c'>
+<image source="images/" />  </td><td class='c'> 
+    </td><td class='c'> 
+<image source="images/" /> </td>
+    </tr>
+<tr><td class='c'>
+(a) </td><td class='c'></td><td class='c'> (b)</td>
+    </tr>
+<tr><td class='c'>
+</td>
+    </tr>
+<tr><td class='c'>
+<image source="images/" />  </td><td class='c'> 
+    </td><td class='c'> 
+<image source="images/" /> </td>
+    </tr>
+<tr><td class='c'>
+(c) </td><td class='c'></td><td class='c'> (d)</td>
+    </tr>
+<tr><td class='c'>
+</td>
+    </tr>
+<tr><td class='c'>
+<image source="images/" />  </td><td class='c'> 
+    </td><td class='c'> 
+<image source="images/" /> </td>
+    </tr>
+<tr><td class='c'>
+(e) </td><td class='c'></td><td class='c'> (f)</td>
+    </tr>
+<tr><td class='c'></td>
+    </tr>
+</table>
+</statement>
+</problem>
+  <paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+Which tangram problems were easier and which were harder: making <q>real life</q> objects like cats and people, or purely mathematical objects like the square? What do you think made one kind of problem easier or harder?
+</p>
+</paragraphs>
+</section>

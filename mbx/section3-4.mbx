@@ -1,0 +1,110 @@
+<section>
+<title>Division Explorations</title>
+<problem>
+<title>Base 5 Division</title>
+<statement>
+<p>
+Remember that base five numbers are in a <m>1 \leftarrow 5</m> dots-and-boxes system. What are the place values in the <m>1\leftarrow 5</m> system? Fill in the blanks:
+</p>
+<image source="images/" />
+<ul>
+<li>Draw a dots-and-boxes picture of the number <m>424_\text{five}</m>.</li>
+<li>Draw a dots-and-boxes picture of the number <m>11_\text{five}</m>.</li>
+<li>Use the dots and boxes method to show that <m>424_\text{five}  \div 11_\text{five}  = 34_\text{five}</m>.</li>
+<li>Rewrite the division sentence <m>424_\text{five}  \div 11_\text{five}  = 34_\text{five}</m> in base 10, and check that it's correct.</li>
+<li><b>Challenge!</b>  Use dots-and-boxes to find <m>2021_\text{five}  \div 12_\text{five}</m>.  <em>Don't convert to base 10!</em></li>
+</ul>
+</statement>
+</problem>
+  
+<problem xml:id="prob_basex">
+<title>Base<ellipsis /> $x$?!?!!</title>
+<statement>
+<p>
+Anu refuses to tell anyone if she is working in a <m>1\leftarrow10</m> system,
+or a <m>1\leftarrow 5</m> system, or any other system. She makes everyone call it a <m>1 \leftarrow x</m>
+system but won't tell a soul what number she has in mind for <m>x</m>.
+</p>
+
+<p>
+We know that boxes in a <m>1\leftarrow10</m> have values that are powers of ten: 1, 10, 100,
+1000, 10000, <ddots />
+</p>
+
+<p>
+And boxes in a <m>1\leftarrow 5</m> system are powers of five: 1, 5, 25, 125, 625,<ddots />
+</p>
+
+<p>
+So Anu's system, whatever it is, must be powers of <m>x</m>:
+</p>
+<image source="images/" />
+<p>
+When Anu writes <m>2556_x</m> she must mean:
+</p>
+<image source="images/" /> <br />
+<m>2x^3 + 5x^2 +5x +6</m>.
+<p>
+And when she writes <m>12_x</m> she means:
+</p>
+<image source="images/" /> <br />
+<m>x+2</m>.
+<p>
+Anu decides to compute <m>2556_x \div12_x</m>. She obtains:
+</p>
+<image source="images/" /> <br />
+<m>(2x^3+5x^2+5x+6)\div(x+2) = 2x^2 + x + 3</m>.  <ol type="a"><li>Check Anu's division by computing
+<me>
+  (x+2)(2x^2 + x + 3).
+</me>
+Did it work?</li>
+<li>Use Anu's method to find <m>(3x^2 + 7x+2)\div(x+2)</m>.</li>
+<li>Use Anu's method to find <m>(2x^4 + 3x^3 + 5x^2 + 4x + 1)\div(2x+1)</m>.</li>
+<li>Use Anu's method to find <m>(x^4 + 3x^3 + 6x^2 + 5x +3)\div(x^2+x+1)</m>.</li>
+<li class="custom-list-style-type" label="" >Anu later tells use that she really was thinking of a <m>1\leftarrow 10</m> system so that <m>x</m> does
+equal ten. Then her number <m>2556_x</m> really was two thousand, five hundred and fifty
+six and <m>12_x</m> really was twelve. Her statement:
+<me>
+  (2x^3+5x^2+5x+6)\div(x+2) = 2x^2 + x + 3
+</me>
+is actually <m>2556 \div 12 = 213</m>.</li>
+<li>Check that <m>2556 \div 12 = 213</m> is correct in base 10.</li>
+<li>What division problems did you actually solve for parts (b), (c), and (d) in the <m>1\leftarrow 10</m>
+system?  Check that they are correct.</li>
+<li class="custom-list-style-type" label="" ><b>Hard Challenge!</b>
+Uh Oh! Anu has changed her mind. She now says she was
+thinking of a <m>1\leftarrow 11</m> system.
+
+Now <m>2556_x</m> means <m>2\cdot 11^3 + 5\cdot 11^2 + 5\cdot 11+ 6 =  3328_\text{ten}</m>. 
+ Similarly,
+ <m>12_x</m>  means <m>1\cdot 11+ 2 = 13_\text{ten}</m> and
+<m>213_x</m> means <m>2\cdot 11 +1\cdot 11+ 3 = 256_\text{ten}</m>, and so her computation
+<m>2556_x \div 12_x = 213_x</m>
+is actually the statement:
+<me>
+  3328 \div 13 = 256.
+</me>
+</li>
+<li>Check that <m>3328 \div 13 = 256</m> is also correct.</li>
+<li>What division problems did you actually solve for parts (b), (c), and (d) in the <m>1\leftarrow 11</m>
+system?  Check that they are correct.</li>
+</ol>
+</statement>
+</problem>
+  
+<problem>
+<statement>
+<p>
+This problem continues <xref ref="prob_basex">problem</xref> above.
+Use Anu's method to show that <m>(x^4  + 4x^3 + 6x^2 + 4x +1)\div (x+1) = (x^3 + 3x^2 + 3x + 1)</m>.
+</p>
+
+<ol type="a"><li>What is this saying for <m>x = 10</m>?  Check that the division is correct.</li>
+<li>What is this saying for <m>x = 2</m>? Check that the division is correct.</li>
+<li>What is this saying for <m>x</m> equal to each of 3, 4, 5, 6, 7, 8, 9, and 11?
+Check that each division is correct.</li>
+<li>What is this saying for <m>x = 0</m>?</li>
+</ol>
+</statement>
+</problem>
+</section>

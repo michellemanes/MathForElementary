@@ -1,0 +1,178 @@
+<section>
+<title>Navigation</title>
+<introduction>
+<p>
+The following is from \url{http://pvs.kcc.hawaii.edu/ike/hookele/modern_wayfinding.html}:
+</p>
+<div class="quote">``A voyage undertaken using modern wayfinding has three components:
+<ol>
+<li>Design a course strategy, which includes a reference course for reaching the vicinity of one's destination, hopefully upwind, so that the canoe can sail downwind to the destination rather than having to tack into the wind to get there. (Tacking involves sailing back and forth as closely as possible into the wind to make progress against the wind; it's very arduous and time-consuming, something to be avoided if at all possible, particularly at the end of a long, difficult voyage.)</li>
+<li>During the voyage, holding as closely as possible to the reference course while keeping track of (1) distance and direction traveled; (2) one's position north and south and east and west of the reference course and (3) the distance and direction to the destination.</li>
+<li>Finding land after entering the vicinity of the destination, called a target screen or `the box'.''</li>
+</ol>
+</div>
+<p>
+So how is the navigation done &#8202;&#x2014;&#8202; especially component (2) &#8202;&#x2014;&#8202; through thousands of miles of open ocean? You can't see land. How can you hold closely to the reference course? How can you keep track of distance and direction traveled? How can you even know if you're going in the right direction?
+</p>
+
+<p>
+By day, the navigators use their deep knowledge of the oceans. Which way do the winds blow? Which way do the prevailing currents move? Clouds in the sky, flotsam in the water, and animal behaviors can give you great insight into where land might be, and where you are in relation to it.
+</p>
+
+<p>
+By night, they use the stars. In this section, you'll learn just a tiny fraction of what these master navigators know about the stars.
+</p>
+<paragraphs xml:id="starpic">
+<title>Think/Pair/Share</title>
+<p>
+Here is a time-lapse picture of the stars in the night sky in \Hawaii.
+</p>
+<image source="images/" />  Photography by Ashley Deeks.
+<ul>
+<li>Describe what you see happening in this picture. <br /></li>
+<li>What can you conclude about how the stars move through the night sky? <br /></li>
+<li>How might that help a navigator find his way?</li>
+</ul>
+</paragraphs> </introduction>
+
+
+<subsection>
+<title>Star Compass</title>
+<p>
+A fundamental tool for navigators on \Hokulea<nbsp />and other voyaging canoes is a star compass.
+Here's a picture of Mau Piailug building a star compass to teach navigation.
+</p>
+<image source="images/" /> 
+
+Picture from \url{http://pvs.kcc.hawaii.edu/holokai/2007/mau_1_intro.html}.
+<p>
+The object in the center of the circle represents the canoe. The rocks along the outside represent directional points. The idea is to imagine the stars rising up from the horizon in the east, traveling through the night sky, and setting past the horizon in the west. They move like they're on a sphere surrounding the Earth (it's called the <em>celestial sphere</em>).
+</p>
+<problem>
+<statement>
+<p>
+Nainoa Thompson developed a star compass with 32 equidistant points around a circle. (Note this is more points than in Mau's star compass above.) You will try first to make a rough sketch of Nainoa's star compass based on this information:
+</p>
+
+<ul>
+<li>Place 32 points around the circle so they are equally spaced.  <br /></li>
+<li>The arcs between these equidistant points are called <q>houses.</q>  You will label each house with its Hawaiian name.  Start with the four cardinal points:
+<ul>
+<li class="custom-list-style-type" label="North" >`\kern.05em\relax Akau.</li>
+<li class="custom-list-style-type" label="South" >Hema.</li>
+<li class="custom-list-style-type" label="East" >Hikina.</li>
+<li class="custom-list-style-type" label="West" >Komohana.<br /></li>
+</ul>
+</li>
+<li>The four quadrants also get names.  (These cover all of the houses in the quadrant, so label them in the appropriate place inside the compass.)
+<ul>
+<li class="custom-list-style-type" label="Ko`\kern.05em\relax olau" >northeast.</li>
+<li class="custom-list-style-type" label="Malani" >southeast.</li>
+<li class="custom-list-style-type" label="Kona" >southwest.</li>
+<li class="custom-list-style-type" label="Ho`\kern.05em\relax olua" >northwest.<br /></li>
+</ul>
+</li>
+<li>Moving from `\kern.05em\relax Akau to Hikina (clockwise), there are seven houses.  They are labeled in order as you move away from `\kern.05em\relax Akau:
+<ul>
+<li class="custom-list-style-type" label="Haka" ><q>empty,</q> describing the skies  in this house.</li>
+<li class="custom-list-style-type" label="N\=a Leo" ><q>the voices</q> of the stars speaking to the navigator.</li>
+<li class="custom-list-style-type" label="N\=alani" ><q>the heavens.</q></li>
+<li class="custom-list-style-type" label="Manu" ><q>bird,</q> the  Polynesian metaphor for a canoe.</li>
+<li class="custom-list-style-type" label="Noio" >the Hawaiian tern (a bird)</li>
+<li class="custom-list-style-type" label="`\kern.05em\relax\=Aina" ><q>land.</q></li>
+<li class="custom-list-style-type" label="L\=a" ><q>sun,</q> which stays in this house most of the year.
+<br /></li>
+</ul>
+</li>
+<li>The compass has a vertical line of symmetry, so there are the same seven houses in the same order as you move from `\kern.05em\relax Akau to Komohana (counterclockwise).<br /></li>
+<li>The compass also has a horizontal line of symmetry.  Use that fact to label the houses from Hema to Hikina (counterclockwise) and from Hema to Komohana (clockwise).</li>
+</ul>
+</statement>
+</problem>
+<p>
+How is the star compass used in navigation? There are lots of ways. Here's a (very!) quick overview:
+</p>
+
+<p>
+\fellow{I don't know if there's any way to do an animation of this description, but if so it would be cool!}
+</p>
+
+<ul>
+<li>The canoe is pictured in the middle of the star compass, with all of the houses around. <br /></li>
+<li>Winds and ocean swells move directly <em>across</em> the star compass from north to south or vice versa.
+<ul>
+<li>If the swells are coming from   `\kern.05em\relax\=Aina Ko`\kern.05em\relax olau, they will be heading in the direction  `\kern.05em\relax\=Aina Kona.  (Look at your star compass and trace out this path.)</li>
+<li>If the wind is coming from   N\=alani Malani, it will be heading towards   N\=alani Ho`\kern.05em\relax olua.   (Look at your star compass and trace out this path.)<br /></li>
+</ul>
+</li>
+<li>Stars stay in their houses, but also in their hemisphere.  Just like the sun, they rise in the east and set in the west; they do not move across the center of the circle.
+<ul>
+<li>\Hokulea<nbsp /> rises in   `\kern.05em\relax\=Aina Ko`\kern.05em\relax olau and sets in  `\kern.05em\relax\=Aina Ho`\kern.05em\relax olua.  (Look at your star compass and trace out this path.)</li>
+<li>`\kern.05em\relax A`\kern.05em\relax\=a (Sirius) rises in  L\=a Malanai and sets in  L\=a Kona.<br /></li>
+</ul>
+</li>
+</ul>
+
+<p>
+A navigator memorizes the houses of over 200 stars. At sunrise and sunset (when the sun or the stars are rising), the navigator can use the star compass to memorize which way the wind is moving and which way the currents are moving. He can then use that information throughout the day or night to ensure the canoe stays on course.
+</p>
+<paragraphs xml:id="starpic">
+<title>Think/Pair/Share</title>
+<p>
+Look again at the time-lapse picture of the stars.
+</p>
+<image source="images/" />  Photography by Ashley Deeks.
+<ul>
+<li>Describe how this shows that stars <q>stay in their houses</q> and in their hemisphere as they move through the night sky.<br /></li>
+<li>The star Ke ali'i o kona i ka lewa (Canopus),  rises in N\=alani Malanai.  Where does it set?</li>
+</ul>
+</paragraphs>
+<p>
+When teaching navigation while sitting on land, it's perfectly fine to have a rough sketch or model of the star compass. But if you really have to do the navigation, you need to make a very, very precise star compass.
+</p>
+
+<p>
+Imagine Nainoa Thompson, who navigated \Hokulea<nbsp />on the final leg of her journey from \Hawaii<nbsp />to Rapa Nui, an island even smaller and lower than Ni\kern.05em\relax ihau. You have to be within 30 miles of Rapa Nui to see it. But a mistake of even one degree would have led to \Hokulea<nbsp />being 60 miles off course. And if you end up drifting in the open ocean and supplies run out? Well<ddots />
+</p>
+<problem>
+<statement>
+<p>
+Now that you have a rough sketch of the star compass and know what it should look like, your job is to draw one that's as perfect as possible. That means you want to draw:
+</p>
+
+<ul>
+<li>A perfect circle (well, as perfect as possible).  What tools can you use to do that?  What tools would ancient Polynesian navigators have had to use?<br /></li>
+<li>Thirty-two points around the circle that are <em>exactly</em> evenly spaced apart.  (What tools would help you?    What tools would ancient Polynesian navigators have had to use?) <br /></li>
+<li>When you have finished, label your perfectly drawn star compass with the houses.</li>
+</ul>
+</statement>
+</problem>
+<p>
+Of course, a star compass on a piece of paper isn't so useful when you're out on a canoe. How do you position it properly? And how do you keep it from getting lost, damaged, or soaking wet? You paint it on the rails of the canoe, permanently!
+</p>
+
+<p>
+Look back at the drawing of \Hokulea<nbsp />on <xref ref="hokuleapics">page</xref>. Find the <q>kilo</q> (navigator's seat) in the rear (aft) of the canoe. There is actually one navigator's seat on either side of the deck.
+</p>
+<problem>
+<statement>
+<p>
+Go back to the scale drawing of \Hokulea<nbsp />that you made in <xref ref="scaledraw">Problem</xref>. Add the navigator's seats to your drawing. You will then add the star compass to the rails as follows:
+</p>
+
+<ul>
+<li>Start with the seat on the left (port side) of the canoe.  That will be the center of your star compass.  Imagine looking to the right.  You want to see the star compass markings on the rails when you look to the right.  Of course, the \Hokulea<nbsp />is not a circular canoe, and the navigator doesn't sit at the center.  So how can you make the markings in the right places?<br /></li>
+<li>Now repeat that process, using the seat on the right (starboard) side of the canoe.<br /></li>
+</ul>
+</statement>
+</problem>
+<p>
+Nainoa Thompson has said:
+</p>
+<div class="quote"><q>Initially, I depended on geometry and analytic mathematics to help me in my quest to navigate the ancient way. However as my ocean time and my time with Mau have grown, I have internalized this knowledge. I rely less on mathematics and come closer and closer to navigating the way the ancients did.</q></div>
+<p>
+Really he is still doing a lot of mathematics; it's just mathematics that he has internalized and is now second nature to him. The ancient navigators may not have spoken of their navigation techniques in the same modern language we've been using &#8202;&#x2014;&#8202; compass points and perfect circles and degrees. But their mathematical understanding was truly astonishing.
+</p>
+</subsection>
+
+</section>

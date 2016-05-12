@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mathbook xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+<docinfo>
+<macros>
+\newcommand{\LL}{\mathcal{L}}
+\newcommand{\MM}{\mathcal{M}}
+\newcommand{\OO}{\mathcal{O}}
+\newcommand{\FF}{\mathbb{F}}
+\newcommand{\ZZ}{\mathbb{Z}}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\PP}{\mathbb{P}}
+\newcommand{\Aff}{\mathbb{A}}
+\newcommand{\XX}{\mathcal{X}}
+\newcommand{\QQ}{\mathbb{Q}}
+\newcommand{\CC}{\mathbb{C}}
+\newcommand{\mm}{\mathfrak{m}}
+\newcommand{\pp}{\mathfrak{p}}
+\newcommand{\qq}{\mathfrak{q}}
+\newcommand{\Gm}{\mathbb{G}_m}
+\newcommand{\hh}{\mathfrak{h}}
+\newcommand{\tab}{\hspace{.4cm}}
+\newcommand{\fellow}[1]{{\color{magenta} \sf $\clubsuit\clubsuit\clubsuit$ Fellow: [#1]}}
+\newcommand{\michelle}[1]{{\color{blue} \sf $\clubsuit\clubsuit\clubsuit$ Michelle: [#1]}}
+\newcommand{\Hom}{\operatorname{Hom}}
+\newcommand{\im}{\operatorname{im}}
+\newcommand{\coker}{\operatorname{coker}}
+\newcommand{\Sym}{\operatorname{Sym}}
+\newcommand{\Spec}{\operatorname{Spec}}
+\newcommand{\ord}{\operatorname{ord}}
+\newcommand{\Div}{\operatorname{div}}
+\newcommand{\Gal}{\operatorname{Gal}}
+\newcommand{\Gauss}{\operatorname{Gauss}}
+\newcommand{\supp}{\operatorname{supp}}
+\newcommand{\Pic}{\operatorname{Pic}}
+\newcommand{\Jac}{\operatorname{Jac}}
+\newcommand{\mult}{\operatorname{mult}}
+\newcommand{\pr}{\operatorname{pr}}
+\newcommand{\sep}[1]{{#1}^{\operatorname{s}}}
+\newcommand{\Spf}{\operatorname{Spf}}
+\newcommand{\Frac}{\operatorname{Frac}}
+\newcommand{\chern}[1]{c_1\left(#1\right)}
+\newcommand{\codim}{\operatorname{codim}}
+\newcommand{\dist}{\operatorname{dist}}
+\newcommand{\an}[1]{\operatorname{an}}
+\newcommand{\Aut}{\operatorname{Aut}}
+\newcommand{\Rat}{\operatorname{Rat}}
+\newcommand{\PGL}{\operatorname{PGL}}
+\newcommand{\PSL}{\operatorname{PSL}}
+\newcommand{\alg}[1]{{\overline{#1}}}
+\newcommand{\GG}{\mathbb{G}}
+\newcommand{\leftexp}[2]{{\vphantom{#2}}^{#1}{#2}}
+\newcommand{\simarrow}{\stackrel{\sim}{\rightarrow}}
+\newcommand{\ip}[2]{\left\langle #1,#2 \right\rangle}
+\newcommand{\into}{\hookrightarrow}
+\newcommand{\dint}{\int \!\!\! \int}
+\newcommand{\tth}{^{\operatorname{th}}}
+\newcommand{\Berk}{\mathbf{P}}
+\newcommand{\Manoa}{M\=anoa}
+\newcommand{\Hawaii}{Hawai\kern.05em`\kern.05em\relax i}
+\newcommand{\Hokulea}{H\=ok\=ule\kern.05em`\kern.05em\relax a}
+\newcommand{\id}{\mathrm{id}}
+\newcommand{\oo}{\mathfrak{o}}
+\DeclareMathOperator{\Per}{Per}
+\DeclareMathOperator{\PrePer}{PrePer}
+\DeclareMathOperator{\Twist}{Twist}
+\DeclareMathOperator{\Ker}{Ker}
+</macros>
+
+</docinfo>
+
+
+<book>
+    <title>Math for Elementary Teachers    </title>
+<frontmatter>
+<titlepage>
+</titlepage>
+</frontmatter>
+
+
+<xi:include href="./chapter2.mbx" />
+
+<xi:include href="./chapter3.mbx" />
+
+<xi:include href="./chapter4.mbx" />
+
+<xi:include href="./chapter5.mbx" />
+
+<xi:include href="./chapter6.mbx" />
+
+<xi:include href="./chapter7.mbx" />
+
+<xi:include href="./chapter8.mbx" />
+<backmatter>
+
+</backmatter>
+</book>
+</mathbook>

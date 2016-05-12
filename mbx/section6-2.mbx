@@ -1,0 +1,364 @@
+<section xml:id="base10_what_value">
+<title>Decimals</title>
+<introduction>
+<p>
+Up to now our <q>Dots <ampersand /> Boxes</q> model has consisted of a row of boxes extending infinitely far to the left. Why not have boxes extending to the right as well?
+</p>
+
+<p>
+Let's work specifically with a <m>1\leftarrow10</m> rule and see what boxes to the right could mean.
+</p>
+<image source="images/" />
+<p>
+<b>Notation:</b> It has become convention to separate boxes to the left from the ones to the right with a decimal point. (At least, this is what the point is called in the base ten world!)
+</p>
+
+<p>
+What is the value of the first box to the right of the decimal point? If we denote its value as <m>x</m> , we have that ten <m>x</m>'s is equivalent to 1. (Remember, we are using a <m>1\leftarrow10</m> rule.)
+</p>
+<image source="images/" />
+<p>
+From <m>10x=1</m> we get that <m>x=\frac{1}{10}</m>.
+</p>
+<image source="images/" />
+<p>
+Call the value of the next box to the right of the decimal point <m>y</m>.
+</p>
+<image source="images/" />
+<p>
+From <m>10y=\frac1{10}</m> we get <m>y=\frac1{100}</m>.
+</p>
+
+<p>
+If we keep doing this, we see that the boxes to the right of the decimal point represent the reciprocals of the powers of ten.
+</p>
+<image source="images/" />  
+<example>
+<title>$0.3$ in Base Ten</title>
+<statement>
+<p>
+The decimal <m>0.3</m> is represented by the picture:
+</p>
+<image source="images/" />
+<p>
+It represents three groups of <m>\frac1{10}</m>, that is:
+</p>
+<me>
+  0.3=\frac3{10}.
+</me>
+</statement>
+</example>
+  
+<example>
+<title>$0.007$ in Base Ten</title>
+<statement>
+<p>
+The decimal <m>0.007</m> is represented by the picture:
+</p>
+<image source="images/" />
+<p>
+It represents the fraction <m>\displaystyle\frac 7{1000}</m>.
+</p>
+</statement>
+</example>
+<p>
+Of course, some decimals represent fractions that can simplify (reduce) further. For example:
+</p>
+<me>
+  0.5 
+\ = \ 
+\frac5{10}
+\  = \ 
+\frac12.
+</me>
+<p>
+Similarly, if a fraction can be rewritten to have a denominator that is a power of ten, then it is easy to convert it to a decimal. For example, <m>\frac 35</m> is equivalent to <m>\frac 6{10}</m> and so we have:
+</p>
+<me>
+  \frac 35 
+\ = \ 
+ \frac6{10} 
+ \ = \ 
+0.6.
+</me>
+<example xml:id="example__dec_12_3_4">
+<title>Decimal Representation of $12\frac 3 4$</title>
+<statement>
+<p>
+Can you write <m>12\frac34</m> as a decimal?
+Well,
+</p>
+<me>
+  12\frac 34 \ =\ 12+\frac 34.
+</me>
+<p>
+We can write the denominator as a power of ten using the key fraction rule:
+</p>
+<me>
+  \frac 34 \cdot \frac{25}{25} 
+ \ = \ 
+ \frac{75}{100}.
+</me>
+<p>
+Thus we can now see that:
+</p>
+<me>
+  12\frac 34\ =\ 12+\frac{75}{100} \ = \ 12.75.
+</me>
+</statement>
+</example>
+  <paragraphs>
+<title>Think/Pair/Share</title>
+<ul>
+<li>Draw a <q>Dots <ampersand /> Boxes</q> picture for each of the following decimals.  Then say what fraction each decimal represents:
+<me>
+  0.09   
+\qquad\qquad
+     0.003     
+     \qquad\qquad
+    0.7    
+    \qquad\qquad
+    0.0000003
+</me>
+</li>
+<li>Draw a <q>Dots <ampersand /> Boxes</q> picture for each of the following fractions.  Then write the fraction as a decimal:
+<me>
+  \frac 1{1000}
+    \qquad\qquad
+   \frac 7{100}
+       \qquad\qquad
+      \frac9{10}
+</me>
+<br /></li>
+<li>What fractions (in simplest terms) do the following decimals represent?
+<me>
+  0.05   
+     \qquad\qquad
+      0.2       
+          \qquad\qquad
+       0.8      
+           \qquad\qquad
+         0.004
+</me>
+<br /></li>
+<li>Write the following fractions as decimals.
+<me>
+  \frac 25   
+                 \qquad\qquad
+    \frac 1{25}      
+    \qquad\qquad
+    \frac 1{20}      
+    \qquad\qquad
+    \frac 1{200}     
+    \qquad\qquad
+     \frac 1 {1250}
+</me>
+<br /></li>
+<li>Some people read <m>0.6</m> out loud as <q>point six.</q> Others read it out loud as <q>six tenths.</q> 
+Which is more helpful for understanding what the number really is? Why do you think so?</li>
+</ul>
+</paragraphs>  
+<example xml:id="ex__0.31_base_10">
+<title>$0.31$ in Base Ten</title>
+<statement>
+<p>
+Here is a more interesting question:
+What fraction is represented by the decimal <m>0.31</m>?
+</p>
+<image source="images/" />
+<p>
+There are two ways to think about this.
+</p>
+
+<ul>
+<li class="custom-list-style-type" label="Approach 1" >From the picture of the <m>1\leftarrow 10</m> <q>Dots <ampersand /> Boxes</q> model we see:
+<me>
+  0.31\ =\ \frac 3{10}+\frac1{100}.
+</me>
+We can add these fractions by finding a common denominator:
+<me>
+  \frac 3{10}+ \frac 1{100}\  =\ \frac {30}{100} +\frac 1{100}\ =\ \frac {31}{100}.
+</me>
+So
+<me>
+  0.31
+\ = \ 
+\frac{31}{100}.
+</me>
+<br /></li>
+<li class="custom-list-style-type" label="Approach 2" >Let's unexplode the three dots in the <m>\frac 1{10}</m> position to produce an additional <m>30</m> dots in the <m>\frac 1{100}</m>  position.
+
+<image source="images/" /> 
+So we can see right away that
+<me>
+  0.31
+\ = \ 
+\frac{31}{100}.
+</me>
+<br /></li>
+</ul>
+</statement>
+</example>
+ </introduction>
+
+
+<subsection>
+<title>On Your Own</title>
+<p>
+Work on the following exercises on your own or with a partner.
+</p>
+
+<ol>
+<li>Brian is having difficulty seeing that <m>0.47</m> represents the fraction <m>\frac{47}{100}</m>.  Describe the two approaches you could use to  explain this to him.<br /></li>
+<li>A teacher asked his students to each draw a <m>1\leftarrow 10</m> <q>Dots <ampersand /> Boxes</q> picture of the fraction <m>\frac{319}{1000}</m>.
+Jin drew this:
+<image source="images/" /> 
+Sonia drew this:
+<image source="images/" /> 
+The teacher marked both students as correct.
+<ul>
+<li>Are each of these solutions correct? Explain your thinking.<br /></li>
+<li>Jin said he could get Sonia's solution by performing some explosions. What did he mean by this? Is he right?<br /></li>
+</ul>
+</li>
+<li>Choose the best answer and justify your choice. 
+ The decimal <m>0.23</m> equals:
+ 
+<md>
+  <mrow>  (a)\  \amp \frac{23}{10}  
+\qquad\qquad
+  \amp (b)\  \amp \frac{23}{100}
+      </mrow>
+  <mrow>  (c) \ \amp \frac{23}{1000} 
+ \qquad\qquad
+   \amp (d)\   \amp \frac{23}{10000}
+      </mrow>
+</md>
+ <br /> </li>
+<li>Choose the best answer and justify your choice. 
+The decimal <m>0.0409</m> equals:
+ 
+<md>
+  <mrow>  (a)\  \amp \frac{409}{100}
+ \qquad\qquad
+   \amp (b)\   \amp \frac{409}{1000}
+      </mrow>
+  <mrow>  (c) \ \amp \frac{409}{10000} 
+   \qquad\qquad
+   \amp (d) \ \amp \frac{409}{100000}
+      </mrow>
+</md>
+ <br /> </li>
+<li>Choose the best answer and justify your choice. 
+The decimal 0.050 equals:
+ 
+<md>
+  <mrow>  (a) \  \amp \frac{50}{100}   
+ \qquad\qquad
+\amp (b) \  \amp \frac{1}{20  }
+      </mrow>
+  <mrow>  (c)\ \amp \frac{1}{200} 
+   \qquad\qquad
+  \amp (d) \ \amp \text{None of these}
+      </mrow>
+</md>
+ <br /> </li>
+<li>Choose the best answer and justify your choice. 
+  The decimal <m>0.000204</m> equals
+ 
+<md>
+  <mrow>  (a)\  \amp \frac{51}{250} 
+   \qquad\qquad
+   \amp (b) \  \amp \frac{51}{2500 }
+      </mrow>
+  <mrow>  (c)\ \amp \frac{ 51}{25000 } 
+     \qquad\qquad
+  \amp (d) \ \amp \frac{51}{250000}
+      </mrow>
+</md>
+ <br /> </li>
+<li>What fraction is represented by each of the following decimals?
+<me>
+  0.567       
+     \qquad\qquad
+0.031       
+     \qquad\qquad
+0.4077       
+     \qquad\qquad
+0.101
+</me>
+<br /></li>
+<li>Write each of the following fractions as decimals.  Don't use a calculator!
+<me>
+  \frac{73}{100}         
+ \qquad\qquad
+\frac{519}{1000}
+     \qquad\qquad
+\frac{71}{1000}
+     \qquad\qquad
+\frac{7001}{10000}
+</me>
+<br /></li>
+<li>Write each of the following fractions as decimals.  Don't use a calculator!
+<me>
+  \frac{7}{20} 
+     \qquad\qquad
+     \frac{16}{25}   
+          \qquad\qquad
+ \frac{301}{500}      
+      \qquad\qquad
+\frac{17}{50}     
+     \qquad\qquad
+\frac{3}{4}
+</me>
+<br /></li>
+<li>Write each of the following as a fraction (or mixed number).
+<me>
+  2.3 
+     \qquad\qquad
+ 17.04     
+  \qquad\qquad
+ 1003.1003
+</me>
+<br /></li>
+<li>Write each of the following numbers in decimal notation:
+<me>
+  5\frac{3}{10}
+     \qquad\qquad
+    7\frac15   
+         \qquad\qquad
+  13\frac12 
+       \qquad\qquad
+   106\frac3{20}
+</me>
+<br />
+<me>
+  \frac{78}{25}       
+     \qquad\qquad
+\frac{9}{4}      
+     \qquad\qquad
+ \frac{131}{40}
+</me>
+<br /></li>
+</ol>
+
+<p>
+Do <m>0.19</m> and <m>0.190</m> represent the same number or different numbers?
+Here are two dots and boxes pictures for the decimal <m>0.19</m>.
+</p>
+<image source="images/" />
+<p>
+And here are two dots and boxes picture for the decimal <m>0.190</m>.
+</p>
+<image source="images/" />  <paragraphs>
+<title>Think/Pair/Share</title>
+<ul>
+<li>Explain how one <q>unexplosion</q> establishes that the first picture of <m>0.19</m> equivalent to the second picture of <m>0.19</m>.<br /></li>
+<li>Explain how several unexplosions establishes that the first picture of <m>0.190</m> equivalent to the second picture of <m>0.190</m>.<br /></li>
+<li>Use explosions and unexplosions to show that all four pictures are equivalent to each other.<br /></li>
+<li>So<ddots /> does 0.190 represent the same number as 0.19?<br /></li>
+</ul>
+</paragraphs>
+</subsection>
+
+</section>

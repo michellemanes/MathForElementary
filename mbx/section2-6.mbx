@@ -1,0 +1,91 @@
+<section>
+<title>Even Numbers</title>
+<p>
+How do we know if a number is even? What does it mean?
+Well, some number of dots is <em>even</em> if I can divide the dots into pairs, and every dot has a partner.
+\fellow{Add a picture of pairs of dots grouped together? A fairly large number would be good.}
+</p>
+
+<p>
+And some number of dots is <em>odd</em> if, when I try to pair up the dots, I always have a single dot left over with no partner.
+\fellow{Add a picture of an odd number of dots?}
+</p>
+
+<p>
+The number of dots is either even or odd. It's a property of the <em>quantity</em> and is doesn't change when you write the number in different bases.
+</p>
+<problem xml:id="prob_WhichEven">
+<statement>
+<p>
+Which of these numbers represent an even number of dots? Explain how you decide.
+</p>
+<me>
+  22_\text{ten}  \qquad
+319_\text{ten}  \qquad
+133_\text{five}  \qquad
+222_\text{five}  \qquad
+11_\text{seven}  \qquad
+11_\text{four}  \qquad
+</me>
+</statement>
+</problem>
+  <paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+Compare your answers to <xref ref="prob_WhichEven">problem</xref> with a partner. Then try these together:
+</p>
+
+<ol type="a"><li>Count  by twos to <m>20_{\text{ten} }</m>.</li>
+<li>Count  by twos to <m>30_{\text{four} }</m>.</li>
+<li>Count  by twos  to <m>51_{\text{seven} }</m>.</li>
+</ol>
+</paragraphs>  <paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+You know that you can tell if a number in base 10 is even just by looking at the units digit. Which one of the following statements <em>best</em> captures the reason for this rule?
+</p>
+
+<ol>
+<li>It works because even and odd numbers alternate, so you only have to look at the ones place.</li>
+<li>It works if the number ends with an even digit, but it only works for whole numbers and decimals (e.g. 12 and <m>1.2</m>.).</li>
+<li>It actually only works if the last digit is 2, 4, 6, or 8.</li>
+<li>It works because all digits other than the units digit &#8202;&#x2014;&#8202; for example tens, hundreds, and thousands &#8202;&#x2014;&#8202; represent even numbers, and sums of even numbers are even.</li>
+</ol>
+</paragraphs>  
+<problem xml:id="prob_evenbase7">
+<statement>
+<ol type="a"><li>Write the numbers zero through fifteen in base seven:
+<me>
+  0_\text{seven} , 1_\text{seven} , 2_\text{seven} , \ldots
+</me>
+</li>
+<li>Circle all of the even numbers in your list.  How do you know they are even?</li>
+<li>Find a rule: how can you tell if a number is even when it's written in base seven?</li>
+</ol>
+</statement>
+</problem>
+  
+<problem xml:id="prob_evenbase4">
+<statement>
+<ol type="a"><li>Write the numbers zero through fifteen in base four:
+<me>
+  0_\text{four} , 1_\text{four} , 2_\text{four} , \ldots
+</me>
+</li>
+<li>Circle all of the even numbers in your list.  How do you know they are even?</li>
+<li>Find a rule: how can you tell if a number is even when it's written in base four?</li>
+</ol>
+</statement>
+</problem>
+  <paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+Discuss your answers to <xref ref="prob_evenbase7">problems</xref> and <xref ref="prob_evenbase4"></xref>.
+</p>
+
+<ul>
+<li>Why are the rules for even numbers different in different bases?</li>
+<li>For either your base four rule or your base seven rule, can you explain <em>why</em> it works that way?</li>
+</ul>
+</paragraphs>
+</section>

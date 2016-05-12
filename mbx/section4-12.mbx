@@ -1,0 +1,99 @@
+<section>
+<title>What is a Fraction? Part 3</title>
+<p>
+So far, we have no single model that makes sense of fractions in all contexts. Sometimes a fraction is an action (<q>Cut this in half.</q>) Sometimes it is a quantity (<q>We each get <m>2/3</m> of a pie!</q>) And sometimes we want to treat fractions like <em>numbers</em>, like ticks on the number line in-between whole numbers.
+</p>
+
+<p>
+We could say that a fraction is just a pair of numbers <m>a</m> and <m>b</m>, where we require that <m>b \neq 0</m>. We just happen to write the pair as <m>\frac a b</m>.
+</p>
+
+<p>
+But again this is not quite right, since whole infinite collection of pairs of numbers represent
+the same fraction! For example:
+</p>
+<me>
+  \frac 2 3 = \frac 4 6 = \frac 6 9 = \frac 8 {12} = \cdots
+</me>
+<p>
+So a single fraction is actually a
+whole infinite class of pairs of numbers that we consider <q>equivalent.</q>
+</p>
+
+<p>
+How do mathematicians think about fractions? Well, in exactly this way. They think of pairs of numbers written as <m>\frac a b</m>, where we remember two important facts:
+</p>
+
+<ul>
+<li><m>b \neq 0</m>, and</li>
+<li><m>\frac a b</m> is really shorthand for a whole infinite class of pairs that look like <m>\frac{xa}{xb}</m>.</li>
+</ul>
+
+<p>
+This is a hefty shift of thinking: The notion of a <q>number</q> has changed from being a
+specific combination of symbols to a whole class of combinations of
+symbols that are deemed equivalent.
+</p>
+
+<p>
+Mathematicians then <em>define</em> the addition of fractions to be given by the daunting rule:
+</p>
+<me>
+  \frac a b + \frac c d = 
+\frac{ad +bc}{bd}.
+</me>
+<p>
+This obviously motivated by something like the <q>Pies Per Boy Model.</q> But if we just <em>define</em> things this way, we must worry
+about <em>proving</em> that choosing different representations for <m>\frac a b</m> and <m>\frac c d</m>
+lead to the same
+final answer.
+</p>
+
+<p>
+For example, it is not immediately obvious that
+</p>
+<me>
+  \frac 2 3 + \frac 4 5
+\qquad
+\text{and} 
+\qquad 
+\frac 4 6 + \frac{40}{50}
+</me>
+<p>
+give
+answers that are equivalent. (Check that they do!)
+</p>
+
+<p>
+They also <em>define</em> the product of fractions as:
+</p>
+<me>
+  \frac a b \cdot \frac cd = \frac{ac}{bd}.
+</me>
+<p>
+Again, if we start from here, we have to <em>prove</em> that all is
+consistent with different choices of representations.
+</p>
+
+<p>
+Then mathematicians establish that the axioms of an arithmetic system hold with these
+definitions and carry on from there! (That is, they check that addition and multiplication are both commutative and associative, that the distributive law holds, that all representations of 0 act like an additive identity, and so on<ddots />)
+</p>
+
+<p>
+This is abstract, dry and not at all the best first encounter to offer students on the topic of
+fractions. And, moreover, this approach completely avoids the question as to what a
+fraction really means in the <q>real world.</q> But it is the best one can do if one is to be
+completely honest.
+</p>
+
+<p>
+The definitions are certainly motivated by the type of work we did in this chapter, but in the end one can't explain why these rules are the way they are.
+</p>
+<paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+So<ddots /> what is a fraction, really? How do you think about them? And what is the best way to talk about them with elementary school students?
+</p>
+</paragraphs>
+</section>

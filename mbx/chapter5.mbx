@@ -1,0 +1,64 @@
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude" >
+<title>Patterns and Algebraic Thinking</title>
+<introduction>
+<p>
+Algebra skills are essential for your future students. Why? Here are just a few reasons:
+</p>
+
+<ul>
+<li>Mathematics, and especially algebra, is the language of  science and modern technology.  Thinking algebraically helps you to make sense of the world, to understand and interact with technology  more productively, and to succeed in other fields.</li>
+<li>Algebra is a tool for solving problems.  This may not be your experience so far, but it is true.  If you are able to <q>algebratize</q> a problem, that often helps lead you to a solution.</li>
+<li>Algebra helps you to think abstractly.  It is a tool for thinking about operations like addition, subtraction, multiplication, and division separate from doing calculations on numbers.  Algebra helps you to understand and explain why the operations work the way they do, to describe their properties clearly, and to manipulate expressions to see the bigger picture.</li>
+</ul>
+
+<p>
+You might wonder why future elementary teachers should master algebra, a topic usually studied (by that name, anyway) in 8th grade and beyond. But the Common Core Standards for School Mathematics<fn>\url{http://www.corestandards.org/Math/Content/OA}</fn> has standards in <q>Operations and Algebraic Thinking</q> beginning in kindergarten!
+</p>
+
+<p>
+Everyone who shows up to school has already learned a lot about abstraction and generalization &#8202;&#x2014;&#8202; the fundamental ideas in algebra. They are all capable of learning to formalize these ideas. Your job as an elementary school teacher will be to provide your students with even more experiences in abstraction and generalization in a mathematical context, so that these ideas will seem quite natural when they get to a class with the name <q>Algebra.</q>
+</p>
+
+<p>
+Let's start with a problem:
+</p>
+<problem xml:id="prob__four4s">
+<statement>
+<p>
+I can use four 4's to make 0:
+</p>
+<me>
+  44 - 44 = 0.
+</me>
+<p>
+I can also use four 4's to make the number 10:
+</p>
+<me>
+  (4 \times 4) - 4 - \sqrt 4 = 10.
+</me>
+<p>
+Your challenge: Use four 4's to make all of the numbers between 0 and 20. (Try to find different solutions for 0 and 10 than the ones provided.)
+You can use any mathematical operations, but you can't use any <em>digits</em> other than the four 4's.
+</p>
+</statement>
+</problem>
+  <paragraphs>
+<title>Think/Pair/Share</title>
+<p>
+Share your answers to <xref ref="prob__four4s">Problem</xref> with a partner. Then talk about these questions together:
+</p>
+
+<ul>
+<li>What does <q>algebra</q> mean to you?  <br /></li>
+<li>What does <xref ref="prob__four4s">Problem</xref>  have to do with <q>algebra</q>?<br /></li>
+<li>What do you imagine when you think about using algebra to solve problems in school?  <br /></li>
+<li>Have you ever used algebra to solve problems outside of school?<br /></li>
+<li>What is meant by <q>algebraic thinking,</q> and what kinds of algebraic thinking can be done by elementary school students?</li>
+</ul>
+</paragraphs> </introduction> <xi:include  href="section5-1.mbx" />
+ <xi:include  href="section5-2.mbx" />
+ <xi:include  href="section5-3.mbx" />
+ <xi:include  href="section5-4.mbx" />
+ <xi:include  href="section5-5.mbx" />
+ <xi:include  href="section5-6.mbx" />
+ </chapter>
