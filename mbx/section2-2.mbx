@@ -1,55 +1,73 @@
-
 <section>
 <title>Other Rules</title>
 <p>
 Let's play the dots and boxes game, but change the rule.
 </p>
-  
+
 <p>
 \fellow{Have the rules set off in a box somehow?}
 </p>
-  <div class="quote"><b>The <m>1 \leftarrow 3</m> Rule:<br />
-Whenever there are three dots in single box, they "explode," disappear, and become one dot in the box to the left.</b></div>  
-<example><title>Fifteen dots in the $1 \leftarrow 3$ system</title>
+<div class="quote"><b>The <m>1 \leftarrow 3</m> Rule:<br />
+Whenever there are three dots in single box, they <q>explode,</q> disappear, and become one dot in the box to the left.</b></div>  
+<example>
+<title>Fifteen dots in the $1 \leftarrow 3$ system</title>
 <statement>
 <p>
 Here's what happens with fifteen dots:
 </p>
-  <image source="images/" />  The <m>1 \leftarrow 3</m> code for seven dots is:   120 </statement>
+<image source="images/" />  The <m>1 \leftarrow 3</m> code for seven dots is:   120
+</statement>
 </example>
   
-<problem><statement> <ol type="a"><li>Show that the <m>1 \leftarrow 3</m> code for twenty dots is 202.</li>
+<problem>
+<statement>
+<ol type="a"><li>Show that the <m>1 \leftarrow 3</m> code for twenty dots is 202.</li>
 <li>Show that the <m>1 \leftarrow 3</m> code for four dots is 11.</li>
 <li>What is the  <m>1 \leftarrow 3</m> code for thirteen dots?</li>
 <li>What is the  <m>1 \leftarrow 3</m> code for twenty-five dots?</li>
 <li>What number of dots has  <m>1 \leftarrow 3</m> code 1022?</li>
 <li>Is it possible for a collection of dots to have  <m>1 \leftarrow 3</m> code 2031?  Explain your answer.</li>
- </ol>  </statement>
+</ol>
+</statement>
 </problem>
   
-<problem><statement> <ol type="a"><li>Describe how the <m>1 \leftarrow 4</m> rule would work.</li>
+<problem>
+<statement>
+<ol type="a"><li>Describe how the <m>1 \leftarrow 4</m> rule would work.</li>
 <li>What is the <m>1 \leftarrow 4</m> code for the number thirteen?</li>
- </ol>  </statement>
+</ol>
+</statement>
 </problem>
   
-<problem><statement> <ol type="a"><li>What is the <m>1 \leftarrow 5</m> code for the number thirteen?</li>
+<problem>
+<statement>
+<ol type="a"><li>What is the <m>1 \leftarrow 5</m> code for the number thirteen?</li>
 <li>What is the <m>1 \leftarrow 5</m> code for the number five?</li>
- </ol>  </statement>
+</ol>
+</statement>
 </problem>
   
-<problem><statement> <ol type="a"><li>What is the <m>1 \leftarrow 9</m> code for the number thirteen?</li>
+<problem>
+<statement>
+<ol type="a"><li>What is the <m>1 \leftarrow 9</m> code for the number thirteen?</li>
 <li>What is the <m>1 \leftarrow 9</m> code for the number thirty?</li>
- </ol>  </statement>
+</ol>
+</statement>
 </problem>
   
-<problem xml:id="prob_Base10"><statement> <ol type="a"><li>What is the <m>1 \leftarrow 10</m> code for the number thirteen?</li>
+<problem xml:id="prob_Base10">
+<statement>
+<ol type="a"><li>What is the <m>1 \leftarrow 10</m> code for the number thirteen?</li>
 <li>What is the <m>1 \leftarrow 10</m> code for the number thirty-seven?</li>
 <li>What is the <m>1 \leftarrow 10</m> code for the number two hundred thirty-eight?</li>
 <li>What is the <m>1 \leftarrow 10</m> code for the number five thousand eight hundred and thirty-three?</li>
- </ol>  </statement>
+</ol>
+</statement>
 </problem>
-  <paragraphs><title>Think/Pair/Share</title>
+  <paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 After you have worked on the problems on your own, compare your ideas with a partner. Can you describe what's going on in <xref ref="prob_Base10">Problem</xref> and why?
 </p>
- </paragraphs> </section>
+</paragraphs>
+</section>

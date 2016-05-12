@@ -1,36 +1,22 @@
-
 <section>
-<title>Platonic Solids</title><introduction>
+<title>Platonic Solids</title>
+<introduction>
 <p>
 Of course, we live in a three-dimensional world (at least!), so only studying flat geometry doesn't make a lot of sense. Why not think about some three-dimensional objects as well?
 </p>
-  
-<definition><statement>
+<definition>
+<statement>
 <p>
 A <term>polyhedron</term> is as solid (3-dimensional) figure bounded by polygons. A polyhedron has flat polygons for <term>faces</term>, straight <term>edges</term> where the faces meet in pairs, and <term>vertices</term> where three or more edges meet. The plural of polyhedron is <term>polyhedra</term>.
 </p>
- </statement>
+</statement>
 </definition>
-  <paragraphs><title>Think/Pair/Share</title>
+  <paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 Look at the pictures of solids below, and decide which are polyhedra and which are not. You should be able to say why each figure does or does not fit the defition.
 </p>
- </paragraphs>  <table id="1739799c1603158b29a08d3c5e54f770e5bb1a77" ><tr><td class='c'>
-<nbsp /><nbsp />
-<image source="images/" /> 
-<nbsp /><nbsp />
-</td><td class='c'>
-<nbsp /><nbsp />
-<image source="images/" /> 
-<nbsp /><nbsp />
-</td><td class='c'>
-<nbsp /><nbsp />
-<image source="images/" /> 
-<nbsp /><nbsp /></td></tr>
-<tr><td class='c'>
-(a) </td><td class='c'> (b) </td><td class='c'> (c)</td></tr>
-<tr><td class='c'>
-</td></tr>
+</paragraphs>  <table id="1739799c1603158b29a08d3c5e54f770e5bb1a77" >
 <tr><td class='c'>
 <nbsp /><nbsp />
 <image source="images/" /> 
@@ -42,11 +28,14 @@ Look at the pictures of solids below, and decide which are polyhedra and which a
 </td><td class='c'>
 <nbsp /><nbsp />
 <image source="images/" /> 
-<nbsp /><nbsp /></td></tr>
+<nbsp /><nbsp /></td>
+    </tr>
 <tr><td class='c'>
-(d) </td><td class='c'> (e) </td><td class='c'> (f)</td></tr>
+(a) </td><td class='c'> (b) </td><td class='c'> (c)</td>
+    </tr>
 <tr><td class='c'>
-</td></tr>
+</td>
+    </tr>
 <tr><td class='c'>
 <nbsp /><nbsp />
 <image source="images/" /> 
@@ -58,42 +47,66 @@ Look at the pictures of solids below, and decide which are polyhedra and which a
 </td><td class='c'>
 <nbsp /><nbsp />
 <image source="images/" /> 
-<nbsp /><nbsp /></td></tr>
+<nbsp /><nbsp /></td>
+    </tr>
 <tr><td class='c'>
-(g) </td><td class='c'> (h) </td><td class='c'> (i)</td></tr>
-<tr><td class='c'></td></tr>
-</table>  
+(d) </td><td class='c'> (e) </td><td class='c'> (f)</td>
+    </tr>
+<tr><td class='c'>
+</td>
+    </tr>
+<tr><td class='c'>
+<nbsp /><nbsp />
+<image source="images/" /> 
+<nbsp /><nbsp />
+</td><td class='c'>
+<nbsp /><nbsp />
+<image source="images/" /> 
+<nbsp /><nbsp />
+</td><td class='c'>
+<nbsp /><nbsp />
+<image source="images/" /> 
+<nbsp /><nbsp /></td>
+    </tr>
+<tr><td class='c'>
+(g) </td><td class='c'> (h) </td><td class='c'> (i)</td>
+    </tr>
+<tr><td class='c'></td>
+    </tr>
+</table>
 <p>
 Remember that a <em>regular polygon</em> has all sides the same length and all angles the same measure.
 There is a similar (if slightly more complicated) notion of <em>regular</em> for solid figures.
 </p>
-  
-<definition><statement>
+<definition>
+<statement>
 <p>
 A <term>regular polyhedron</term> has faces that are all <term>identical (congruent) regular polygons</term>. All vertices are also identical (the same number of faces meet at each vertex). These are called <term>Platonic solids</term> (named for Plato).
 </p>
- </statement>
+</statement>
 </definition>
-  
 <p>
 If you fix the number of sides and their length, there is one and only one regular polygon with that number of sides. That is, every regular quadrilateral is a square, but there can be different sized squares. Every regular octagon looks like a stop sign, but it may be scaled up or down. Your job in this section is to figure out what we can say about regular polyhedra.
 </p>
- </introduction> 
+</introduction>
+
+
 <subsection>
 <title>On Your Own</title>
 <p>
 Work on these exercises on your own or with a partner. You will need to make lots of copies of the regular polygons below. Copy and cut out at least:
 </p>
-  <ul><li>40 copies of the equilateral triangle,</li>
+
+<ul>
+<li>40 copies of the equilateral triangle,</li>
 <li>15 copies of the square,</li>
 <li>20 copies of the regular pentagon, and</li>
 <li>10 copies each of the regular hexagon, heptagon, and octagon.</li>
- </ul>  
+</ul>
+
 <p>
 You will also need some tape.
 </p>
-  <image source="images/" /> 
-
 <image source="images/" /> 
 
 <image source="images/" /> 
@@ -102,7 +115,11 @@ You will also need some tape.
 
 <image source="images/" /> 
 
-<image source="images/" />  <ol><li>In any polyhedron, at least three polygons meet at each vertex.  Start with the equilateral triangles: Put three of them together meeting at a vertex and tape them together.  Then close them up so they form a solid shape.  Can you complete this into a platonic solid?  Be sure to check that at every vertex you have exactly three triangles meeting.<br />
+<image source="images/" /> 
+
+<image source="images/" />
+<ol>
+<li>In any polyhedron, at least three polygons meet at each vertex.  Start with the equilateral triangles: Put three of them together meeting at a vertex and tape them together.  Then close them up so they form a solid shape.  Can you complete this into a platonic solid?  Be sure to check that at every vertex you have exactly three triangles meeting.<br />
 
 \fellow{An animation would really help here.  Students had trouble understanding the directions, but once they see it they know what to do.  Just show putting three triangles meeting at a vertex and then closing up the gap.}</li>
 <li>Now repeat this process, but start with <em>four</em> equilateral triangles around a single vertex.  Then close them up so they form a solid shape.  Can you complete this into a platonic solid?  Be sure to check that at every vertex you have exactly four triangles meeting.<br />
@@ -111,31 +128,37 @@ You will also need some tape.
 <li>Repeat this process with five equilateral triangles, then six, then seven, and so on.  Keep going until you are convinced you understand what's happening with Platonic solids that have triangular faces.<br /></li>
 <li>When you are done with triangular faces, move on to square faces. Work systematically: Try  to build a Platonic solid with three squares at each vertex, then four, then five, etc.  Keep going until you can make a definitive statement about Platonic solids with square faces.<br /></li>
 <li>Repeat this process with the other regular polygons you cut out: pentagons, hexagons, heptagons, and octagons.</li>
- </ol>   
+</ol>
+
 <p>
 You must have noticed that the situation for Platonic solids is quite different from the situation for regular polygons. There are infinitely many regular polygons (even if you don't account for size). There is a regular polygon with <m>n</m> sides for every value of <m>n</m> bigger than 2. But for solids, we have the following (perhaps surprising) result.
 </p>
-  
-<theorem><statement>
+<theorem>
+
+<statement>
 <p>
 There are exactly five platonic solids.
 </p>
- </statement>
+</statement>
+
 </theorem>
- 
 <p>
 The key fact is that for a three-dimensional solid to close up and form a polyhedron, there must be less than <m>360^\circ</m> around each vertex. Otherwise, it either lies flat or folds over on itself.
 </p>
-  
-<problem><statement>
+<problem>
+<statement>
 <p>
 Based on your work in the exercises, you should be able to write a convincing justification of the Theorem above. Here's a sketch, and you should fill in the explanations.
 </p>
-  <ol type="a"><li>If a Platonic solid has equilateral triangles for faces, then fewer than 6 faces must meet at each vertex.  Why?<br /></li>
+
+<ol type="a"><li>If a Platonic solid has equilateral triangles for faces, then fewer than 6 faces must meet at each vertex.  Why?<br /></li>
 <li>If a Platonic solid has square faces, then three faces can meet at each vertex, but not more than that.  Why?<br /></li>
 <li>If a Platonic solid has regular pentagons for faces, then three faces can meet at each vertex, but not more than that.  Why?<br /></li>
 <li>Regular hexagons cannot be used as the faces for a Platonic solid.  Why?<br /></li>
 <li>Similarly, regular <m>n</m>-gons for <m>n</m> bigger than 6 cannot be used as the faces for a Platonic solid.  Why?<br /></li>
- </ol>  </statement>
+</ol>
+</statement>
 </problem>
- </subsection> </section>
+</subsection>
+
+</section>

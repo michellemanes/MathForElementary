@@ -1,101 +1,139 @@
-
 <section>
-<title>Triangles and Quadrilaterals</title><introduction><paragraphs><title>Think/Pair/Share</title>
+<title>Triangles and Quadrilaterals</title>
+<introduction><paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 Follow these directions on your own:
 </p>
-  <ul><li>Draw any triangle on your paper.<br /></li>
+
+<ul>
+<li>Draw any triangle on your paper.<br /></li>
 <li>Draw a second triangle that is different in some way from your first one. Write down a sentence or two to say how it is different.<br /></li>
 <li>Draw a third triangle that is different from both of your other two. Describe how it is different.<br /></li>
 <li>Draw two more triangles, different from all the ones that came before.</li>
- </ul>  
+</ul>
+
 <p>
 Compare your triangles and descriptions with a partner.
-To make "different" triangles, you have to change some feature of the triangle. Make a list of the features that
+To make <q>different</q> triangles, you have to change some feature of the triangle. Make a list of the features that
 you or your partner changed.
 </p>
- </paragraphs>  
+</paragraphs>
 <p>
 Triangles are classified according to different properties. The point of learning geometry is not to learn a lot of vocabulary, but it's useful to use the correct terms for objects, so that we can communicate clearly. Here's a quick dictionary of some types of triangles.
 </p>
-  <table id="def_trisides" ><tr><td class='hline' colspan='3'><hr /></td></tr>
+<table id="def_trisides" >
+<tr><td class='hline' colspan='3'><hr /></td>
+    </tr>
 <tr><td class='cv'>
-\bf Classification by Sides</td></tr>
-<tr><td class='hlinethick' colspan='3'><hr /></td></tr>
-
+\bf Classification by Sides</td>
+    </tr>
+<tr><td class='hlinethick' colspan='3'><hr /></td>
+    </tr>
 <tr><td  class='cv' >
-<b>scalene</b> </td><td class='cv'> <b>isosceles</b> </td><td class='c'> <b>equilateral </b>  </td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
+<b>scalene</b> </td><td class='cv'> <b>isosceles</b> </td><td class='c'> <b>equilateral </b>  </td>
+    </tr>
+<tr><td class='hline' colspan='3'><hr /></td>
+    </tr>
 <tr><td class='cv'>
-all sides have  </td><td class='cv'> two sides have  </td><td class='c'> all three sides have </td></tr>
+all sides have  </td><td class='cv'> two sides have  </td><td class='c'> all three sides have </td>
+    </tr>
 <tr><td class='cv'>
-different lengths </td><td class='cv'> the same length </td><td class='c'> the same length</td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
+different lengths </td><td class='cv'> the same length </td><td class='c'> the same length</td>
+    </tr>
+<tr><td class='hline' colspan='3'><hr /></td>
+    </tr>
 <tr><td class='cv'>
 <image source="images/" />  </td><td class='cv'> 
 <image source="images/" />  </td><td class='c'>
-<image source="images/" />   </td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr></table> 
-
-
-
-
-
-
-
-<table id="d7088b9e262a332bf51cab94f4efae75645e3c68" ><tr><td class='hline' colspan='2'><hr /></td></tr>
+<image source="images/" />   </td>
+    </tr>
+<tr><td class='hline' colspan='3'><hr /></td>
+    </tr>
+</table>
+<table id="d7088b9e262a332bf51cab94f4efae75645e3c68" >
+<tr><td class='hline' colspan='2'><hr /></td>
+    </tr>
 <tr><td class='cv'>
-\bf Classification by Angles</td></tr>
-<tr><td class='hlinethick' colspan='2'><hr /></td></tr>
-
+\bf Classification by Angles</td>
+    </tr>
+<tr><td class='hlinethick' colspan='2'><hr /></td>
+    </tr>
 <tr><td  class='cv' >
-<b>acute</b> </td><td class='c'> <b>obtuse</b> </td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
+<b>acute</b> </td><td class='c'> <b>obtuse</b> </td>
+    </tr>
+<tr><td class='hline' colspan='2'><hr /></td>
+    </tr>
 <tr><td class='cv'>
-all interior angles   </td><td class='c'> one interior angle   </td></tr>
+all interior angles   </td><td class='c'> one interior angle   </td>
+    </tr>
 <tr><td class='cv'>
-measure less than <m>90^\circ</m> </td><td class='c'>  measures more than <m>90^\circ</m> </td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='cv'>
-<image source="images/" />  </td><td class='c'> 
-<image source="images/" />   </td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr></table> 
-
-
-
-<table id="def_triangs" ><tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='cv'> <b>right </b> </td><td class='c'> <b>equiangular</b> </td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
-<tr><td class='cv'>
- one interior angle  </td><td class='c'> all interior angles </td></tr>
-<tr><td class='cv'>
- measures exactly <m>90^\circ</m> </td><td class='c'> have the same measure</td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
+measure less than <m>90^\circ</m> </td><td class='c'>  measures more than <m>90^\circ</m> </td>
+    </tr>
+<tr><td class='hline' colspan='2'><hr /></td>
+    </tr>
 <tr><td class='cv'>
 <image source="images/" />  </td><td class='c'> 
-<image source="images/" />   </td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr></table>  
+<image source="images/" />   </td>
+    </tr>
+<tr><td class='hline' colspan='2'><hr /></td>
+    </tr>
+</table>
+<table id="def_triangs" >
+<tr><td class='hline' colspan='2'><hr /></td>
+    </tr>
+<tr><td class='cv'> <b>right </b> </td><td class='c'> <b>equiangular</b> </td>
+    </tr>
+<tr><td class='hline' colspan='2'><hr /></td>
+    </tr>
+<tr><td class='cv'>
+ one interior angle  </td><td class='c'> all interior angles </td>
+    </tr>
+<tr><td class='cv'>
+ measures exactly <m>90^\circ</m> </td><td class='c'> have the same measure</td>
+    </tr>
+<tr><td class='hline' colspan='2'><hr /></td>
+    </tr>
+<tr><td class='cv'>
+<image source="images/" />  </td><td class='c'> 
+<image source="images/" />   </td>
+    </tr>
+<tr><td class='hline' colspan='2'><hr /></td>
+    </tr>
+</table>
 <p>
-Remember that "geometry is the art of good reasoning from bad drawings." That means you can't always trust your eyes. If you look at a picture of a triangle and one side <em>looks like</em> it's longer than another, that may just mean the drawing was done a bit sloppily.
+Remember that <q>geometry is the art of good reasoning from bad drawings.</q> That means you can't always trust your eyes. If you look at a picture of a triangle and one side <em>looks like</em> it's longer than another, that may just mean the drawing was done a bit sloppily.
 </p>
-  
+
 <p>
 Mathematicians either write down measurements or use <em>tick marks</em> to indicate when sides and angles are supposed to be equal. If two sides have the same measurement attached or the same number of tick marks, you must believe they are equal and work out the problem accordingly, even if it doesn't look that way to your eyes. One example of these marks is the little square used to indicate a right angle in the picture above. Here are some other examples.
 </p>
-  <table id="dc4d82c6df3f384a4f2f3e2be43f847a6a0de3d5" ><tr><td class='hline' colspan='2'><hr /></td></tr>
+<table id="dc4d82c6df3f384a4f2f3e2be43f847a6a0de3d5" >
+<tr><td class='hline' colspan='2'><hr /></td>
+    </tr>
 <tr><td class='cv'>
-<b>two angles equal </b> </td><td class='c'> <b>two sides equal</b> </td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
+<b>two angles equal </b> </td><td class='c'> <b>two sides equal</b> </td>
+    </tr>
+<tr><td class='hline' colspan='2'><hr /></td>
+    </tr>
 <tr><td class='cv'>
 <image source="images/" />  </td><td class='c'> 
-<image source="images/" />   </td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr></table> </introduction> 
+<image source="images/" />   </td>
+    </tr>
+<tr><td class='hline' colspan='2'><hr /></td>
+    </tr>
+</table>
+</introduction>
+
+
 <subsection>
 <title>On Your Own</title>
 <p>
 Work on these exercises on your own or with a partner.
 </p>
-  <ol><li>In the picture below, which sides are understood to have the same length?
+
+<ol>
+<li>In the picture below, which sides are understood to have the same length?
 <image source="images/" /> </li>
 <li>In the picture below, which angles are understood to have the same measure?
 <image source="images/" /> </li>
@@ -104,74 +142,91 @@ Work on these exercises on your own or with a partner.
 <li>Sketch two more obtuse triangles, each of which is different from the one shown on <xref ref="def_triangs">page</xref> in some way.<br /></li>
 <li>Sketch two more right triangles, each of which is different from the one shown on <xref ref="def_triangs">page</xref> in some way.  Be sure to indicate which angle is <m>90^\circ</m>.<br /></li>
 <li>Sketch two more isosceles triangles, each of which is different from the one shown on <xref ref="def_trisides">page</xref> in some way.  Use tick marks to indicate which sides are equal.</li>
- </ol>  </subsection> 
+</ol>
+</subsection>
+
+
 <subsection>
-<title>Angle sum</title><paragraphs><title>Think/Pair/Share</title>
+<title>Angle sum</title>
+<paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 By now, you have drawn several different triangles on your paper. Choose one of your triangles, and follow these directions:
 </p>
-  <ul><li>Using scissors, cut the triangle out.  <br /></li>
+
+<ul>
+<li>Using scissors, cut the triangle out.  <br /></li>
 <li>Tear (do not cut) off the corners, and place the three vertices together.  Your should have something that looks a bit like this picture:<br />
 <image source="images/" /> 
 \fellow{This might make a nice animation, tearing off the corners and arranging them in this way.}</li>
- </ul>  
+</ul>
+
 <p>
 What do you notice? What does this suggest about the angles in a triangle?
 </p>
- </paragraphs>  
+</paragraphs>
 <p>
 You may remember learning that the sum of the angles in any triangle is <m>180^\circ</m>. Depending on how many students are in your class, you now have maybe 10&#x2013;20 <em>examples</em> of triangles where the sum of the angles <em>seems to be</em> <m>180^\circ</m>. But remember, our drawings are not exact. How can we be sure that our eyes are not deceiving us? How can we be sure that the sum of the angles in a triangle isn't <m>181^\circ</m> or <m>178^\circ</m>, but is really <m>180^\circ</m> on the nose in every case?
 </p>
-  <paragraphs><title>Think/Pair/Share</title>
+<paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 What would convince you <b>beyond all doubt</b> that the sum of the angles in any triangle is <m>180^\circ</m>? Would testing lots of cases be enough? How many is enough? Could you ever test <em>every possible triangle</em>?
 </p>
- </paragraphs>  
+</paragraphs>
 <p>
 \fellow{add a picture of Euclid here?}
 In about 300BC, Euclid was the first mathematician (as far as we know) who tried to write down careful <em>axioms</em> and then build from those axioms rigorous proofs of mathematical truths. He had five axioms for geometry, the first four of which seemed pretty obvious to mathematicians. People felt they were reasonable assumptions from which to build up geometric truths:
 </p>
-  <ol><li>Given two points, you can connect them with a straight line segment.<br /></li>
+
+<ol>
+<li>Given two points, you can connect them with a straight line segment.<br /></li>
 <li>Given a line segment, you can extend it as far as you like in either direction, making a line.<br /></li>
 <li>Given a line segment, you can draw a circle having that segment as a radius.<br /></li>
 <li>All right angles are congruent.<br /></li>
- </ol>  
+</ol>
+
 <p>
 The fifth postulate bothered people a bit more. It was originally stated in more flowery language, but it was equivalent to this statement:
 </p>
-  <ol><li>The sum of the angles in a triangle is <m>180^\circ</m>.<br /></li>
- </ol>   
+
+<ol>
+<li>The sum of the angles in a triangle is <m>180^\circ</m>.<br /></li>
+</ol>
+
 <p>
 Often high school geometry teachers prove the sum of the angles in a triangle is <m>180^\circ</m>, usually using some facts about parallel lines. But (maybe surprisingly?) it's just as good to take this as an <em>axiom</em>, as a given fact about how geometry works, and go from there. Perhaps this is less satisfying than proving it from some other statement, and if you're curious you can certainly find a proof or your instructor can share one with you.
 </p>
-  
+
 <p>
 It's easy to see why this fifth axiom caused such a ruckus in mathematics. It seemed much less obvious than the other four, and mathematicians felt like they were somehow cheating if they just <em>assumed</em> it rather than <em>proving</em> it had to be true.
 Many mathematicians spent many, many years trying to prove this fifth axiom from the other axioms, but they couldn't do it. And with good reason: There are other kinds of geometries where the first four axioms are true, but the fifth one is not!
 </p>
-  
+
 <p>
 For example, if you do geometry on a <em>sphere</em> &#8202;&#x2014;&#8202; like a basketball or more importantly on the surface of the Earth &#8202;&#x2014;&#8202; rather than on a flat plane, the first four axioms are true. But triangles are a little strange on the surface of the earth. Every triangle you can you can draw on the surface of the earth has an angle sum strictly greater than <m>180^\circ</m>. In fact, you can draw a triangle on the Earth that has three right angles, making an angle sum of <m>270^\circ</m>.
 </p>
-  
+
 <p>
 \fellow{I would really like this to be a better picture. Maybe just a sphere with a triangle drawn on it, not a globe. It would be nice if the right angles were marked.}
 </p>
-  <image source="images/" /> 
+<image source="images/" />
 <p>
 On a sphere like the Earth, the angle sum is not constant among all triangles. Bigger triangles have bigger angle sums, and smaller triangles have smaller angle sums, but even the small triangles have angle sums that are greater than <m>180^\circ</m>.
 </p>
-  
+
 <p>
 The geometry you study in school is called <em>Euclidean geometry</em>; it is the geometry of a flat plane, of a flat world. It's a pretty good approximation for the little piece of the Earth that we see at any given time, but it's not the only geometry out there!
 </p>
- </subsection> 
+</subsection>
+
+
 <subsection>
 <title>Triangle inequality</title>
 <p>
 Make a copy of these strips of paper and cut them out. They have unit lengths from 1 unit to 6 units. You may want to color them, write numbers on them, or do something that makes it easy to keep track of the different units.
 </p>
-  <image source="images/" /> 
+<image source="images/" /> 
  
 <image source="images/" /> 
  
@@ -221,111 +276,136 @@ Make a copy of these strips of paper and cut them out. They have unit lengths fr
  <image source="images/" /> 
 
 <image source="images/" />  
-<problem><statement>
+<problem>
+<statement>
 <p>
 Repeat the following process several times (at least 10) and keep track of the results (a table has been started for you on the next page):
 </p>
-  <ul><li>Pick three  strips of paper.  (The lengths do not have to be all different from each other; that's why you have multiple copies of each length.)<br /></li>
+
+<ul>
+<li>Pick three  strips of paper.  (The lengths do not have to be all different from each other; that's why you have multiple copies of each length.)<br /></li>
 <li>Try to make a triangle with those three strips, and decide if you think it is possible or not.  (Don't overlap the strips, cut them, or fold them.  The length of the strips should be the length of the sides of the triangle.)</li>
- </ul>  
+</ul>
+
 <p>
 Your goal is to come up with a <b>rule</b> that describes when three lengths will make a triangle and when they will not. Write down the rule in your own words.
 </p>
- </statement>
+</statement>
 </problem>
-  <table id="18f522c9c614e62fffbeb98531350bf3725446df" ><tr><td class='hline' colspan='4'><hr /></td></tr>
+  <table id="18f522c9c614e62fffbeb98531350bf3725446df" >
+<tr><td class='hline' colspan='4'><hr /></td>
+    </tr>
 <tr><td class='vc'>
-length 1 </td><td class='c'> length 2 </td><td class='c'> length 3 </td><td class='cv'> triangle? </td></tr>
-<tr><td class='hlinethick' colspan='4'><hr /></td></tr>
-
+length 1 </td><td class='c'> length 2 </td><td class='c'> length 3 </td><td class='cv'> triangle? </td>
+    </tr>
+<tr><td class='hlinethick' colspan='4'><hr /></td>
+    </tr>
 <tr><td  class='vc' >
-4 </td><td class='c'> 3 </td><td class='c'> 2 </td><td class='cv'> yes </td></tr>
-<tr><td class='hline' colspan='4'><hr /></td></tr>
+4 </td><td class='c'> 3 </td><td class='c'> 2 </td><td class='cv'> yes </td>
+    </tr>
+<tr><td class='hline' colspan='4'><hr /></td>
+    </tr>
 <tr><td class='vc'>
-4 </td><td class='c'> 2 </td><td class='c'> 1 </td><td class='cv'> no </td></tr>
-<tr><td class='hline' colspan='4'><hr /></td></tr>
-
-</table>  <paragraphs><title>Think/Pair/Share</title>
+4 </td><td class='c'> 2 </td><td class='c'> 1 </td><td class='cv'> no </td>
+    </tr>
+<tr><td class='hline' colspan='4'><hr /></td>
+    </tr>
+</table>
+<paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 Compare your rule with other students.
 Then use your rule to answer the following questions.
 </p>
-  <ul><li>Suppose you were asked to make a triangle with sides 40 units, 40 units, and 100 units units long. Do you think you could do it? Explain your answer. Keep in mind the goal is not to try to build the triangle, but to predict the outcome.<br /></li>
+
+<ul>
+<li>Suppose you were asked to make a triangle with sides 40 units, 40 units, and 100 units units long. Do you think you could do it? Explain your answer. Keep in mind the goal is not to try to build the triangle, but to predict the outcome.<br /></li>
 <li>Suppose you were asked to make a triangle with sides 2.5 units, 2.6 units, and 5 units units long. Do you think you could do it? Explain your answer. Keep in mind the goal is not to try to build the triangle, but to predict the outcome.</li>
- </ul>  
+</ul>
+
 <p>
 Of course, we know that in geometry we should not believe our eyes. You need to look for an <em>explanation</em>. Why does your statement make sense?
 </p>
- </paragraphs>  
+</paragraphs>
 <p>
 You probably came up with some version of this statement:
 </p>
-  <b>Triangle Inequaltiy</b>
+<b>Triangle Inequaltiy</b>
 
 The sum of the lengths of two sides in a triangle is <br />
-greater than the length of the third side.  
+greater than the length of the third side.
 <p>
-Remember that "geometry is the art of good reasoning from bad drawings." Our materials weren't very precise, so how can we be sure this rule we've come up with is is correct?
+Remember that <q>geometry is the art of good reasoning from bad drawings.</q> Our materials weren't very precise, so how can we be sure this rule we've come up with is is correct?
 </p>
-  
+
 <p>
-Well in this case, the rule is really just the same as the saying "the shortest distance between two points is a straight line." In fact, this is exactly what we mean by the words <em>straight line</em> in geometry.
+Well in this case, the rule is really just the same as the saying <q>the shortest distance between two points is a straight line.</q> In fact, this is exactly what we mean by the words <em>straight line</em> in geometry.
 </p>
- </subsection> 
+</subsection>
+
+
 <subsection>
 <title>SSS Congruence</title>
 <p>
 We say that two triangles (or any two geometric objects) are <em>congruent</em> if they are exactly the same shape and the same size. That means that if you could pick one of them up and move it to put down on the other, they would exactly overlap.
 </p>
-  
-<problem xml:id="prob__SSS"><statement>
+<problem xml:id="prob__SSS">
+<statement>
 <p>
 Repeat the following process several times and keep track of the results.
 </p>
-  <ul><li>Pick three  strips of paper that will definitely form a triangle. <br /></li>
+
+<ul>
+<li>Pick three  strips of paper that will definitely form a triangle. <br /></li>
 <li>Try to make two different (non-congruent) triangles with the same three strips of paper.  Record if you were able to do so.</li>
- </ul>  </statement>
+</ul>
+</statement>
 </problem>
   
-<problem xml:id="prob__noSSSS"><statement>
+<problem xml:id="prob__noSSSS">
+<statement>
 <p>
 Repeat the following process several times and keep track of the results.
 </p>
-  <ul><li>Pick four  strips of paper and form a quadrilateral with them.  (If your four strips do not form a quadrilateral, pick another four strips.)<br /></li>
+
+<ul>
+<li>Pick four  strips of paper and form a quadrilateral with them.  (If your four strips do not form a quadrilateral, pick another four strips.)<br /></li>
 <li>Try to make two different (non-congruent) quadrilateral with the same four strips of paper.  Record if you were able to do so.</li>
- </ul>  </statement>
+</ul>
+</statement>
 </problem>
-  <paragraphs><title>Think/Pair/Share</title>
+  <paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 What do you notice from <xref ref="prob__SSS">Problems</xref> and <xref ref="prob__noSSSS"></xref>? Can you make a general statement to describe what's going on? Can you explain why your statement makes sense?
 </p>
- </paragraphs>  
+</paragraphs>
 <p>
 You probably came up with some version of this statement:
 </p>
-  <b>SSS (side-side-side) Congruence</b>
+<b>SSS (side-side-side) Congruence</b>
 
 If two triangles have the same side lengths,<br />
-then the triangles are congruent.  
+then the triangles are congruent.
 <p>
 This most certainly is <em>not</em> true for quadrilaterals. For example, if you choose four strips that are all the same length, you can make a square:
 </p>
-  <image source="images/" /> 
+<image source="images/" />
 <p>
 But you can also squish that square into a non-square rhombus. (Try it!)
 </p>
-  <image source="images/" /> 
+<image source="images/" /> 
   
 <image source="images/" /> 
 
 
 <image source="images/" /> 
  
-<image source="images/" />  
+<image source="images/" />
 <p>
-If you don't choose four lengths that are all the same, in addition to "squishing" the shape, you can rearrange the sides to make different (non-congruent) shapes. (Try it!)
+If you don't choose four lengths that are all the same, in addition to <q>squishing</q> the shape, you can rearrange the sides to make different (non-congruent) shapes. (Try it!)
 </p>
-  <image source="images/" /> 
+<image source="images/" /> 
   
 <image source="images/" /> <br />
  These two shapes have the same four side lengths in the same order.
@@ -334,20 +414,20 @@ If you don't choose four lengths that are all the same, in addition to "squishin
 <image source="images/" /> 
  
 <image source="images/" /> <br />
-These two shapes have the same four side lengths as the shapes above, but the sides are in a different order.  
+These two shapes have the same four side lengths as the shapes above, but the sides are in a different order.
 <p>
 But this can't happen with triangles. Why not? Well, certainly you can't rearrange the three sides. That would be just the same as rotating the triangle or flipping it over, but not making a new shape.
 </p>
-  
+
 <p>
-Why can't the triangles "squish" the way a quadrilateral (and other shapes) can? Here's one way to understand it. Imagine you pick two of your three lengths and lay them on top of each other, hinged at one corner.
+Why can't the triangles <q>squish</q> the way a quadrilateral (and other shapes) can? Here's one way to understand it. Imagine you pick two of your three lengths and lay them on top of each other, hinged at one corner.
 </p>
-  <image source="images/" /> <br />
- This shows a longer purple dashed segment and a shorter green segment.  The two segments are hinged at the red dot on the left. 
+<image source="images/" /> <br />
+ This shows a longer purple dashed segment and a shorter green segment.  The two segments are hinged at the red dot on the left.
 <p>
 Now imagine opening up the hinge a little at a time.
 </p>
-  <image source="images/" /> 
+<image source="images/" /> 
  <image source="images/" /> 
  <image source="images/" /> 
 
@@ -357,12 +437,14 @@ Now imagine opening up the hinge a little at a time.
 
 <image source="images/" /> 
  
-<image source="images/" />  
+<image source="images/" />
 <p>
 \fellow{This is almost certainly better done as an animation!}
 </p>
-  
+
 <p>
 As the hinge opens up, the two non-hinged endpoints get farther and farther apart. Whatever your third length is (assuming you are actually able to make a triangle with your three lengths), there is <b>exactly one</b> position of the hinge where it will just exactly fit to close off the triangle. No other position will work.
 </p>
- </subsection> </section>
+</subsection>
+
+</section>

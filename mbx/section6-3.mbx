@@ -1,71 +1,71 @@
-
 <section>
-<title><m>x</m>-mals</title><introduction>
+<title><m>x</m>-mals</title>
+<introduction>
 <p>
 Just like in base 10, we can add boxes to the right of the decimal point other bases, like base 5.
 </p>
-  
+
 <p>
 \fellow{Add picture: dots and boxes for base five with 1's, 5's, 25's and 125's labeled. Then a box to the right of the radix point with label <m>x</m> and a box to the right of that labeled <m>y</m>, like on page 6.}
 </p>
-  
+
 <p>
-However, the prefix "dec" in "decimal point" means ten. So we really shouldn't call it a decimal point anymore. Maybe a "pentimal point"? In fact, the general term is "radix point."
+However, the prefix <q>dec</q> in <q>decimal point</q> means ten. So we really shouldn't call it a decimal point anymore. Maybe a <q>pentimal point</q>? In fact, the general term is <q>radix point.</q>
 </p>
-  <paragraphs><title>Think/Pair/Share</title>
+<paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 Use reasoning like you saw on <xref ref="base10_what_value">page</xref> for the base ten system to think about other number systems:
 </p>
-  <ul><li>Figure out the values of <m>x</m> and <m>y</m> in the picture of the base-5 system above.    Be sure you can explain your reasoning.<br /></li>
-<li>Draw a base-4 "Dots &amp; Boxes" model, including a radix point and some boxes to the right.  Label at least three boxes to the left of the ones place and three boxes to the right of the ones place.<br /></li>
-<li>Draw a base-6 "Dots &amp; Boxes" model, including a radix point and some boxes to the right.  Label at least three boxes to the left of the ones place and three boxes to the right of the ones place.<br /></li>
- </ul>  </paragraphs>  
+
+<ul>
+<li>Figure out the values of <m>x</m> and <m>y</m> in the picture of the base-5 system above.    Be sure you can explain your reasoning.<br /></li>
+<li>Draw a base-4 <q>Dots <ampersand /> Boxes</q> model, including a radix point and some boxes to the right.  Label at least three boxes to the left of the ones place and three boxes to the right of the ones place.<br /></li>
+<li>Draw a base-6 <q>Dots <ampersand /> Boxes</q> model, including a radix point and some boxes to the right.  Label at least three boxes to the left of the ones place and three boxes to the right of the ones place.<br /></li>
+</ul>
+</paragraphs>
 <p>
 In general, in a base-<m>b</m> system, the boxes to the left of the ones place represent positive powers of the base <m>b</m>. Boxes to the right of the ones place represent reciprocals of those powers.
 </p>
-  
+
 <p>
 \fellow{Add picture: dots and boxes for base <m>b</m> with several boxes on each side labeled.}
 </p>
- </introduction> 
+</introduction>
+
+
 <subsection>
 <title>On Your Own</title>
 <p>
 Work on the following exercises on your own or with a partner.
 </p>
-  <ol><li>Draw a "Dots &amp; Boxes" picture of each number:
 
+<ol>
+<li>Draw a <q>Dots <ampersand /> Boxes</q> picture of each number:
 <me>
-
-0.03_\text{five} 
+  0.03_\text{five} 
 \qquad\qquad
 0.22_\text{six} 
 \qquad\qquad
 0.103_\text{four} 
 \qquad\qquad
-0.002_\text{three} 
-
+0.002_\text{three}
 </me>
- <br /></li>
+<br /></li>
 <li>Find a familiar (base-10) fraction value for each number:
-
 <me>
-
-0.04_\text{five} 
+  0.04_\text{five} 
 \qquad\qquad
 0.3_\text{six} 
 \qquad\qquad
 0.02_\text{four} 
 \qquad\qquad
-0.03_\text{nine} 
-
+0.03_\text{nine}
 </me>
- <br /></li>
+<br /></li>
 <li>Find a familiar (base-10) fraction value for each number.  You might want to re-read <xref ref="ex__0.31_base_10">Example</xref> first!
-
 <me>
-
-0.13_\text{five} 
+  0.13_\text{five} 
 \qquad\quad
 0.25_\text{six} 
 \qquad\quad
@@ -73,33 +73,36 @@ Work on the following exercises on your own or with a partner.
 \qquad\quad
 0.24_\text{seven} 
 \qquad\quad
-0.55_\text{eight} 
-
+0.55_\text{eight}
 </me>
- <br /></li>
- </ol>   <paragraphs><title>Think/Pair/Share</title>
+<br /></li>
+</ol>
+<paragraphs>
+<title>Think/Pair/Share</title>
 <p>
-Tami and Courtney were working on converting <m>0.44_\text{five} </m> to a familiar base-10 fraction. Courtney said this:
+Tami and Courtney were working on converting <m>0.44_\text{five}</m> to a familiar base-10 fraction. Courtney said this:
 </p>
-  <em>The places in base five to the right of the point are like <m>\frac 1 5</m> and then <m>\frac 1{25}</m>.  Since this has two places, the answer should be <m>\frac{44}{25}</m>.</em> 
+<em>The places in base five to the right of the point are like <m>\frac 1 5</m> and then <m>\frac 1{25}</m>.  Since this has two places, the answer should be <m>\frac{44}{25}</m>.</em>
 <p>
-\fellow{add picture of <m>0.44_\text{five} </m> in a Dots &amp; Boxes model... four dots in each box.}
+\fellow{add picture of <m>0.44_\text{five}</m> in a Dots <ampersand /> Boxes model... four dots in each box.}
 </p>
-  
+
 <p>
 Tami thought about what Courtney said and replied:
 </p>
-  <em>I don't know what the right answer is, but I know that <m>\frac{44}{25}</m> can't be right.  The number <m>0.44_\mbox{five} </m> is less than one, since there are no numbers in the ones place and no explosions that we can do.  But the fraction <m>\frac{44}{25}</m> is more than one.  It's almost two.  So they can't be the same number.</em>  <ul><li>Who makes the most sense, Courtney or Tami?  Why do you think so?<br /></li>
+<em>I don't know what the right answer is, but I know that <m>\frac{44}{25}</m> can't be right.  The number <m>0.44_\mbox{five}</m> is less than one, since there are no numbers in the ones place and no explosions that we can do.  But the fraction <m>\frac{44}{25}</m> is more than one.  It's almost two.  So they can't be the same number.</em>
+<ul>
+<li>Who makes the most sense, Courtney or Tami?  Why do you think so?<br /></li>
 <li>Find the right answer to the problem Courtney and Tami were working on.</li>
- </ul>  </paragraphs>  
-<problem><statement>
+</ul>
+</paragraphs>  
+<problem>
+<statement>
 <p>
-Find the "decimal" representation of <m>\frac{1}{4} </m> in each of the following bases. Be sure that you can justify your answer.
+Find the <q>decimal</q> representation of <m>\frac{1}{4}</m> in each of the following bases. Be sure that you can justify your answer.
 </p>
-  
 <me>
-
-\text{base }  2
+  \text{base }  2
 \qquad\quad
 \text{base }  4
 \qquad\quad
@@ -110,12 +113,12 @@ Find the "decimal" representation of <m>\frac{1}{4} </m> in each of the followin
 \text{base }  10
 \qquad\quad
 \text{base }  12
-
 </me>
- 
 <p>
-<em>Hint: You might want to review Example<nbsp /><m> <xref ref="example__dec_12_3_4"></xref></m>.</em>
+<em>Hint: You might want to review Example<nbsp /><m><xref ref="example__dec_12_3_4"></xref></m>.</em>
 </p>
- </statement>
+</statement>
 </problem>
- </subsection> </section>
+</subsection>
+
+</section>

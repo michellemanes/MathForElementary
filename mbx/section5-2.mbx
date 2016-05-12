@@ -1,140 +1,140 @@
-
 <section>
 <title>Careful use of language in mathematics: <m>=</m></title>
 <p>
-You have already thought about the careful use of language in mathematics. For example, the word "or" has very specific meanings in math that is slightly different from their everyday use.
+You have already thought about the careful use of language in mathematics. For example, the word <q>or</q> has very specific meanings in math that is slightly different from their everyday use.
 </p>
-  
+
 <p>
-The notion of equality is fundamental in mathematics, and especially in algebra and algebraic thinking. The symbol "=" expresses a <em>relationship</em>. It is <em>not</em> an operation in the way that <m>+</m> and <m>\div</m> are operations. It should not be read left-to-right, and it definitely does not mean "... and the answer is ...".
+The notion of equality is fundamental in mathematics, and especially in algebra and algebraic thinking. The symbol <q>=</q> expresses a <em>relationship</em>. It is <em>not</em> an operation in the way that <m>+</m> and <m>\div</m> are operations. It should not be read left-to-right, and it definitely does not mean <q><ddots /> and the answer is <ddots /></q>.
 </p>
-  
+
 <p>
 For your work to be clear and easily understood by others, it is essential that you use the symbol <m>=</m> appropriately. And for your future students to understand the meaning of the <m>=</m> symbol and use it correctly, it is essential that you are clear and precise in your use of it.
 </p>
-  
+
 <p>
 Let's start by working on some problems.
 </p>
-  
-<problem xml:id="prob__grandma"><statement>
+<problem xml:id="prob__grandma">
+<statement>
 <p>
-Akira went to visit his grandmother, and she gave him \$1.50 to buy a treat.
-He went to the store and bought a book for \$3.20. After that, he had \$2.30 left.
+Akira went to visit his grandmother, and she gave him <dollar />1.50 to buy a treat.
+He went to the store and bought a book for <dollar />3.20. After that, he had <dollar />2.30 left.
 How much money did Akira have before he visited his grandmother?
 </p>
- </statement>
+</statement>
 </problem>
   
-<problem xml:id="prob__equations"><statement>
+<problem xml:id="prob__equations">
+<statement>
 <p>
 Examine the following equations. Decide: Is the statement always true, sometimes true, or never true? Justify your answers.
 </p>
-  
-<md><mrow>(a) \amp \ 5 + 3 = 8.
+<md>
+  <mrow>  (a) \amp \ 5 + 3 = 8.
 \amp 
 (b) \amp \ \frac 23 + \frac 12 = \frac 35.
 \amp 
 (c) \amp  \ 5 + 3 = y.
 \amp  (d)\amp  \ 
-\frac a 5 = \frac 5 a.</mrow>
-  <mrow>(e) \amp  \ n + 3 = m.
+\frac a 5 = \frac 5 a.
+      </mrow>
+  <mrow>  (e) \amp  \ n + 3 = m.
 \amp 
 (f) \amp  \ 3x = 2x + x.
 \amp 
 (g)\amp  \ 
-5k = 5k + 1.</mrow>
- 
+5k = 5k + 1.
+      </mrow>
 </md>
- </statement>
+</statement>
 </problem>
   
-<problem xml:id="prob__equations2"><statement>
+<problem xml:id="prob__equations2">
+<statement>
 <p>
 Consider the equation
 </p>
-  
 <me>
- 
-18 - 7 = \underline{}.
-
+  18 - 7 = \underline{}.
 </me>
-  <ol type="a"><li>Fill in the blank with something that makes the equation <em>always true</em>.<br /></li>
+<ol type="a"><li>Fill in the blank with something that makes the equation <em>always true</em>.<br /></li>
 <li>Fill in the blank with something that makes the equation <em>always false</em>.<br /></li>
 <li>Fill in the blank with something that makes the equation <em>sometimes true and sometimes false</em>.</li>
- </ol>  </statement>
+</ol>
+</statement>
 </problem>
   
-<problem><statement>
+<problem>
+<statement>
 <p>
 If someone asked you to <em>solve</em> the equations in <xref ref="prob__equations">Problem</xref>, what would you do in each case and why?
 </p>
- </statement>
+</statement>
 </problem>
-  <paragraphs><title>Think/Pair/Share</title>
+  <paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 Kim solved <xref ref="prob__grandma">Problem</xref> this way this way:
 </p>
-  <div class="quote"><em>
+<div class="quote"><em>
 Let's see:
-
 <me>
-
-2.30 + 3.20 = 5.50 - 1.50 = 4, 
-
+  2.30 + 3.20 = 5.50 - 1.50 = 4,
 </me>
- 
- so the answer is <m>4</m>.</em></div> 
+so the answer is <m>4</m>.</em></div>
 <p>
 What do you think about Kim's solution? Did she get the correct answer? Is her solution clear? How could it be better?
 </p>
- </paragraphs>  
+</paragraphs>
 <p>
 Although Kim found the correct numerical answer, her calculation really doesn't make any sense. It is true that
 </p>
-  
 <me>
-
-2.30 + 3.20 = 5.50.
-
+  2.30 + 3.20 = 5.50.
 </me>
- 
 <p>
 It is definitely not true that
 </p>
-  
 <me>
-
-2.30 + 3.20 = 5.50 - 1.40.
-
+  2.30 + 3.20 = 5.50 - 1.40.
 </me>
- 
 <p>
-She is incorrectly using the symbol "=", and that makes her calculation hard to understand.
+She is incorrectly using the symbol <q>=</q>, and that makes her calculation hard to understand.
 </p>
-  <paragraphs><title>Think/Pair/Share</title> <ul><li>Can you write a good <em>definition</em> of the symbol "<m>=</m>"?  What does it mean and what does it represent?  <br /></li>
-<li>Give some examples: When should the symbol "<m>=</m>" be used, and when should it <em>not</em> be used?<br /></li>
+<paragraphs>
+<title>Think/Pair/Share</title>
+<ul>
+<li>Can you write a good <em>definition</em> of the symbol <q><m>=</m></q>?  What does it mean and what does it represent?  <br /></li>
+<li>Give some examples: When should the symbol <q><m>=</m></q> be used, and when should it <em>not</em> be used?<br /></li>
 <li>Do these two equations express the same relationships or different relationships?  Explain your answer.
 
-<md><mrow>x^2 - 1 \amp  = (x+1)(x-1)</mrow>
- <mrow>(x+1)(x-1)  \amp  = x^2 - 1</mrow>
- 
+<md>
+  <mrow>  x^2 - 1 \amp  = (x+1)(x-1)
+      </mrow>
+  <mrow>  (x+1)(x-1)  \amp  = x^2 - 1
+      </mrow>
 </md>
  <br /></li>
- </ul>  </paragraphs>  
+</ul>
+</paragraphs>
 <p>
 This picture shows a (very simplistic) two-pan balance scale. Such a scale allows you to <em>compare</em> the weight of two objects. Place one object in each pan. If one side is lower than the other, then that side holds heavier objects. If the two sides are balanced, then the objects on each side weigh the same.
 </p>
-  <image source="images/" />  <paragraphs><title>Think/Pair/Share</title>
+<image source="images/" />  <paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 In the pictures below:
 </p>
-  <ul><li>The orange triangles all weigh the same.</li>
+
+<ul>
+<li>The orange triangles all weigh the same.</li>
 <li>The green circles all weigh the same.</li>
 <li>The purple squares all weigh the same.</li>
 <li>The silver stars all weigh the same.</li>
 <li>The scale is balanced.</li>
- </ul>   <image source="images/" /> <br />
+</ul>
+<image source="images/" /> <br />
 (a) What do you know about the weights of the triangles and the circles?  How do you know it?
 
 
@@ -146,38 +146,47 @@ In the pictures below:
 
 <image source="images/" /> <br />
 (c) What do you know about the weights of the stars and the squares?  How do you know it? </paragraphs>  
-<problem xml:id="prob__balance1"><statement>
+<problem xml:id="prob__balance1">
+<statement>
 <p>
 In the pictures below:
 </p>
-  <ul><li>The orange triangles all weigh the same.</li>
+
+<ul>
+<li>The orange triangles all weigh the same.</li>
 <li>The green circles all weigh the same.</li>
 <li>The purple squares all weigh the same.</li>
 <li>The scale is balanced.</li>
- </ul>  
+</ul>
+
 <p>
 How many purple squares will balance with one circle? Justify your answer.
 </p>
-  <image source="images/" />  
+<image source="images/" />  
 <image source="images/" /> 
 
-<image source="images/" /> </statement>
+<image source="images/" />
+</statement>
 </problem>
   
-<problem xml:id="prob__balance2"><statement>
+<problem xml:id="prob__balance2">
+<statement>
 <p>
 In the pictures below:
 </p>
-  <ul><li>The orange triangles all weigh the same.</li>
+
+<ul>
+<li>The orange triangles all weigh the same.</li>
 <li>The green circles all weigh the same.</li>
 <li>The purple squares all weigh the same.</li>
 <li>The silver stars all weigh the same.</li>
 <li>The scale is balanced.</li>
- </ul>  
+</ul>
+
 <p>
 How many purple squares will balance the scale in each case? Justify your answers.
 </p>
-  <image source="images/" />  
+<image source="images/" />  
 <image source="images/" /> 
 <image source="images/" /> 
 
@@ -195,45 +204,58 @@ How many purple squares will balance the scale in each case? Justify your answer
 
 
 <image source="images/" /> <br />
-(c) </statement>
+(c)
+</statement>
 </problem>
   
-<problem xml:id="prob__balance3"><statement>
+<problem xml:id="prob__balance3">
+<statement>
 <p>
 In the pictures below:
 </p>
-  <ul><li>The orange triangles all weigh the same.</li>
+
+<ul>
+<li>The orange triangles all weigh the same.</li>
 <li>The green circles all weigh the same.</li>
 <li>The purple squares all weigh the same.</li>
 <li>The scale is balanced.</li>
- </ul>  
+</ul>
+
 <p>
 What will balance the scale? Can you find more than one answer?
 </p>
-  <image source="images/" />  
+<image source="images/" />  
 <image source="images/" /> 
 
 
 
 <image source="images/" />  
-<image source="images/" /> </statement>
+<image source="images/" />
+</statement>
 </problem>
   
-<problem xml:id="prob__balance4"><statement>
+<problem xml:id="prob__balance4">
+<statement>
 <p>
 In the pictures below:
 </p>
-  <ul><li>The orange triangles all weigh the same.</li>
+
+<ul>
+<li>The orange triangles all weigh the same.</li>
 <li>The green circles all weigh the same.</li>
 <li>The purple squares all weigh the same.</li>
 <li>The scale is balanced.</li>
- </ul>   <image source="images/" />  
+</ul>
+<image source="images/" />  
 <image source="images/" />  <ol type="a"><li>Which shape weighs the most: the square, the triangle, or the circle?  Which shape weighs the least?  Justify your answers.<br /></li>
 <li>Which of the two scales is holding the most total weight?  How do you know you're right?</li>
- </ol>  </statement>
+</ol>
+</statement>
 </problem>
-  <paragraphs><title>Think/Pair/Share</title>
+  <paragraphs>
+<title>Think/Pair/Share</title>
 <p>
-What do <xref ref="prob__balance1">Problems</xref>&#x2013; <xref ref="prob__balance4"></xref> above have to do with the "<m>=</m>" symbol?
+What do <xref ref="prob__balance1">Problems</xref>&#x2013; <xref ref="prob__balance4"></xref> above have to do with the <q><m>=</m></q> symbol?
 </p>
- </paragraphs> </section>
+</paragraphs>
+</section>

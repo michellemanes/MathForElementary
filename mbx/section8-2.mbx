@@ -1,51 +1,69 @@
-
 <section>
-<title>Worldwide Voyage</title><introduction>
+<title>Worldwide Voyage</title>
+<introduction>
 <p>
 To prepare for the next activity:
 </p>
-  <ul><li>Read this description of the daily life on \Hokulea: \url{http://pvs.kcc.hawaii.edu/ike/canoe_living/daily_life.html}.  <br /></li>
+
+<ul>
+<li>Read this description of the daily life on \Hokulea: \url{http://pvs.kcc.hawaii.edu/ike/canoe_living/daily_life.html}.  <br /></li>
 <li>Watch the video about the  Worldwide Voyage: \url{http://vimeo.com/51118047}.<br /></li>
- </ul>   
+</ul>
+
 <p>
 From the webpage above, you learned:
 </p>
-  <div class="quote">"The quartermaster is responsible for provisioning the canoe &#8202;&#x2014;&#8202; loading food, water and all needed supplies, and for maintaining \Hokulea's inventory. While this is not an on board job, it is critical to the safe and efficient sailing of the canoe."</div>  
-<problem><statement>
+<div class="quote"><q>The quartermaster is responsible for provisioning the canoe &#8202;&#x2014;&#8202; loading food, water and all needed supplies, and for maintaining \Hokulea's inventory. While this is not an on board job, it is critical to the safe and efficient sailing of the canoe.</q></div>  
+<problem>
+<statement>
 <p>
 Imagine that you are part of the crew for the Worldwide Voyage, and you are going to help the quartermaster and the captain with provisioning the canoe for one leg of the voyage. You need to write a preliminary report for the quartermaster, documenting:
 </p>
-  <ul><li>Which leg of the trip are you focused on?  (See the map below.)<br /></li>
+
+<ul>
+<li>Which leg of the trip are you focused on?  (See the map below.)<br /></li>
 <li>How long will that leg of the trip take?  Explain how you figured that out.<br /></li>
 <li>How much food and water will you need for the voyage?  Explain how you figured that out.<br /></li>
- </ul>  </statement>
+</ul>
+</statement>
 </problem>
-  
 <p>
 The rest of this section contains pointers to information that may or may not be helpful to you as you make your plans. Your job is to do the relevant research and then write your report. You should include enough detail about how you came to your conclusions that the quartermaster can understand your reasoning. Note:
 during \Hokulea's voyage, you can track the progress here: \url{http://www.hokulea.com/track-the-voyage/}.
 </p>
- </introduction> 
+</introduction>
+
+
 <subsection>
 <title>Pick a leg of the route</title>
 <p>
-Here's a picture of the route planned for the Worldwide Voyage, which you can find at the Worldwide Voyage website \url{http://hokulea.org/world-wide-voyage/}. Note that on the map, the different colors correspond to different years of the voyage. A "leg" means a dot-to-dot route on the map.
+Here's a picture of the route planned for the Worldwide Voyage, which you can find at the Worldwide Voyage website \url{http://hokulea.org/world-wide-voyage/}. Note that on the map, the different colors correspond to different years of the voyage. A <q>leg</q> means a dot-to-dot route on the map.
 </p>
-  <image source="images/" />  
+<image source="images/" />
 <p>
 After you pick a leg of the voyage, you'll need to figure out the total distance of that leg. This tool might help (or you can find another way): \url{http://www.acscdg.com/}.
 Here is some relevant information to help you figure out how long it will take \Hokulea<nbsp />to complete that leg:
 </p>
-  <ul><li>Fully loaded with the maximum weight,  \Hokulea<nbsp />can travel at speeds of 4&#x2013;6 knots, and even 10&#x2013;12 knots in strong winds.  (One knot means one nautical mile per hour.)<br /></li>
+
+<ul>
+<li>Fully loaded with the maximum weight,  \Hokulea<nbsp />can travel at speeds of 4&#x2013;6 knots, and even 10&#x2013;12 knots in strong winds.  (One knot means one nautical mile per hour.)<br /></li>
 <li>For comparison, the first trip from \Hawaii<nbsp />to Tahiti in 1976 took a total of 34 days.  (You probably want to use the tool above to compute the number of nautical miles.) <br /></li>
- </ul>  </subsection> 
+</ul>
+</subsection>
+
+
 <subsection>
 <title>Plan the provisions</title>
 <p>
 Here is some information about provisions.
 </p>
-  <ul><li>Hokulea can carry about 11,000 pounds, including the weight of the crew, provisions, supplies, and personal gear.  <br /></li>
+
+<ul>
+<li>Hokulea can carry about 11,000 pounds, including the weight of the crew, provisions, supplies, and personal gear.  <br /></li>
 <li>The supplies (sails, cooking equipment, safety equipment, communications equipment, etc.) account for about 3,500 pounds. <br /></li>
 <li>The crew eats three meals per day and each crew member gets  <m>0.8</m> gallons of water per day.<br /></li>
 <li>For a trip that is expected to take 30 days, the quartermaster plans for 40 days' worth of supplies, in case of bad weather and other delays.<br /></li>
- </ul>  </subsection> </section>
+</ul>
+</subsection>
+
+</section>

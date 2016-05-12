@@ -1,10 +1,10 @@
-
 <section xml:id="pics_symm">
-<title>Symmetry</title><introduction>
+<title>Symmetry</title>
+<introduction>
 <p>
 Mathematicians use symmetry in all kinds of situations. There can be symmetry in calculations, for example. But the most recognizable kinds of symmetry are those in geometric designs. Geometric figures can have different kinds of symmetries.
 </p>
-  <image source="images/" /> 
+<image source="images/" /> 
  
 <image source="images/" /> 
  
@@ -16,11 +16,11 @@ Mathematicians use symmetry in all kinds of situations. There can be symmetry in
  
 <image source="images/" /> 
  
-<image source="images/" />  
+<image source="images/" />
 <p>
 Or they might have no symmetry at all.
 </p>
-  <image source="images/" /> 
+<image source="images/" /> 
  
 <image source="images/" /> 
  
@@ -32,54 +32,58 @@ Or they might have no symmetry at all.
  
 <image source="images/" /> 
  
-<image source="images/" />  <paragraphs><title>Think/Pair/Share</title> <ul><li>What do you already know about the idea of <em>symmetry</em>?  What does it mean to say a design is <em>symmetric</em>?<br /></li>
+<image source="images/" />  <paragraphs>
+<title>Think/Pair/Share</title>
+<ul>
+<li>What do you already know about the idea of <em>symmetry</em>?  What does it mean to say a design is <em>symmetric</em>?<br /></li>
 <li>Do you know about different types of symmetry?  What types?<br /></li>
 <li>Can you give examples of real-world objects that are symmetric?  What about objects that  are not symmetric?</li>
- </ul>  </paragraphs> </introduction> 
+</ul>
+</paragraphs> </introduction>
+
+
 <subsection>
 <title>Line Symmetry</title>
 <p>
 If you can flip a figure over a line &#8202;&#x2014;&#8202; this is called <em>reflecting</em> the figure &#8202;&#x2014;&#8202; and the it appears unchanged, then the figure has <b>reflection symmetry</b> or <b>line symmetry</b>. A <b>line of symmetry</b> divides an object into two mirror-image halves. The dashed lines below are lines of symmetry:
 </p>
-  
+
 <p>
 \fellow{Any improvements tot hess pictures would be fantastic.}
 </p>
-  <image source="images/" /> 
+<image source="images/" /> 
    
 <image source="images/" /> 
 
 
 <image source="images/" /> 
    
-<image source="images/" />  
+<image source="images/" />
 <p>
 Compare with the dashed lines below. Though they do cut the figures in half, they don't create mirror-image halves. These are not lines of symmetry.
 </p>
-  <image source="images/" /> 
+<image source="images/" /> 
    
 <image source="images/" /> 
 
 
 <image source="images/" /> 
    
-<image source="images/" />  <paragraphs><title>Think/Pair/Share</title>
+<image source="images/" />  <paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 Look at the first set of pictures on <xref ref="pics_symm">page</xref>. Do any of them have lines of symmetry? How can you tell?
 </p>
- </paragraphs>  
-<problem><statement>
+</paragraphs>  
+<problem>
+<statement>
 <p>
 For each of the figures below:
 </p>
-  <ol type="a"><li>Decide if it has any lines of symmetry.  If not, how do you know?<br /></li>
+
+<ol type="a"><li>Decide if it has any lines of symmetry.  If not, how do you know?<br /></li>
 <li>If it does have one or more lines of symmetry, find / describe <em>all</em> of them.    Explain how you did it.<br /></li>
- </ol>   <image source="images/" /> 
-   
-<image source="images/" /> 
-
-
-
+</ol>
 <image source="images/" /> 
    
 <image source="images/" /> 
@@ -87,77 +91,98 @@ For each of the figures below:
 
 
 <image source="images/" /> 
+   
+<image source="images/" /> 
+
+
+
+<image source="images/" /> 
 <image source="images/" /> 
 
 
 
 
-<image source="images/" /> </statement>
+<image source="images/" />
+</statement>
 </problem>
   
-<problem><statement>
+<problem>
+<statement>
 <p>
 Each picture below shows <b>half</b> of a design with line symmetry. The line of symmetry (dashed) is shown. Can you complete the design? Explain how you did it.
 </p>
-  <image source="images/" /> 
+<image source="images/" /> 
 
 
 
 
-<image source="images/" /> </statement>
+<image source="images/" />
+</statement>
 </problem>
- </subsection> 
+</subsection>
+
+
 <subsection>
 <title>Rotational Symmetry</title>
 <p>
 If you can turn a figure around a center point less than a full circle &#8202;&#x2014;&#8202; this is called a <em>rotation</em> &#8202;&#x2014;&#8202; and the figure appears unchanged, then the figure has <b>rotational symmetry</b>. The point around which you rotate is called the center of rotation, and the smallest angle you need to turn is called the angle of rotation.
 </p>
-  
+
 <p>
 This star has rotation symmetry of <m>72^\circ</m>, and the center of rotation is the center of the star. One point is marked to help you visualize the rotation.
 </p>
-  <image source="images/" /> 
+<image source="images/" /> 
   
-<image source="images/" />  <paragraphs><title>Think/Pair/Share</title> <ul><li>How can you be certain that the angle of rotation for the star is exactly <m>72^\circ</m>?<br /></li>
+<image source="images/" />  <paragraphs>
+<title>Think/Pair/Share</title>
+<ul>
+<li>How can you be certain that the angle of rotation for the star is exactly <m>72^\circ</m>?<br /></li>
 <li>Look at the first set of pictures on <xref ref="pics_symm">page</xref>.  Do any of them have rotational symmetry?  How can you tell?</li>
- </ul>  </paragraphs>  
-<problem><statement>
+</ul>
+</paragraphs>  
+<problem>
+<statement>
 <p>
 Each of the figures below has rotational symmetry. Find the center of rotation and the angle of rotation. Explain your thinking.
 </p>
-  <image source="images/" /> 
+<image source="images/" /> 
   
-<image source="images/" /> </statement>
+<image source="images/" />
+</statement>
 </problem>
   
-<problem><statement>
+<problem>
+<statement>
 <p>
 Each picture below shows part of a design with a marked center of rotation and an angle of rotation given. Can you complete the design so that it has the correct rotational symmetry? Explain how you did it.
 </p>
-  <image source="images/" /> <br />
+<image source="images/" /> <br />
 Use an angle of <m>90^\circ</m>.
 
 
 
 
 <image source="images/" /> <br />
-Use an angle of <m>60^\circ</m>.   </statement>
+Use an angle of <m>60^\circ</m>.
+</statement>
 </problem>
- </subsection> 
+</subsection>
+
+
 <subsection xml:id="pic_trans1">
 <title>Translation symmetry</title>
 <p>
 A <b>translation</b> (also called a slide) involves moving a figure in a specific direction for a specific distance. A <b>vector</b> (a line segment with an arrow on one end) can be used to describe a translation, because the vector communicates both a distance (the length of the segment) and a direction (the direction the arrow points).
 </p>
-  <image source="images/" />  
+<image source="images/" />
 <p>
 A design has <b>translational symmetry</b> if you can perform a translation on it and the figure appears unchanged. A brick wall has translational symmetry in lots of directions!
 </p>
-  <image source="images/" /> 
+<image source="images/" />
 <p>
 The brick wall is one example of a <em>tessellation</em>, which you'll learn more about in <xref ref="sec_artsci">Section</xref>.
 </p>
-  <image source="images/" /> 
+<image source="images/" /> 
  
 <image source="images/" /> 
  
@@ -167,30 +192,37 @@ The brick wall is one example of a <em>tessellation</em>, which you'll learn mor
 
 <image source="images/" /> 
   
-<image source="images/" />  
+<image source="images/" />
 <p>
 You can see translation symmetry in lots of places. It's in architecture and design.
 </p>
-  <image source="images/" /> 
+<image source="images/" /> 
  
 <image source="images/" /> 
  
-<image source="images/" />  
+<image source="images/" />
 <p>
 It's in art, most famously that by M.C. Escher.
 </p>
-  <image source="images/" /> 
+<image source="images/" /> 
  
 <image source="images/" /> 
  
-<image source="images/" />  
+<image source="images/" />
 <p>
 And it appears in traditional Hawaiian and other Polynesian tattoo designs.
 </p>
-  <image source="images/" /> 
+<image source="images/" /> 
  
 <image source="images/" /> 
  
-<image source="images/" />  <paragraphs><title>Think/Pair/Share</title> <ul><li>On each of the pictures with translational symmetry shown on <xref ref="pic_trans1">pages</xref>&#x2013; <xref ref="pic_translast"></xref>, sketch a vector to indicate the direction and distance of the translational symmetry.<br /></li>
+<image source="images/" />  <paragraphs>
+<title>Think/Pair/Share</title>
+<ul>
+<li>On each of the pictures with translational symmetry shown on <xref ref="pic_trans1">pages</xref>&#x2013; <xref ref="pic_translast"></xref>, sketch a vector to indicate the direction and distance of the translational symmetry.<br /></li>
 <li>Create your own design with translational symmetry.  Explain how you did it.</li>
- </ul>  </paragraphs> </subsection> </section>
+</ul>
+</paragraphs>
+</subsection>
+
+</section>

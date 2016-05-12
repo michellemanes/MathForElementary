@@ -1,42 +1,52 @@
-
 <section xml:id="sec__matching">
-<title>Matching Game</title><introduction>
+<title>Matching Game</title>
+<introduction>
 <p>
 Below, you'll find numbers described in various ways: as fractions, as points on a number line, as decimals, and in a picture. Your job is to match these up in a way that makes sense. Note: there may be more than one fraction to match a given decimal, or more than one picture to match a given point on the number line. So be ready to justify your answers.
 </p>
- </introduction> 
+</introduction>
+
+
 <subsection>
 <title>Fractions</title>
-<md><mrow>(a) \amp  \  \frac 1 5
+<md>
+  <mrow>  (a) \amp  \  \frac 1 5
 \amp 
 (b) \amp  \  \frac 1 3 
 \amp 
-(c) \amp  \  \frac 2 3</mrow>
-  <mrow>(d) \amp  \  \frac 9 8
+(c) \amp  \  \frac 2 3
+      </mrow>
+  <mrow>  (d) \amp  \  \frac 9 8
 \amp  
 (e) \amp  \ \frac {15}{16}
 \amp  
-(f) \amp  \ \frac{25}{100}</mrow>
-  <mrow>(g) \amp  \  \frac 3 4
+(f) \amp  \ \frac{25}{100}
+      </mrow>
+  <mrow>  (g) \amp  \  \frac 3 4
 \amp  
 (h) \amp  \ \frac{33}{100}
 \amp  
-(i) \amp  \ \frac 3{25}</mrow>
-  <mrow>(j) \amp  \  \frac 1 4
+(i) \amp  \ \frac 3{25}
+      </mrow>
+  <mrow>  (j) \amp  \  \frac 1 4
 \amp  
 (k) \amp  \  \frac 6 5
 \amp  
-(\ell) \amp  \ \frac 2 5</mrow>
-  <mrow>(m) \amp  \  \frac {4}{100}
+(\ell) \amp  \ \frac 2 5
+      </mrow>
+  <mrow>  (m) \amp  \  \frac {4}{100}
 \amp  
 (n) \amp  \  \frac 2{10}
 \amp  
-(o) \amp  \ \frac 1 2</mrow>
- 
+(o) \amp  \ \frac 1 2
+      </mrow>
 </md>
- </subsection> 
+</subsection>
+
+
 <subsection>
-<title>Points on a Number Line</title><image source="images/" /> <br />
+<title>Points on a Number Line</title>
+<image source="images/" /> <br />
 Point 1
 
 
@@ -100,96 +110,129 @@ Point 12
 
 
 <image source="images/" /> <br />
-Point 13 </subsection> 
+Point 13
+</subsection>
+
+
 <subsection>
 <title>Decimals</title>
-<md><mrow>\mbox{(i)}  \amp  \   1.20
+<md>
+  <mrow>  \mbox{(i)}  \amp  \   1.20
 \amp 
 \mbox{(ii)}  \amp  \   0.\bar 6 
 \amp 
-\mbox{(iii)}  \amp  \   0.33</mrow>
-  <mrow>\mbox{(iv)}  \amp  \   0.25
+\mbox{(iii)}  \amp  \   0.33
+      </mrow>
+  <mrow>  \mbox{(iv)}  \amp  \   0.25
 \amp  
 \mbox{(v)}  \amp  \  0.5
 \amp  
-\mbox{(vi)}  \amp  \ 0.25</mrow>
-  <mrow>\mbox{(vii)}  \amp  \   0.75
+\mbox{(vi)}  \amp  \ 0.25
+      </mrow>
+  <mrow>  \mbox{(vii)}  \amp  \   0.75
 \amp  
 \mbox{(viii)}  \amp  \ 0.\bar 3
 \amp  
-\mbox{(ix)}  \amp  \ 0.2</mrow>
-  <mrow>\mbox{(x)}  \amp  \  1.125
+\mbox{(ix)}  \amp  \ 0.2
+      </mrow>
+  <mrow>  \mbox{(x)}  \amp  \  1.125
 \amp  
 \mbox{(xi)}  \amp  \  0.12
 \amp  
-\mbox{(xii)}  \amp  \ 0.04</mrow>
-  <mrow>\mbox{(xiii)}  \amp  \  0.40
+\mbox{(xii)}  \amp  \ 0.04
+      </mrow>
+  <mrow>  \mbox{(xiii)}  \amp  \  0.40
 \amp  
 \mbox{(xiv)}  \amp  \  0.20
 \amp  
-\mbox{(xv)}  \amp  \ 0.9375</mrow>
- 
+\mbox{(xv)}  \amp  \ 0.9375
+      </mrow>
 </md>
- </subsection> 
+</subsection>
+
+
 <subsection>
-<title>Pictures</title> <table id="188f59cd2eeeb25a3c35338e40de45bf5239b8ef" ><tr><td class='c'>
-<image source="images/" />  </td><td class='c'>     </td><td class='c'> <image source="images/" /> </td></tr>
+<title>Pictures</title>
+<table id="188f59cd2eeeb25a3c35338e40de45bf5239b8ef" >
 <tr><td class='c'>
-Picture A </td><td class='c'> </td><td class='c'> Picture B</td></tr>
+<image source="images/" />  </td><td class='c'>     </td><td class='c'> <image source="images/" /> </td>
+    </tr>
 <tr><td class='c'>
-</td></tr>
+Picture A </td><td class='c'> </td><td class='c'> Picture B</td>
+    </tr>
 <tr><td class='c'>
-<image source="images/" />  </td><td class='c'></td><td class='c'> <image source="images/" /> </td></tr>
+</td>
+    </tr>
 <tr><td class='c'>
-Picture C </td><td class='c'></td><td class='c'> Picture D</td></tr>
-</table> 
+<image source="images/" />  </td><td class='c'></td><td class='c'> <image source="images/" /> </td>
+    </tr>
+<tr><td class='c'>
+Picture C </td><td class='c'></td><td class='c'> Picture D</td>
+    </tr>
+</table>
+<table id="50f870277488598ebb355aa5e83d21b9edbd03f2" >
+<tr><td class='c'>
+<image source="images/" />   </td><td class='c'>     </td><td class='c'> <image source="images/" /> </td>
+    </tr>
+<tr><td class='c'>
+Picture E </td><td class='c'></td><td class='c'> Picture F</td>
+    </tr>
+<tr><td class='c'>
+</td>
+    </tr>
+<tr><td class='c'>
+<image source="images/" />  </td><td class='c'></td><td class='c'> <image source="images/" /> </td>
+    </tr>
+<tr><td class='c'>
+Picture G </td><td class='c'></td><td class='c'> Picture H</td>
+    </tr>
+<tr><td class='c'>
+</td>
+    </tr>
+<tr><td class='c'>
+<image source="images/" />  </td><td class='c'></td><td class='c'> <image source="images/" /> </td>
+    </tr>
+<tr><td class='c'>
+Picture I </td><td class='c'></td><td class='c'> Picture J</td>
+    </tr>
+<tr><td class='c'></td>
+    </tr>
+</table>
+<table id="6ae6ff62b938771e60c12ff02835c0fa0d031c64" >
+<tr><td class='c'>
+<image source="images/" />  </td><td class='c'>    </td><td class='c'><image source="images/" /> </td>
+    </tr>
+<tr><td class='c'>
+Picture K </td><td class='c'></td><td class='c'> Picture L</td>
+    </tr>
+<tr><td class='c'>
+</td>
+    </tr>
+<tr><td class='c'>
+<image source="images/" />  </td><td class='c'></td><td class='c'> <image source="images/" /> </td>
+    </tr>
+<tr><td class='c'>
+Picture M </td><td class='c'></td><td class='c'> Picture N</td>
+    </tr>
+<tr><td class='c'>
+</td>
+    </tr>
+<tr><td class='c'>
+<image source="images/" />  </td><td class='c'></td><td class='c'> <image source="images/" /> </td>
+    </tr>
+<tr><td class='c'>
+Picture O </td><td class='c'></td><td class='c'> Picture P</td>
+    </tr>
+</table>
+<table id="29009d76d057bb1e3f76aa820c8cd0fc9b2137f7" >
+<tr><td class='c'>
 
+<image source="images/" />  </td><td class='c'>   </td><td class='c'> <image source="images/" /> </td>
+    </tr>
+<tr><td class='c'>
+Picture Q </td><td class='c'></td><td class='c'> Picture R</td>
+    </tr>
+</table>
+</subsection>
 
-
-<table id="50f870277488598ebb355aa5e83d21b9edbd03f2" ><tr><td class='c'>
-<image source="images/" />   </td><td class='c'>     </td><td class='c'> <image source="images/" /> </td></tr>
-<tr><td class='c'>
-Picture E </td><td class='c'></td><td class='c'> Picture F</td></tr>
-<tr><td class='c'>
-</td></tr>
-<tr><td class='c'>
-<image source="images/" />  </td><td class='c'></td><td class='c'> <image source="images/" /> </td></tr>
-<tr><td class='c'>
-Picture G </td><td class='c'></td><td class='c'> Picture H</td></tr>
-<tr><td class='c'>
-</td></tr>
-<tr><td class='c'>
-<image source="images/" />  </td><td class='c'></td><td class='c'> <image source="images/" /> </td></tr>
-<tr><td class='c'>
-Picture I </td><td class='c'></td><td class='c'> Picture J</td></tr>
-<tr><td class='c'></td></tr>
-</table> 
-
-
-<table id="6ae6ff62b938771e60c12ff02835c0fa0d031c64" ><tr><td class='c'>
-<image source="images/" />  </td><td class='c'>    </td><td class='c'><image source="images/" /> </td></tr>
-<tr><td class='c'>
-Picture K </td><td class='c'></td><td class='c'> Picture L</td></tr>
-<tr><td class='c'>
-</td></tr>
-<tr><td class='c'>
-<image source="images/" />  </td><td class='c'></td><td class='c'> <image source="images/" /> </td></tr>
-<tr><td class='c'>
-Picture M </td><td class='c'></td><td class='c'> Picture N</td></tr>
-<tr><td class='c'>
-</td></tr>
-<tr><td class='c'>
-<image source="images/" />  </td><td class='c'></td><td class='c'> <image source="images/" /> </td></tr>
-<tr><td class='c'>
-Picture O </td><td class='c'></td><td class='c'> Picture P</td></tr>
-</table> 
-
-
-
-
-<table id="29009d76d057bb1e3f76aa820c8cd0fc9b2137f7" ><tr><td class='c'>
-
-<image source="images/" />  </td><td class='c'>   </td><td class='c'> <image source="images/" /> </td></tr>
-<tr><td class='c'>
-Picture Q </td><td class='c'></td><td class='c'> Picture R</td></tr>
-</table> </subsection> </section>
+</section>

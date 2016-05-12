@@ -1,65 +1,54 @@
-
 <section>
-<title>Terminating or Repeating?</title><introduction>
+<title>Terminating or Repeating?</title>
+<introduction>
 <p>
 You've seen that when you write a fraction as a decimal, sometimes the decimal <em>terminates</em>, like
 </p>
-  
 <me>
-
-\frac 1 2 = 0.5
+  \frac 1 2 = 0.5
 \quad \text{ and }  \quad
 \frac {33} {1000} = 0.033.
-
 </me>
- 
 <p>
 However, some fractions have decimal representations that go on forever in a repeating pattern, like
 </p>
-  
 <me>
-
-\frac 1 3 = 0.33333\dots
+  \frac 1 3 = 0.33333\dots
 \quad \text{ and }  \quad
 \frac {6} {7} = 0.857142857142857142857142\dots.
-
 </me>
- 
 <p>
 It's not totally obvious, but it is true: those are the only two things that can happen when you write a fraction as a decimal.
 </p>
-  
+
 <p>
 Of course, you can <em>imagine</em> (but never write down) a fraction that goes on forever but doesn't repeat itself, for example:
 </p>
-  
 <me>
-
-0.101001000100001000001\dots
+  0.101001000100001000001\dots
 \quad \text{ and }  \quad
 \pi = 3.14159265358979\dots
-
 </me>
- 
 <p>
 But these numbers can never be written as a nice fraction <m>\frac a b</m> where <m>a</m> and <m>b</m> are whole numbers. They are called <em>irrational numbers</em>. (The name does not indicate a judgement on their sanity. Rather, fractions like <m>\frac a b</m> are also called <em>ratios</em>. Irrational numbers cannot be expressed as a <em>ratio</em> of two whole numbers.)
 </p>
-  
+
 <p>
 For now, we'll think about the question: Which fractions have decimal representations that terminate, and which fractions have decimal representations that repeat forever? We'll focus just on <em>unit fractions</em>.
 </p>
-  
-<definition><statement>
+<definition>
+<statement>
 <p>
 A <term>unit fraction</term> is a fraction that has 1 in the numerator. It looks like <m>\frac 1 n</m> for some whole number <m>n</m>.
 </p>
- </statement>
+</statement>
 </definition>
-  <paragraphs><title>Think/Pair/Share</title> <ul><li>Which of the following fractions have infinitely long decimal representations and which do not?
-
+  <paragraphs>
+<title>Think/Pair/Share</title>
+<ul>
+<li>Which of the following fractions have infinitely long decimal representations and which do not?
 <me>
-
-\frac 12 
+  \frac 12 
 \qquad
   \frac 13
   \qquad
@@ -76,206 +65,278 @@ A <term>unit fraction</term> is a fraction that has 1 in the numerator. It looks
   \frac 19 
   \qquad
   \frac 1{10}
-
 </me>
- <br /></li>
+<br /></li>
 <li>Try some more examples on your own.  Do you have a conjecture?
 <div class="quote"><em>A fraction <m>\frac 1 b</m> has an infinitely long decimal expansion if<br />
 <br />
  <u>           </u>.</em><br /></div> </li>
- </ul>  </paragraphs>  
-<problem xml:id="prob__powersof2"><statement>
+</ul>
+</paragraphs>  
+<problem xml:id="prob__powersof2">
+<statement>
 <p>
 Complete the table below which shows the decimal expansion of unit fractions where the denominator is a power of 2. (You may want to use a calculator to compute the decimal representations. The point is to look for and then explain a pattern, rather than to compute by hand.)
 </p>
-  <table id="51118aef8bb292b0527d1bc95429c9216ee6298d" ><tr><td class='cv'>
-<b>Fraction</b> </td><td class='cv'> <b>Denominator</b> </td><td class='c'> <b>Decimal Representation</b> </td></tr>
-<tr><td class='hlinethick' colspan='3'><hr /></td></tr>
-
+<table id="51118aef8bb292b0527d1bc95429c9216ee6298d" >
+<tr><td class='cv'>
+<b>Fraction</b> </td><td class='cv'> <b>Denominator</b> </td><td class='c'> <b>Decimal Representation</b> </td>
+    </tr>
+<tr><td class='hlinethick' colspan='3'><hr /></td>
+    </tr>
 <tr><td  class='cv' >
-</td><td class='cv'></td><td class='c'></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
 <tr><td class='cv'>
-<m>\displaystyle \frac 1 2</m> </td><td class='cv'> <m>2^1</m> </td><td class='c'> <m>0.5</m></td></tr>
+<m>\displaystyle \frac 1 2</m> </td><td class='cv'> <m>2^1</m> </td><td class='c'> <m>0.5</m></td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
+<tr><td class='hline' colspan='3'><hr /></td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
 <tr><td class='cv'>
-<m>\displaystyle \frac 1 4</m> </td><td class='cv'> <m>2^2</m> </td><td class='c'> <m>0.25</m></td></tr>
+<m>\displaystyle \frac 1 4</m> </td><td class='cv'> <m>2^2</m> </td><td class='c'> <m>0.25</m></td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
+<tr><td class='hline' colspan='3'><hr /></td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
 <tr><td class='cv'>
-<m>\displaystyle \frac 1 8</m> </td><td class='cv'> <m>2^3</m> </td><td class='c'> <m>0.125</m></td></tr>
+<m>\displaystyle \frac 1 8</m> </td><td class='cv'> <m>2^3</m> </td><td class='c'> <m>0.125</m></td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
+<tr><td class='hline' colspan='3'><hr /></td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
 <tr><td class='cv'>
-<m>\displaystyle \frac 1 {16}</m> </td><td class='cv'>  </td><td class='c'>  </td></tr>
+<m>\displaystyle \frac 1 {16}</m> </td><td class='cv'>  </td><td class='c'>  </td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
+<tr><td class='hline' colspan='3'><hr /></td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
 <tr><td class='cv'>
-<m>\displaystyle \frac 1 {32}</m> </td><td class='cv'>  </td><td class='c'>  </td></tr>
+<m>\displaystyle \frac 1 {32}</m> </td><td class='cv'>  </td><td class='c'>  </td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
+<tr><td class='hline' colspan='3'><hr /></td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
 <tr><td class='cv'>
-<m>\displaystyle \frac 1 {64}</m> </td><td class='cv'>  </td><td class='c'>  </td></tr>
+<m>\displaystyle \frac 1 {64}</m> </td><td class='cv'>  </td><td class='c'>  </td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
+<tr><td class='hline' colspan='3'><hr /></td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
 <tr><td class='cv'>
-<m>\displaystyle \frac 1 {128}</m> </td><td class='cv'>  </td><td class='c'>  </td></tr>
+<m>\displaystyle \frac 1 {128}</m> </td><td class='cv'>  </td><td class='c'>  </td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
+<tr><td class='hline' colspan='3'><hr /></td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
 <tr><td class='cv'>
-<m>\displaystyle \frac 1 {256}</m> </td><td class='cv'>  </td><td class='c'>  </td></tr>
+<m>\displaystyle \frac 1 {256}</m> </td><td class='cv'>  </td><td class='c'>  </td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
-<tr><td class='cv'></td></tr></table> <br />  
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
+<tr><td class='cv'></td>
+    </tr>
+</table>
+<br />
 <p>
 Try even more examples until you can make a conjecture: What is the decimal representation of the unit fraction <m>\displaystyle \frac 1{2^n}</m>?
 </p>
- </statement>
+</statement>
 </problem>
   
-<problem xml:id="prob__powersof5"><statement>
+<problem xml:id="prob__powersof5">
+<statement>
 <p>
 Complete the table below which shows the decimal expansion of unit fractions where the denominator is a power of 5. (You may want to use a calculator to compute the decimal representations. The point is to look for and then explain a pattern, rather than to compute by hand.)
 </p>
-  <table id="b4fbb91da4f9d863d6fe048ce032c8f39f906bac" ><tr><td class='cv'>
-<b>Fraction</b> </td><td class='cv'> <b>Denominator</b> </td><td class='c'> <b>Decimal Representation</b> </td></tr>
-<tr><td class='hlinethick' colspan='3'><hr /></td></tr>
-
+<table id="b4fbb91da4f9d863d6fe048ce032c8f39f906bac" >
+<tr><td class='cv'>
+<b>Fraction</b> </td><td class='cv'> <b>Denominator</b> </td><td class='c'> <b>Decimal Representation</b> </td>
+    </tr>
+<tr><td class='hlinethick' colspan='3'><hr /></td>
+    </tr>
 <tr><td  class='cv' >
-</td><td class='cv'></td><td class='c'></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
 <tr><td class='cv'>
-<m>\displaystyle \frac 1 5</m> </td><td class='cv'> <m>5^1</m> </td><td class='c'> <m>0.2</m></td></tr>
+<m>\displaystyle \frac 1 5</m> </td><td class='cv'> <m>5^1</m> </td><td class='c'> <m>0.2</m></td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
+<tr><td class='hline' colspan='3'><hr /></td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
 <tr><td class='cv'>
-<m>\displaystyle \frac 1 {25}</m> </td><td class='cv'> <m>5^2</m> </td><td class='c'> <m>0.04</m></td></tr>
+<m>\displaystyle \frac 1 {25}</m> </td><td class='cv'> <m>5^2</m> </td><td class='c'> <m>0.04</m></td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
+<tr><td class='hline' colspan='3'><hr /></td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
 <tr><td class='cv'>
-<m>\displaystyle \frac 1 {125}</m> </td><td class='cv'> <m>5^3</m> </td><td class='c'> </td></tr>
+<m>\displaystyle \frac 1 {125}</m> </td><td class='cv'> <m>5^3</m> </td><td class='c'> </td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
+<tr><td class='hline' colspan='3'><hr /></td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
 <tr><td class='cv'>
-<m>\displaystyle \frac 1 {625}</m> </td><td class='cv'>  </td><td class='c'>  </td></tr>
+<m>\displaystyle \frac 1 {625}</m> </td><td class='cv'>  </td><td class='c'>  </td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
+<tr><td class='hline' colspan='3'><hr /></td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
 <tr><td class='cv'>
-<m>\displaystyle \frac 1 {3125}</m> </td><td class='cv'>  </td><td class='c'>  </td></tr>
+<m>\displaystyle \frac 1 {3125}</m> </td><td class='cv'>  </td><td class='c'>  </td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
+<tr><td class='hline' colspan='3'><hr /></td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
 <tr><td class='cv'>
-<m>\displaystyle \frac 1 {15625}</m> </td><td class='cv'>  </td><td class='c'>  </td></tr>
+<m>\displaystyle \frac 1 {15625}</m> </td><td class='cv'>  </td><td class='c'>  </td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
-<tr><td class='cv'></td></tr></table> <br />  
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
+<tr><td class='cv'></td>
+    </tr>
+</table>
+<br />
 <p>
 Try even more examples until you can make a general statement: What is the decimal representation of the unit fraction <m>\displaystyle \frac 1{5^n}</m>?
 </p>
- </statement>
+</statement>
 </problem>
-  
 <p>
 Marcus noticed a pattern in the table from <xref ref="prob__powersof2">Problem</xref>, but was having trouble explaining exactly what he noticed. Here's what he said to his group:
 </p>
-  <div class="quote"><em>I remembered that when we wrote fractions as decimals before, we tried to make the denominator into a power of ten.  So we can do this:</em>
+<div class="quote"><em>I remembered that when we wrote fractions as decimals before, we tried to make the denominator into a power of ten.  So we can do this:</em>
 
-<md><mrow>\frac 1 2 
+<md>
+  <mrow>  \frac 1 2 
 \ \amp = \ 
 \frac 1 2 \cdot \frac 5 5 
 \ = \ 
 \frac {5}{10}
 \ = \ 
-0.5</mrow>
-  <mrow>\frac 1 4 
+0.5
+      </mrow>
+  <mrow>  \frac 1 4 
 \ \amp = \ 
 \frac 1 4 \cdot \frac {25}{25} 
 \ = \ 
 \frac {25}{100}
 \ = \ 
-0.25</mrow>
-  <mrow>\frac 1 8 
+0.25
+      </mrow>
+  <mrow>  \frac 1 8 
 \ \amp = \ 
 \frac 1 8 \cdot \frac {125}{125} 
 \ = \ 
 \frac {125}{1000}
 \ = \ 
-0.125</mrow>
- 
+0.125
+      </mrow>
 </md>
  
-<em>When we only have <m>2</m>'s, we can always turn them into <m>10</m>'s by adding enough <m>5</m>'s.</em></div>  <paragraphs><title>Think/Pair/Share</title> <ul><li>Write out several more examples of what Marcus discovered.<br /></li>
+<em>When we only have <m>2</m>'s, we can always turn them into <m>10</m>'s by adding enough <m>5</m>'s.</em></div>  <paragraphs>
+<title>Think/Pair/Share</title>
+<ul>
+<li>Write out several more examples of what Marcus discovered.<br /></li>
 <li>If Marcus had the unit fraction <m>\frac1{2^n}</m>, what would be his first step to turn it into a decimal?  What would the decimal expansion look like and why?<br /></li>
 <li>Now think about unit fractions with powers of 5 in the denominator.
 If Marcus had the unit fraction <m>\frac1{5^n}</m>, what would be his first step to turn it into a decimal?  What would the decimal expansion look like and why?</li>
- </ul>  </paragraphs>  
-<problem xml:id="prob__2_nanswer"><statement>
+</ul>
+</paragraphs>  
+<problem xml:id="prob__2_nanswer">
+<statement>
 <p>
-Marcus has a really good insight, but he didn't explain it very well. He doesn't really mean that we "turn 2's into 10's." And he's not doing any addition, so talking about "adding enough 5's" is pretty confusing.
+Marcus has a really good insight, but he didn't explain it very well. He doesn't really mean that we <q>turn 2's into 10's.</q> And he's not doing any addition, so talking about <q>adding enough 5's</q> is pretty confusing.
 </p>
-  <ol type="a"><li>Complete the statement below by filling in the numerator of the fraction.  <div class="quote">The unit fraction <m>\frac 1 {2^n}</m> has a decimal representation that terminates.  The representation will have <m>n</m> decimal digits, and will be equivalent to the fraction 
 
+<ol type="a"><li>Complete the statement below by filling in the numerator of the fraction.  <div class="quote">The unit fraction <m>\frac 1 {2^n}</m> has a decimal representation that terminates.  The representation will have <m>n</m> decimal digits, and will be equivalent to the fraction
 <me>
-
-\frac{?}{10^n}.
-
+  \frac{?}{10^n}.
 </me>
- <br /></div> </li>
+<br /></div> </li>
 <li>Write a better version of Marcus's explanation to justify why this fact is true.</li>
- </ol>  </statement>
+</ol>
+</statement>
 </problem>
   
-<problem><statement>
+<problem>
+<statement>
 <p>
 Write a statement about the decimal representations of unit fractions <m>\frac 1 {5^n}</m> and justify that your statement is correct.
 (Use the statement in <xref ref="prob__2_nanswer">Problem</xref> as a model.)
 </p>
- </statement>
+</statement>
 </problem>
   
-<problem><statement>
+<problem>
+<statement>
 <p>
 Each of the fractions listed below has a terminating decimal representation. Explain how you could know this for sure, without actually calculating the decimal representation.
 </p>
-  
 <me>
-
-\frac 1{10}
+  \frac 1{10}
 \qquad\quad
 \frac 1{20}
 \qquad\quad
@@ -286,212 +347,253 @@ Each of the fractions listed below has a terminating decimal representation. Exp
 \frac 1{500}
 \qquad\quad
 \frac 1{4000}
-
 </me>
- </statement>
+</statement>
 </problem>
- </introduction> 
+ </introduction>
+
+
 <subsection>
 <title>The period of a repeating decimal</title>
 <p>
 If the denominator of a fraction can be factored into just 2's and 5's, you can always form an equivalent fraction where the denominator is a power of ten. For example, if we start with the fraction
 </p>
-  
 <me>
-
-\frac 1 {2^a 5^b},
-
+  \frac 1 {2^a 5^b},
 </me>
- 
 <p>
 we can form an equivalent fraction
 </p>
-  
 <me>
-
-\frac 1 {2^a 5^b}
+  \frac 1 {2^a 5^b}
 \ = \ 
 \frac 1 {2^a 5^b} \cdot \frac {2^b 5^a} {2^b 5^a}
 \ = \ 
 \frac {2^b 5^a} {2^{a+b} 5^{a+b}}
 \ = \ 
 \frac {2^b 5^a} {10^{a+b}}.
-
 </me>
- 
 <p>
 The denominator is a power of ten, so the decimal expansion is finite with (at most) <m>a+b</m> places.
 </p>
-  
+
 <p>
 What about fractions where the denominator has other prime factors besides 2's and 5's? Certainly we <em>can't</em> turn the denominator into a power of 10, because powers of 10 have just 2's and 5's as their prime factors. So in this case the decimal expansion will go on forever. But why will it have a <em>repeating pattern</em>? And is there anything else interesting we can say in this case?
 </p>
-  
-<definition><statement>
+<definition>
+<statement>
 <p>
 The <term>period</term> of a repeating decimal is the smallest number of digits that repeat.
 </p>
- </statement>
+</statement>
 </definition>
-  
 <p>
 For example, we saw that
 </p>
-  
-<md><mrow>\frac 1 3 
+<md>
+  <mrow>  \frac 1 3 
 \amp \ = \ 
-0.33333\dots</mrow>
- <mrow>\amp \ = \ 
-0.\bar 3.</mrow>
- 
+0.33333\dots
+      </mrow>
+  <mrow>  \amp \ = \ 
+0.\bar 3.
+      </mrow>
 </md>
- 
 <p>
 The repeating part is just the single digit 3, so the period of this repeating decimal is one.
 </p>
-  
+
 <p>
 Similarly, we know that
 </p>
-  
-<md><mrow>\frac 67
+<md>
+  <mrow>  \frac 67
 \amp \ =\ 
-0.857142857142857142857142\dots</mrow>
- <mrow>\amp \ = \ 
-0.\overline{857142}.</mrow>
- 
+0.857142857142857142857142\dots
+      </mrow>
+  <mrow>  \amp \ = \ 
+0.\overline{857142}.
+      </mrow>
 </md>
- 
 <p>
 The smallest repeating part is the digits <m>847142</m>, so the period of this repeating decimal is 6.
 </p>
-  
+
 <p>
 You can think of it this way: the <em>period</em> is the length of the string of digits under the vinculum (the horizontal bar that indicates the repeating digits).
 </p>
-  
-<problem><statement>
+<problem>
+<statement>
 <p>
 Complete the table below which shows the decimal expansion of unit fractions where the denominator has prime factors besides 2 and 5. (You may want to use a calculator to compute the decimal representations. The point is to look for and then explain a pattern, rather than to compute by hand.)
 </p>
-  <table id="b9c8e2b095c9c5d976befeccc5acec04dab946ff" ><tr><td class='cv'>
-<b>Fraction</b> </td><td class='cv'> <b>Decimal Representation</b> </td><td class='c'> <b>Period</b> </td></tr>
-<tr><td class='hlinethick' colspan='3'><hr /></td></tr>
-
+<table id="b9c8e2b095c9c5d976befeccc5acec04dab946ff" >
+<tr><td class='cv'>
+<b>Fraction</b> </td><td class='cv'> <b>Decimal Representation</b> </td><td class='c'> <b>Period</b> </td>
+    </tr>
+<tr><td class='hlinethick' colspan='3'><hr /></td>
+    </tr>
 <tr><td  class='cv' >
-</td><td class='cv'></td><td class='c'></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
 <tr><td class='cv'>
-<m>\displaystyle \frac 1 3</m> </td><td class='cv'> <m>0.\bar 3</m>  </td><td class='c'>  1 </td></tr>
+<m>\displaystyle \frac 1 3</m> </td><td class='cv'> <m>0.\bar 3</m>  </td><td class='c'>  1 </td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
+<tr><td class='hline' colspan='3'><hr /></td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
 <tr><td class='cv'>
-<m>\displaystyle \frac 1 6</m> </td><td class='cv'> <m>0.1\overline{6}</m> </td><td class='c'> 1</td></tr>
+<m>\displaystyle \frac 1 6</m> </td><td class='cv'> <m>0.1\overline{6}</m> </td><td class='c'> 1</td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
+<tr><td class='hline' colspan='3'><hr /></td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
 <tr><td class='cv'>
-<m>\displaystyle \frac 1 7</m> </td><td class='cv'> <m>0.\overline{142857}</m> </td><td class='c'> 6</td></tr>
+<m>\displaystyle \frac 1 7</m> </td><td class='cv'> <m>0.\overline{142857}</m> </td><td class='c'> 6</td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
+<tr><td class='hline' colspan='3'><hr /></td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
 <tr><td class='cv'>
-<m>\displaystyle \frac 1 {9}</m> </td><td class='cv'>  </td><td class='c'>  </td></tr>
+<m>\displaystyle \frac 1 {9}</m> </td><td class='cv'>  </td><td class='c'>  </td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
+<tr><td class='hline' colspan='3'><hr /></td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
 <tr><td class='cv'>
-<m>\displaystyle \frac 1 {11}</m> </td><td class='cv'>  </td><td class='c'>  </td></tr>
+<m>\displaystyle \frac 1 {11}</m> </td><td class='cv'>  </td><td class='c'>  </td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
+<tr><td class='hline' colspan='3'><hr /></td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
 <tr><td class='cv'>
-<m>\displaystyle \frac 1 {12}</m> </td><td class='cv'>  </td><td class='c'>  </td></tr>
+<m>\displaystyle \frac 1 {12}</m> </td><td class='cv'>  </td><td class='c'>  </td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
+<tr><td class='hline' colspan='3'><hr /></td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
 <tr><td class='cv'>
-<m>\displaystyle \frac 1 {13}</m> </td><td class='cv'>  </td><td class='c'>  </td></tr>
+<m>\displaystyle \frac 1 {13}</m> </td><td class='cv'>  </td><td class='c'>  </td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
-<tr><td class='hline' colspan='3'><hr /></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
+<tr><td class='hline' colspan='3'><hr /></td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
 <tr><td class='cv'>
-<m>\displaystyle \frac 1 {14}</m> </td><td class='cv'>  </td><td class='c'>  </td></tr>
+<m>\displaystyle \frac 1 {14}</m> </td><td class='cv'>  </td><td class='c'>  </td>
+    </tr>
 <tr><td class='cv'>
-</td><td class='cv'></td><td class='c'></td></tr>
-<tr><td class='cv'></td></tr></table> <br />  
+</td><td class='cv'></td><td class='c'></td>
+    </tr>
+<tr><td class='cv'></td>
+    </tr>
+</table>
+<br />
 <p>
 Try even more examples until you can make a conjecture: What can you say about the period of the fraction <m>\frac 1 n</m> when <m>n</m> has prime factors besides 2 and 5?
 </p>
- </statement>
+</statement>
 </problem>
-  
 <p>
-Imagine you are doing the "Dots &amp; Boxes" division to compute the decimal representation of a unit fraction like <m>\frac 1 6</m>. You start with a single dot in the ones box:
+Imagine you are doing the <q>Dots <ampersand /> Boxes</q> division to compute the decimal representation of a unit fraction like <m>\frac 1 6</m>. You start with a single dot in the ones box:
 </p>
-  <image source="images/" />  
+<image source="images/" />
 <p>
-To find the decimal expansion, you "unexplode" dots, form groups of six, see how many dots are left, and repeat.
+To find the decimal expansion, you <q>unexplode</q> dots, form groups of six, see how many dots are left, and repeat.
 </p>
-  
+
 <p>
 Draw your own pictures to follow along this explanation:
 </p>
-  <ul><li>When you unexplode the first dot, you get 10 dots in the <m>\frac 1{10}</m> box, which gives one group of six
+
+<ul>
+<li>When you unexplode the first dot, you get 10 dots in the <m>\frac 1{10}</m> box, which gives one group of six
  with remainder of 4.<br /></li>
 <li>When you unexplode those four dots, you get 40 dots in the <m>\frac 1{100}</m> box, which gives six group of six
  with remainder of 4.<br /></li>
- </ul>   
+</ul>
+
 <p>
 Since the remainder repeated (we got a remainder of 4 again), we can see that the process will now repeat forever:
 </p>
-  <ul><li>unexplode 4 dots to get 40 in the next box to the right,<br /></li>
-<li>make six groups of 6 dots with remainder 4,<br /></li>
+
+<ul>
 <li>unexplode 4 dots to get 40 in the next box to the right,<br /></li>
 <li>make six groups of 6 dots with remainder 4,<br /></li>
 <li>unexplode 4 dots to get 40 in the next box to the right,<br /></li>
 <li>make six groups of 6 dots with remainder 4,<br /></li>
-<li>and so on forever ...</li>
- </ul>  </subsection> 
+<li>unexplode 4 dots to get 40 in the next box to the right,<br /></li>
+<li>make six groups of 6 dots with remainder 4,<br /></li>
+<li>and so on forever <ddots /></li>
+</ul>
+</subsection>
+
+
 <subsection>
 <title>On Your Own</title>
 <p>
 Work on the following exercises on your own or with a partner.
 </p>
-  <ol><li>Use  "Dots &amp; Boxes" division  to compute the decimal representation of <m>\frac 1 {11}</m>.  Explain how you know for sure the process will repeat forever. <br /></li>
-<li>Use  "Dots &amp; Boxes" division  to compute the decimal representation of <m>\frac 1 {12}</m>.  Explain how you know for sure the process will repeat forever. <br /></li>
+
+<ol>
+<li>Use  <q>Dots <ampersand /> Boxes</q> division  to compute the decimal representation of <m>\frac 1 {11}</m>.  Explain how you know for sure the process will repeat forever. <br /></li>
+<li>Use  <q>Dots <ampersand /> Boxes</q> division  to compute the decimal representation of <m>\frac 1 {12}</m>.  Explain how you know for sure the process will repeat forever. <br /></li>
 <li>What are the possible <em>remainders</em> you can get when you use division to compute the fraction <m>\frac 1 7</m>?  How can you be sure the process will eventually repeat?<br /></li>
 <li>What are the possible <em>remainders</em> you can get when you use division to compute the fraction <m>\frac 1 {9}</m>?  How can you be sure the process will eventually repeat?<br /></li>
- </ol>   
-<problem><statement>
+</ol>
+<problem>
+<statement>
 <p>
 Suppose that <m>n</m> is a whole number, and it has some prime factors besides <m>2</m>'s and <m>5</m>'s. Write a convincing argument that:
 </p>
-  <ul><li>The decimal representation of <m>\frac 1 n</m> will  go on forever (it will not terminate).<br /></li>
+
+<ul>
+<li>The decimal representation of <m>\frac 1 n</m> will  go on forever (it will not terminate).<br /></li>
 <li>The decimal representation of <m>\frac 1 n</m> will be an infinite <em>repeating</em> decimal. <br /></li>
 <li>The period of the decimal representation of <m>\frac 1 n</m> will be less than<nbsp /><m>n</m>.</li>
- </ul>  </statement>
+</ul>
+</statement>
 </problem>
   
-<problem><statement> <ol type="a"><li>Find the "decimal" expansion for <m>\frac 1 2</m> in the following bases.    Be sure to show your work.
-
+<problem>
+<statement>
+<ol type="a"><li>Find the <q>decimal</q> expansion for <m>\frac 1 2</m> in the following bases.    Be sure to show your work.
 <me>
-
- 2,
+  2,
  \quad
   3, 
   \quad
@@ -507,12 +609,14 @@ Suppose that <m>n</m> is a whole number, and it has some prime factors besides <
     \quad
     9, \text{ and } 
     \quad
-    10.  
-  
+    10.
 </me>
 </li>
 <li>Make a conjecture: If I write the decimal expansion of <m>\frac 1 2</m> in base <m>b</m>, when will that expansion be finite and when will it be an infinite repeating decimal expansion?<br /></li>
 <li>Can you prove your conjecture is true?</li>
- </ol>  </statement>
+</ol>
+</statement>
 </problem>
- </subsection> </section>
+</subsection>
+
+</section>

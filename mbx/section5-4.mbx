@@ -1,46 +1,56 @@
-
 <section xml:id="sec__matching">
-<title>Matching Game</title><introduction>
+<title>Matching Game</title>
+<introduction>
 <p>
 Below, you'll find patterns described in various ways: through visual representations, algebraic expressions, in tables of numbers, and in words. Your job is to match these up in a way that makes sense.
 </p>
-  
+
 <p>
 Note: there may be more than one algebraic expression to match a given pattern, or more than one pattern to match a given description. So be ready to justify your answers.
 </p>
- </introduction> 
+</introduction>
+
+
 <subsection>
 <title>Algebraic expressions</title>
-<md><mrow>(a) \amp  \  t^2 
+<md>
+  <mrow>  (a) \amp  \  t^2 
 \amp 
 (b) \amp  \  2s + 1 
 \amp 
-(c) \amp  \  2k + (k-1) + 2k + (k-1)</mrow>
-  <mrow>(d) \amp  \  5n + 5
+(c) \amp  \  2k + (k-1) + 2k + (k-1)
+      </mrow>
+  <mrow>  (d) \amp  \  5n + 5
 \amp  
 (e) \amp  \ a + a
 \amp  
-(f) \amp  \ 3(\ell - 1) + 3 (\ell - 1) + 4</mrow>
-  <mrow>(g) \amp  \  3b + 1
+(f) \amp  \ 3(\ell - 1) + 3 (\ell - 1) + 4
+      </mrow>
+  <mrow>  (g) \amp  \  3b + 1
 \amp  
 (h) \amp  \ z+ z+ 1
 \amp  
-(i) \amp  \ m^2 - (m-1)^2</mrow>
-  <mrow>(j) \amp  \  y\cdot y
+(i) \amp  \ m^2 - (m-1)^2
+      </mrow>
+  <mrow>  (j) \amp  \  y\cdot y
 \amp  
 (k) \amp  \  2x - 1
 \amp  
-(\ell) \amp  \ 4e - (e-1)</mrow>
-  <mrow>(m) \amp  \  6f - 2
+(\ell) \amp  \ 4e - (e-1)
+      </mrow>
+  <mrow>  (m) \amp  \  6f - 2
 \amp  
 (n) \amp  \  2c
 \amp  
-(o) \amp  \ 5(s+1)</mrow>
- 
+(o) \amp  \ 5(s+1)
+      </mrow>
 </md>
- </subsection> 
+</subsection>
+
+
 <subsection>
-<title>Visual patterns</title><image source="images/" /> <br />
+<title>Visual patterns</title>
+<image source="images/" /> <br />
 Pattern 1
 
 
@@ -74,112 +84,120 @@ Pattern 6
 
 
 <image source="images/" /> <br />
-Pattern 7 </subsection> 
+Pattern 7
+</subsection>
+
+
 <subsection>
-<title>Tables of Numbers</title> <table id="47a36cc45df98beac61395464492dc3f37d66f9e" ><tr><td class='cvv'>
-Table A</td></tr>
+<title>Tables of Numbers</title>
+<table id="47a36cc45df98beac61395464492dc3f37d66f9e" >
 <tr><td class='cvv'>
-Input <nbsp /><nbsp />  </td><td class='cv'> <nbsp /><nbsp />  1 <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  2  <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  3  <nbsp /><nbsp /> </td><td class='c'> <nbsp /><nbsp /> 4  <nbsp /><nbsp /> </td></tr>
-<tr><td class='hline' colspan='5'><hr /></td></tr>
+Table A</td>
+    </tr>
 <tr><td class='cvv'>
-Output <nbsp /><nbsp />  </td><td class='cv'> <nbsp /><nbsp />  1 <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  4  <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  9  <nbsp /><nbsp /> </td><td class='c'> <nbsp /><nbsp /> 16  <nbsp /><nbsp /></td></tr>
-</table> 
-
-
-
-
-
-<table id="8d85c517aea02abfb5290c49ce11e01362e96161" ><tr><td class='cvv'>
-Table B</td></tr>
+Input <nbsp /><nbsp />  </td><td class='cv'> <nbsp /><nbsp />  1 <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  2  <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  3  <nbsp /><nbsp /> </td><td class='c'> <nbsp /><nbsp /> 4  <nbsp /><nbsp /> </td>
+    </tr>
+<tr><td class='hline' colspan='5'><hr /></td>
+    </tr>
 <tr><td class='cvv'>
-Input <nbsp /><nbsp />  </td><td class='cv'> <nbsp /><nbsp />  1 <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  2  <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  3  <nbsp /><nbsp /> </td><td class='c'> <nbsp /><nbsp /> 4  <nbsp /><nbsp /> </td></tr>
-<tr><td class='hline' colspan='5'><hr /></td></tr>
+Output <nbsp /><nbsp />  </td><td class='cv'> <nbsp /><nbsp />  1 <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  4  <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  9  <nbsp /><nbsp /> </td><td class='c'> <nbsp /><nbsp /> 16  <nbsp /><nbsp /></td>
+    </tr>
+</table>
+<table id="8d85c517aea02abfb5290c49ce11e01362e96161" >
 <tr><td class='cvv'>
-Output <nbsp /><nbsp />  </td><td class='cv'> <nbsp /><nbsp />  10 <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  15  <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  20  <nbsp /><nbsp /> </td><td class='c'> <nbsp /><nbsp /> 25  <nbsp /><nbsp /></td></tr>
-</table> 
-
-
-
-
-
-
-<table id="dd96fe8863c01b86a26c66432d1fe505c86320d4" ><tr><td class='cvv'>
-Table C</td></tr>
+Table B</td>
+    </tr>
 <tr><td class='cvv'>
-Input <nbsp /><nbsp />  </td><td class='cv'> <nbsp /><nbsp />  1 <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  2  <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  3  <nbsp /><nbsp /> </td><td class='c'> <nbsp /><nbsp /> 4  <nbsp /><nbsp /> </td></tr>
-<tr><td class='hline' colspan='5'><hr /></td></tr>
+Input <nbsp /><nbsp />  </td><td class='cv'> <nbsp /><nbsp />  1 <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  2  <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  3  <nbsp /><nbsp /> </td><td class='c'> <nbsp /><nbsp /> 4  <nbsp /><nbsp /> </td>
+    </tr>
+<tr><td class='hline' colspan='5'><hr /></td>
+    </tr>
 <tr><td class='cvv'>
-Output <nbsp /><nbsp />  </td><td class='cv'> <nbsp /><nbsp />  1 <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  3  <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  5  <nbsp /><nbsp /> </td><td class='c'> <nbsp /><nbsp /> 7  <nbsp /><nbsp /></td></tr>
-</table> 
-
-
-
-
-
-
-
-<table id="4119f373e85767bba6adf954d453020a995df7b2" ><tr><td class='cvv'>
-Table D</td></tr>
+Output <nbsp /><nbsp />  </td><td class='cv'> <nbsp /><nbsp />  10 <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  15  <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  20  <nbsp /><nbsp /> </td><td class='c'> <nbsp /><nbsp /> 25  <nbsp /><nbsp /></td>
+    </tr>
+</table>
+<table id="dd96fe8863c01b86a26c66432d1fe505c86320d4" >
 <tr><td class='cvv'>
-Input <nbsp /><nbsp />  </td><td class='cv'> <nbsp /><nbsp />  1 <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  2  <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  3  <nbsp /><nbsp /> </td><td class='c'> <nbsp /><nbsp /> 4  <nbsp /><nbsp /> </td></tr>
-<tr><td class='hline' colspan='5'><hr /></td></tr>
+Table C</td>
+    </tr>
 <tr><td class='cvv'>
-Output <nbsp /><nbsp />  </td><td class='cv'> <nbsp /><nbsp />  3 <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  5  <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  7  <nbsp /><nbsp /> </td><td class='c'> <nbsp /><nbsp /> 9  <nbsp /><nbsp /></td></tr>
-</table> 
-
-
-
-
-
-
-
-
-<table id="493e27887d4e7739fbf2c851342ab6ae696e761e" ><tr><td class='cvv'>
-Table E</td></tr>
+Input <nbsp /><nbsp />  </td><td class='cv'> <nbsp /><nbsp />  1 <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  2  <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  3  <nbsp /><nbsp /> </td><td class='c'> <nbsp /><nbsp /> 4  <nbsp /><nbsp /> </td>
+    </tr>
+<tr><td class='hline' colspan='5'><hr /></td>
+    </tr>
 <tr><td class='cvv'>
-Input <nbsp /><nbsp />  </td><td class='cv'> <nbsp /><nbsp />  1 <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  2  <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  3  <nbsp /><nbsp /> </td><td class='c'> <nbsp /><nbsp /> 4  <nbsp /><nbsp /> </td></tr>
-<tr><td class='hline' colspan='5'><hr /></td></tr>
+Output <nbsp /><nbsp />  </td><td class='cv'> <nbsp /><nbsp />  1 <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  3  <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  5  <nbsp /><nbsp /> </td><td class='c'> <nbsp /><nbsp /> 7  <nbsp /><nbsp /></td>
+    </tr>
+</table>
+<table id="4119f373e85767bba6adf954d453020a995df7b2" >
 <tr><td class='cvv'>
-Output <nbsp /><nbsp />  </td><td class='cv'> <nbsp /><nbsp />  4 <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  7  <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  10  <nbsp /><nbsp /> </td><td class='c'> <nbsp /><nbsp /> 13  <nbsp /><nbsp /></td></tr>
-</table> 
-
-
-
-
-
-
-<table id="7635c19adcddba31ee79e7930d5c076aefa9e126" ><tr><td class='cvv'>
-Table F</td></tr>
+Table D</td>
+    </tr>
 <tr><td class='cvv'>
-Input <nbsp /><nbsp />  </td><td class='cv'> <nbsp /><nbsp />  1 <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  2  <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  3  <nbsp /><nbsp /> </td><td class='c'> <nbsp /><nbsp /> 4  <nbsp /><nbsp /> </td></tr>
-<tr><td class='hline' colspan='5'><hr /></td></tr>
+Input <nbsp /><nbsp />  </td><td class='cv'> <nbsp /><nbsp />  1 <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  2  <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  3  <nbsp /><nbsp /> </td><td class='c'> <nbsp /><nbsp /> 4  <nbsp /><nbsp /> </td>
+    </tr>
+<tr><td class='hline' colspan='5'><hr /></td>
+    </tr>
 <tr><td class='cvv'>
-Output <nbsp /><nbsp />  </td><td class='cv'> <nbsp /><nbsp />  4 <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  10  <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  16  <nbsp /><nbsp /> </td><td class='c'> <nbsp /><nbsp /> 22  <nbsp /><nbsp /></td></tr>
-</table> 
-
-
-
-
-
-
-<table id="15b1047ec65c4c74e70ee0ce4bd959608a9b114e" ><tr><td class='cvv'>
-Table G</td></tr>
+Output <nbsp /><nbsp />  </td><td class='cv'> <nbsp /><nbsp />  3 <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  5  <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  7  <nbsp /><nbsp /> </td><td class='c'> <nbsp /><nbsp /> 9  <nbsp /><nbsp /></td>
+    </tr>
+</table>
+<table id="493e27887d4e7739fbf2c851342ab6ae696e761e" >
 <tr><td class='cvv'>
-Input <nbsp /><nbsp />  </td><td class='cv'> <nbsp /><nbsp />  1 <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  2  <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  3  <nbsp /><nbsp /> </td><td class='c'> <nbsp /><nbsp /> 4  <nbsp /><nbsp /> </td></tr>
-<tr><td class='hline' colspan='5'><hr /></td></tr>
+Table E</td>
+    </tr>
 <tr><td class='cvv'>
-Output <nbsp /><nbsp />  </td><td class='cv'> <nbsp /><nbsp />  2 <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  4  <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  6  <nbsp /><nbsp /> </td><td class='c'> <nbsp /><nbsp /> 8  <nbsp /><nbsp /></td></tr>
-</table> </subsection> 
+Input <nbsp /><nbsp />  </td><td class='cv'> <nbsp /><nbsp />  1 <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  2  <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  3  <nbsp /><nbsp /> </td><td class='c'> <nbsp /><nbsp /> 4  <nbsp /><nbsp /> </td>
+    </tr>
+<tr><td class='hline' colspan='5'><hr /></td>
+    </tr>
+<tr><td class='cvv'>
+Output <nbsp /><nbsp />  </td><td class='cv'> <nbsp /><nbsp />  4 <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  7  <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  10  <nbsp /><nbsp /> </td><td class='c'> <nbsp /><nbsp /> 13  <nbsp /><nbsp /></td>
+    </tr>
+</table>
+<table id="7635c19adcddba31ee79e7930d5c076aefa9e126" >
+<tr><td class='cvv'>
+Table F</td>
+    </tr>
+<tr><td class='cvv'>
+Input <nbsp /><nbsp />  </td><td class='cv'> <nbsp /><nbsp />  1 <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  2  <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  3  <nbsp /><nbsp /> </td><td class='c'> <nbsp /><nbsp /> 4  <nbsp /><nbsp /> </td>
+    </tr>
+<tr><td class='hline' colspan='5'><hr /></td>
+    </tr>
+<tr><td class='cvv'>
+Output <nbsp /><nbsp />  </td><td class='cv'> <nbsp /><nbsp />  4 <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  10  <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  16  <nbsp /><nbsp /> </td><td class='c'> <nbsp /><nbsp /> 22  <nbsp /><nbsp /></td>
+    </tr>
+</table>
+<table id="15b1047ec65c4c74e70ee0ce4bd959608a9b114e" >
+<tr><td class='cvv'>
+Table G</td>
+    </tr>
+<tr><td class='cvv'>
+Input <nbsp /><nbsp />  </td><td class='cv'> <nbsp /><nbsp />  1 <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  2  <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  3  <nbsp /><nbsp /> </td><td class='c'> <nbsp /><nbsp /> 4  <nbsp /><nbsp /> </td>
+    </tr>
+<tr><td class='hline' colspan='5'><hr /></td>
+    </tr>
+<tr><td class='cvv'>
+Output <nbsp /><nbsp />  </td><td class='cv'> <nbsp /><nbsp />  2 <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  4  <nbsp /><nbsp /> </td><td class='cv'> <nbsp /><nbsp />  6  <nbsp /><nbsp /> </td><td class='c'> <nbsp /><nbsp /> 8  <nbsp /><nbsp /></td>
+    </tr>
+</table>
+</subsection>
+
+
 <subsection>
-<title>Descriptions in words</title><ol type="i"><li>Count horizontal and vertical toothpicks separately.  Horizaontal: there are two rows of <m>n</m> toothpicks where <m>n</m> is the figure number.  There are <m>n-1</m> more of them on the vertical arm.  The vertical toothpicks are just the same.  There are two colums of <m>n</m> along the  vertical arm, and then <m>n-1</m> more of them on the horizontal arm.<br /></li>
-<li>To get a figure from the previous one, you add three toothpicks in a "C" shape on the left side of the figure.  The total number of toothpicks is three times the figure number, plus one extra to close off the square on the far right.<br /></li>
+<title>Descriptions in words</title>
+<ol type="i"><li>Count horizontal and vertical toothpicks separately.  Horizaontal: there are two rows of <m>n</m> toothpicks where <m>n</m> is the figure number.  There are <m>n-1</m> more of them on the vertical arm.  The vertical toothpicks are just the same.  There are two colums of <m>n</m> along the  vertical arm, and then <m>n-1</m> more of them on the horizontal arm.<br /></li>
+<li>To get a figure from the previous one, you add three toothpicks in a <q>C</q> shape on the left side of the figure.  The total number of toothpicks is three times the figure number, plus one extra to close off the square on the far right.<br /></li>
 <li>There are five spikes radiating out from the center.  Each spike has the same number of toothpicks as the figure number.  Each spike is capped off by one additional toothpick.<br /></li>
-<li>Each arm of the "L" shape has the same number of tiles as the figure number.  But then we've counted the corner of the "L" twice, so we have to subtract one to get the total number of tiles needed.<br /></li>
+<li>Each arm of the <q>L</q> shape has the same number of tiles as the figure number.  But then we've counted the corner of the <q>L</q> twice, so we have to subtract one to get the total number of tiles needed.<br /></li>
 <li>The stars are in two equal rows, and each row has the same number of stars as the figure number.<br /></li>
 <li>To make the next figure, you always add five more toothpicks.  Each arm has one more than the figure number of toothpicks, and there are five arms.<br /></li>
 <li>The stars are in a square, and the sides of the square have the same number of stars as the figure number.<br /></li>
-<li>Each arm of the "V" shape has the same number of stars as the figure number.  Then we need to add one more star for the corner.<br /></li>
+<li>Each arm of the <q>V</q> shape has the same number of stars as the figure number.  Then we need to add one more star for the corner.<br /></li>
 <li>There are the same number of squares as the figure number, and each square uses four toothpicks.  But then I've double-counted the toothpicks  where the squares touch, so we have to subtract those out.  There are one less of those than the figure number.<br /></li>
 <li>I can picture a square of tiles filled in.  The side length of that square is the same as the figure number, so that's <m>x^2</m>.  But then the square isn't really filled in.  It's like I took away a square one size smaller from the top right, leaving just the border.  What I took away was a square one size smaller, <m>(x-1)^2</m>.<br /></li>
-<li>Each time I go from one shape to the next, I add six new toothpicks.  Three are added to the left in a "C" shape and three are added to the top in a rotated "C" shape.  So the total number will be six times the figure number plus or minus something.  I can check to see that the right correction is to subtract 2.<br /></li>
- </ol>  </subsection> </section>
+<li>Each time I go from one shape to the next, I add six new toothpicks.  Three are added to the left in a <q>C</q> shape and three are added to the top in a rotated <q>C</q> shape.  So the total number will be six times the figure number plus or minus something.  I can check to see that the right correction is to subtract 2.<br /></li>
+</ol>
+</subsection>
+
+</section>

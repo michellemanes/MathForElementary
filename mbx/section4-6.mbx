@@ -1,57 +1,70 @@
-
 <section>
 <title>Dividing Fractions: Meaning</title>
 <p>
 We had several ways to think about division of whole numbers:
 </p>
-  <ul><li><b>Quotatitive model:</b> Make groups of a given size.  For example, for <m>18 \div 3</m>, we start with 18 dots (or candy bars or molecules), and we make groups of 3 dots (or 3 whatevers).  We ask: how many groups can we make?<br /></li>
+
+<ul>
+<li><b>Quotatitive model:</b> Make groups of a given size.  For example, for <m>18 \div 3</m>, we start with 18 dots (or candy bars or molecules), and we make groups of 3 dots (or 3 whatevers).  We ask: how many groups can we make?<br /></li>
 <li><b>Partitive model:</b> Make a given number of groups.  For <m>18 \div 3</m>, we say start with 18 dots (or people or pencils), and we make three equal-sized groups.  We ask: how many objects are in each group?<br /></li>
 <li><b>Missing factor model:</b> Solve a multiplication problem instead.  For <m>18 \div 3</m>, we rewrite the problem as <m>3 \cdot \underline{\qquad} = 18</m>.<br /></li>
- </ul>   
+</ul>
+
 <p>
 We can still think about all of these models when we divide fractions, but actually doing the calculation can be tricky!
 </p>
-  <paragraphs xml:id="partorquot"><title>Think/Pair/Share</title>
+<paragraphs xml:id="partorquot">
+<title>Think/Pair/Share</title>
 <p>
 For each problem below, draw a picture of the situation, and label the problem as partitive or quotative. Explain your thinking. Then try to solve each of the problems. Find as many different ways as you can to justify your solutions.
 </p>
-  <ol><li>It took Mary four bucketfuls of water to fill up her three gallon fish tank.  How much water does her bucket hold?<br /></li>
+
+<ol>
+<li>It took Mary four bucketfuls of water to fill up her three gallon fish tank.  How much water does her bucket hold?<br /></li>
 <li>You have <m>\frac 2 3</m> of a gallon of water in a bucket, and the bucket is <m>\frac 7 8</m> full.  How many gallons would it take to fill up the whole bucket?<br /></li>
 <li><m>10\frac 1 2</m> gallons of water fills up <m>2 \frac 1 3</m> buckets.  How many gallons are in one bucket?<br /></li>
 <li>Mr. Brown has a length of rope that measures <m>10 \frac 1 2</m> yards long.  Each boy in his scout troop needs a piece <m>2 \frac 1 3</m> yards long.  How many pieces of the required length can he cut?<br /></li>
- </ol>  </paragraphs>  
+</ol>
+</paragraphs>
 <p>
 Most people find problem (2) above quite challenging, and have a hard time both drawing a picture and being certain they have the right answer. (Even if you didn't find it so difficult, certainly you can imagine that some of your future students would be stumped by such a problem!)
 </p>
-  
+
 <p>
 If a problem is giving us trouble, what are some things we can do? Solve a simpler problem!
 Let's rephrase problem (2) in several new ways:
 </p>
-  <ol type="2a"><li>You have <m>\frac 2 3</m> of a gallon of water in a bucket, which fills up <m>\frac 1 2</m> of your bucket.  How many gallons total would it take to fill up the whole bucket?<br /></li>
+
+<ol type="2a"><li>You have <m>\frac 2 3</m> of a gallon of water in a bucket, which fills up <m>\frac 1 2</m> of your bucket.  How many gallons total would it take to fill up the whole bucket?<br /></li>
 <li>You have <m>\frac 2 3</m> of a gallon of water in a bucket, which fills up <m>\frac 1 3</m> of your bucket.  How many gallons total would it take to fill up the whole bucket?<br /></li>
 <li>You have <m>\frac 2 3</m> of a gallon of water in a bucket, which fills up <m>\frac 1 4</m> of your bucket.  How many gallons total would it take to fill up the whole bucket?<br /></li>
 <li>You have <m>\frac 2 3</m> of a gallon of water in a bucket, which fills up <m>\frac 1 5</m> of your bucket.  How many gallons total would it take to fill up the whole bucket?<br /></li>
 <li>You have <m>\frac 2 3</m> of a gallon of water in a bucket, which fills up <m>\frac 1 8</m> of your bucket.  How many gallons total would it take to fill up the whole bucket?<br /></li>
- </ol>   <paragraphs><title>Think/Pair/Share</title>
+</ol>
+<paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 Each of the problems above is significantly easier than the original problem (2). Discuss with a partner why these questions are easier. For each one, draw a picture and find the solution. Most importantly, find a general method to answer this question:
 </p>
-  <em>
-If <m>\frac 2 3</m> of a gallon  of water fills my bucket to the <m>\frac 1 n</m> mark, how much water does my bucket hold?</em> </paragraphs>  
+<em>
+If <m>\frac 2 3</m> of a gallon  of water fills my bucket to the <m>\frac 1 n</m> mark, how much water does my bucket hold?</em> </paragraphs>
 <p>
 So, back to original problem &#8202;&#x2014;&#8202; what's complicated in that case? The water doesn't fill your bucket to the <m>\frac 1 8</m> mark. It fills your bucket to the <m>\frac 7 8</m> mark.
 Here are some helpful questions to think about the next step of the problem:
 </p>
-  <ol type="2a"><li>You have <m>\frac 2 3</m> of a gallon of water in a bucket, which fills up <m>\frac 3 4</m> of your bucket.  How many gallons  would it take to fill up <m>\frac 1 4</m> of the bucket?  How many total to fill up the whole bucket?<br /></li>
+
+<ol type="2a"><li>You have <m>\frac 2 3</m> of a gallon of water in a bucket, which fills up <m>\frac 3 4</m> of your bucket.  How many gallons  would it take to fill up <m>\frac 1 4</m> of the bucket?  How many total to fill up the whole bucket?<br /></li>
 <li>You have <m>\frac 2 3</m> of a gallon of water in a bucket, which fills up <m>\frac 3 5</m> of your bucket.  How many gallons  would it take to fill up <m>\frac 1 5</m> of the bucket?  How many total to fill up the whole bucket?<br /></li>
-<li>You have <m>\frac 2 3</m> of a gallon of water in a bucket, which fills up <m>\frac 5 8 </m> of your bucket.  How many gallons  would it take to fill up <m>\frac 1 8</m> of the bucket?  How many total to fill up the whole bucket?<br /></li>
- </ol>   <paragraphs><title>Think/Pair/Share</title>
+<li>You have <m>\frac 2 3</m> of a gallon of water in a bucket, which fills up <m>\frac 5 8</m> of your bucket.  How many gallons  would it take to fill up <m>\frac 1 8</m> of the bucket?  How many total to fill up the whole bucket?<br /></li>
+</ol>
+<paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 Work on the questions above with a partner. Your goal is to be able to answer this question:
 </p>
-  <em>If  <m>\frac 2 3</m> gallons of water fills my bucket to the <m>\frac a b</m> mark, how can I find the total number of gallons that fills my bucket to the <m>\frac 1 b</m> mark?</em>  
+<em>If  <m>\frac 2 3</m> gallons of water fills my bucket to the <m>\frac a b</m> mark, how can I find the total number of gallons that fills my bucket to the <m>\frac 1 b</m> mark?</em>
 <p>
 If you can answer that, you should be able to apply it to answer the original version of problem (2) above.
 </p>
- </paragraphs> </section>
+</paragraphs>
+</section>

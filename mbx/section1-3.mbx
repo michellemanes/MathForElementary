@@ -1,166 +1,176 @@
-
 <section xml:id="sec_BewarePatterns">
 <title>Beware of Patterns!</title>
 <p>
-The "Look for Patterns" strategy can be particularly appealing, but you have to be careful! Don't forget the <b>"and Explain"</b> part of the strategy. Not all patterns are obvious, and not all of them will continue.
+The <q>Look for Patterns</q> strategy can be particularly appealing, but you have to be careful! Don't forget the <b><q>and Explain</q></b> part of the strategy. Not all patterns are obvious, and not all of them will continue.
 </p>
-  
-<problem><title>Dots on a Circle</title>
+<problem>
+<title>Dots on a Circle</title>
 <statement>
 <p>
 Start with a circle.
 </p>
-  <image source="images/" /> 
+<image source="images/" />
 <p>
 If I put two dots on the circle and connect them, the line divides the circle into two pieces.
 </p>
-  <image source="images/" /> 
+<image source="images/" />
 <p>
 If I put three dots on the circle and connect each pair of dots, the lines divides the circle into four pieces.
 </p>
-  <image source="images/" /> 
+<image source="images/" />
 <p>
 Suppose you put one hundred dots on a circle and connect each pair of dots. How many pieces will you get?
 </p>
- </statement>
+</statement>
 </problem>
-  <paragraphs><title>Think/Pair/Share</title>
+  <paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 After you have worked on the problem on your own for a while, talk through your ideas with a partner (even if you haven't solved it). What strategies did you try? What did you figure out? What questions do you still have?
 </p>
- </paragraphs>  
+</paragraphs>
 <p>
 The natural way to work on this problem is to use smaller numbers of dots and look for a pattern, right? If you haven't already, try it. How many pieces when you have four dots? Five dots? How would you describe the pattern?
 </p>
-  
+
 <p>
 Now try six dots. You'll want to draw a <em>big</em> circle and space out the six dots to make your counting easier. Then carefully count up how many pieces you get. It's probably a good idea to work with a partner so you can check each other's work. Make sure you count every piece once and don't count any piece twice. How can you be sure that you do that?
 </p>
-  
+
 <p>
 Were you surprised? For the first several steps, it <em>seems</em> to be the case that when you add a dot you double the number of pieces. But that would mean that for six dots, you should get 32 pieces, and you only get 31! The pattern simply doesn't hold up.
 </p>
-  
+
 <p>
 Mathematicians love looking for patterns and finding them. We get excited by patterns. But we are also very skeptical of patterns! If we can't explain <em>why</em> a pattern would occur, then we aren't willing to just believe it!
 </p>
-  
+
 <p>
 For example, if my number pattern starts out
 </p>
-  
 <me>
-
-2, 4, 8, \dots
-
+  2, 4, 8, \dots
 </me>
- 
 <p>
 I can find <em>lots</em> of ways to continue the pattern, each of which makes sense in some contexts. Here are some possibilities:
 </p>
-  <ul><li><m>2, 4, 8, 2, 4, 8, 2, 4, 8, 2, 4, 8, \dots</m>. <br />
+
+<ul>
+<li><m>2, 4, 8, 2, 4, 8, 2, 4, 8, 2, 4, 8, \dots</m>. <br />
 This is a a repeating pattern, cycling through the numbers <m>2, 4, 8</m> and then starting over with <m>2</m>.<br /></li>
 <li><m>2, 4, 8, 32, 256, 8192,  \dots</m>. <br />
 To get the next number, multiply the previous two numbers together.<br /></li>
 <li><m>2, 4, 8, 16, 32, 64, 128, 256, 512, 1024,  \dots</m>. <br /></li>
 <li><m>2, 4, 8, 14, 22, 32, 44, 58, 74  \dots</m>. <br /></li>
- </ul>   <paragraphs><title>Think/Pair/Share</title>
+</ul>
+<paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 Work on your own and then share your ideas with a partner:
 </p>
-  <ol><li>For the last two patterns above, describe in words how the number sequence is being created.</li>
+
+<ol>
+<li>For the last two patterns above, describe in words how the number sequence is being created.</li>
 <li>Find at least two other ways to continue the sequence <m>2, 4, 8, \dots</m> that looks different from all the ones you've seen so far.  Write your rule in words, and write the next five terms of the number sequence.</li>
- </ol>  </paragraphs>  
+</ol>
+</paragraphs>
 <p>
-So how can you be sure your pattern fits the problem? You have to tie them together! Remember the "Squares on a Chess Board" problem? You might have noticed a pattern like this one:
+So how can you be sure your pattern fits the problem? You have to tie them together! Remember the <q>Squares on a Chess Board</q> problem? You might have noticed a pattern like this one:
 </p>
-  
+
 <p>
 If the chess board has 5 squares on a side, then there are
 </p>
-  <ul><li><m>5 \times 5 =25</m> squares of size <m>1 \times 1</m>.</li>
+
+<ul>
+<li><m>5 \times 5 =25</m> squares of size <m>1 \times 1</m>.</li>
 <li><m>4 \times 4 = 16</m> squares of size <m>2 \times 2</m>.</li>
 <li><m>3 \times 3 =9</m> squares of side <m>3 \times 3</m>.</li>
 <li><m>2 \times 2 = 4</m> squares of size <m>4 \times 4</m>.</li>
 <li><m>1 \times 1 = 1</m> squares of size <m>5 \times 5</m>.</li>
- </ul>  
+</ul>
+
 <p>
 So there are a total of
 </p>
-  
 <me>
-
-1^2 + 2^2 + 3^2 + 4^2 + 5^2 = 55
-
+  1^2 + 2^2 + 3^2 + 4^2 + 5^2 = 55
 </me>
- 
 <p>
 squares on a <m>5 \times 5</m> chess board.
 </p>
-  
+
 <p>
-You can probably guess how to continue the pattern to any size board, but how can you be <em>absolutely sure</em> the pattern continues in this way? What if this is like "Dots on a Circle," and the obvious pattern breaks down after a few steps? You have to tie the pattern to the problem, so that it's clear why the pattern <em>must</em> continue in that way.
+You can probably guess how to continue the pattern to any size board, but how can you be <em>absolutely sure</em> the pattern continues in this way? What if this is like <q>Dots on a Circle,</q> and the obvious pattern breaks down after a few steps? You have to tie the pattern to the problem, so that it's clear why the pattern <em>must</em> continue in that way.
 </p>
-  
+
 <p>
 The first step in explaining a pattern is writing it down clearly. This brings us to another problem solving strategy.
 </p>
-  <paragraphs><title>Problem Solving Strategy</title>
+<paragraphs>
+<title>Problem Solving Strategy</title>
 <p>
 [Use a Variable!]
-One of the most powerful tools we have is the use of a <em>variable</em>. If you find yourself doing calculations on things like "the number of squares," or "the number of dots," give those quantities a name! They become much easier to work with.
+One of the most powerful tools we have is the use of a <em>variable</em>. If you find yourself doing calculations on things like <q>the number of squares,</q> or <q>the number of dots,</q> give those quantities a name! They become much easier to work with.
 </p>
- </paragraphs>  <paragraphs><title>Think/Pair/Share</title>
+</paragraphs>  <paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 For now, just work on <em>describing</em> the pattern with variables.
 </p>
-  <ul><li>Stick with a <m>5 \times 5 </m> chess board for now, and consider a small square of size <m>k \times k</m>.  Describe the pattern: How many squares of size <m>k \times k</m> fit on a chess board of size <m>5\times 5</m>?</li>
+
+<ul>
+<li>Stick with a <m>5 \times 5</m> chess board for now, and consider a small square of size <m>k \times k</m>.  Describe the pattern: How many squares of size <m>k \times k</m> fit on a chess board of size <m>5\times 5</m>?</li>
 <li>What if the chess board is bigger?  Based on the pattern above,  how many squares of size <m>k \times k</m> <em>should</em> fit on a chess board of size <m>10 \times 10</m>?</li>
 <li>What if you don't know how big the chess board is?  Based on the pattern above,  how many squares of size <m>k \times k</m> <em>should</em> fit on a chess board of size <m>n \times n</m>?</li>
- </ul>  </paragraphs>  
+</ul>
+</paragraphs>
 <p>
 Now comes the tough part: <em>explaining</em> the pattern. Let's focus on an <m>8 \times 8</m> board. Since it measures <m>8</m> squares on each side, we can see that we get <m>8 \times 8 = 64</m> squares of size <m>1 \times 1</m>. And since there's just a single board, we get just one square of size <m>8 \times 8</m>. But what about all the sizes in-between?
 </p>
-  
+
 <p>
 \fellow{Insert video showing why the count for <m>2 \times 2</m> squares should be <m>7 \times 7  = 49</m>. Model it on the general solution below.}
 </p>
-  <paragraphs><title>Think/Pair/Share</title>
+<paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 Using the video as a model, work with a partner to carefully explain why the number of <m>3 \times 3</m> squares will be <m>6 \times 6 = 36</m>, and why the number of <m>4 \times 4</m> squares will be <m>4 \times 4 = 16</m>.
 </p>
- </paragraphs>  
+</paragraphs>
 <p>
 Here's what a final justification might look like:
 </p>
-  
-<solution><title>Chess Board Pattern</title>
+<solution>
+<title>Chess Board Pattern</title>
 <statement>
 <p>
 Let <m>n</m> be the side of the chess board and let <m>k</m> be the side of the square. If the square is going to fit on the chess board at all, it must be true that <m>k \leq n</m>. Otherwise, the square is too big.
 </p>
-  
+
 <p>
 If I put the <m>k \times k</m> square in the upper left corner of the chess board, it takes up <m>k</m> spaces across and there are <m>(n-k)</m> spaces to the right of it. So I can slide the <m>k \times k</m> square to the right <m>(n-k)</m> times, until it hits the top right corner of the chess board. The square is in <m>(n-k+1)</m> different positions, counting the starting position.
 </p>
-  
+
 <p>
 If I move the <m>k \times k</m> square back to the upper left corner, I can shift it down one row and repeat the whole process again. Since there are <m>(n-k)</m> rows below the square, I can shift it down <m>(n-k)</m> times until it hits the bottom row. This makes <m>(n-k+1)</m> total rows that the square moves across, counting the top row.
 </p>
-  
+
 <p>
 So there are <m>(n-k+1)</m> rows with <m>(n-k+1)</m> squares in each row. That makes <m>(n-k+1)^2</m> total squares.
 </p>
- </statement>
+</statement>
 </solution>
-  
 <p>
 Once we're sure the pattern continues, we can use it to solve the problem. So go ahead!
 </p>
-  <ul><li>How many squares on a <m>10 \times 10</m> chess board?</li>
+
+<ul>
+<li>How many squares on a <m>10 \times 10</m> chess board?</li>
 <li>What calculation would you do to solve that problem for a <m>100 \times 100</m> chess board?</li>
- </ul>   
+</ul>
+
 <p>
-There <em>is</em> a number pattern that describes the number of pieces you get from the "Dots on a Circle" problem. If you want to solve the problem, go for it! Think about all of your problem solving strategies. But be sure that when you find a pattern, you can explain <em>why</em> it's the right pattern for this problem, and not just another pattern that seems to work but might not continue.
+There <em>is</em> a number pattern that describes the number of pieces you get from the <q>Dots on a Circle</q> problem. If you want to solve the problem, go for it! Think about all of your problem solving strategies. But be sure that when you find a pattern, you can explain <em>why</em> it's the right pattern for this problem, and not just another pattern that seems to work but might not continue.
 </p>
- </section>
+</section>

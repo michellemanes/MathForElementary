@@ -1,70 +1,94 @@
-
 <section>
 <title>Growing Patterns</title>
 <p>
 Here is a pattern made from square tiles.
 </p>
-  <image source="images/" />  <paragraphs><title>Think/Pair/Share</title>
+<image source="images/" />  <paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 First on your own and then with a partner, think about these questions:
 </p>
-  <ul><li>Describe how you see this pattern growing.  Be as specific as you can.  Draw pictures and write an explanation to make your answer clear.<br /></li>
+
+<ul>
+<li>Describe how you see this pattern growing.  Be as specific as you can.  Draw pictures and write an explanation to make your answer clear.<br /></li>
 <li>Say as much as you can about this growing pattern.  Can you draw pictures to extend the pattern?  <br /></li>
 <li>What mathematical questions can you ask about this pattern?  Can you answer any of them?<br /></li>
- </ul>  </paragraphs>  
+</ul>
+</paragraphs>
 <p>
 Here are some pictures that students drew to describe how the pattern was growing.
 </p>
-  <image source="images/" /> 
+<image source="images/" /> 
 Ali's picture.
 
 <image source="images/" /> 
 Michael's picture.
 
 <image source="images/" /> 
-Kelli's picture.  <paragraphs><title>Think/Pair/Share</title>
+Kelli's picture.  <paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 Describe in words how each student saw the pattern growing.
 Use the students' pictures above (or your own method of seeing the growing pattern) to answer the following questions:
 </p>
-  <ul><li>How many tiles would you need to build the 5th figure in the pattern?<br /></li>
+
+<ul>
+<li>How many tiles would you need to build the 5th figure in the pattern?<br /></li>
 <li>How many tiles would you need to build the 10th figure in the pattern?<br /></li>
 <li>How can you compute the number of tiles in any figure in the pattern?</li>
- </ul>  </paragraphs>  
-<problem><statement>
+</ul>
+</paragraphs>  
+<problem>
+<statement>
 <p>
 Hy saw the pattern in a different way from everyone else in class. Here's what he drew:
 </p>
-  <image source="images/" /> 
+<image source="images/" /> 
 Hy's picture.  <ol type="a"><li>Describe in words how Hy saw the pattern grow.<br /></li>
 <li>How would Hy calculate the number of tiles needed to build the 10th figure in the pattern?<br /></li>
 <li>How would Hy calculate the number of tiles needed to build the 100th figure in the pattern?<br /></li>
 <li>How would Hy calculate the number of tiles needed to build any figure in the pattern?</li>
- </ol>  </statement>
+</ol>
+</statement>
 </problem>
-  
 <p>
 The next few problems present several growing patterns made with tiles. For each problem you work on, do the following:
 </p>
-  <ol type="a"><li>Describe in words and pictures how you see the pattern growing.<br /></li>
+
+<ol type="a"><li>Describe in words and pictures how you see the pattern growing.<br /></li>
 <li>Calculate the number of tiles you would need to build the 10th figure in the pattern.  Justify your answer based on how the pattern grows.<br /></li>
 <li>Calculate the number of tiles you would need to build the 100th figure in the pattern.  <br /></li>
 <li>Describe how you can figure out the number of tiles in any figure in the pattern.  Be sure to justify your answer based on how the pattern grows.<br /></li>
 <li>Could you make one of the figures in the pattern using exactly 25 tiles?  If yes, which figure?  If no, why not?  Justify your answer.<br /></li>
 <li>Could you make one of the figures in the pattern using exactly 100 tiles?  If yes, which figure?  If no, why not?    Justify your answer.<br /></li>
- </ol>   
-<problem><statement> <image source="images/" /> </statement>
+</ol>
+<problem>
+<statement>
+<image source="images/" />
+</statement>
 </problem>
   
-<problem><statement> <image source="images/" /> </statement>
+<problem>
+<statement>
+<image source="images/" />
+</statement>
 </problem>
   
-<problem><statement> <image source="images/" /> </statement>
+<problem>
+<statement>
+<image source="images/" />
+</statement>
 </problem>
   
-<problem><statement> <image source="images/" /> </statement>
+<problem>
+<statement>
+<image source="images/" />
+</statement>
 </problem>
   
-<problem><statement> <image source="images/" /> </statement>
+<problem>
+<statement>
+<image source="images/" />
+</statement>
 </problem>
- </section>
+</section>

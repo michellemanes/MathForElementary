@@ -1,248 +1,294 @@
-
 <section>
-<title>Problem Solving Strategies</title><introduction>
+<title>Problem Solving Strategies</title>
+<introduction>
 <p>
 Think back to the first problem in this chapter. What did you do to solve it? Even if you didn't figure it out completely by yourself, you probably worked towards a solution and figured out some things that <em>didn't</em> work.
 </p>
-  
+
 <p>
 Unlike exercises, there is never a simple recipe for solving a problem. You can get better and better at solving problems, both by building up your background knowledge and by simply practicing. As you solve more problems (and learn how other people solved them), you learn strategies and techniques that can be useful. But no single strategy works every time.
 </p>
- </introduction> 
+</introduction>
+
+
 <subsection>
 <title>George Polya</title>
 <p>
 \fellow{Get a picture of Polya and write a SHORT bio. You can pull information from the web and from the textbook. But don't overdo it.}
 </p>
- </subsection> 
+</subsection>
+
+
 <subsection>
 <title>Polya's <q>How to Solve it</q></title>
 <p>
 In 1945, Polya published the short book <em>How to Solve It</em>, which gave a four-step method for solving mathematical problems:
 </p>
-  <ol><li>First, you have to understand the problem.</li>
+
+<ol>
+<li>First, you have to understand the problem.</li>
 <li>After understanding, then make a plan.</li>
 <li>Carry out the plan.</li>
 <li>Look back on your work. How could it be better?</li>
- </ol>   
+</ol>
+
 <p>
-This is all well and good, but how do you actually <b>do</b> these steps?!?! Steps (1) and (2) are particularly mysterious! How do you "make a plan"? That's where you need some tools in your toolbox, and some experience to draw upon.
+This is all well and good, but how do you actually <b>do</b> these steps?!?! Steps (1) and (2) are particularly mysterious! How do you <q>make a plan</q>? That's where you need some tools in your toolbox, and some experience to draw upon.
 </p>
-  
+
 <p>
 Much has been written since 1945 to explain these steps in more detail, but the truth is that they are more art than science. This is where math becomes a creative endeavor (and where it becomes so much fun). We'll articulate some useful problem solving strategies, but no such list will ever be complete. This is really just a start to help you on your way. The best way to become a skilled problem solver is to learn the background material well, and then to solve lots of problems!
 </p>
-  
+
 <p>
-We have already seen one problem solving strategy, which we called "Wishful Thinking." Don't be afraid to change the problem! As yourself "what if" questions: What if the picture was different? What if the numbers were simpler? What if I just made up some numbers? You need to be sure to go back to the original problem at the end, but wishful thinking can be a powerful strategy for getting started.
+We have already seen one problem solving strategy, which we called <q>Wishful Thinking.</q> Don't be afraid to change the problem! As yourself <q>what if</q> questions: What if the picture was different? What if the numbers were simpler? What if I just made up some numbers? You need to be sure to go back to the original problem at the end, but wishful thinking can be a powerful strategy for getting started.
 </p>
-  
+
 <p>
 This brings us to the most important problem solving strategy of all:
 </p>
-  <paragraphs><title>Problem Solving Strategy</title>
+<paragraphs>
+<title>Problem Solving Strategy</title>
 <p>
 [Try Something!]
 If you're really trying to solve a problem, the whole point is that you don't know what to do right out of the starting gate. You need to just try something! Put pencil to paper (or stylus to screen or chalk to board or whatever!) and try something. This is often an important step in understanding the problem; just mess around with it a bit to understand the situation and figure out what's going on.
 </p>
- </paragraphs>  
+</paragraphs>
 <p>
 And equally important: If what you tried first doesn't work, try something else! Play around with the problem until you have a feel for what's going on.
 </p>
- </subsection> 
+</subsection>
+
+
 <subsection>
 <title>Two More Strategies</title>
-<problem><title>Payback</title>
+<problem>
+<title>Payback</title>
 <statement>
 <p>
 Last week, Alex borrowed money from several of his friends. He finally got paid at work, so he brought cash to school to pay back his debts. First he saw Brianna, and he gave her <m>1/4</m> of the money he had brought to school. Then Alex saw Chris and gave him <m>1/3</m> of what he had left after paying Brianna. Finally, Alex saw David and gave him <m>1/2</m> of what he had left. Who got the most money from Alex?
 </p>
- </statement>
+</statement>
 </problem>
-  <paragraphs><title>Think/Pair/Share</title>
+  <paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 After you have worked on the problem on your own for a while, talk through your ideas with a partner (even if you haven't solved it). What did you try? What did you figure out about the problem, even if you haven't solved it completely.
 </p>
- </paragraphs>  
+</paragraphs>
 <p>
 This problem lends itself to two particular strategies. Did you try either of these as you worked on the problem? If not, read about the strategy and then try it out before seeing the solution.
 </p>
-  <paragraphs><title>Problem Solving Strategy</title>
+<paragraphs>
+<title>Problem Solving Strategy</title>
 <p>
 [Draw a Picture]
 Some problems are obviously about a geometric situation, and it's clear you want to draw a picture and mark down all of the given information before you try to solve it. But even for a problem that isn't geometric, like this one, thinking visually can help! Can you represent something in the situation by a picture?
 </p>
- </paragraphs>  
+</paragraphs>
 <p>
 Draw a square to represent all of Alex's money. Then shade <m>1/4</m> of the square &#8202;&#x2014;&#8202; that's what he gave away to Brianna. How can the picture help you finish the problem?
 </p>
-  
+
 <p>
 After you have worked on the problem yourself using this strategy (or if you're totally stuck), you can watch someone else's solution:
 \fellow{Add an animation of the solution described as shown in Monique's book?}
 </p>
-  <paragraphs><title>Problem Solving Strategy</title>
+<paragraphs>
+<title>Problem Solving Strategy</title>
 <p>
 [Make Up Numbers]
 Part of what makes this problem difficult is that it's about money, but there are no numbers given. That means the numbers must not be important. So just make them up!
 </p>
- </paragraphs>  
+</paragraphs>
 <p>
-You can work forwards: Assume Alex had some specific amount of money when she showed up at school, say \$100. Then figure out how much he gives to each person. Or you can work backwards: suppose he has some specific amount left at the end, like \$10. Since he gave Chris half of what he had left, that means he had \$20 before running into Chris. Now, work backwards and figure out how much each person got.
+You can work forwards: Assume Alex had some specific amount of money when she showed up at school, say <dollar />100. Then figure out how much he gives to each person. Or you can work backwards: suppose he has some specific amount left at the end, like <dollar />10. Since he gave Chris half of what he had left, that means he had <dollar />20 before running into Chris. Now, work backwards and figure out how much each person got.
 </p>
-  
+
 <p>
 Watch the solution only after you tried this strategy for yourself:
 \fellow{Add an animation of the solution described as shown in Monique's book?}
 </p>
-  
+
 <p>
-If you use the "Make Up Numbers" strategy, it's really important to remember what the original problem was asking! You don't want to answer something like "Everyone got \$10." That's not true in the original problem; that's an artifact of the numbers you made up. So after you work everything out, be sure to re-read the problem and <b>answer what was asked</b>!
+If you use the <q>Make Up Numbers</q> strategy, it's really important to remember what the original problem was asking! You don't want to answer something like <q>Everyone got <dollar />10.</q> That's not true in the original problem; that's an artifact of the numbers you made up. So after you work everything out, be sure to re-read the problem and <b>answer what was asked</b>!
 </p>
- </subsection> 
+</subsection>
+
+
 <subsection>
 <title>Four More Strategies</title>
-<problem xml:id="prob_chessboard"><title>Squares on a Chess Board</title>
+<problem xml:id="prob_chessboard">
+<title>Squares on a Chess Board</title>
 <statement>
 <p>
 How many squares are on a standard <m>8 \times 8</m> chess board? (The answer is <em>not</em> 64! It's a lot bigger!)
 </p>
- </statement>
+</statement>
 </problem>
-  
 <p>
 Remember Polya's first step is to understand the problem. If you're not sure what's being asked, or why the answer is not just 64, be sure to ask someone!
 </p>
-  <paragraphs><title>Think/Pair/Share</title>
+<paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 After you have worked on the problem on your own for a while, talk through your ideas with a partner (even if you haven't solved it). What did you try? What did you figure out about the problem, even if you haven't solved it completely.
 </p>
- </paragraphs>  
+</paragraphs>
 <p>
-It's pretty clear that you want to draw a picture for this problem, but even with the picture it can be hard to know if you've found the correct answer. The numbers get big, and it can be hard to keep track of your work. Your goal at the end is to be <em>absolutely positive</em> that you found the right answer. You should never ask the teacher, "Is this right?" Instead, you should declare, "Here's my answer, and here's why I know it's correct!"
+It's pretty clear that you want to draw a picture for this problem, but even with the picture it can be hard to know if you've found the correct answer. The numbers get big, and it can be hard to keep track of your work. Your goal at the end is to be <em>absolutely positive</em> that you found the right answer. You should never ask the teacher, <q>Is this right?</q> Instead, you should declare, <q>Here's my answer, and here's why I know it's correct!</q>
 </p>
-  <paragraphs><title>Problem Solving Strategy</title>
+<paragraphs>
+<title>Problem Solving Strategy</title>
 <p>
 [Try a Simpler Problem]
-Polya suggested this strategy: "If you can't solve a problem, then there is an easier problem you can solve: find it." He also said: "If you cannot solve the proposed problem, try to solve first some related problem. Could you imagine a more accessible related problem?" In this case, an <m>8 \times 8</m> checkerboard is pretty big. Can you solve the problem for smaller boards? Like <m>1 \times 1</m>? <m>2 \times 2</m>? <m>3 \times 3</m>?
+Polya suggested this strategy: <q>If you can't solve a problem, then there is an easier problem you can solve: find it.</q> He also said: <q>If you cannot solve the proposed problem, try to solve first some related problem. Could you imagine a more accessible related problem?</q> In this case, an <m>8 \times 8</m> checkerboard is pretty big. Can you solve the problem for smaller boards? Like <m>1 \times 1</m>? <m>2 \times 2</m>? <m>3 \times 3</m>?
 </p>
- </paragraphs>  
+</paragraphs>
 <p>
 Of course the ultimate goal is to solve the original problem. But working with smaller boards might give you some insight and help you devise your plan (that's Polya's step (2)).
 </p>
-  <paragraphs><title>Problem Solving Strategy</title>
+<paragraphs>
+<title>Problem Solving Strategy</title>
 <p>
 [Work Systematically]
 If you're working on simpler problems, it's useful to keep track of what you've figured out and what changes as the problem gets more complicated.
 </p>
- </paragraphs>  
+</paragraphs>
 <p>
 For example, in this problem you might keep track of how many <m>1\times 1</m> squares are on each board, how many <m>2\times2</m> squares on are each board, how many <m>3 \times 3</m> squares are on each board, and so on. You could keep track of the information in a table:
 </p>
-  <table id="f72277daebbd263f09decc8ade780d9df4aed256" ><tr><td class='hline' colspan='6'><hr /></td></tr>
+<table id="f72277daebbd263f09decc8ade780d9df4aed256" >
+<tr><td class='hline' colspan='6'><hr /></td>
+    </tr>
 <tr><td class='vcvv'>
- size of board </td><td class='cv'>  <m>1 \times 1 </m> squares </td><td class='cv'>  <m>2 \times 2 </m> squares </td><td class='cv'>  <m>3 \times 3 </m> squares </td><td class='cv'>  <m>4 \times 4 </m> squares </td><td class='cv'> &hellip; </td></tr>
-<tr><td class='hlinethick' colspan='6'><hr /></td></tr>
-
+ size of board </td><td class='cv'>  <m>1 \times 1</m> squares </td><td class='cv'>  <m>2 \times 2</m> squares </td><td class='cv'>  <m>3 \times 3</m> squares </td><td class='cv'>  <m>4 \times 4</m> squares </td><td class='cv'> <ellipsis /> </td>
+    </tr>
+<tr><td class='hlinethick' colspan='6'><hr /></td>
+    </tr>
 <tr><td  class='vcvv' >
- <m>1 \times 1 </m> </td><td class='cv'> 1 </td><td class='cv'> 0 </td><td class='cv'> 0 </td><td class='cv'> 0 </td><td class='cv'> &hellip;</td></tr>
-<tr><td class='hline' colspan='6'><hr /></td></tr>
+ <m>1 \times 1</m> </td><td class='cv'> 1 </td><td class='cv'> 0 </td><td class='cv'> 0 </td><td class='cv'> 0 </td><td class='cv'> <ellipsis /></td>
+    </tr>
+<tr><td class='hline' colspan='6'><hr /></td>
+    </tr>
 <tr><td class='vcvv'>
- <m>2 \times 2 </m> </td><td class='cv'> 4 </td><td class='cv'> 1 </td><td class='cv'> 0 </td><td class='cv'> 0 </td><td class='cv'> &hellip;</td></tr>
-<tr><td class='hline' colspan='6'><hr /></td></tr>
+ <m>2 \times 2</m> </td><td class='cv'> 4 </td><td class='cv'> 1 </td><td class='cv'> 0 </td><td class='cv'> 0 </td><td class='cv'> <ellipsis /></td>
+    </tr>
+<tr><td class='hline' colspan='6'><hr /></td>
+    </tr>
 <tr><td class='vcvv'>
-  <m>3 \times 3 </m> </td><td class='cv'>   </td><td class='cv'>   </td><td class='cv'>   </td><td class='cv'>   </td><td class='cv'> &hellip;</td></tr>
-<tr><td class='hline' colspan='6'><hr /></td></tr>
+  <m>3 \times 3</m> </td><td class='cv'>   </td><td class='cv'>   </td><td class='cv'>   </td><td class='cv'>   </td><td class='cv'> <ellipsis /></td>
+    </tr>
+<tr><td class='hline' colspan='6'><hr /></td>
+    </tr>
 <tr><td class='vcvv'>
-  \vdots </td><td class='cv'>  </td><td class='cv'> </td><td class='cv'> </td><td class='cv'> </td><td class='cv'> </td></tr>
-<tr><td class='hline' colspan='6'><hr /></td></tr>
-
-</table>  <paragraphs><title>Problem Solving Strategy</title>
+  \vdots </td><td class='cv'>  </td><td class='cv'> </td><td class='cv'> </td><td class='cv'> </td><td class='cv'> </td>
+    </tr>
+<tr><td class='hline' colspan='6'><hr /></td>
+    </tr>
+</table>
+<paragraphs>
+<title>Problem Solving Strategy</title>
 <p>
 [Use Manipulatives to Help You Investigate]
 Sometimes even drawing a picture may not be enough to help you investigate a problem. Having actual materials that you move around can sometimes help a lot!
 </p>
- </paragraphs>  
+</paragraphs>
 <p>
 For example, in this problem it can be difficult to keep track of which squares you've already counted. You might want to cut out <m>1 \times 1</m> squares, <m>2 \times 2</m> squares, <m>3 \times 3</m> squares, and so on. You can actually move the smaller squares across the checkerboard in a systematic way, making sure that you count everything once and don't count anything twice.
 </p>
-  
+
 <p>
 \fellow{Make a video showing how to do this on a <m>5 \times 5</m> board, using cutouts of a <m>2 \times 2</m> and / or a <m>3 \times 3</m>?}
 </p>
-  <paragraphs><title>Problem Solving Strategy</title>
+<paragraphs>
+<title>Problem Solving Strategy</title>
 <p>
 [Look for and Explain Patterns]
 Sometimes the numbers in a problem are so big, there's no way you will actually count everything up by hand. For example, if the problem in this section were about a <m>100 \times 100</m> chess board, you wouldn't want to go through counting all the squares by hand! It would be much more appealing to find a pattern in the smaller boards and then extend that pattern to solve the problem for a <m>100 \times 100</m> chess board just with a calculation.
 </p>
- </paragraphs>  <paragraphs><title>Think/Pair/Share</title>
+</paragraphs>  <paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 If you haven't done so already, extend the Table above all the way to an <m>8\times 8</m> chess board, filling in all the rows and columns. Use your table to find the total number of squares in an <m>8 \times 8</m> chess board. Then:
 </p>
-  <ul><li>Describe all of the patterns you see in the table.</li>
+
+<ul>
+<li>Describe all of the patterns you see in the table.</li>
 <li>Can you <em>explain</em> and <em>justify</em> any of the patterns you see?  How can you be sure they will continue?</li>
 <li>What calculation would you do to find the total number of squares on a <m>100 \times 100</m> chess board?</li>
- </ul>  </paragraphs>  
+</ul>
+</paragraphs>
 <p>
 (We'll come back to this question in <xref ref="sec_BewarePatterns">Section</xref>. So if you're not sure right now how to explain and justify the patterns you found, that's OK.)
 </p>
- </subsection> 
+</subsection>
+
+
 <subsection>
 <title>Two More Strategies</title>
-<problem xml:id="prob_BrokenClock"><title>Broken Clock</title>
+<problem xml:id="prob_BrokenClock">
+<title>Broken Clock</title>
 <statement>
 <p>
 This clock has been broken into three pieces. If you add the numbers in each piece, the sums are consecutive numbers. Can you break another clock into a different number of pieces so that the sums are consecutive numbers?
 </p>
-  <image source="images/" /> 
+<image source="images/" />
 <p>
 Assume that each piece has at least two numbers and that no number is damaged (e.g. 12 isn't split into two digits 1 and 2.)
 </p>
- </statement>
+</statement>
 </problem>
-  
 <p>
 \fellow{Replace clock picture as before.}
 </p>
-  
+
 <p>
 Remember that your first step is to understand the problem. Work out what's going on here. What are the sums of the numbers on each piece? Are they consecutive? (What does that mean?)
 </p>
-  <paragraphs><title>Think/Pair/Share</title>
+<paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 After you have worked on the problem on your own for a while, talk through your ideas with a partner (even if you haven't solved it). What did you try? What progress have you made?
 </p>
- </paragraphs>  <paragraphs><title>Problem Solving Strategy</title>
+</paragraphs>  <paragraphs>
+<title>Problem Solving Strategy</title>
 <p>
 [Find the Math, Remove the Context]
 Sometimes the problem has a lot of details in it that are unimportant, or at least unimportant for getting started. The goal is to find the underlying math problem, then come back to the original question and see if you can solve it using the math.
 </p>
- </paragraphs>  
+</paragraphs>
 <p>
 In this case, worrying about the clock and exactly how the pieces break is less important than worrying about finding consecutive numbers that sum to the correct total. Ask yourself:
 </p>
-  <ul><li>What is the sum of all the numbers on the clock's face?</li>
+
+<ul>
+<li>What is the sum of all the numbers on the clock's face?</li>
 <li>Can I find two consecutive numbers that give the correct sum?  Or four consecutive numbers?  Or some other amount?</li>
 <li>How do I know when I'm done?  When should I stop looking?</li>
- </ul>   
+</ul>
+
 <p>
 Of course, solving the question about consecutive numbers is not the same as solving the original problem. You have to go back and see if the clock can actually break apart so that each piece gives you one of those consecutive numbers. Maybe you can solve the math problem, but it doesn't translate into solving the clock problem.
 </p>
-  <paragraphs><title>Problem Solving Strategy</title>
+<paragraphs>
+<title>Problem Solving Strategy</title>
 <p>
 [Check Your Assumptions]
 When solving problems, it's easy to limit your thinking by adding extra assumptions that aren't in the problem. Be sure you ask yourself: Am I constraining my thinking too much?
 </p>
- </paragraphs>  
+</paragraphs>
 <p>
 In the clock problem, because the first solution has the clock broken <em>radially</em> (all three pieces meet at the center, so it looks like slicing a pie), many people assume that's how the clock must break. But the problem doesn't require the clock to break radially. It might break into pieces like this:
 </p>
-  
+
 <p>
 \fellow{Add a picture of a clock broken into pieces with the breaks going across, not radial. For example, three pieces: <m>\{11, 12, 1, 2\}</m>, <m>\{10,9, 3, 4, 5\}</m>, and <m>\{6,7,8\}</m>.}
 </p>
-  
+
 <p>
 Were you assuming the clock would break in a specific way? Try to solve the problem now, if you haven't already.
 </p>
- </subsection> </section>
+</subsection>
+
+</section>

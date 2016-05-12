@@ -1,475 +1,509 @@
-
 <section>
-<title>Operations on Decimals</title><introduction>
+<title>Operations on Decimals</title>
+<introduction>
 <p>
 Sometimes computing with decimals is most natural if you think of them as fractions and use what you know there. So let's start by reviewing some computations with fractions.
 </p>
-  <paragraphs><title>Think/Pair/Share</title> <ul><li>Compute each of these  sums in your head, and explain how you did it:
-
+<paragraphs>
+<title>Think/Pair/Share</title>
+<ul>
+<li>Compute each of these  sums in your head, and explain how you did it:
 <me>
-
-\frac 1 5 + \frac 2 5 
+  \frac 1 5 + \frac 2 5 
 \qquad\qquad
 \frac 1 2 + \frac 1 2 
 \qquad\qquad
 \frac 4 7 + \frac 5 7.
-
 </me>
- <br /></li>
+<br /></li>
 <li>Solve each missing added computation in your head, and explain how you did it:
-
 <me>
-
-\frac 1 5 + \underline{\qquad} = \frac 4 5 
+  \frac 1 5 + \underline{\qquad} = \frac 4 5 
 \qquad\qquad
 \frac 1 3 + \underline{\qquad} = \frac {11}3
 \qquad\qquad
 \frac 2 {13} + \underline{\qquad} = 1.
-
 </me>
- <br /></li>
- </ul>  </paragraphs>  
+<br /></li>
+</ul>
+</paragraphs>
 <p>
 You know how to add and subtract fractions with the same denominator; simply add or subtract the numerators and keep the denominator the same. When the fractions have different denominators, you can find equivalent fractions with the same denominator and then proceed.
 </p>
- </introduction> 
+</introduction>
+
+
 <subsection>
 <title>On Your Own</title>
 <p>
 Work on the following exercise on your own or with a partner.
 </p>
-  <ol><li>For each computation shown, first rewrite the computation using fractions, then compute.  Translate your answer back to a decimal.  Show all of your work.
 
-<md><mrow>0.1 \amp + 0.5
+<ol>
+<li>For each computation shown, first rewrite the computation using fractions, then compute.  Translate your answer back to a decimal.  Show all of your work.
+
+<md>
+  <mrow>  0.1 \amp + 0.5
 \amp 
 0.23 \amp + 0.04
 \amp 
-0.121 \amp + 0.297</mrow>
-  <mrow>0.23 \amp + 0.012
+0.121 \amp + 0.297
+      </mrow>
+  <mrow>  0.23 \amp + 0.012
 \amp 
 0.101 \amp + 0.099
 \amp 
-0.73 \amp + 0.025</mrow>
-  <mrow>0.3 \amp + \underline{\qquad} = 0.31
+0.73 \amp + 0.025
+      </mrow>
+  <mrow>  0.3 \amp + \underline{\qquad} = 0.31
 \amp 
 0.88 \amp + \underline{\qquad} = 0.93
 \amp 
-0.49 \amp + \underline{\qquad} = 1</mrow>
-  <mrow>0.7 \amp \times 0.6 
+0.49 \amp + \underline{\qquad} = 1
+      </mrow>
+  <mrow>  0.7 \amp \times 0.6 
 \amp 
 0.002 \amp  \times 0.003
 \amp 
-5.12 \amp \times 0.3</mrow>
-  
+5.12 \amp \times 0.3
+      </mrow>
 </md>
 </li>
- </ol>  </subsection> 
+</ol>
+</subsection>
+
+
 <subsection>
 <title>Adding and Subtracting Decimals</title>
 <p>
 We can always add and subtract decimal numbers by rewriting them as fractions and using the algorithms we know there.
 Of course, sometimes it is a lot more work to convert to fractions than it is to just add the decimals (as long as you know what you're doing!). So let's think about place value and adding decimals without all of that conversion back and forth.
 </p>
-  
+
 <p>
-Remember that when we used the "Dots &amp; Boxes" model to add and subtract, it looked like this.
+Remember that when we used the <q>Dots <ampersand /> Boxes</q> model to add and subtract, it looked like this.
 </p>
-  
-<example><title>$163+489$</title>
+<example>
+<title>$163+489$</title>
 <statement>
 <p>
 Consider <m>163+489</m>.
 </p>
-  <image source="images/" /> 
-
 <image source="images/" /> 
+
+<image source="images/" />
 <p>
 We then perform explosions until there are fewer than ten dots in each box, and we find that
 </p>
-  
 <me>
-
-163 + 489 = 652.
-
+  163 + 489 = 652.
 </me>
- </statement>
+</statement>
 </example>
-  
 <p>
 Subtraction was a little more complicated.
 </p>
-  
-<example><title>$921-551$</title>
+<example>
+<title>$921-551$</title>
 <statement>
 <p>
 We start with the representation of 921:
 </p>
-  <image source="images/" />  
+<image source="images/" />
 <p>
-Since we want to "take away" 551, that means we take away
+Since we want to <q>take away</q> 551, that means we take away
 five dots from the hundreds box, leaving four dots.
 </p>
-  <image source="images/" />  
+<image source="images/" />
 <p>
 Now we want to take away five dots from the tens box, but we
-can't do it! There are only two dots there. So we can "unexplode" a
+can't do it! There are only two dots there. So we can <q>unexplode</q> a
 hundreds dot, and put ten dots in the tens box instead. Then
 we'll be able to take five of them away, leaving seven.
 </p>
-  <image source="images/" />  
+<image source="images/" />
 <p>
 Of course, we now have one less dot in the hundreds box;
 there's only three dots left there.
 Finally, we want to take one dot from the ones box, and that
 leaves no dots there.
 </p>
-  <image source="images/" />  
+<image source="images/" />
 <p>
 We conclude that
 </p>
-  
 <me>
-
-921 - 551 = 370.
-
+  921 - 551 = 370.
 </me>
- </statement>
+</statement>
 </example>
- </subsection> 
+</subsection>
+
+
 <subsection>
 <title>On Your Own</title>
 <p>
 Work on the following exercises on your own or with a partner.
 </p>
-  <ol><li>For each calculation, draw a "Dots &amp; Boxes" model and use it to find the result of the calculation.
 
-<md><mrow>3.56 \amp + 7.95 \amp 
+<ol>
+<li>For each calculation, draw a <q>Dots <ampersand /> Boxes</q> model and use it to find the result of the calculation.
+
+<md>
+  <mrow>  3.56 \amp + 7.95 \amp 
 1.452 \amp + 32.27Ê\amp 
-3.0205 \amp + 409.2019</mrow>
-  <mrow>15.225 \amp - 7.209 \amp 
+3.0205 \amp + 409.2019
+      </mrow>
+  <mrow>  15.225 \amp - 7.209 \amp 
 14.793 \amp  - 8.95 \amp 
-12.5 \amp - 3.0002</mrow>
- 
+12.5 \amp - 3.0002
+      </mrow>
 </md>
  <br /></li>
 <li>For each calculation below, add the decimals quickly, and say why your method is faster than converting to fractions and finding a common denominator.
-
 <me>
-
-0.0066 + 0.9
+  0.0066 + 0.9
 \qquad\qquad
 0.25 + 0.0088
 \qquad\qquad
 0.\overline{20} + 0.\overline{01}
-
 </me>
 </li>
- </ol>   <paragraphs><title>Think/Pair/Share</title> <ul><li>Chloe added <m>0.2</m> and <m>0.02</m> and got an answer of <m>0.04</m>.  What was Chloe's likely mistake?  As her teacher, how could you help Chloe understand the operation of addition better?<br /></li>
-<li>In elementary school, students are taught to add and subtract decimals by "lining up the decimal points." Use the "Dots &amp; Boxes" model to explain why this shorthand makes sense.<br /></li>
- </ul>  </paragraphs> </subsection> 
+</ol>
+<paragraphs>
+<title>Think/Pair/Share</title>
+<ul>
+<li>Chloe added <m>0.2</m> and <m>0.02</m> and got an answer of <m>0.04</m>.  What was Chloe's likely mistake?  As her teacher, how could you help Chloe understand the operation of addition better?<br /></li>
+<li>In elementary school, students are taught to add and subtract decimals by <q>lining up the decimal points.</q> Use the <q>Dots <ampersand /> Boxes</q> model to explain why this shorthand makes sense.<br /></li>
+</ul>
+</paragraphs>
+</subsection>
+
+
 <subsection>
 <title>Multiplying and Dividing: Powers of 10</title>
 <p>
-We already reviewed the "Dots &amp; Boxes" model for division of whole numbers. Look back at <xref ref="ex__d_b_divide1">Example</xref> on <xref ref="ex__d_b_divide1">page</xref> and <xref ref="ex__divwithrem">Example</xref> on <xref ref="ex__divwithrem">page</xref>. if you need to refresh your memory.
-Let's quickly review the "Dots &amp; Boxes" model for multiplication of whole numbers before we get back to talking about decimals.
+We already reviewed the <q>Dots <ampersand /> Boxes</q> model for division of whole numbers. Look back at <xref ref="ex__d_b_divide1">Example</xref> on <xref ref="ex__d_b_divide1">page</xref> and <xref ref="ex__divwithrem">Example</xref> on <xref ref="ex__divwithrem">page</xref>. if you need to refresh your memory.
+Let's quickly review the <q>Dots <ampersand /> Boxes</q> model for multiplication of whole numbers before we get back to talking about decimals.
 </p>
-  
-<example><title>$243192\times 4$</title>
+<example>
+<title>$243192\times 4$</title>
 <statement>
 <p>
 If we want to compute <m>243192\times 4</m>, it helps to remember what multiplication <em>means</em>. One interpretation is: I want to add <m>243192</m> to itself a total of four times. So there will be:
 </p>
-  <ul><li><m>2 \times 4</m> dots in the ones place, <br /></li>
+
+<ul>
+<li><m>2 \times 4</m> dots in the ones place, <br /></li>
 <li><m>9 \times 4</m> dots in the tens place, <br /></li>
 <li><m>1 \times 4</m> dots in the hundreds place, <br /></li>
-<li>... and so on.  <br /></li>
- </ul>   
+<li><ddots /> and so on.  <br /></li>
+</ul>
+
 <p>
 Here's the start of the computation:
 </p>
-  <image source="images/" /> 
+<image source="images/" />
 <p>
 To finish the computation, we need to do some explosions to write the result as a familiar base 10 number:
 </p>
-  
 <me>
-
-243192 \times 4 = 972768.
-
+  243192 \times 4 = 972768.
 </me>
- </statement>
+</statement>
 </example>
- </subsection> 
+</subsection>
+
+
 <subsection>
 <title>On Your Own</title>
 <p>
 Work on the following exercises on your own or with a partner.
 </p>
-  <ol><li>Do each computation, using reasoning like in the multiplication example above.
 
-<md><mrow>2.3 \amp \times 10 \amp 
+<ol>
+<li>Do each computation, using reasoning like in the multiplication example above.
+
+<md>
+  <mrow>  2.3 \amp \times 10 \amp 
 3.56 \amp \times 10 \amp 
-1.452 \amp \times 100Ê\amp </mrow>
- 
+1.452 \amp \times 100Ê\amp
+      </mrow>
 </md>
  <br /></li>
 <li>Do each computation, using reasoning like in the division examples on <xref ref="ex__d_b_divide1">pages</xref> and <xref ref="ex__divwithrem"></xref>.
 
-<md><mrow>7.1 \amp \div 10 \amp 
+<md>
+  <mrow>  7.1 \amp \div 10 \amp 
 98.55 \amp \div 10 \amp 
-145.2 \amp \div 100Ê\amp </mrow>
- 
+145.2 \amp \div 100Ê\amp
+      </mrow>
 </md>
  <br /></li>
- </ol>   
+</ol>
+
 <p>
-In <xref ref="sec__review">Section</xref>, you used the "Dots &amp; Boxes" model to explain why why multiplying a whole number by <m>10</m> (when it's written is base ten) results in appending a zero to the right end of the number. Your work above should convince this does not work for decimals!
+In <xref ref="sec__review">Section</xref>, you used the <q>Dots <ampersand /> Boxes</q> model to explain why why multiplying a whole number by <m>10</m> (when it's written is base ten) results in appending a zero to the right end of the number. Your work above should convince this does not work for decimals!
 </p>
-  <paragraphs><title>Think/Pair/Share</title> <ul><li>Write a new rule that works for both whole numbers and decimals:
+<paragraphs>
+<title>Think/Pair/Share</title>
+<ul>
+<li>Write a new rule that works for both whole numbers and decimals:
 <div class="quote"><em> If I multiply a whole number or a decimal by <m>10</m>, a simple way to find the result is <u>       </u>.</em><br /></div> </li>
 <li>Justify the claim you made above!<br /></li>
 <li>One can go much further with this thinking. What is the effect of dividing a number written in decimal notation by ten? By one-hundred?  Justify what you say.</li>
- </ul>  </paragraphs> </subsection> 
+</ul>
+</paragraphs>
+</subsection>
+
+
 <subsection>
 <title>Multiplying Decimals</title>
 <p>
 You probably know an algorithm for multiplying decimal numbers by hand. But if you think carefully about the algorithm, it should <em>make sense</em> based on what the decimal numbers represent and what it means to multiply. Let's start by using number sense to think about multiplying whole numbers by decimals.
 </p>
-  <paragraphs><title>Think/Pair/Share</title>
+<paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 Consider the equation
 </p>
-  
 <me>
-
-16 \times \square.
-
+  16 \times \square.
 </me>
- 
 <p>
 Fill in the box with a whole number or decimal so that the product is:
 </p>
-  <ul><li>Greater than 100.<br /></li>
+
+<ul>
+<li>Greater than 100.<br /></li>
 <li>Greater than 64 but less than 100.<br /></li>
 <li>At least 17, but less than 32.<br /></li>
 <li>Equal to 16.<br /></li>
 <li>Greater than 8 but less than 16.<br /></li>
 <li>Less than 8, but greater than 0.</li>
- </ul>  
+</ul>
+
 <p>
 Be sure to justify your answers. You should use your number sense rather than computing by hand or with a calculator!
 </p>
- </paragraphs>  
+</paragraphs>
 <p>
 Earlier in this Section, you multiplied decimal numbers by converting them to fractions and then using what you know about multiplying fractions. There are other ways to think about multiplying that focus on number sense rather than on the mechanics of computation.
 </p>
-  
-<example><title>$321 \times 0.4$</title>
+<example>
+<title>$321 \times 0.4$</title>
 <statement>
 <p>
 Suppose a student wanted to compute <m>321 \times 0.4</m>, but he didn't already know the standard algorithm. What might he do? Here is one idea:
 </p>
-  <div class="quote"><em>I know that <m>321 \times 4  = 1284</m>.  Since I want to multiply by <m>0.4 = \frac 4{10}</m> and not by <m>4</m>, my answer should be <m>\frac 1{10}</m> of this one.  So</em>
-
+<div class="quote"><em>I know that <m>321 \times 4  = 1284</m>.  Since I want to multiply by <m>0.4 = \frac 4{10}</m> and not by <m>4</m>, my answer should be <m>\frac 1{10}</m> of this one.  So</em>
 <me>
-
-321 \times 0.4 = 128.4.
-
+  321 \times 0.4 = 128.4.
 </me>
-</div>  
+</div>
 <p>
 You should notice that the student is using the <em>associative property</em> of multiplication:
 </p>
-  
 <me>
-
-321 \times 0.4
+  321 \times 0.4
 \ = \ 
 321 \times \frac 4{10}
 \ = \ 
 321 \times\left( 4 \times \frac 1{10}\right)
 \ = \ 
 \left(321 \times 4 \right) \times \frac 1{10}.
-
 </me>
- </statement>
+</statement>
 </example>
   
-<problem><statement>
+<problem>
+<statement>
 <p>
-For each computation below, the result of the computation is shown correctly, but the decimal point is missing. Use number sense and reasoning to correctly place the decimal point, and briefly justify how you know you're right. (Don't use a calculator, don't work out the multiplication by hand, and don't use the trick of "counting the number of decimal places." Use your number sense!)
+For each computation below, the result of the computation is shown correctly, but the decimal point is missing. Use number sense and reasoning to correctly place the decimal point, and briefly justify how you know you're right. (Don't use a calculator, don't work out the multiplication by hand, and don't use the trick of <q>counting the number of decimal places.</q> Use your number sense!)
 </p>
-  
-<md><mrow>(a) \amp  \  855 \times 1.7 =  14535
+<md>
+  <mrow>  (a) \amp  \  855 \times 1.7 =  14535
 \amp 
-(b) \amp  \  549 \times 0.33 = 18117</mrow>
-  <mrow>(c) \amp  \  2.03 \times 1028 = 208684
+(b) \amp  \  549 \times 0.33 = 18117
+      </mrow>
+  <mrow>  (c) \amp  \  2.03 \times 1028 = 208684
 \amp 
-(d) \amp  \  999 \times 0.53 = 52947</mrow>
-  <mrow>(e) \amp  \  30.02 \times 472 = 1416944
+(d) \amp  \  999 \times 0.53 = 52947
+      </mrow>
+  <mrow>  (e) \amp  \  30.02 \times 472 = 1416944
 \amp  
-(f) \amp  \ 173 \times 0.09 = 1557</mrow>
- 
+(f) \amp  \ 173 \times 0.09 = 1557
+      </mrow>
 </md>
- </statement>
+</statement>
 </problem>
- </subsection> 
+</subsection>
+
+
 <subsection>
 <title>On Your Own</title>
 <p>
 Work on the following exercises on your own or with a partner.
 </p>
-  <ol><li xml:id="ex_writeasfrac" > Write each number given as a fraction.  (Write them as  "improper fractions," not "mixed numbers.")
 
+<ol>
+<li xml:id="ex_writeasfrac" > Write each number given as a fraction.  (Write them as  <q>improper fractions,</q> not <q>mixed numbers.</q>)
 <me>
-
-15.2
+  15.2
 \qquad\qquad
 3.43
 \qquad\qquad
 0.0021
 \qquad\qquad
 13.02026
-
 </me>
- <br /></li>
+<br /></li>
 <li>In exercise<nbsp /><xref ref="ex_writeasfrac" /> above, how does the number of digits to the right of the decimal point compare to the number of zeros in the denominator?  Use what you know about place value to explain why your answer is always true (not just for the examples above).<br /></li>
 <li xml:id="ex_pow10prod" > Find each product.
-
 <me>
-
-10 \times 10000
+  10 \times 10000
 \qquad\qquad
 100 \times 1000
 \qquad\qquad
 100000 \times 1000
 \qquad\qquad
 10^m \times 10^n
-
 </me>
- <br /></li>
+<br /></li>
 <li>In exercise<nbsp /><xref ref="ex_pow10prod" /> above, 
 how is the number of zeros in the product related to the number of zeros in the two factors?  
 Use what you know about place value to explain why your answer is always true (not just for the examples above).<br /></li>
-<li xml:id="ex_specex" >  
-<ol><li>If you write <m>0.037</m> as a fraction, how many zeros would be in the denominator?  <br /></li>
+<li xml:id="ex_specex" >
+<ol>
+<li>If you write <m>0.037</m> as a fraction, how many zeros would be in the denominator?  <br /></li>
 <li>What if you write <m>0.59</m> as a fraction?  How many zeros would be in the denominator? <br /></li>
 <li>So how many zeros would be in the denominator of the product of <m>0.037</m> and <m>0.59</m>?  (Don't compute the product to answer this question!)<br /></li>
- </ol> </li>
+</ol>
+</li>
 <li>Use the fact that <m>37 \times 59 = 2183</m> and your answers to the exercises above to find <m>0.037 \times 0.59</m>.  Explain how you got your answer.</li>
- </ol>   
+</ol>
+
 <p>
 The standard algorithm for multiplying decimal numbers can be described this way:
 </p>
-  <ul><li class="custom-list-style-type" label="Step 1" >Compute the product as if the two factors were whole numbers.  (Ignore the decimal points.)<br /></li>
+
+<ul>
+<li class="custom-list-style-type" label="Step 1" >Compute the product as if the two factors were whole numbers.  (Ignore the decimal points.)<br /></li>
 <li class="custom-list-style-type" label="Step 2" >Count the number of digits to the right of the decimal point in each factor, and add those numbers together.  Call the result <m>n</m>.<br /></li>
 <li class="custom-list-style-type" label="Step 3" >The sum <m>n</m> that you found in Step<nbsp />2 will be the number of digits to the right of the decimal point in the product.  So place the decimal point according by counting the appropriate number of places from the right.</li>
- </ul>   <paragraphs><title>Think/Pair/Share</title> <ul><li>Write down two examples of multiplying decimal numbers using the standard algorithm above.<br /></li>
+</ul>
+<paragraphs>
+<title>Think/Pair/Share</title>
+<ul>
+<li>Write down two examples of multiplying decimal numbers using the standard algorithm above.<br /></li>
 <li>Use what you know about place value, fractions, and multiplication to <em>carefully explain why</em> the standard algorithm described above makes sense.</li>
- </ul>  </paragraphs> </subsection> 
+</ul>
+</paragraphs>
+</subsection>
+
+
 <subsection>
 <title>Dividing Decimals</title>
 <p>
-As you might expect, dividing decimals is perhaps more complicated to explain than any of the other operations. It's hard to adapt our "Dots &amp; Boxes" model for division. Suppose we want to compute <m>15.37 \div 0.013</m>. We can certainly draw the picture for 15.37, but how could we make groups of <m>0.013</m> dots?
+As you might expect, dividing decimals is perhaps more complicated to explain than any of the other operations. It's hard to adapt our <q>Dots <ampersand /> Boxes</q> model for division. Suppose we want to compute <m>15.37 \div 0.013</m>. We can certainly draw the picture for 15.37, but how could we make groups of <m>0.013</m> dots?
 </p>
-  <paragraphs><title>Think/Pair/Share</title>
+<paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 Let's start by sharing what you already know. Perform this computation (by hand, not with a calculator), showing all of your work. Explain your method to a partner, and see if your partner computed the same way.
 </p>
-  
 <me>
-
-0.0351 \div 0.074
-
+  0.0351 \div 0.074
 </me>
- </paragraphs> </subsection> 
+</paragraphs>
+</subsection>
+
+
 <subsection>
 <title>On Your Own</title>
 <p>
 Work on the following exercises on your own or with a partner.
 </p>
-  <ol><li>Explain why these two fractions are equivalent.
 
+<ol>
+<li>Explain why these two fractions are equivalent.
 <me>
-
-\frac{12.33}{44.1}
+  \frac{12.33}{44.1}
 \quad\text{ and }  \quad
 \frac{123.3}{441}.
-
 </me>
- <br /></li>
+<br /></li>
 <li>Explain why these two division computations give the same result.
-
 <me>
-
-{12.33}\div {44.1}
+  {12.33}\div {44.1}
 \quad\text{ and }  \quad
 {123.3}\div{441}.
-
 </me>
- <br /></li>
+<br /></li>
 <li xml:id="ex_equivfrac" > Explain why these three fractions are equivalent.
-
 <me>
-
-\frac{325.5}{75.133},
+  \frac{325.5}{75.133},
 \quad\quad
 \frac{3255}{751.33},
 \quad\text{ and }  \quad
 \frac{32550}{7513.3}.
-
 </me>
- <br /></li>
+<br /></li>
 <li>Explain why these three division computations give the same result.
-
 <me>
-
-{325.5}\div {75.133},
+  {325.5}\div {75.133},
 \quad\quad
 {3255}\div {751.33},
 \quad\text{ and }  \quad
 {32550}\div{7513.3}.
-
 </me>
- <br /></li>
+<br /></li>
 <li>Fill in the box to make the equation true.  Be sure to justify your answer.
-
 <me>
-
-\frac{325.5}{75.133}
+  \frac{325.5}{75.133}
 \ = \ 
 \frac{\square}{75133}.
-
 </me>
 </li>
- </ol>   
+</ol>
+
 <p>
 The standard algorithm for dividing numbers represented by finite decimal expansions is something like this:
 </p>
-  <ul><li class="custom-list-style-type" label="Step 1" >Move the decimal point of the divisor to the end of the number.<br /></li>
+
+<ul>
+<li class="custom-list-style-type" label="Step 1" >Move the decimal point of the divisor to the end of the number.<br /></li>
 <li class="custom-list-style-type" label="Step 2" >Move the decimal point of the dividend 
  the same number of positions (the same distance and direction).<br /></li>
 <li class="custom-list-style-type" label="Step 3" >Divide the new decimal dividend (from Step 2) by the new whole number divisor (from Step 1).  Since we're dividing by a whole number, our standard methods make sense.<br /></li>
- </ul>   
+</ul>
+
 <p>
 This is a pretty mechanical description, and doesn't give a lot of insight into <em>why</em> this algorithm works.
 </p>
-  <paragraphs><title>Think/Pair/Share</title>
+<paragraphs>
+<title>Think/Pair/Share</title>
 <p>
-Write down at least two examples of computing with the algorithm described above. (Make up your own numbers to test. Be sure to show every step clearly.) You can do the division by drawing a "Dots &amp; Boxes" picture or by another method (but don't use a calculator). Then answer these more general questions.
+Write down at least two examples of computing with the algorithm described above. (Make up your own numbers to test. Be sure to show every step clearly.) You can do the division by drawing a <q>Dots <ampersand /> Boxes</q> picture or by another method (but don't use a calculator). Then answer these more general questions.
 </p>
-  <ul><li>Suppose you want to compute <m>a \div b</m> where <m>a</m> and <m>b</m> are decimal numbers.
+
+<ul>
+<li>Suppose you want to compute <m>a \div b</m> where <m>a</m> and <m>b</m> are decimal numbers.
  Carefully explain why <m>(10\cdot a) \div (10\cdot  b)</m> will give the same result.<br /></li>
 <li>Suppose you want to compute <m>a \div b</m> where <m>a</m> and <m>b</m> are decimal numbers.
  Carefully explain why <m>(100\cdot a) \div (100 \cdot b)</m> will give the same result.<br /></li>
 <li>Suppose you want to compute <m>a \div b</m> where <m>a</m> and <m>b</m> are decimal numbers.
 Carefully explain why <m>(10^k\cdot  a) \div (10^k\cdot b)</m> will give the same result, where <m>k</m> is any whole number.<br /></li>
 <li>Suppose <m>b</m> has a finite decimal expansion.  Carefully explain why you can find a power of 10 so that <m>10^k \cdot b</m> is a whole number.</li>
- </ul>  </paragraphs>  
-<problem><statement>
+</ul>
+</paragraphs>  
+<problem>
+<statement>
 <p>
-Carefully explain <em>why</em> the algorithm described above in three steps works for computing division of decimal numbers. You need to explain what is going on when you "move the decimal point" in Steps 1 and 2, and why the result you compute in Step 3 is the same as the original problem.
+Carefully explain <em>why</em> the algorithm described above in three steps works for computing division of decimal numbers. You need to explain what is going on when you <q>move the decimal point</q> in Steps 1 and 2, and why the result you compute in Step 3 is the same as the original problem.
 </p>
- </statement>
+</statement>
 </problem>
- </subsection> </section>
+</subsection>
+
+</section>

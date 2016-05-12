@@ -1,44 +1,47 @@
-
 <chapter xmlns:xi="http://www.w3.org/2001/XInclude" >
-<title>Problem Solving</title><introduction>
+<title>Problem Solving</title>
+<introduction>
 <p>
-\fellow{Formatting: can we put things marked "Problem" in a box (maybe with some color?) to set it apart? Same with the Think/Pair/Share (different color?) and Solutions.}
+\fellow{Formatting: can we put things marked <q>Problem</q> in a box (maybe with some color?) to set it apart? Same with the Think/Pair/Share (different color?) and Solutions.}
 </p>
-  
-<problem><title>ABC</title>
+<problem>
+<title>ABC</title>
 <statement>
 <p>
 Draw curves connecting A to A, B to B, and C to C. Your curves can't cross or even touch each other, and they can't go outside the box.
 </p>
-  <image source="images/" /> </statement>
+<image source="images/" />
+</statement>
 </problem>
-  <paragraphs><title>Think/Pair/Share</title>
+  <paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 After you have worked on the problem on your own for a while, talk through your ideas with a partner (even if you haven't solved it). What did you try? What makes this problem difficult? Can you change the problem slightly so that it would be easier to solve?
 </p>
- </paragraphs>  <paragraphs><title>Problem Solving Strategy</title>
+</paragraphs>  <paragraphs>
+<title>Problem Solving Strategy</title>
 <p>
 [Wishful Thinking]
 Don't you <em>wish</em> the picture in the problem looked more like this one? Could you solve the problem in that case?
 </p>
-  <image source="images/" /> </paragraphs>  
+<image source="images/" /> </paragraphs>
 <p>
 Can you use a solution to this easier problem to help you solve the original problem? How? Think about moving the boxes around once the lines are already drawn.
 </p>
-  
+
 <p>
 \fellow{Would be great to have an animation here showing how one solution transforms into the other. Not sure how hard that would be to create...}
 </p>
-  
+
 <p>
-The Common Core State Standards for Mathematics (\url{http://www.corestandards.org/Math/Practice}) identify eight "Mathematical Practices" &#8202;&#x2014;&#8202; the kinds of expertise that all teachers should try to foster in their students, but that go far beyond any particular piece of mathematics content. They describe what mathematics is really about, and why it is so valuable for students to master. The very first Mathematical Practice is:
+The Common Core State Standards for Mathematics (\url{http://www.corestandards.org/Math/Practice}) identify eight <q>Mathematical Practices</q> &#8202;&#x2014;&#8202; the kinds of expertise that all teachers should try to foster in their students, but that go far beyond any particular piece of mathematics content. They describe what mathematics is really about, and why it is so valuable for students to master. The very first Mathematical Practice is:
 </p>
-  <div class="quote">"<b>Make sense of problems and persevere in solving them.</b><br />
-Mathematically proficient students start by explaining to themselves the meaning of a problem and looking for entry points to its solution. They analyze givens, constraints, relationships, and goals. They make conjectures about the form and meaning of the solution and plan a solution pathway rather than simply jumping into a solution attempt. They consider analogous problems, and try special cases and simpler forms of the original problem in order to gain insight into its solution. They monitor and evaluate their progress and change course if necessary."</div>  
+<div class="quote"><q><b>Make sense of problems and persevere in solving them.</b><br />
+Mathematically proficient students start by explaining to themselves the meaning of a problem and looking for entry points to its solution. They analyze givens, constraints, relationships, and goals. They make conjectures about the form and meaning of the solution and plan a solution pathway rather than simply jumping into a solution attempt. They consider analogous problems, and try special cases and simpler forms of the original problem in order to gain insight into its solution. They monitor and evaluate their progress and change course if necessary.</q></div>
 <p>
 This chapter will help you develop these very important mathematical skills, so that you'll be better prepared to help your future students develop them.
 </p>
- </introduction> <xi:include  href="section1-1.mbx" />
+</introduction> <xi:include  href="section1-1.mbx" />
  <xi:include  href="section1-2.mbx" />
  <xi:include  href="section1-3.mbx" />
  <xi:include  href="section1-4.mbx" />

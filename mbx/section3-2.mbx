@@ -1,350 +1,367 @@
-
 <section>
-<title>Model 2: Measurement</title><introduction>
+<title>Model 2: Measurement</title>
+<introduction>
 <p>
 Another way we often think about numbers is as abstract quantities that can be measured: length, area, and volume are all examples.
 </p>
-  <paragraphs><title>Think/Pair/Share</title>
+<paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 Answer the following questions about each picture:
 </p>
-  <ul><li>If <m>A = 1</m> unit, then what numbers would you assign to <m>B</m> and <m>C</m>?  Why?</li>
+
+<ul>
+<li>If <m>A = 1</m> unit, then what numbers would you assign to <m>B</m> and <m>C</m>?  Why?</li>
 <li>If <m>B = 1</m> unit, then what numbers would you assign to <m>A</m> and <m>C</m>?  Why?</li>
- </ul>   <image source="images/" /> 
+</ul>
+<image source="images/" /> 
   
 <image source="images/" /> 
 
-\fellow{can you make up a similar picture for volume?  maybe that one is too hard?  If it doesn't work, don't worry about it.} </paragraphs>  
+\fellow{can you make up a similar picture for volume?  maybe that one is too hard?  If it doesn't work, don't worry about it.} </paragraphs>
 <p>
 In a measurement model, you have to pick a <em>basic unit</em>. The basic unit is a quantity &#8202;&#x2014;&#8202; length, area, or volume &#8202;&#x2014;&#8202; that you assign to the number one. You can then assign numbers to other quantities based on how many of your basic unit fit inside.
 </p>
-  
+
 <p>
 For now, we'll focus on the quantity <em>length</em>, and we'll work with a number line where the basic unit is already marked off.
 </p>
-  <image source="images/" /> </introduction> 
+<image source="images/" /> </introduction>
+
+
 <subsection>
 <title>Addition and Subtraction on the Number Line</title>
 <p>
 Imagine a person &#8202;&#x2014;&#8202; we'll call him Zed &#8202;&#x2014;&#8202; who can stand on the number line. We'll say that the distance Zed walks when he takes a step is exactly one unit.
 </p>
-  
+
 <p>
 \fellow{any chance of a picture of a person on the number line? I can do a terrible stick figure, but maybe you can do something better?}
 </p>
-  
+
 <p>
 When Zed wants to add or subtract with whole numbers on the number line, he always starts at 0 and faces the positive direction (towards 1). Then what he does depends on the calculation.
 </p>
-  
+
 <p>
 If Zed wants to <em>add</em> two numbers, he walks forward (to the right of the number line) however many steps are indicated by the first number (the first <em>addend</em>). Then he walks forward (to your right on the number line) the number of steps indicated by the second number (the second <em>addend</em>). Where he lands is the <em>sum</em> of the two numbers.
 </p>
-  
-<example><title>$3+4$</title>
+<example>
+<title>$3+4$</title>
 <statement>
 <p>
 If Zed wants to add <m>3+4</m>, he starts at 0 and faces towards the positive numbers. He walks forward 3 steps, then he walks forward 4 more steps.
 </p>
-  
+
 <p>
 \fellow{picture? or even better an animation?}
 </p>
-  
+
 <p>
 Zed ends at the number 7, so the sum of 3 and 4 is 7. <m>3+4 = 7</m>. (But you knew that of course! The point right now is to make sense of the <em>number line model</em>.)
 </p>
- </statement>
+</statement>
 </example>
-  
 <p>
 When Zed wants to <em>subtract</em> two numbers, he he walks forward (to the right on the number line) however many steps are indicated by the first number (the <em>minuend</em>). Then he walks <em>backwards</em> (to the left on the number line) the number of steps indicated by the second number (the <em>subtrahend</em>). Where he lands is the <em>difference</em> of the two numbers.
 </p>
-  
-<example><title>$11 - 3$</title>
+<example>
+<title>$11 - 3$</title>
 <statement>
 <p>
 If Zed wants to subtract <m>11-3</m>, he starts at 0 and faces the positive numbers (the right side of the number line).
 He walks forward 11 steps on the number line, then he walks backwards 3 steps.
 </p>
-  
+
 <p>
 \fellow{picture? or even better an animation?}
 </p>
-  
+
 <p>
 Zed ends at the number 8, so the difference of 11 and 3 is 8. <m>11-3 = 8</m>. (But you knew that!)
 </p>
- </statement>
+</statement>
 </example>
-  <paragraphs><title>Think/Pair/Share</title> <ul><li>Work out each of these exercises on a number line.  You can actually pace it out on a life-sized number line or draw a picture:
-
+  <paragraphs>
+<title>Think/Pair/Share</title>
+<ul>
+<li>Work out each of these exercises on a number line.  You can actually pace it out on a life-sized number line or draw a picture:
 <me>
-
-4 + 5 
+  4 + 5 
 \qquad\qquad
 6 + 9
 \qquad\qquad
 10-7
 \qquad\qquad
 8-1
-
 </me>
 </li>
-<li>Why does it make sense to walk forward for addition and walk backwards for subtraction?  In what way is this the same as "combining" for addition and "take away" for subtraction"?</li>
+<li>Why does it make sense to walk forward for addition and walk backwards for subtraction?  In what way is this the same as <q>combining</q> for addition and <q>take away</q> for subtraction''?</li>
 <li>What happens if you do these subtraction problems on a number line?    Explain your answers.
-
 <me>
-
-6 - 9
+  6 - 9
 \qquad\qquad
 1-7
 \qquad\qquad
 4 - 11 
 \qquad\qquad
 0-1
-
 </me>
 </li>
 <li>Could you do the subtraction problems above with the dots and boxes model?</li>
- </ul>  </paragraphs> </subsection> 
+</ul>
+</paragraphs>
+</subsection>
+
+
 <subsection>
 <title>Multiplication and Division on the Number Line</title>
 <p>
 Since multiplication is really repeated addition, we can adapt our addition model to become a multiplication model as well. Let's think about <m>3 \times 4</m>. This means to add four to itself three times (that's simply the definition of multiplication!):
 </p>
-  
 <me>
-
-3 \times 4 = 4 + 4 + 4.
-
+  3 \times 4 = 4 + 4 + 4.
 </me>
- 
 <p>
 So to multiply on the number line, we do the process for addition several times.
 </p>
-  
+
 <p>
 To multiply two numbers, Zed starts at 0 as always, and he faces the positive direction. He walks forward the number of steps given by the second number (the second <em>factor</em>). He repeats that process the number of times given by the first number (the first <em>factor</em>). Where he lands is the <em>product</em> of the two numbers.
 </p>
-  
-<example><title>$3\times 4$</title>
+<example>
+<title>$3\times 4$</title>
 <statement>
 <p>
 If Zed wants to multiply <m>3\times 4</m>, he can think of it this way:
 </p>
-  
 <me>
-
-\underbrace{3}_\text{how many times to repeat it}  \times \underbrace{4}_\text{how many steps to take forward} 
-
+  \underbrace{3}_\text{how many times to repeat it}  \times \underbrace{4}_\text{how many steps to take forward}
 </me>
- 
 <p>
 Zed starts at 0, facing the positive direction. The he repeats this three times: take four steps forward.
 </p>
-  
+
 <p>
 \fellow{picture? or animation?}
 </p>
-  
+
 <p>
 He ends at the number 12, so the product of 3 and 4 is 12. That is, <m>3 \times 4 = 12</m>.
 </p>
- </statement>
+</statement>
 </example>
-  
 <p>
 Remember our quotative model of division: One way to interpret <m>15 \div 5</m> (there are others) is:
 </p>
-  <div class="quote">"How many groups of 5 fit into 15?"</div> 
+<div class="quote"><q>How many groups of 5 fit into 15?</q></div>
 <p>
 Thinking on the number line, we can ask it this way:
 </p>
-  <div class="quote">"Zed takes 5 steps at a time.  If Zed lands at the number 15, how many times did he take 5 steps?"</div>  
+<div class="quote"><q>Zed takes 5 steps at a time.  If Zed lands at the number 15, how many times did he take 5 steps?</q></div>
 <p>
 To calculate a division problem on the number line, Zed starts at 0, facing the positive direction. He walks forward the number of steps given by the second number (the <em>divisor</em>). He repeats that process until he lands at the first number (the <em>dividend</em>). The number of times he repeated the process gives the <em>quotient</em> of the two numbers.
 </p>
-  
-<example><title>$15\div 5$</title>
+<example>
+<title>$15\div 5$</title>
 <statement>
 <p>
 If Zed wants to divide <m>15 \div 5</m>, he can think of it this way:
 </p>
-  
 <me>
-
-\underbrace{15}_\text{where he wants to land}  \div \underbrace{5}_\text{how many steps he takes at a time} 
-
+  \underbrace{15}_\text{where he wants to land}  \div \underbrace{5}_\text{how many steps he takes at a time}
 </me>
- 
 <p>
 He starts at 0, facing the positive direction.
 </p>
-  <ul><li>Zed takes 5 steps forward.  He is now at 5, not 15.  So he needs to repeat the process.</li>
+
+<ul>
+<li>Zed takes 5 steps forward.  He is now at 5, not 15.  So he needs to repeat the process.</li>
 <li>Zed takes 5 steps forward again.  He is now at 10, not 15.  So he needs to repeat the process.</li>
 <li>Zed takes 5 more steps forward.  He is at 15, so he stops.</li>
- </ul>   
+</ul>
+
 <p>
 \fellow{animation? or picture for each bullet point? or at least one picture showing the whole process?}
 </p>
-  
+
 <p>
 Since he repeated the process three times, we see there are 3 groups of 5 in 15.
 So the quotient of 15 and 5 is 3. That is, <m>15 \div 5 = 3</m>.
 </p>
- </statement>
+</statement>
 </example>
-  <paragraphs><title>Think/Pair/Share</title> <ul><li>Work out each of these exercises on a number line.  You can actually pace it out on a life-sized number line or draw a picture:
-
+  <paragraphs>
+<title>Think/Pair/Share</title>
+<ul>
+<li>Work out each of these exercises on a number line.  You can actually pace it out on a life-sized number line or draw a picture:
 <me>
-
-2 \times 5
+  2 \times 5
 \qquad\quad
 7 \times 1
 \qquad\quad
 10 \div 2
 \qquad\quad
 6 \div 1
-
 </me>
 </li>
 <li>Can you think of a way to interpret these multiplication problems on a number line?    Explain your ideas.
-
 <me>
-
-4 \times 0
+  4 \times 0
 \qquad\qquad
 0 \times 5
 \qquad\qquad
 3 \times (-2)
 \qquad\qquad
 2 \times (-1)
-
 </me>
 </li>
 <li>What happens if you try to solve these division problems on a number line?  Can you do it?    Explain your ideas.
-
 <me>
-
-0 \div 2
+  0 \div 2
 \qquad\qquad
 0 \div 10
 \qquad\qquad
 3 \div 0
 \qquad\qquad
 5 \div 0
-
 </me>
 </li>
- </ul>  </paragraphs> </subsection> 
+</ul>
+</paragraphs>
+</subsection>
+
+
 <subsection>
 <title>Area Model for Multiplication</title>
 <p>
 So far we have focused on a <em>linear</em> measurement model, using the number line. But there's another common way to think about multiplication: using <em>area</em>.
 </p>
-  
+
 <p>
 For example, suppose our basic unit is one square:
 </p>
-  <image source="images/" />  
+<image source="images/" />
 <p>
 We can picture <m>4 \times 3</m> as 4 groups, with 3 squares in each group, all lined up:
 </p>
-  <image source="images/" /> 
 <image source="images/" /> 
 <image source="images/" /> 
-<image source="images/" />  
+<image source="images/" /> 
+<image source="images/" />
 <p>
 But we can also picture them stacked up instead of lined up. We would have 4 <em>rows</em>, with 3 squares in each <em>row</em>, like this:
 </p>
-  <image source="images/" />  
+<image source="images/" />
 <p>
 So we can think about <m>4 \times 3</m> as a rectangle that has length 3 and width 4. The product, 12, is the total number of squares in that rectangle. (That is also the <em>area</em> of the rectangle, since each square was one unit!)
 </p>
-  <paragraphs><title>Think/Pair/Share</title>
+<paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 Vera drew this picture as a model for <m>15\times 17</m>. Use her picture to help you compute <m>15\times 17</m>. Explain your work.
 </p>
-  <image source="images/" /> </paragraphs>  
-<problem><statement>
+<image source="images/" /> </paragraphs>  
+<problem>
+<statement>
 <p>
 Draw pictures like Vera's for each of these multiplication exercises. Use your pictures to find the products without using a calculator or the standard algorithm.
 </p>
-  
 <me>
-
- 23 \times 37 
+  23 \times 37 
  \qquad\qquad
  8 \times 43
  \qquad\qquad
  371\times 42
- 
 </me>
- </statement>
+</statement>
 </problem>
- </subsection> 
+</subsection>
+
+
 <subsection>
 <title>The Standard Algorithm for Multiplication</title>
 <p>
 How were you taught to compute <m>83\times 27</m> in school? Were you taught
 to write something like the following?
 </p>
-  <table id="c3a81cd53671b928b2bd3151db3bb846b6c3867c" ><tr><td class='r'>
-</td><td class='l'><m>83</m></td></tr>
+<table id="c3a81cd53671b928b2bd3151db3bb846b6c3867c" >
 <tr><td class='r'>
-<m>\times</m></td><td class='l'><m>27</m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
+</td><td class='l'><m>83</m></td>
+    </tr>
 <tr><td class='r'>
-</td><td class='l'><m>21</m></td></tr>
+<m>\times</m></td><td class='l'><m>27</m></td>
+    </tr>
+<tr><td class='hline' colspan='2'><hr /></td>
+    </tr>
 <tr><td class='r'>
-</td><td class='l'><m>56</m></td></tr>
+</td><td class='l'><m>21</m></td>
+    </tr>
 <tr><td class='r'>
-</td><td class='l'><m>6</m></td></tr>
+</td><td class='l'><m>56</m></td>
+    </tr>
 <tr><td class='r'>
-</td><td class='l'><m>16</m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
+</td><td class='l'><m>6</m></td>
+    </tr>
 <tr><td class='r'>
-</td><td class='l'><m>2241</m></td></tr>
-</table> 
+</td><td class='l'><m>16</m></td>
+    </tr>
+<tr><td class='hline' colspan='2'><hr /></td>
+    </tr>
+<tr><td class='r'>
+</td><td class='l'><m>2241</m></td>
+    </tr>
+</table>
 <p>
 Or maybe you were taught to put in the extra zeros rather than leaving them out?
 </p>
-  <table id="633edc0857be9f297ccddd871b0cf85b13d8d475" ><tr><td class='r'>
-</td><td class='l'><m>83</m></td></tr>
+<table id="633edc0857be9f297ccddd871b0cf85b13d8d475" >
 <tr><td class='r'>
-<m>\times</m></td><td class='l'><m>27</m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
+</td><td class='l'><m>83</m></td>
+    </tr>
 <tr><td class='r'>
-</td><td class='l'><m>21</m></td></tr>
+<m>\times</m></td><td class='l'><m>27</m></td>
+    </tr>
+<tr><td class='hline' colspan='2'><hr /></td>
+    </tr>
 <tr><td class='r'>
-</td><td class='l'><m>560</m></td></tr>
+</td><td class='l'><m>21</m></td>
+    </tr>
 <tr><td class='r'>
-</td><td class='l'><m>60</m></td></tr>
+</td><td class='l'><m>560</m></td>
+    </tr>
 <tr><td class='r'>
-</td><td class='l'><m>1600</m></td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
+</td><td class='l'><m>60</m></td>
+    </tr>
 <tr><td class='r'>
-</td><td class='l'><m>2241</m></td></tr>
-</table>  
+</td><td class='l'><m>1600</m></td>
+    </tr>
+<tr><td class='hline' colspan='2'><hr /></td>
+    </tr>
+<tr><td class='r'>
+</td><td class='l'><m>2241</m></td>
+    </tr>
+</table>
 <p>
 This is really no different than drawing the rectangle and using Vera's shortcut for calculating!
 </p>
-  <image source="images/" />  <paragraphs><title>Think/Pair/Share</title> <ul><li>Use the example above to explain why Vera's rectangle method and the standard algorithm are really the same.</li>
+<image source="images/" />  <paragraphs>
+<title>Think/Pair/Share</title>
+<ul>
+<li>Use the example above to explain why Vera's rectangle method and the standard algorithm are really the same.</li>
 <li>Calculate the products below using both methods.  Explain where you're computing the same pieces in each algorithm.
-
 <me>
-
-23 \times 14
+  23 \times 14
 \qquad\qquad
 106 \times 21
 \qquad\qquad
 213\times 31
-
 </me>
 </li>
- </ul>  </paragraphs>  
-<problem><title>Lines and Intersections</title>
+</ul>
+</paragraphs>  
+<problem>
+<title>Lines and Intersections</title>
 <statement>
 <p>
 Here's an unusual way to perform long multiplication. To compute <m>22\times13</m>, for
@@ -352,59 +369,66 @@ example, draw two sets of vertical lines, the left set containing two lines and 
 right set two lines (for the digits in 22) and two sets of horizontal lines, the upper
 set containing one line and the lower set three (for the digits in 13).
 </p>
-  <image source="images/" />  
+<image source="images/" />
 <p>
 There are four sets of intersection points. Count the number of intersections in
 each and add the results diagonally as shown:
 </p>
-  <image source="images/" /> 
+<image source="images/" />
 <p>
 The answer 286 appears!
 </p>
-  
+
 <p>
 There is one possible glitch as illustrated by the computation <m>246\times  32</m>:
 </p>
-  <image source="images/" />  
+<image source="images/" />
 <p>
 Although the answer 6 thousands, 16 hundreds, 26 tens, and 12 ones is absolutely
 correct, one needs to carry digits and translate this as <m>7,872</m>.
 </p>
-  <ol type="a"><li>Compute <m>131\times 122</m> via this method.  Check your answer using another method.</li>
+
+<ol type="a"><li>Compute <m>131\times 122</m> via this method.  Check your answer using another method.</li>
 <li>Compute <m>15\times 1332</m> via this method.  Check your answer using another method.</li>
 <li>Can you adapt the method to compute <m>102\times 3054</m>?  (Why is some adaptation necessary?)</li>
 <li>Why does the method work in general?</li>
- </ol>  </statement>
+</ol>
+</statement>
 </problem>
   
-<problem><title>Lattice Multiplication</title>
+<problem>
+<title>Lattice Multiplication</title>
 <statement>
 <p>
 In the 1500s in England, students were taught to compute long multiplication using
 following galley method, now more commonly known as the <em>lattice method</em>:
 </p>
-  
+
 <p>
 To multiply 43 and 218, for example, draw a <m>2\times 3</m> grid of squares. Write the digits
 of the first number along the right side of the grid and the digits of the second number
 along the top.
 </p>
-  
+
 <p>
 Divide each cell of the grid diagonally and write in the product
 of the column digit and row digit of that cell, separating the tens from the units
 across the diagonal of that cell. (If the product is a one digit answer, place a 0 in
 the tens place.)
 </p>
-  <image source="images/" />  
+<image source="images/" />
 <p>
 Add the entries in each diagonal, carrying tens digits over to the next diagonal if
 necessary, to see the final answer. In our example, we have <m>218\times 43 = 9374</m>.
 </p>
-  <ol type="a"><li>Compute <m>5763\times 345</m> via the lattice method.</li>
+
+<ol type="a"><li>Compute <m>5763\times 345</m> via the lattice method.</li>
 <li>Explain why the lattice method is really the standard algorithm  in disguise.</li>
 <li>What is the
 specific function of the diagonal lines in the grid?</li>
- </ol>  </statement>
+</ol>
+</statement>
 </problem>
- </subsection> </section>
+</subsection>
+
+</section>

@@ -1,133 +1,148 @@
-
 <section>
 <title>More <m>x</m>-mals</title>
 <p>
-It should come as no surprise that we can use this reasoning about division in the "Dots &amp; Boxes" model in other bases as well.
+It should come as no surprise that we can use this reasoning about division in the <q>Dots <ampersand /> Boxes</q> model in other bases as well.
 The following picture shows that working in base 5,
 </p>
-  
-<men xml:id="eqn_base5div" >
- 1423_\text{five} \div 13_\text{five} =110_\text{five} \ R2_\text{five} .
+<men>
+  1423_\text{five} \div 13_\text{five} =110_\text{five} \ R2_\text{five} .
 </men>
-  <image source="images/" />  <paragraphs><title>Think/Pair/Share</title>
+<image source="images/" />  <paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 Carefully explain the connection between the picture and equation<nbsp /><xref ref="eqn_base5div" /> shown above.
 </p>
-  <ul><li>Show in the picture where you see <m>1423_\text{five} </m> from the equation.<br /></li>
-<li>Where do you see <m>13_\text{five} </m>? <br /></li>
-<li>Where do you see <m>110_\text{five} </m> and <m>2_\text{five} </m>?<br /></li>
- </ul>  </paragraphs>  
-<example><title>$1423_five\div 13_five$</title>
+
+<ul>
+<li>Show in the picture where you see <m>1423_\text{five}</m> from the equation.<br /></li>
+<li>Where do you see <m>13_\text{five}</m>? <br /></li>
+<li>Where do you see <m>110_\text{five}</m> and <m>2_\text{five}</m>?<br /></li>
+</ul>
+</paragraphs>  
+<example>
+<title>$1423_five\div 13_five$</title>
 <statement>
 <p>
 Here is the (by now familiar) picture of base 5:
 </p>
-  <image source="images/" />   
+<image source="images/" />
 <p>
-Now we can unexplode one of those two remaining dots. Then we're able to make another group of <m>13_\text{five} </m>.
+Now we can unexplode one of those two remaining dots. Then we're able to make another group of <m>13_\text{five}</m>.
 </p>
-  <image source="images/" />  
+<image source="images/" />
 <p>
 Once again, there are two dots left over, not in any group. So let's unexplode again.
 </p>
-  <image source="images/" />  
+<image source="images/" />
 <p>
 And we still have two dots left over. Why not do it again?
 </p>
-  <image source="images/" />  
+<image source="images/" />
 <p>
 It seems like we're going to be doing the same thing forever:
 </p>
-  <ul><li>Start with two dots  in some box.  <br /></li>
+
+<ul>
+<li>Start with two dots  in some box.  <br /></li>
 <li>Unexplode one one of the dots, so you have one dot in your original box and five in the box to the right.<br /></li>
-<li>Form a group of <m>13_\text{five} </m>.  That uses the one dot in your original box and three of the five in the box to the right.<br /></li>
+<li>Form a group of <m>13_\text{five}</m>.  That uses the one dot in your original box and three of the five in the box to the right.<br /></li>
 <li>So you have two dots left  in a  box.<br /></li>
 <li>Unexplode one  of the dots, so you have one dot in your original box and five in the box to the right.<br /></li>
-<li>This feels familiar...</li>
- </ul>   
+<li>This feels familiar<ddots /></li>
+</ul>
+
 <p>
 We conclude:
 </p>
-  
-<men xml:id="eqn_base5div2" >
- 1432_\text{five}  \div 13_\text{five}  = 110.111\dots_\text{five}  = 110.\bar 1_\text{five} .
+<men>
+  1432_\text{five}  \div 13_\text{five}  = 110.111\dots_\text{five}  = 110.\bar 1_\text{five} .
 </men>
- </statement>
+</statement>
 </example>
-  <paragraphs><title>Think/Pair/Share</title>
+  <paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 Equation<nbsp /><xref ref="eqn_base5div2" /> is a statement in base five.
-What is it really saying? "<m>1432_\text{five} </m>" is the number
+What is it really saying? <q><m>1432_\text{five}</m></q> is the number
 </p>
-  
 <me>
-
-1\cdot 125+4\cdot 25+3\cdot 5+2\cdot 1=242_\text{ten} .
-
+  1\cdot 125+4\cdot 25+3\cdot 5+2\cdot 1=242_\text{ten} .
 </me>
-  <ul><li>What is <m>13_\text{five} </m> in base 10?  Be sure to  explain your answer.<br /></li>
-<li>What is <m>110.\bar1_\text{five}  </m> in base 10?  Explain how you got your answer.<br /></li>
- </ul>  </paragraphs>  
-<problem><statement> <ol type="a"><li>Draw the pictures to compute <m>8 \div 3</m> in a base 10 system, and show the answer is <m>2.\bar6</m>.<br /></li>
-<li>Draw the pictures to compute <m>8_\text{nine}  \div 3_\text{nine} </m> in a base 9 system, and write the answer as a decimal.  (Or is it a "nonimal"?)<br /></li>
- </ol>  </statement>
+<ul>
+<li>What is <m>13_\text{five}</m> in base 10?  Be sure to  explain your answer.<br /></li>
+<li>What is <m>110.\bar1_\text{five}</m> in base 10?  Explain how you got your answer.<br /></li>
+</ul>
+</paragraphs>  
+<problem>
+<statement>
+<ol type="a"><li>Draw the pictures to compute <m>8 \div 3</m> in a base 10 system, and show the answer is <m>2.\bar6</m>.<br /></li>
+<li>Draw the pictures to compute <m>8_\text{nine}  \div 3_\text{nine}</m> in a base 9 system, and write the answer as a decimal.  (Or is it a <q>nonimal</q>?)<br /></li>
+</ol>
+</statement>
 </problem>
   
-<problem><statement> <ol type="a"><li>Draw the pictures to compute <m>1 \div 11</m> in a base 10 system, and show the answer is <m>0.\overline{09}</m>.<br /></li>
-<li>Draw the base 3 pictures to compute <m>1_\text{three}  \div 11_\text{three} </m>, and write the answer as a decimal ("trimal"?) number.<br /></li>
-<li>Draw the base four pictures to compute <m>1_\text{four}  \div 11_\text{four} </m>, and write the answer as a decimal ("quadimal"?) number.<br /></li>
-<li>Draw the base six pictures to compute <m>1_\text{six}  \div 11_\text{six} </m>, and write the answer as a decimal ("heximal"?) number.<br /></li>
+<problem>
+<statement>
+<ol type="a"><li>Draw the pictures to compute <m>1 \div 11</m> in a base 10 system, and show the answer is <m>0.\overline{09}</m>.<br /></li>
+<li>Draw the base 3 pictures to compute <m>1_\text{three}  \div 11_\text{three}</m>, and write the answer as a decimal (<q>trimal</q>?) number.<br /></li>
+<li>Draw the base four pictures to compute <m>1_\text{four}  \div 11_\text{four}</m>, and write the answer as a decimal (<q>quadimal</q>?) number.<br /></li>
+<li>Draw the base six pictures to compute <m>1_\text{six}  \div 11_\text{six}</m>, and write the answer as a decimal (<q>heximal</q>?) number.<br /></li>
 <li>Describe any patterns you notice in the computations above.  Do you have a conjecture of a general rule?  Can you prove your general rule is true?</li>
- </ol>  </statement>
+</ol>
+</statement>
 </problem>
   
-<problem><statement>
+<problem>
+<statement>
 <p>
 Remember that the fraction <m>\frac 2 5</m> represents the division problem <m>2 \div 5</m>. (This is all written in base 10.)
 </p>
-  <ol type="a"><li>What is the decimal expansion (in base 10) of the fraction <m>\frac 2 5</m>?<br /></li>
+
+<ol type="a"><li>What is the decimal expansion (in base 10) of the fraction <m>\frac 2 5</m>?<br /></li>
 <li>Rewrite the base-10 fraction <m>\frac 2 5</m> as a base 4 division problem.  Then find the decimal expansion for that fraction in base 4.<br /></li>
 <li>Rewrite the base-10 fraction <m>\frac 2 5</m> as a base 5 division problem.  Then find the decimal expansion for that fraction in base 5.<br /></li>
 <li>Rewrite the base-10 fraction <m>\frac 2 5</m> as a base 7 division problem.  Then find the decimal expansion for that fraction in base 7.<br /></li>
-<li>Barry said that in base 15, the division problem  looks like 
-
+<li>Barry said that in base 15, the division problem  looks like
 <me>
-
-2_\text{fifteen}  \div 5_\text{fifteen} ,
-
+  2_\text{fifteen}  \div 5_\text{fifteen} ,
 </me>
- 
- and the decimal representation would be <m>0.6_\text{fifteen} </m>.  Check Barry's answer.  Is he right?</li>
- </ol>  </statement>
+and the decimal representation would be <m>0.6_\text{fifteen}</m>.  Check Barry's answer.  Is he right?</li>
+</ol>
+</statement>
 </problem>
   
-<problem xml:id="prob_1_b-1"><statement>
-<p>
-Expand each of the following as a "decimal" number in the base given. (The fraction is given in base 10.)
-</p>
-  
-<md><mrow>(a) \amp  \  \frac 1 9 \text{ in base }  10
-\amp 
-(b) \amp  \  \frac 1 2 \text{ in base }  3</mrow>
-  <mrow>(c) \amp  \  \frac 1 3 \text{ in base }  4
-\amp 
-(d) \amp  \  \frac 1 4 \text{ in base }  5</mrow>
-  <mrow>(e) \amp  \ \frac 1 5 \text{ in base }  6
-\amp  
-(f) \amp  \ \frac 1 6 \text{ in base }  7</mrow>
-  <mrow>(g) \amp  \  \frac 1 7 \text{ in base }  8
-\amp  
-(h) \amp  \ \frac 1 8 \text{ in base }  9</mrow>
- 
-</md>
- </statement>
-</problem>
-  
-<problem><title><b>Challenge</b></title>
+<problem xml:id="prob_1_b-1">
 <statement>
 <p>
-What fraction has decimal expansion <m>0.\bar 3_\text{seven} </m>? How do you know you are right?
+Expand each of the following as a <q>decimal</q> number in the base given. (The fraction is given in base 10.)
 </p>
- </statement>
+<md>
+  <mrow>  (a) \amp  \  \frac 1 9 \text{ in base }  10
+\amp 
+(b) \amp  \  \frac 1 2 \text{ in base }  3
+      </mrow>
+  <mrow>  (c) \amp  \  \frac 1 3 \text{ in base }  4
+\amp 
+(d) \amp  \  \frac 1 4 \text{ in base }  5
+      </mrow>
+  <mrow>  (e) \amp  \ \frac 1 5 \text{ in base }  6
+\amp  
+(f) \amp  \ \frac 1 6 \text{ in base }  7
+      </mrow>
+  <mrow>  (g) \amp  \  \frac 1 7 \text{ in base }  8
+\amp  
+(h) \amp  \ \frac 1 8 \text{ in base }  9
+      </mrow>
+</md>
+</statement>
 </problem>
- </section>
+  
+<problem>
+<title><b>Challenge</b></title>
+<statement>
+<p>
+What fraction has decimal expansion <m>0.\bar 3_\text{seven}</m>? How do you know you are right?
+</p>
+</statement>
+</problem>
+</section>

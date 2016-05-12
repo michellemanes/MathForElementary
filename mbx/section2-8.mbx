@@ -1,243 +1,266 @@
-
 <section>
 <title>Problem Bank</title>
-<problem><statement> <ol type="a"><li>If you were counting in base four, what number would you say just before you said <m>100_{\text{four} }</m>?</li>
+<problem>
+<statement>
+<ol type="a"><li>If you were counting in base four, what number would you say just before you said <m>100_{\text{four} }</m>?</li>
 <li>What number is one more than <m>133_{\text{four} }</m>?</li>
 <li>What is the greatest three-digit number that can be written in base four?  What numbers come just before and just after that number?</li>
- </ol>  </statement>
+</ol>
+</statement>
 </problem>
   
-<problem><statement>
+<problem>
+<statement>
 <p>
-Explain what is wrong with writing <m>313_\text{two} </m> or <m>28_\text{eight} </m>.
+Explain what is wrong with writing <m>313_\text{two}</m> or <m>28_\text{eight}</m>.
 </p>
- </statement>
+</statement>
 </problem>
   
-<problem><statement> <ol type="a"><li>Write out the base three numbers from <m>1_\text{three} </m> to <m>200_\text{three} </m>.</li>
-<li>Write out the base five numbers from <m>1_\text{five} </m> to <m>100_\text{five} </m>.</li>
-<li>Write the  four base six numbers that come after <m>154_\text{six} </m>.</li>
- </ol>  </statement>
+<problem>
+<statement>
+<ol type="a"><li>Write out the base three numbers from <m>1_\text{three}</m> to <m>200_\text{three}</m>.</li>
+<li>Write out the base five numbers from <m>1_\text{five}</m> to <m>100_\text{five}</m>.</li>
+<li>Write the  four base six numbers that come after <m>154_\text{six}</m>.</li>
+</ol>
+</statement>
 </problem>
   
-<problem><statement>
+<problem>
+<statement>
 <p>
 Convert each base-<m>4</m> number to a base-<m>10</m> number. Explain how you did it.
 </p>
-  
 <me>
-
- 13_{\text{four} }
+  13_{\text{four} }
 \qquad
 322_{\text{four} }
 \qquad
 101_{\text{four} }
 \qquad
 1300_{\text{four} }
-
 </me>
-  
 <me>
-
-\textbf{ Challenges: }\quad
+  \textbf{ Challenges: }\quad
 0.2_{\text{four} }
 \qquad
 0.111..._{\text{four} }=0.\overline{1}_{\text{four} }
-
 </me>
- </statement>
+</statement>
 </problem>
   
-<problem><statement>
+<problem>
+<statement>
 <p>
 Convert each base-<m>10</m> number to a base-<m>4</m> number. Explain how you did it.
 </p>
-  
 <me>
-
-13
+  13
 \qquad
 8
 \qquad
 24
 \qquad
 49
-
 </me>
-  
 <me>
-
-\textbf{ Challenges: }\quad
+  \textbf{ Challenges: }\quad
 0.125
 \qquad
 0.111...=0.\overline{1}
-
 </me>
- </statement>
+</statement>
 </problem>
   
-<problem><statement>
+<problem>
+<statement>
 <p>
 In order to use base sixteen, we need sixteen digits &#8202;&#x2014;&#8202; they will represent the numbers zero through fifteen. We can use our usual digits 0 &#x2013; 9, but we need <em>new symbols</em> to represent the <em>digits</em> ten, eleven, twelve, thirteen, fourteen, and fifteen. Here's one standard convention:
 </p>
-  <table id="4461ac0e811c84d83d0447414dbb2ea9e897572c" ><tr><td class='hline' colspan='2'><hr /></td></tr>
+<table id="4461ac0e811c84d83d0447414dbb2ea9e897572c" >
+<tr><td class='hline' colspan='2'><hr /></td>
+    </tr>
 <tr><td class='vcv'>
-<b>base 10 number</b> </td><td class='cv'> <b>base 16 digit</b> </td></tr>
-<tr><td class='hlinethick' colspan='2'><hr /></td></tr>
-
+<b>base 10 number</b> </td><td class='cv'> <b>base 16 digit</b> </td>
+    </tr>
+<tr><td class='hlinethick' colspan='2'><hr /></td>
+    </tr>
 <tr><td  class='vcv' >
-10 </td><td class='cv'> A</td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
+10 </td><td class='cv'> A</td>
+    </tr>
+<tr><td class='hline' colspan='2'><hr /></td>
+    </tr>
 <tr><td class='vcv'>
-11 </td><td class='cv'> B </td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
+11 </td><td class='cv'> B </td>
+    </tr>
+<tr><td class='hline' colspan='2'><hr /></td>
+    </tr>
 <tr><td class='vcv'>
-12 </td><td class='cv'> C </td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
+12 </td><td class='cv'> C </td>
+    </tr>
+<tr><td class='hline' colspan='2'><hr /></td>
+    </tr>
 <tr><td class='vcv'>
-13 </td><td class='cv'> D </td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
+13 </td><td class='cv'> D </td>
+    </tr>
+<tr><td class='hline' colspan='2'><hr /></td>
+    </tr>
 <tr><td class='vcv'>
-14 </td><td class='cv'> E </td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr>
+14 </td><td class='cv'> E </td>
+    </tr>
+<tr><td class='hline' colspan='2'><hr /></td>
+    </tr>
 <tr><td class='vcv'>
-15 </td><td class='cv'> F </td></tr>
-<tr><td class='hline' colspan='2'><hr /></td></tr></table>  <ol type="a"><li>Convert these numbers from base sixteen to base ten, and show your work:
-
+15 </td><td class='cv'> F </td>
+    </tr>
+<tr><td class='hline' colspan='2'><hr /></td>
+    </tr>
+</table>
+<ol type="a"><li>Convert these numbers from base sixteen to base ten, and show your work:
 <me>
-
-6\mbox{D} _{\text{sixteen} } 
+  6\mbox{D} _{\text{sixteen} } 
 \qquad \quad
 \mbox{AE} _{\text{sixteen} } 
 \qquad\quad
 9\mbox{C} _{\text{sixteen} } 
 \qquad\quad
-2\mbox{B} _{\text{sixteen} } 
-
+2\mbox{B} _{\text{sixteen} }
 </me>
 </li>
 <li>Convert these numbers from base ten to base sixteen, and show your work:
-
 <me>
-
-97 
+  97 
 \qquad \quad
 144
 \qquad\quad
 203
 \qquad\quad
 890
-
 </me>
 </li>
- </ol>  </statement>
+</ol>
+</statement>
 </problem>
   
-<problem><statement>
+<problem>
+<statement>
 <p>
 How many different symbols would you need for a base twenty-five system? Justify your answer.
 </p>
- </statement>
+</statement>
 </problem>
   
-<problem><statement>
+<problem>
+<statement>
 <p>
 All of the following numbers are multiples of three.
 </p>
-  
 <me>
-
-3, \quad 6, \quad 9, \quad 12, \quad 21,  \quad 27, \quad 33, \quad 60, \quad 81, \quad 99.
-
+  3, \quad 6, \quad 9, \quad 12, \quad 21,  \quad 27, \quad 33, \quad 60, \quad 81, \quad 99.
 </me>
-  <ol type="a"><li>Identify the <em>powers of <m>3</m></em> in the list.  Justify your answer.</li>
+<ol type="a"><li>Identify the <em>powers of <m>3</m></em> in the list.  Justify your answer.</li>
 <li>Write each of the numbers above in base three.</li>
 <li>In base three: how can you recognize a <em>multiple of <m>3</m></em>?  Explain your answer.</li>
 <li>In base three: how can you recognize a <em>power of <m>3</m></em>?  Explain your answer.</li>
- </ol>  </statement>
+</ol>
+</statement>
 </problem>
   
-<problem><statement>
+<problem>
+<statement>
 <p>
 All of the following numbers are multiples of five.
 </p>
-  
 <me>
-
-5, \quad 10, \quad 15, \quad 25, \quad 55,  \quad 75, \quad 100, \quad 125, \quad 625, \quad 1000.
-
+  5, \quad 10, \quad 15, \quad 25, \quad 55,  \quad 75, \quad 100, \quad 125, \quad 625, \quad 1000.
 </me>
-  <ol type="a"><li>Identify the <em>powers of <m>5</m></em> in the list.  Justify your answer.</li>
+<ol type="a"><li>Identify the <em>powers of <m>5</m></em> in the list.  Justify your answer.</li>
 <li>Write each of the numbers above in base five.</li>
 <li>In base five: how can you recognize a <em>multiple of <m>5</m></em>?  Explain your answer.</li>
 <li>In base five: how can you recognize a <em>power of <m>5</m></em>?  Explain your answer.</li>
- </ol>  </statement>
+</ol>
+</statement>
 </problem>
   
-<problem><statement>
+<problem>
+<statement>
 <p>
 Convert each number to the given base.
 </p>
-  <ol type="a"><li><m>395_\text{ten} </m> into base eight.</li>
-<li><m>52_\text{ten} </m> into base two.</li>
-<li><m>743_\text{ten} </m> into base five.</li>
- </ol>  </statement>
+
+<ol type="a"><li><m>395_\text{ten}</m> into base eight.</li>
+<li><m>52_\text{ten}</m> into base two.</li>
+<li><m>743_\text{ten}</m> into base five.</li>
+</ol>
+</statement>
 </problem>
   
-<problem><statement>
+<problem>
+<statement>
 <p>
 What bases makes theses equations true? Justify your answers.
 </p>
-  <ol type="a"><li><m> 35 = 120_{\text{\underline{\quad}} }  </m></li>
-<li><m> 41_{\text{six} } = 27_{\text{\underline{\quad}} }  </m></li>
-<li><m> 52_{\text{seven} } = 34_{\text{\underline{\quad}} }  </m></li>
- </ol>  </statement>
+
+<ol type="a"><li><m>35 = 120_{\text{\underline{\quad}} }</m></li>
+<li><m>41_{\text{six} } = 27_{\text{\underline{\quad}} }</m></li>
+<li><m>52_{\text{seven} } = 34_{\text{\underline{\quad}} }</m></li>
+</ol>
+</statement>
 </problem>
   
-<problem><statement>
+<problem>
+<statement>
 <p>
 What bases makes theses equations true?
 </p>
-  <ol type="a"><li><m> 32 = 44_{\text{\underline{\quad}} }  </m></li>
-<li><m> 57_{\text{eight} } = 10_{\text{\underline{\quad}} }  </m></li>
-<li><m> 31_{\text{four} } = 11_{\text{\underline{\quad}} }  </m></li>
-<li><m> 15_x = 30_y  </m></li>
- </ol>  </statement>
+
+<ol type="a"><li><m>32 = 44_{\text{\underline{\quad}} }</m></li>
+<li><m>57_{\text{eight} } = 10_{\text{\underline{\quad}} }</m></li>
+<li><m>31_{\text{four} } = 11_{\text{\underline{\quad}} }</m></li>
+<li><m>15_x = 30_y</m></li>
+</ol>
+</statement>
 </problem>
   
-<problem><statement> <ol type="a"><li>Find a base ten number that is twice the product of its two digits.  
+<problem>
+<statement>
+<ol type="a"><li>Find a base ten number that is twice the product of its two digits.  
 Is there more than one answer?  Justify what you say.</li>
 <li>Can you solve this problem in any base other than ten?</li>
- </ol>  </statement>
+</ol>
+</statement>
 </problem>
   
-<problem><statement> <ol type="a"><li>I have a four-digit number written in base ten.
+<problem>
+<statement>
+<ol type="a"><li>I have a four-digit number written in base ten.
 When I multiply my number by four, the digits get reversed.</li>
 <li>Can you solve this problem in any base other than ten?</li>
- </ol>  </statement>
+</ol>
+</statement>
 </problem>
   
-<problem><statement>
+<problem>
+<statement>
 <p>
 Consider this base ten number
 (I got this by writing the numbers from 1 to 60 in order next to one another):
 </p>
-  
 <me>
-
-12345678910111213\ldots57585960
-
+  12345678910111213\ldots57585960
 </me>
-  <ol type="a"><li>What is the largest number that can be produced by erasing one hundred digits of the number?  (When you erase a digit it goes away.  For example, if you start with the number <m>12345</m> and erase the middle digit, you produce the number <m>1245</m>.)  How do you <em>know</em> you got the largest possible number?</li>
+<ol type="a"><li>What is the largest number that can be produced by erasing one hundred digits of the number?  (When you erase a digit it goes away.  For example, if you start with the number <m>12345</m> and erase the middle digit, you produce the number <m>1245</m>.)  How do you <em>know</em> you got the largest possible number?</li>
 <li>What is the smallest number that can be produced by erasing one hundred digits of the number?  How do you <em>know</em> you got the smallest possible number?</li>
- </ol>  </statement>
+</ol>
+</statement>
 </problem>
   
-<problem><statement>
+<problem>
+<statement>
 <p>
 Can you find numbers (not necessarily single digits!) <m>a</m> and <m>b</m> so that <m>a_b = b_a</m>?
 Can you find more than one solution? What must be true of <m>a</m> and <m>b</m>? Justify your answers.
 </p>
- </statement>
+</statement>
 </problem>
- </section>
+</section>

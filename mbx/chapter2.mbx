@@ -1,10 +1,10 @@
-
 <chapter xmlns:xi="http://www.w3.org/2001/XInclude" >
-<title>Place Value</title><introduction>
+<title>Place Value</title>
+<introduction>
 <p>
-\fellow{Formatting: can we put things marked "Problem" in a box (maybe with some color?) to set it apart? Same with the Think/Pair/Share (different color?) and Solutions.}
+\fellow{Formatting: can we put things marked <q>Problem</q> in a box (maybe with some color?) to set it apart? Same with the Think/Pair/Share (different color?) and Solutions.}
 </p>
- </introduction> <xi:include  href="section2-1.mbx" />
+</introduction> <xi:include  href="section2-1.mbx" />
  <xi:include  href="section2-2.mbx" />
  <xi:include  href="section2-3.mbx" />
  <xi:include  href="section2-4.mbx" />

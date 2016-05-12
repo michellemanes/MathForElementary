@@ -1,32 +1,36 @@
-
 <chapter xmlns:xi="http://www.w3.org/2001/XInclude" >
-<title>Geometry</title><introduction>
+<title>Geometry</title>
+<introduction>
 <p>
-The word "geometry" comes from the ancient Greek words "geo" meaning Earth and "metron" meaning measurement. It is probably the oldest field of mathematics, because of its usefulness in calculating measurements of lengths, areas, and volumes of everyday objects.
+The word <q>geometry</q> comes from the ancient Greek words <q>geo</q> meaning Earth and <q>metron</q> meaning measurement. It is probably the oldest field of mathematics, because of its usefulness in calculating measurements of lengths, areas, and volumes of everyday objects.
 </p>
-  
+
 <p>
 The study of geometry has evolved a great deal during the last 3,000 years or so. Like all of mathematics, what's really important in geometry is <em>reasoning, making sense of problems, and justifying your solutions</em>.
 </p>
-  
+
 <p>
 The mathematician Henri Poincar&#xe9; said that
 </p>
-  <div class="quote"><em>"Geometry is the art of good reasoning from bad drawings." </em></div> 
+<div class="quote"><em><q>Geometry is the art of good reasoning from bad drawings.</q> </em></div>
 <p>
-This insight should guide your study in this chapter. You should never trust a drawing. You might find that one line segment <em>appears</em> to be longer than another, or an angle looks like it <em>might be</em> 90 degrees. But "appears to be" and "might be" are simply not good enough. You have to reason through the situation and figure out what you <em>know for sure</em> and why you know it.
+This insight should guide your study in this chapter. You should never trust a drawing. You might find that one line segment <em>appears</em> to be longer than another, or an angle looks like it <em>might be</em> 90 degrees. But <q>appears to be</q> and <q>might be</q> are simply not good enough. You have to reason through the situation and figure out what you <em>know for sure</em> and why you know it.
 </p>
-  <paragraphs><title>Think/Pair/Share</title>
+<paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 Reflect on your learning of geometry in the past. What is geometry really about? Also think about these questions:
 </p>
-  <ul><li>What is a <em>point</em>?<br /></li>
+
+<ul>
+<li>What is a <em>point</em>?<br /></li>
 <li>What is a <em>line</em>? A <em>segment</em>? A <em>ray</em>? <br /></li>
 <li>What is a <em>plane</em>?<br /></li>
 <li>What is a <em>circle</em>? <br /></li>
 <li>What is an <em>angle</em>? <br /></li>
 <li>Which of these basic objects can be <em>measured</em>?  How are they measured?  What kinds of tools are useful?</li>
- </ul>  </paragraphs> </introduction> <xi:include  href="section7-1.mbx" />
+</ul>
+</paragraphs> </introduction> <xi:include  href="section7-1.mbx" />
  <xi:include  href="section7-2.mbx" />
  <xi:include  href="section7-3.mbx" />
  <xi:include  href="section7-4.mbx" />

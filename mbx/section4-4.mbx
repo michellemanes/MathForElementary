@@ -1,280 +1,308 @@
-
 <section>
-<title>What is a Fraction? Revisited</title><introduction>
+<title>What is a Fraction? Revisited</title>
+<introduction>
 <p>
 So far, we've been thinking about a fraction as the answer to a division problem. For example, <m>\frac 2 3</m> is the result of sharing two pies among three boys.
 </p>
-  <image source="images/" />  
+<image source="images/" />
 <p>
 Of course, pies don't have to be round. We can have square pies, or triangular pies or squiggly pies or any shape you please.
 </p>
-  <image source="images/" />  
+<image source="images/" />
 <p>
-This "Pies Per Boy Model" has served us perfectly well in thinking about the meaning of fractions, equivalent fractions, and even adding and subtracting fractions.
+This <q>Pies Per Boy Model</q> has served us perfectly well in thinking about the meaning of fractions, equivalent fractions, and even adding and subtracting fractions.
 </p>
-  
+
 <p>
 However, there's not any way to use this model to make sense of multiplying fractions! What would this mean?
 </p>
-  <image source="images/" />  
+<image source="images/" />
 <p>
 So what are fractions, if we are asked to multiply them? We are forced to switch models and think about fractions in a new way.
 </p>
-  
+
 <p>
 This switch of gear is fundamentally perturbing: Does a fraction have anything to do with pie or pies per boy or not? If the answer is that a fraction is more of an abstract concept that applies simultaneously to pies and boys and to something else that we can multiply, then what is that concept exactly?
 </p>
-  
+
 <p>
 Think about our poor young students. We keep switching concepts and models, and speak of fractions in each case as though all is naturally linked and obvious. All is not obvious and all is absolutely confusing.
 This is just one of the reasons that fractions can be such a difficult concept to teach and to learn in elementary school!
 </p>
-  <paragraphs><title>Think/Pair/Share</title>
+<paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 [What's wrong here?]
 For each of the following visual representations of fractions, there is a corresponding <em>incorrect</em> symbolic expression. Discuss with your partner: why is the symbolic representation incorrect? What might elementary students find confusing in these visual representations?
 </p>
-  <image source="images/" />  
+<image source="images/" />
 <p>
 \fellow{better picture? this is an old scan from a textbook}
 </p>
- </paragraphs> </introduction> 
+</paragraphs> </introduction>
+
+
 <subsection>
 <title>Units and Unitizing</title>
 <p>
-In thinking about fractions, it's important to remember that there are always <em>units</em> attached to a fraction, even if the units are hidden. If you see the number <m>\frac 1 2</m> in a problem, you should ask yourself "half of what?" The answer to that question is your <em>unit</em>, the amount that equals 1.
+In thinking about fractions, it's important to remember that there are always <em>units</em> attached to a fraction, even if the units are hidden. If you see the number <m>\frac 1 2</m> in a problem, you should ask yourself <q>half of what?</q> The answer to that question is your <em>unit</em>, the amount that equals 1.
 </p>
-  
+
 <p>
-So far, our units have been consistent: the "whole" (or unit) was a whole pie, and fractions were represented by pies cut into equal-sized pieces. But this is just a model, and we can take anything at all, cut it into equal-sized pieces, and talk about fractions <em>of that whole</em>.
+So far, our units have been consistent: the <q>whole</q> (or unit) was a whole pie, and fractions were represented by pies cut into equal-sized pieces. But this is just a model, and we can take anything at all, cut it into equal-sized pieces, and talk about fractions <em>of that whole</em>.
 </p>
-  
+
 <p>
-One thing that can make fraction problems so difficult is that the fractions in the problem may be given in different <em>units</em> (they may be "parts" of different "wholes").
+One thing that can make fraction problems so difficult is that the fractions in the problem may be given in different <em>units</em> (they may be <q>parts</q> of different <q>wholes</q>).
 </p>
-  
-<example><title>Everyone is right!</title>
+<example>
+<title>Everyone is right!</title>
 <statement>
 <p>
 Mr. Li shows this picture to his class and asks what number is shown by the shaded region.
 </p>
-  <image source="images/" />  <ul><li>Kendra says the shaded region represents the number 5.</li>
+<image source="images/" />
+<ul>
+<li>Kendra says the shaded region represents the number 5.</li>
 <li>Dylan says it represents <m>2\frac 1 2</m>.</li>
 <li>Kiana says it represents <m>\frac 5 8</m>.</li>
 <li>Nate says it is <m>1 \frac 1 4</m>.</li>
- </ul>   
-<p>
-Mr. Li exclaims, "Everyone is right!"
-</p>
- </statement>
-</example>
-  <paragraphs><title>Think/Pair/Share</title> <ol><li>How can it be that everyone is right?  Justify each answer by explaining what each student thought was the <em>unit</em> in Mr. Li's picture.<br /></li>
-<li>Now look at this picture:
-<image source="images/" /> 
+</ul>
 
-<ul><li>If the shaded region represents <m>3\frac 2 3</m>, what is the <em>unit</em>?</li>
-<li>Find three other numbers that could be represented by the shaded region.</li>
- </ul> </li>
- </ol>  </paragraphs>  
 <p>
-When we think about multiplying fractions, we will (at least at first) choose to think of them as "portions of line segments," since that fits nicely with our measurement model for numbers. Then we can once again use an area model to make sense of multiplication. (We'll do exactly this in the next section!)
+Mr. Li exclaims, <q>Everyone is right!</q>
 </p>
-  
-<example><title>Segments</title>
+</statement>
+</example>
+  <paragraphs>
+<title>Think/Pair/Share</title>
+<ol>
+<li>How can it be that everyone is right?  Justify each answer by explaining what each student thought was the <em>unit</em> in Mr. Li's picture.<br /></li>
+<li>Now look at this picture:
+<image source="images/" />
+<ul>
+<li>If the shaded region represents <m>3\frac 2 3</m>, what is the <em>unit</em>?</li>
+<li>Find three other numbers that could be represented by the shaded region.</li>
+</ul>
+</li>
+</ol>
+</paragraphs>
+<p>
+When we think about multiplying fractions, we will (at least at first) choose to think of them as <q>portions of line segments,</q> since that fits nicely with our measurement model for numbers. Then we can once again use an area model to make sense of multiplication. (We'll do exactly this in the next section!)
+</p>
+<example>
+<title>Segments</title>
 <statement>
 <p>
 This picture
 <image source="images/" />
 represents <m>\frac 2 3</m>. The whole segment (the <em>unit</em>) is split into three equal pieces by the tick marks, and two of those three equal pieces are shaded.
 </p>
- </statement>
+</statement>
 </example>
-  <paragraphs><title>Think/Pair/Share</title>
+  <paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 For each picture below, say what fraction it represents and how you know you're right.
 </p>
-  <image source="images/" /> 
+<image source="images/" /> 
  
  
-<image source="images/" /> </paragraphs> </subsection> 
+<image source="images/" /> </paragraphs>
+</subsection>
+
+
 <subsection>
 <title>Ordering Fractions</title>
 <p>
-If we think about fractions as "portions of a segment," then we can talk about their locations on a number line. We can start to treat fractions like numbers. In the back of our minds, we should remember that fractions are always relative to some <em>unit</em>. But on a number line, the unit is clear: it is the distance between 0 and 1.
+If we think about fractions as <q>portions of a segment,</q> then we can talk about their locations on a number line. We can start to treat fractions like numbers. In the back of our minds, we should remember that fractions are always relative to some <em>unit</em>. But on a number line, the unit is clear: it is the distance between 0 and 1.
 </p>
-  
+
 <p>
 \fellow{insert picture of number line with the unit distance from 0 to 1 highlighted?}
 </p>
-  
+
 <p>
 This measurement model makes it much easier to tackle questions about the relative size of fractions based on where they appear on the number line. We can mark off different fractions as parts of the unit segment. Just as with whole numbers, fractions that appear farther to the right are larger.
 </p>
-  
+
 <p>
 \fellow{repeat number line, with <m>3/5</m> and <m>5/8</m> marked on it in the correct positions.}
 </p>
-  <paragraphs><title>Think/Pair/Share</title>
+<paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 [Ordering Fractions]
 </p>
-  <ol><li>What quick method can you use to determine if a fraction is greater than 1?<br /></li>
+
+<ol>
+<li>What quick method can you use to determine if a fraction is greater than 1?<br /></li>
 <li>What quick method can you use to determine if a fraction is greater than <m>\displaystyle \frac 1 2</m>?<br /></li>
 <li>Organize these fractions from smallest to largest using <em>benchmarks</em>: 0 to <m>\frac 1 2</m>, <m>\frac 1 2</m> to 1, and greater than 1, and justify your choices.
-
 <me>
-
-\frac{25}{23},\quad  \frac{4}{7}, \quad \frac{17}{35}, \quad \frac{2}{9},  \quad \frac{14}{15}.
-
+  \frac{25}{23},\quad  \frac{4}{7}, \quad \frac{17}{35}, \quad \frac{2}{9},  \quad \frac{14}{15}.
 </me>
- <br /></li>
+<br /></li>
 <li>Arrange each group of fractions in <em>ascending order</em>.  Keep track of your thinking and your methods.
-
-<ul><li><m>\displaystyle
-\frac{7}{17},\quad  \frac{4}{17}, \quad \frac{12}{17}.
-</m><br /></li>
+<ul>
 <li><m>\displaystyle
-\frac{3}{7},\quad  \frac{3}{4}, \quad \frac{3}{8}.
-</m><br /></li>
+\frac{7}{17},\quad  \frac{4}{17}, \quad \frac{12}{17}.</m><br /></li>
 <li><m>\displaystyle
-\frac{5}{6},\quad  \frac{7}{8}, \quad \frac{3}{4}.
-</m><br /></li>
+\frac{3}{7},\quad  \frac{3}{4}, \quad \frac{3}{8}.</m><br /></li>
 <li><m>\displaystyle
-\frac{8}{13},\quad  \frac{12}{17}, \quad \frac{1}{6}.
-</m><br /></li>
+\frac{5}{6},\quad  \frac{7}{8}, \quad \frac{3}{4}.</m><br /></li>
 <li><m>\displaystyle
-\frac{5}{6},\quad  \frac{10}{11}, \quad \frac{2}{3}.
-</m><br /></li>
- </ul> </li>
- </ol>  </paragraphs>  
+\frac{8}{13},\quad  \frac{12}{17}, \quad \frac{1}{6}.</m><br /></li>
+<li><m>\displaystyle
+\frac{5}{6},\quad  \frac{10}{11}, \quad \frac{2}{3}.</m><br /></li>
+</ul>
+</li>
+</ol>
+</paragraphs>
 <p>
 You probably came up with benchmarks and intuitive methods to think about the relative sizes of fractions. Here are some of these methods. (Did you come up with others?)
 </p>
-  
+
 <p>
 \fellow{put the following list in a box with some kind of heading? for the pictures, use the number line model, but shade, for example, the missing pieces when those are discussed }
 </p>
-  
+
 <p>
 <b>Greater than 1:</b> A fraction is greater than 1 if its numerator is greater than the denominator. How can we see this? Well, the denominator represents how many pieces in one whole (one unit). The numerator represents how many pieces in your portion. So if the numerator is bigger, that means you have more than the number of pieces needed to make one whole. \fellow{picture?} <br />
 </p>
-  
+
 <p>
 <b>Greater than <m>\frac 12</m>:</b> A fraction is greater than <m>\frac 1 2</m> if the numerator is more than half the denominator. Another way to check (which might be an easier calculation): a fraction is grater than <m>\frac 1 2</m> if twice the numerator is bigger than the denominator. Why? Well, if we double the fraction and get something bigger than 1, then the original fraction must be bigger than <m>\frac 1 2</m>.<br />
 </p>
-  
+
 <p>
 <b>Same denominators:</b> If two fractions have the same denominator, just compare the numerators. The fractions will be in the same order as the numerators. For example, <m>\frac 5 7 \lt  \frac 6 7</m>. Why? Well, the pieces are the same size since the denominators are the same. If you have more pieces of the same size, you have a bigger number. \fellow{picture?} <br />
 </p>
-  
+
 <p>
 <b>Same numerators: </b> If the numerators of two fractions are the same, just compare the denominators. The fractions should be in the reverse order of the denominators. For example, <m>\frac 3 4 > \frac 3 5</m>. The justification for this one is a little trickier: The denominator tells you how many pieces make up one whole. If there are <em>more pieces</em> in a whole (if the denominator is bigger), then the pieces must be <em>smaller</em>. And if you take the same number of pieces (same numerator), then the bigger piece wins. \fellow{picture?} <br />
 </p>
-  
+
 <p>
 <m>\textbf{Numerator} = \textbf{denominator} - 1</m>: You can easily compare two fractions whose numerators are both one less than their denominators. The fractions will be in the same order as the denominators. Think of each fraction as a pie with one piece missing. The greater the denominator, the smaller the missing piece, so the greater the amount remaining. For example, <m>\frac 6 7 \lt  \frac{10}{11}</m>, since <m>\frac 6 7 = 1 - \frac 1 7</m> and <m>\frac {10}{11} = 1 - \frac 1{11}</m>. \fellow{picture?} <br />
 </p>
-  
+
 <p>
-<m>\textbf{Numerator} = \textbf{denominator} - \textbf{constant}</m>: You can extend the test above to fractions whose numerators are both the same amount less than their denominators. The fractions will again be in the same order as the denominators, for exactly the same reason. For example, <m>\frac 3 7 \lt  \frac 7{11}</m>, because both are four "pieces" less than one whole, and the <m>\frac 1{11}</m> pieces are smaller than the <m>\frac 17</m> pieces. \fellow{picture?} <br />
+<m>\textbf{Numerator} = \textbf{denominator} - \textbf{constant}</m>: You can extend the test above to fractions whose numerators are both the same amount less than their denominators. The fractions will again be in the same order as the denominators, for exactly the same reason. For example, <m>\frac 3 7 \lt  \frac 7{11}</m>, because both are four <q>pieces</q> less than one whole, and the <m>\frac 1{11}</m> pieces are smaller than the <m>\frac 17</m> pieces. \fellow{picture?} <br />
 </p>
-  
+
 <p>
 <b>Equivalent fractions:</b> Find an equivalent fraction that lets you compare numerators or denominators, and then use one of the above rules.
 </p>
- </subsection> 
+</subsection>
+
+
 <subsection>
 <title>Arithmetic Sequences</title>
 <p>
 Consider the patterns below
 </p>
-  
-<md><mrow>\textbf{ Parttern 1:} \amp \qquad5, \quad 8, \quad 11, \quad 14, \quad 17, \quad 20, \quad 23, \quad 26, \ldots</mrow>
- <mrow>\textbf{ Parttern 2:} \amp \qquad2, \quad 9, \quad 16, \quad 23, \quad 30, \quad 37, \quad 44, \quad 51, \ldots</mrow>
- <mrow>\textbf{ Parttern 3:} \amp \qquad\frac 1 5, \quad \frac 3 5 , \quad 1, \quad \frac 7 5, \quad \frac 9 5, \quad \frac {11}5, \quad \frac {13}5, \quad 3, \ldots</mrow>
- 
+<md>
+  <mrow>  \textbf{ Parttern 1:} \amp \qquad5, \quad 8, \quad 11, \quad 14, \quad 17, \quad 20, \quad 23, \quad 26, \ldots
+      </mrow>
+  <mrow>  \textbf{ Parttern 2:} \amp \qquad2, \quad 9, \quad 16, \quad 23, \quad 30, \quad 37, \quad 44, \quad 51, \ldots
+      </mrow>
+  <mrow>  \textbf{ Parttern 3:} \amp \qquad\frac 1 5, \quad \frac 3 5 , \quad 1, \quad \frac 7 5, \quad \frac 9 5, \quad \frac {11}5, \quad \frac {13}5, \quad 3, \ldots
+      </mrow>
 </md>
-  <paragraphs><title>Think/Pair/Share</title>
+  <paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 Answer these questions about each of the patterns.
 </p>
-  <ol><li>Can you predict the next 10 numbers?  <br /></li>
+
+<ol>
+<li>Can you predict the next 10 numbers?  <br /></li>
 <li>Can you predict the 100th number?<br /></li>
 <li>What do  these sequences have in common?  Describe the pattern in words.</li>
- </ol>  </paragraphs>  
+</ol>
+</paragraphs>
 <p>
 The patterns above are called <b>arithmetic sequences</b>: a sequence of numbers where the difference between consecutive terms is a constant. Here are some other examples:
 </p>
-  
-<md><mrow>\textbf{ Parttern A:} \amp \qquad\underbrace{1, \quad }_{+1}\underbrace{2, \quad }_{+1}\underbrace{3, \quad }_{+1}\underbrace{4, \quad }_{+1}5, \ldots</mrow>
- <mrow>\textbf{ Parttern B:} \amp \qquad\underbrace{2, \quad }_{+2}\underbrace{4, \quad }_{+2}\underbrace{6, \quad }_{+2}\underbrace{8, \quad }_{+2}10, \ldots</mrow>
- <mrow>\textbf{ Parttern C:} \amp \qquad\underbrace{\frac 1 3, \quad}_{+\frac 2 3} \underbrace{ 1 , }_{+\frac 2 3}\underbrace{ \frac 5 3, \quad}_{+\frac 2 3}\underbrace{\frac 7 3, \quad}_{+\frac 2 3}  3, \ldots</mrow>
- 
+<md>
+  <mrow>  \textbf{ Parttern A:} \amp \qquad\underbrace{1, \quad }_{+1}\underbrace{2, \quad }_{+1}\underbrace{3, \quad }_{+1}\underbrace{4, \quad }_{+1}5, \ldots
+      </mrow>
+  <mrow>  \textbf{ Parttern B:} \amp \qquad\underbrace{2, \quad }_{+2}\underbrace{4, \quad }_{+2}\underbrace{6, \quad }_{+2}\underbrace{8, \quad }_{+2}10, \ldots
+      </mrow>
+  <mrow>  \textbf{ Parttern C:} \amp \qquad\underbrace{\frac 1 3, \quad}_{+\frac 2 3} \underbrace{ 1 , }_{+\frac 2 3}\underbrace{ \frac 5 3, \quad}_{+\frac 2 3}\underbrace{\frac 7 3, \quad}_{+\frac 2 3}  3, \ldots
+      </mrow>
 </md>
-  <paragraphs><title>Think/Pair/Share</title>
+  <paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 If you haven't done so already, find the common difference between terms for Patterns 1, 2, and 3. Are they really arithmetic sequences? Then
 make up your own arithmetic sequence using whole numbers. Exchange sequences with a partner, and check if your partner's sequence is really an arithmetic sequence.
 </p>
- </paragraphs>  
+</paragraphs>
 <p>
 Here are several more number patterns:
 </p>
-  
-<md><mrow>\textbf{ Parttern 4:} \amp \qquad 1, \quad  2 , \quad 4, \quad  8, \quad 16, \quad 32, \quad 64, \quad 128, \ldots</mrow>
- <mrow>\textbf{ Parttern 5:} \amp  \qquad 1, \quad  3 , \quad 6, \quad  10, \quad 15, \quad 21, \quad 28, \quad 36, \ldots</mrow>
- <mrow>\textbf{ Parttern 6:} \amp \qquad \frac 2 5, \quad \frac 7{10} , \quad 1, \quad \frac {13}{10}, \quad \frac 8 5, \quad \frac {19}{10}, \quad \frac {11}5, \quad \frac 5 2, \ldots</mrow>
- <mrow>\textbf{ Parttern 7:} \amp \qquad\frac 3 5, \quad \frac 6 5 , \quad \frac {12} 5, \quad \frac {24}{5}, \quad \frac {48} 5, \quad \frac {96}{5}, \ldots</mrow>
- 
+<md>
+  <mrow>  \textbf{ Parttern 4:} \amp \qquad 1, \quad  2 , \quad 4, \quad  8, \quad 16, \quad 32, \quad 64, \quad 128, \ldots
+      </mrow>
+  <mrow>  \textbf{ Parttern 5:} \amp  \qquad 1, \quad  3 , \quad 6, \quad  10, \quad 15, \quad 21, \quad 28, \quad 36, \ldots
+      </mrow>
+  <mrow>  \textbf{ Parttern 6:} \amp \qquad \frac 2 5, \quad \frac 7{10} , \quad 1, \quad \frac {13}{10}, \quad \frac 8 5, \quad \frac {19}{10}, \quad \frac {11}5, \quad \frac 5 2, \ldots
+      </mrow>
+  <mrow>  \textbf{ Parttern 7:} \amp \qquad\frac 3 5, \quad \frac 6 5 , \quad \frac {12} 5, \quad \frac {24}{5}, \quad \frac {48} 5, \quad \frac {96}{5}, \ldots
+      </mrow>
 </md>
-  <paragraphs><title>Think/Pair/Share</title>
+  <paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 For each of the sequences above, decide if it is an arithmetic sequence or not. Justify your answers.
 </p>
- </paragraphs>  
-<problem><title>Fractions in-between</title>
+</paragraphs>  
+<problem>
+<title>Fractions in-between</title>
 <statement>
 <me>
-
-\frac 1 4, \quad \underline{\qquad}, \quad  \underline{\qquad}, \quad \frac 1 3
-
+  \frac 1 4, \quad \underline{\qquad}, \quad  \underline{\qquad}, \quad \frac 1 3
 </me>
-  <ol><li>Find two fractions between <m>\frac 1 4</m> and <m>\frac 1 3</m>.</li>
+<ol>
+<li>Find two fractions between <m>\frac 1 4</m> and <m>\frac 1 3</m>.</li>
 <li>Are the resulting four fractions in an arithmetic sequence?  
 Justify your answer.</li>
- </ol>  </statement>
+</ol>
+</statement>
 </problem>
   
-<problem><title>Fractions in-between</title>
+<problem>
+<title>Fractions in-between</title>
 <statement>
 <p>
 Find two fractions between <m>\frac 1 6</m> and <m>\frac 1 5</m> so the resulting four numbers are in an arithmetic sequence.
 </p>
-  
 <me>
-
-\frac 1 6, \quad \underline{\qquad}, \quad  \underline{\qquad}, \quad \frac 1 5
-
+  \frac 1 6, \quad \underline{\qquad}, \quad  \underline{\qquad}, \quad \frac 1 5
 </me>
- </statement>
+</statement>
 </problem>
   
-<problem><title>Fractions in-between</title>
+<problem>
+<title>Fractions in-between</title>
 <statement>
 <p>
 Find three fractions between <m>\frac 2 5</m> and <m>\frac 5 7</m> so the resulting four numbers are in an arithmetic sequence.
 </p>
-  
 <me>
-
-\frac 2 5, \quad \underline{\qquad}, \quad \underline{\qquad}, \quad  \underline{\qquad}, \quad \frac 5 7 
-
+  \frac 2 5, \quad \underline{\qquad}, \quad \underline{\qquad}, \quad  \underline{\qquad}, \quad \frac 5 7
 </me>
- </statement>
+</statement>
 </problem>
-  <paragraphs><title>Think/Pair/Share</title>
+  <paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 [Make your own]
 Make up two <em>fraction</em> sequences of your own, one that <b>is</b> an arithmetic sequence and one that <b>is not</b> an arithmetic sequence. Exchange your sequences with a partner, but don't tell your partner which is which. When you get your partner's sequences: decide which is an arithmetic sequence and which is not. Check if you and your partner agree.
 </p>
- </paragraphs> </subsection> </section>
+</paragraphs>
+</subsection>
+
+</section>

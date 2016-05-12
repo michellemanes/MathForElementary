@@ -1,45 +1,50 @@
-
 <section>
 <title>The Last Step</title>
 <p>
 A lot of people &#8202;&#x2014;&#8202; from Polya to the writers of the Common Core State Standards and lots of people in between &#8202;&#x2014;&#8202; talk about problem solving in mathematics. One fact is rarely acknowledged, except by many professional mathematicians: Asking good questions is as valuable (and as difficult) as solving mathematical problems.
 </p>
-  
+
 <p>
 After solving a mathematical problem and explaining your solution to someone else, it is a very good mathematical habit to ask yourself: What other questions can I ask?
 </p>
-  
-<example><statement>
+<example>
+<statement>
 <p>
-Recall <xref ref="prob_chessboard">Problem</xref>, "Squares on a Chess Board":
+Recall <xref ref="prob_chessboard">Problem</xref>, <q>Squares on a Chess Board</q>:
 </p>
-  <div class="quote">How many squares are on a standard <m>8 \times 8</m> chess board?  (The answer is <em>not</em> 64!  It's a lot bigger!)</div>  
+<div class="quote">How many squares are on a standard <m>8 \times 8</m> chess board?  (The answer is <em>not</em> 64!  It's a lot bigger!)</div>
 <p>
-We've already talked about some obvious follow-up questions like "What about a <m>10 \times 10</m> chess board? Or <m>100 \times 100</m>? Or <m>n \times n</m>?"
+We've already talked about some obvious follow-up questions like <q>What about a <m>10 \times 10</m> chess board? Or <m>100 \times 100</m>? Or <m>n \times n</m>?</q>
 </p>
-  
+
 <p>
-But there are lots of interesting (and less obvious ... and harder) questions you might ask:
+But there are lots of interesting (and less obvious <ddots /> and harder) questions you might ask:
 </p>
-  <ul><li>How many <em>rectangles</em> can you find on a standard <m>8 \times 8</m> chess board?  (This is a lot harder, because the rectangles come in all different sizes, like <m>1 \times 2</m> and <m>5 \times 3</m>.  How could you possibly count them all?)</li>
+
+<ul>
+<li>How many <em>rectangles</em> can you find on a standard <m>8 \times 8</m> chess board?  (This is a lot harder, because the rectangles come in all different sizes, like <m>1 \times 2</m> and <m>5 \times 3</m>.  How could you possibly count them all?)</li>
 <li>How many triangles can you find in this picture?
 <image source="images/" /> </li>
- </ul>  </statement>
+</ul>
+</statement>
 </example>
   
-<example><statement>
+<example>
+<statement>
 <p>
-Recall <xref ref="prob_BrokenClock">Problem</xref>, "Squares on a Chess Board":
+Recall <xref ref="prob_BrokenClock">Problem</xref>, <q>Squares on a Chess Board</q>:
 </p>
-  <div class="quote">This clock has been broken into three pieces.  If you add the numbers in each piece, the sums are consecutive numbers.  Can you break another clock into a different number of pieces so that the sums are consecutive numbers?  
- <image source="images/" /> </div>  
+<div class="quote">This clock has been broken into three pieces.  If you add the numbers in each piece, the sums are consecutive numbers.  Can you break another clock into a different number of pieces so that the sums are consecutive numbers?  
+ <image source="images/" /> </div>
 <p>
-The original problem only asks if you can find <em>one</em> other way. The obvious follow-up question: "Find every possibly way to break the clock into some number of pieces so that the sums of the numbers on each piece are consecutive numbers. Justify that you have found every possibility."
+The original problem only asks if you can find <em>one</em> other way. The obvious follow-up question: <q>Find every possibly way to break the clock into some number of pieces so that the sums of the numbers on each piece are consecutive numbers. Justify that you have found every possibility.</q>
 </p>
- </statement>
+</statement>
 </example>
-  <paragraphs><title>Think/Pair/Share</title>
+  <paragraphs>
+<title>Think/Pair/Share</title>
 <p>
 Choose a problem from the Problem Bank in <xref ref="sec_ProblemBank">Section</xref> (preferably a problem you have worked on, but that's not strictly necessary). What follow-up or similar questions could you ask?
 </p>
- </paragraphs> </section>
+</paragraphs>
+</section>

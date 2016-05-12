@@ -1,222 +1,213 @@
-
 <section xml:id="sec__div___dec">
-<title>Division and  Decimals</title><introduction>
+<title>Division and  Decimals</title>
+<introduction>
 <p>
 When you studied fractions, you had lots of different ways to think about them. But the first way, and the one we keep coming back to, is to think of a fraction as the answer to a division problem.
 </p>
-  
+
 <p>
 \fellow{Throughout: pies per kid instead of pies per boy!}
 </p>
-  
-<example><title>Pies per boy</title>
+<example>
+<title>Pies per boy</title>
 <statement>
 <p>
 Suppose 6 pies are to be shared equally among 3 boys. This yields 2
 pies per boy. We write:
 </p>
-  
 <me>
-
-\frac 6 3 = 2.
-
+  \frac 6 3 = 2.
 </me>
-  <image source="images/" />  
+<image source="images/" />
 <p>
 The fraction <m>\frac 6 3</m> is equivalent to the answer to the division problem <m>6 \div 3 = 2</m>. It represents the number of pies one whole boy receives.
 </p>
- </statement>
+</statement>
 </example>
-  
 <p>
-In the same way ...
+In the same way <ddots />
 </p>
-  <ul><li class="custom-list-style-type" label="" >sharing 10 pies among 2 boys yields <m> \frac{10}2 = 5 </m> pies per boy,<br /></li>
-<li class="custom-list-style-type" label="" >sharing 8 pies among 2 boys yields <m> \frac{8}2 = 4 </m> pies per boy,<br /></li>
-<li class="custom-list-style-type" label="" >sharing 5 pies among 5 boys yields <m> \frac{5}5 = 1 </m> pies per boy, and<br /></li>
-<li class="custom-list-style-type" label="" >the answer to sharing 1 pies among 2 boys is <m> \frac{1}2 </m>, which we call "one-half."</li>
- </ul>   <image source="images/" />  
+
+<ul>
+<li class="custom-list-style-type" label="" >sharing 10 pies among 2 boys yields <m>\frac{10}2 = 5</m> pies per boy,<br /></li>
+<li class="custom-list-style-type" label="" >sharing 8 pies among 2 boys yields <m>\frac{8}2 = 4</m> pies per boy,<br /></li>
+<li class="custom-list-style-type" label="" >sharing 5 pies among 5 boys yields <m>\frac{5}5 = 1</m> pies per boy, and<br /></li>
+<li class="custom-list-style-type" label="" >the answer to sharing 1 pies among 2 boys is <m>\frac{1}2</m>, which we call <q>one-half.</q></li>
+</ul>
+<image source="images/" />
 <p>
-We associate the number "<m>\frac 1 2</m>" to the picture
+We associate the number <q><m>\frac 1 2</m></q> to the picture
 <image source="images/" /> .
 </p>
-  
+
 <p>
-In the same way, the picture <image source="images/" /> represents "one third," that is,
-<m> \frac 1 3</m>.
+In the same way, the picture <image source="images/" /> represents <q>one third,</q> that is,
+<m>\frac 1 3</m>.
 (This is the amount of pie an individual boy would receive if one pie is
 shared by three boys.)
 </p>
-  
+
 <p>
 The picture
 <image source="images/" />
-is called "one fifth" and is indeed
+is called <q>one fifth</q> and is indeed
 <m>\frac 1 5</m>, the amount of pie an
 individual boy receives when one pie is shared among five.
 </p>
-  
+
 <p>
 And the picture
 <image source="images/" />
-is called "three fifths" to represent
+is called <q>three fifths</q> to represent
 <m>\frac 3 5</m>,
 the amount of pie
 an individual receives if three pies are shared among five boys.
 </p>
-  
+
 <p>
-We know how to do division in our "Dots &amp; Boxes" model.
+We know how to do division in our <q>Dots <ampersand /> Boxes</q> model.
 </p>
-  
-<example xml:id="ex__d_b_divide1"><title>$3906 \div 3$</title>
+<example xml:id="ex__d_b_divide1">
+<title>$3906 \div 3$</title>
 <statement>
 <p>
 Suppose you are asked to compute <m>3906 \div 3</m>. One way to interpret this question (there are others) is:
 </p>
-  <div class="quote">"How many groups of 3 fit into 3906?"</div>  
+<div class="quote"><q>How many groups of 3 fit into 3906?</q></div>
 <p>
-In our "Dots &amp; Boxes" model, the dividend 3906 looks like this:
+In our <q>Dots <ampersand /> Boxes</q> model, the dividend 3906 looks like this:
 </p>
-  <image source="images/" /> 
+<image source="images/" />
 <p>
 and three dots looks like this:
 <image source="images/" /> .
 So we are really asking:
 </p>
-  <div class="quote">"How many groups of <image source="images/" />  fit into the picture of 3906?"</div>  
+<div class="quote"><q>How many groups of <image source="images/" />  fit into the picture of 3906?</q></div>
 <p>
 There is one group of 3 at the thousands level, and three at the hundreds level,
 none at the tens level, and two at the ones level.
 </p>
-  <image source="images/" />  
+<image source="images/" />
 <p>
 Notice what we have in the picture:
 </p>
-  <ul><li>One group of 3 in the thousands box.</li>
+
+<ul>
+<li>One group of 3 in the thousands box.</li>
 <li>Three groups of 3 in the hundreds box.</li>
 <li>Zero groups of 3 in the tens box.</li>
 <li>Two groups of 3 in the ones box.</li>
- </ul>  
+</ul>
+
 <p>
 This shows that 3 goes into 3906 one thousand, three hundreds and two ones times.
 That is,
 </p>
-  
 <me>
-
-3906 \div 3 = 1302.
-
+  3906 \div 3 = 1302.
 </me>
- </statement>
+</statement>
 </example>
-  
 <p>
 Of course, not every division problem works out evenly! Here's a different example.
 </p>
-  
-<example xml:id="ex__divwithrem"><title>$1024 \div 3$</title>
+<example xml:id="ex__divwithrem">
+<title>$1024 \div 3$</title>
 <statement>
 <p>
 Suppose you are asked to compute <m>1024 \div 3</m>. One way to interpret this question is:
 </p>
-  <div class="quote">"How many groups of 3 fit into 1024?"</div> 
+<div class="quote"><q>How many groups of 3 fit into 1024?</q></div>
 <p>
 So we're looking for groups of three dots in this picture:
 </p>
-  <image source="images/" /> 
+<image source="images/" />
 <p>
 One is
 easy to spot:
 </p>
-  <image source="images/" /> 
+<image source="images/" />
 <p>
-To find more groups of three dots, we must "unexplode" a dot:
+To find more groups of three dots, we must <q>unexplode</q> a dot:
 </p>
-  <image source="images/" /> 
+<image source="images/" />
 <p>
 And we do it again:
 </p>
-  <image source="images/" /> 
+<image source="images/" />
 <p>
 This leaves one stubborn dot remaining in the ones box and no more group of three. So we conclude:
 </p>
-  
 <me>
-
-1024 \div 3 \ =\  341\  R 1.
-
+  1024 \div 3 \ =\  341\  R 1.
 </me>
- </statement>
+</statement>
 </example>
-  
 <p>
-We can put these two ideas together &#8202;&#x2014;&#8202; fractions as the answer to a division problem and what we know about division in the "Dots &amp; Boxes" model &#8202;&#x2014;&#8202; to help us think more about the connection between fractions and decimals.
+We can put these two ideas together &#8202;&#x2014;&#8202; fractions as the answer to a division problem and what we know about division in the <q>Dots <ampersand /> Boxes</q> model &#8202;&#x2014;&#8202; to help us think more about the connection between fractions and decimals.
 </p>
-  
-<example><title>Decimal Representation of $\frac 1 8$</title>
+<example>
+<title>Decimal Representation of $\frac 1 8$</title>
 <statement>
 <p>
 The fraction <m>\frac 18</m> is the result of dividing 1 by 8.
-Let's actually compute <m>1\div 8</m> in a <m>1\leftarrow 10</m> "Dots &amp; Boxes" model, making use of decimals. We want to find groups of eight in the following picture:
+Let's actually compute <m>1\div 8</m> in a <m>1\leftarrow 10</m> <q>Dots <ampersand /> Boxes</q> model, making use of decimals. We want to find groups of eight in the following picture:
 </p>
-  <image source="images/" /> 
+<image source="images/" />
 <p>
 Clearly none are to be found, so let's unexplode:
 </p>
-  <image source="images/" />  
+<image source="images/" />
 <p>
 (We're being lazy and not drawing all the dots. As you follow along, you might want to draw the dots rather than the number of dots, if it helps you keep track.)
 </p>
-  
+
 <p>
 Now there is one group of 8, leaving two behind. We write a tick-mark on top, to keep track of the number of groups of 8, and leave two dots behind in the box.
 </p>
-  <image source="images/" /> 
+<image source="images/" />
 <p>
 We can unexplode the two dots in the <m>\frac 1 {10}</m> box:
 </p>
-  <image source="images/" /> 
+<image source="images/" />
 <p>
 This gives two groups of 8 leaving four behind. Remember: the two tick marks represent two groups of 8. And there are four dots left in the box.
 </p>
-  <image source="images/" /> 
+<image source="images/" />
 <p>
 Unexploding those four remaining dots:
 </p>
-  <image source="images/" /> 
+<image source="images/" />
 <p>
 Now we have five groups of 8 and no remainder:
 </p>
-  <image source="images/" />  
+<image source="images/" />
 <p>
 Remember: the tick marks kept track of how many groups of eight there were in each box. We have
 </p>
-  <ul><li>One group of 8 dots in the <m>\displaystyle \frac 1 {10}</m> box.<br /></li>
+
+<ul>
+<li>One group of 8 dots in the <m>\displaystyle \frac 1 {10}</m> box.<br /></li>
 <li>Two groups of 8 dots in the <m>\displaystyle \frac 1{100}</m> box.<br /></li>
 <li>Five groups of 8 dots in the <m>\displaystyle \frac 1{1000}</m> box.</li>
- </ul>  
+</ul>
+
 <p>
 So we conclude that
 </p>
-  
 <me>
-
- \frac 18
+  \frac 18
  \ = \ 
  1 \div 8 
  \ = \ 
  0.125.
- 
 </me>
- 
 <p>
 Of course, it's a good habit to check our answer:
 </p>
-  
 <me>
-
-0.125
+  0.125
 \ =\ 
 \frac{125}{1000}
 \ =\ 
@@ -227,25 +218,26 @@ Of course, it's a good habit to check our answer:
 \frac{\cancel{5}\cdot 1}{\cancel{5}\cdot 8}
 \ =\ 
 \frac 18.
-
 </me>
- </statement>
+</statement>
 </example>
- </introduction> 
+ </introduction>
+
+
 <subsection>
 <title>On Your Own</title>
 <p>
 Work on the following exercises on your own or with a partner. Be sure to show your work.
 </p>
-  <ol><li>Perform the division in a <m>1\leftarrow 10</m> "Dots &amp; Boxes" model to show that <m>\displaystyle \frac 14</m>, as a decimal, is <m>0.25</m>.<br /></li>
-<li>Perform the division in a <m>1\leftarrow 10</m> "Dots &amp; Boxes" model to show that <m>\displaystyle \frac 12</m>, as a decimal, is <m>0.5</m>.<br /></li>
-<li>Perform the division in a <m>1\leftarrow 10</m> "Dots &amp; Boxes" model to show that <m>\displaystyle \frac 35</m>, as a decimal, is <m>0.6</m>. <br /></li>
-<li>Perform the division in a <m>1\leftarrow 10</m> "Dots &amp; Boxes" model to show that <m> \displaystyle\frac 3{16}</m>, as a decimal, is <m>0.1875</m>.<br /></li>
+
+<ol>
+<li>Perform the division in a <m>1\leftarrow 10</m> <q>Dots <ampersand /> Boxes</q> model to show that <m>\displaystyle \frac 14</m>, as a decimal, is <m>0.25</m>.<br /></li>
+<li>Perform the division in a <m>1\leftarrow 10</m> <q>Dots <ampersand /> Boxes</q> model to show that <m>\displaystyle \frac 12</m>, as a decimal, is <m>0.5</m>.<br /></li>
+<li>Perform the division in a <m>1\leftarrow 10</m> <q>Dots <ampersand /> Boxes</q> model to show that <m>\displaystyle \frac 35</m>, as a decimal, is <m>0.6</m>. <br /></li>
+<li>Perform the division in a <m>1\leftarrow 10</m> <q>Dots <ampersand /> Boxes</q> model to show that <m>\displaystyle\frac 3{16}</m>, as a decimal, is <m>0.1875</m>.<br /></li>
 <li>In simplest terms, what fraction is represented by each of these decimals?
-
 <me>
-
- 0.75
+  0.75
 \qquad\qquad
  0.625
 \qquad\qquad
@@ -254,144 +246,134 @@ Work on the following exercises on your own or with a partner. Be sure to show y
 0.85
 \qquad\qquad
 0.0625
-
 </me>
 </li>
- </ol>  </subsection> 
+</ol>
+</subsection>
+
+
 <subsection>
 <title>Repeating Decimals</title>
 <p>
 Not all fractions lead to simple decimal representations.
 </p>
-  
-<example><title>Decimal Representation of $\frac 1 3$</title>
+<example>
+<title>Decimal Representation of $\frac 1 3$</title>
 <statement>
 <p>
 Consider the fraction <m>\frac 13</m>. We seek groups of three in the following picture:
 </p>
-  <image source="images/" />  
+<image source="images/" />
 <p>
 Unexploding requires us to look for groups of 3 in:
 </p>
-  <image source="images/" /> 
+<image source="images/" />
 <p>
 Here there are three groups of 3 leaving one behind:
 </p>
-  <image source="images/" /> 
+<image source="images/" />
 <p>
 Unexploding gives:
 </p>
-  <image source="images/" /> 
+<image source="images/" />
 <p>
 We find another three groups of 3 leaving one behind:
 </p>
-  <image source="images/" />  
+<image source="images/" />
 <p>
 Unexploding gives:
 </p>
-  <image source="images/" /> 
 <image source="images/" /> 
+<image source="images/" />
 <p>
-And... we seem to be caught in an infinitely repeating cycle.
+And<ddots /> we seem to be caught in an infinitely repeating cycle.
 </p>
- </statement>
+</statement>
 </example>
-  
 <p>
 We are now in a philosophically interesting position. As human beings, we cannot conduct this, or any, activity an infinite number of times. But it seems very tempting to write:
 </p>
-  
 <me>
-
-\frac 13\ = \ 0.33333\dots,
-
+  \frac 13\ = \ 0.33333\dots,
 </me>
- 
 <p>
-with the ellipsis "..." meaning "keep going forever with this pattern."
-We can <em>imagine</em> what this means, but we cannot actually <em>write down</em> those infinitely many 3's represented by the ...
+with the ellipsis <q><ddots /></q> meaning <q>keep going forever with this pattern.</q>
+We can <em>imagine</em> what this means, but we cannot actually <em>write down</em> those infinitely many 3's represented by the <ddots />
 </p>
-  
+
 <p>
-<b>Notation:</b> Many people make use of a <em>vinculum</em> (horizontal bar) to represent infinitely long repeating decimals. For example, <m>0.\bar3 </m> means "repeat the 3 forever":
+<b>Notation:</b> Many people make use of a <em>vinculum</em> (horizontal bar) to represent infinitely long repeating decimals. For example, <m>0.\bar3</m> means <q>repeat the 3 forever</q>:
 </p>
-  
 <me>
-
-0.\bar 3\ =\ 0.33333\dots,
-
+  0.\bar 3\ =\ 0.33333\dots,
 </me>
- 
 <p>
-and <m>0.296\overline{412}</m> means "repeat 412 forever":
+and <m>0.296\overline{412}</m> means <q>repeat 412 forever</q>:
 </p>
-  
 <me>
-
-0.296\overline{412}\ = \ 0.296412412412412\dots
-
+  0.296\overline{412}\ = \ 0.296412412412412\dots
 </me>
-  
 <p>
 Now we're in a position to give a perhaps more satisfying answer to the question <m>1024 \div 3</m>. In <xref ref="ex__divwithrem">Example</xref>, we found the answer to be
 </p>
-  
 <me>
-
- 1024 \div 3 \ = \  341 \ R1.
- 
+  1024 \div 3 \ = \  341 \ R1.
 </me>
- 
 <p>
 But now we know we can keep dividing that last stubborn dot by 3. Remember, that <m>R1</m> represents a single dot in the ones place, so if we keep dividing by three it really represents <m>\frac 1 3</m>. So we have
 </p>
-  
 <me>
-
- 1024 \div 3 \ = \  341 \ R1
+  1024 \div 3 \ = \  341 \ R1
  \ = \ 
  341 \frac 1 3
   \ = \ 
 341.333333\dots
- 
 </me>
-  
-<example><title>Decimal Representation of $\frac 6 7$</title>
+<example>
+<title>Decimal Representation of $\frac 6 7$</title>
 <statement>
 <p>
 As another (more complicated) example, here is the work that converts the fraction <m>\frac 67</m> to an infinitely long repeating decimal. Make sure to understand the steps one line to the next.
 </p>
-  
+
 <p>
 <image source="images/" /> <br />
 <image source="images/" /> <br />
-<image source="images/" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+<image source="images/" /> <br />
 \qquad<image source="images/" /> <br />
 <image source="images/" /> <br />
 <image source="images/" /> <br />
 <image source="images/" /> 
 With this 6 in the final right-most box, we have returned to the very beginning of the problem. (Do you see why? Remember, we started with a six in the ones box!)
 </p>
-  
+
 <p>
 This means that we will simply repeat the work we have done and obtain the same sequence <m>857142</m> of answers, and then again, and then again.
 We have:
 </p>
-  
-<md><mrow>\frac 67 \amp \ =\ 0.857142857142857142857142\dots</mrow>
- <mrow>\amp \ =\ 0.\overline{857142}.</mrow>
- 
+<md>
+  <mrow>  \frac 67 \amp \ =\ 0.857142857142857142857142\dots
+      </mrow>
+  <mrow>  \amp \ =\ 0.\overline{857142}.
+      </mrow>
 </md>
- </statement>
+</statement>
 </example>
- </subsection> 
+</subsection>
+
+
 <subsection>
 <title>On Your Own</title>
 <p>
 Work on the following exercises on your own or with a partner. Be sure to show your work.
 </p>
-  <ol><li>Compute <m>\displaystyle \frac 47</m> as an infinitely long repeating decimal.<br /></li>
+
+<ol>
+<li>Compute <m>\displaystyle \frac 47</m> as an infinitely long repeating decimal.<br /></li>
 <li>Compute <m>\displaystyle \frac 1{11}</m> as an infinitely long repeating decimal.<br /></li>
-<li>Use a <m>1\leftarrow 10 </m> "Dots &amp; Boxes" model to compute <m>{133}\div 6</m>.  Write the answer as a decimal. <br /></li>
-<li>Use a <m>1\leftarrow 10 </m> "Dots &amp; Boxes" model to compute <m>{255}\div {11}</m>.  Write the answer as a decimal. <br /></li>
- </ol>  </subsection> </section>
+<li>Use a <m>1\leftarrow 10</m> <q>Dots <ampersand /> Boxes</q> model to compute <m>{133}\div 6</m>.  Write the answer as a decimal. <br /></li>
+<li>Use a <m>1\leftarrow 10</m> <q>Dots <ampersand /> Boxes</q> model to compute <m>{255}\div {11}</m>.  Write the answer as a decimal. <br /></li>
+</ol>
+</subsection>
+
+</section>
